@@ -1,0 +1,392 @@
+{
+  "wh2_main_vor_aghol_wastelands": {
+    "key": "wh2_main_vor_aghol_wastelands",
+    "name": "Aghol Wastelands",
+    "fill": "4074D0"
+  },
+  "wh2_main_vor_albion": {
+    "key": "wh2_main_vor_albion",
+    "name": "Albion",
+    "fill": "674A19"
+  },
+  "wh2_main_vor_ash_river": {
+    "key": "wh2_main_vor_ash_river",
+    "name": "Ash River",
+    "fill": "D442CF"
+  },
+  "wh2_main_vor_ashen_coast": {
+    "key": "wh2_main_vor_ashen_coast",
+    "name": "Ashen Coast",
+    "fill": "30C000"
+  },
+  "wh2_main_vor_avelorn": {
+    "key": "wh2_main_vor_avelorn",
+    "name": "Avelorn",
+    "fill": "172C27"
+  },
+  "wh2_main_vor_caledor": {
+    "key": "wh2_main_vor_caledor",
+    "name": "Caledor",
+    "fill": "54EF15"
+  },
+  "wh2_main_vor_central_spine_of_sotek": {
+    "key": "wh2_main_vor_central_spine_of_sotek",
+    "name": "Central Spine of Sotek",
+    "fill": "E4ED1D"
+  },
+  "wh2_main_vor_chrace": {
+    "key": "wh2_main_vor_chrace",
+    "name": "Chrace",
+    "fill": "E450E9"
+  },
+  "wh2_main_vor_coast_of_araby": {
+    "key": "wh2_main_vor_coast_of_araby",
+    "name": "Coast of Araby",
+    "fill": "842B86"
+  },
+  "wh2_main_vor_coast_of_squalls": {
+    "key": "wh2_main_vor_coast_of_squalls",
+    "name": "Coast of Squalls",
+    "fill": "ED8088"
+  },
+  "wh2_main_vor_cobra_pass": {
+    "key": "wh2_main_vor_cobra_pass",
+    "name": "Cobra Pass",
+    "fill": "4CBE7B"
+  },
+  "wh2_main_vor_copper_desert": {
+    "key": "wh2_main_vor_copper_desert",
+    "name": "Copper Desert",
+    "fill": "7FB2D0"
+  },
+  "wh2_main_vor_cothique": {
+    "key": "wh2_main_vor_cothique",
+    "name": "Cothique",
+    "fill": "007235"
+  },
+  "wh2_main_vor_culchan_plains": {
+    "key": "wh2_main_vor_culchan_plains",
+    "name": "Culchan Plains",
+    "fill": "6FF499"
+  },
+  "wh2_main_vor_deadwood": {
+    "key": "wh2_main_vor_deadwood",
+    "name": "Deadwood",
+    "fill": "63CF68"
+  },
+  "wh2_main_vor_eagle_gate": {
+    "key": "wh2_main_vor_eagle_gate",
+    "name": "Eagle Gate",
+    "fill": "AF215B"
+  },
+  "wh2_main_vor_eataine": {
+    "key": "wh2_main_vor_eataine",
+    "name": "Eataine",
+    "fill": "0D8232"
+  },
+  "wh2_main_vor_ellyrion": {
+    "key": "wh2_main_vor_ellyrion",
+    "name": "Ellyrion",
+    "fill": "E2A3C9"
+  },
+  "wh2_main_vor_forest_of_the_viper": {
+    "key": "wh2_main_vor_forest_of_the_viper",
+    "name": "Forests of the Viper",
+    "fill": "7B8A3D"
+  },
+  "wh2_main_vor_grey_guardians": {
+    "key": "wh2_main_vor_grey_guardians",
+    "name": "Grey Guardians",
+    "fill": "0C59D1"
+  },
+  "wh2_main_vor_griffon_gate": {
+    "key": "wh2_main_vor_griffon_gate",
+    "name": "Griffon Gate",
+    "fill": "7906C7"
+  },
+  "wh2_main_vor_headhunters_jungle": {
+    "key": "wh2_main_vor_headhunters_jungle",
+    "name": "Headhunter's Jungle",
+    "fill": "31F0EF"
+  },
+  "wh2_main_vor_heart_of_the_jungle": {
+    "key": "wh2_main_vor_heart_of_the_jungle",
+    "name": "Heart of the Jungle",
+    "fill": "F2A33D"
+  },
+  "wh2_main_vor_iron_mountains": {
+    "key": "wh2_main_vor_iron_mountains",
+    "name": "Iron Mountains",
+    "fill": "A371AD"
+  },
+  "wh2_main_vor_iron_peaks": {
+    "key": "wh2_main_vor_iron_peaks",
+    "name": "Iron Peaks",
+    "fill": "2932D6"
+  },
+  "wh2_main_vor_ironfrost_glacier": {
+    "key": "wh2_main_vor_ironfrost_glacier",
+    "name": "Ironfrost Glacier",
+    "fill": "832572"
+  },
+  "wh2_main_vor_isthmus_of_lustria": {
+    "key": "wh2_main_vor_isthmus_of_lustria",
+    "name": "Isthmus of Lustria",
+    "fill": "981204"
+  },
+  "wh2_main_vor_jungle_of_pahualaxa": {
+    "key": "wh2_main_vor_jungle_of_pahualaxa",
+    "name": "Jungles of Pahualaxa",
+    "fill": "217D98"
+  },
+  "wh2_main_vor_jungles_of_green_mist": {
+    "key": "wh2_main_vor_jungles_of_green_mist",
+    "name": "Jungles of Green Mist",
+    "fill": "AEF475"
+  },
+  "wh2_main_vor_kingdom_of_beasts": {
+    "key": "wh2_main_vor_kingdom_of_beasts",
+    "name": "Kingdom of Beasts",
+    "fill": "FAFD71"
+  },
+  "wh2_main_vor_land_of_assassins": {
+    "key": "wh2_main_vor_land_of_assassins",
+    "name": "Land of Assassins",
+    "fill": "B49181"
+  },
+  "wh2_main_vor_land_of_the_dead": {
+    "key": "wh2_main_vor_land_of_the_dead",
+    "name": "Land of the Dead",
+    "fill": "596580"
+  },
+  "wh2_main_vor_land_of_the_dervishes": {
+    "key": "wh2_main_vor_land_of_the_dervishes",
+    "name": "Land of the Dervishes",
+    "fill": "C1F9A5"
+  },
+  "wh2_main_vor_mosquito_swamps": {
+    "key": "wh2_main_vor_mosquito_swamps",
+    "name": "Mosquito Swamps",
+    "fill": "85712B"
+  },
+  "wh2_main_vor_nagarythe": {
+    "key": "wh2_main_vor_nagarythe",
+    "name": "Nagarythe",
+    "fill": "8F7B55"
+  },
+  "wh2_main_vor_naggarond": {
+    "key": "wh2_main_vor_naggarond",
+    "name": "Naggarond",
+    "fill": "121DDE"
+  },
+  "wh2_main_vor_northern_great_jungle": {
+    "key": "wh2_main_vor_northern_great_jungle",
+    "name": "Northern Great Jungle",
+    "fill": "A823AA"
+  },
+  "wh2_main_vor_northern_spine_of_sotek": {
+    "key": "wh2_main_vor_northern_spine_of_sotek",
+    "name": "Northern Spine of Sotek",
+    "fill": "BCF0CA"
+  },
+  "wh2_main_vor_northern_yvresse": {
+    "key": "wh2_main_vor_northern_yvresse",
+    "name": "Northern Yvresse",
+    "fill": "E8D6B7"
+  },
+  "wh2_main_vor_obsidian_peaks": {
+    "key": "wh2_main_vor_obsidian_peaks",
+    "name": "Obsidian Peaks",
+    "fill": "E2AA47"
+  },
+  "wh2_main_vor_phoenix_gate": {
+    "key": "wh2_main_vor_phoenix_gate",
+    "name": "Phoenix Gate",
+    "fill": "170283"
+  },
+  "wh2_main_vor_plain_of_spiders": {
+    "key": "wh2_main_vor_plain_of_spiders",
+    "name": "Plain of Spiders",
+    "fill": "4C39EC"
+  },
+  "wh2_main_vor_red_desert": {
+    "key": "wh2_main_vor_red_desert",
+    "name": "Red Desert",
+    "fill": "3981A9"
+  },
+  "wh2_main_vor_river_qurveza": {
+    "key": "wh2_main_vor_river_qurveza",
+    "name": "River Qurveza",
+    "fill": "2EB90C"
+  },
+  "wh2_main_vor_saphery": {
+    "key": "wh2_main_vor_saphery",
+    "name": "Saphery",
+    "fill": "C9208B"
+  },
+  "wh2_main_vor_sartosa": {
+    "key": "wh2_main_vor_sartosa",
+    "name": "Sartosa",
+    "fill": "53BEE4"
+  },
+  "wh2_main_vor_scorpion_coast": {
+    "key": "wh2_main_vor_scorpion_coast",
+    "name": "Scorpion Coast",
+    "fill": "195F33"
+  },
+  "wh2_main_vor_sea_of_dread": {
+    "key": "wh2_main_vor_sea_of_dread",
+    "name": "The Sea of Dread",
+    "fill": "BB5839"
+  },
+  "wh2_main_vor_settlers_coast": {
+    "key": "wh2_main_vor_settlers_coast",
+    "name": "Settler's Coast",
+    "fill": "D26357"
+  },
+  "wh2_main_vor_shadow_wood": {
+    "key": "wh2_main_vor_shadow_wood",
+    "name": "Shadow Wood",
+    "fill": "2D3ACD"
+  },
+  "wh2_main_vor_shifting_mangrove_coastline": {
+    "key": "wh2_main_vor_shifting_mangrove_coastline",
+    "name": "Shifting Mangrove Coastline",
+    "fill": "37FDFD"
+  },
+  "wh2_main_vor_shifting_sands": {
+    "key": "wh2_main_vor_shifting_sands",
+    "name": "Shifting Sands",
+    "fill": "62FA8C"
+  },
+  "wh2_main_vor_southern_badlands": {
+    "key": "wh2_main_vor_southern_badlands",
+    "name": "Southern Badlands",
+    "fill": "201D21"
+  },
+  "wh2_main_vor_southern_great_jungle": {
+    "key": "wh2_main_vor_southern_great_jungle",
+    "name": "Southern Great Jungle",
+    "fill": "B7449D"
+  },
+  "wh2_main_vor_southern_jungles": {
+    "key": "wh2_main_vor_southern_jungles",
+    "name": "Southern Jungles",
+    "fill": "A7F2D3"
+  },
+  "wh2_main_vor_southern_spine_of_sotek": {
+    "key": "wh2_main_vor_southern_spine_of_sotek",
+    "name": "Southern Spine of Sotek",
+    "fill": "89F407"
+  },
+  "wh2_main_vor_southern_yvresse": {
+    "key": "wh2_main_vor_southern_yvresse",
+    "name": "Southern Yvresse",
+    "fill": "C74255"
+  },
+  "wh2_main_vor_southlands_world_edge_mountains": {
+    "key": "wh2_main_vor_southlands_world_edge_mountains",
+    "name": "Southlands World's Edge Mtns.",
+    "fill": "65A5FA"
+  },
+  "wh2_main_vor_straits_of_lothern": {
+    "key": "wh2_main_vor_straits_of_lothern",
+    "name": "Straits of Lothern",
+    "fill": "ECD5E5"
+  },
+  "wh2_main_vor_the_black_coast": {
+    "key": "wh2_main_vor_the_black_coast",
+    "name": "The Black Coast",
+    "fill": "91F2D5"
+  },
+  "wh2_main_vor_the_black_flood": {
+    "key": "wh2_main_vor_the_black_flood",
+    "name": "The Black Flood",
+    "fill": "3CE813"
+  },
+  "wh2_main_vor_the_broken_land": {
+    "key": "wh2_main_vor_the_broken_land",
+    "name": "The Broken Lands",
+    "fill": "834CCC"
+  },
+  "wh2_main_vor_the_capes": {
+    "key": "wh2_main_vor_the_capes",
+    "name": "The Capes",
+    "fill": "B2E914"
+  },
+  "wh2_main_vor_the_chill_road": {
+    "key": "wh2_main_vor_the_chill_road",
+    "name": "The Chill Road",
+    "fill": "EF936F"
+  },
+  "wh2_main_vor_the_clawed_coast": {
+    "key": "wh2_main_vor_the_clawed_coast",
+    "name": "The Clawed Coast",
+    "fill": "1977F6"
+  },
+  "wh2_main_vor_the_creeping_jungle": {
+    "key": "wh2_main_vor_the_creeping_jungle",
+    "name": "The Creeping Jungle",
+    "fill": "B6435E"
+  },
+  "wh2_main_vor_the_dragon_isles": {
+    "key": "wh2_main_vor_the_dragon_isles",
+    "name": "The Dragon Isles",
+    "fill": "802722"
+  },
+  "wh2_main_vor_the_forbidden_jungle": {
+    "key": "wh2_main_vor_the_forbidden_jungle",
+    "name": "The Forbidden Jungle",
+    "fill": "90D854"
+  },
+  "wh2_main_vor_the_great_desert": {
+    "key": "wh2_main_vor_the_great_desert",
+    "name": "The Great Desert",
+    "fill": "D211AC"
+  },
+  "wh2_main_vor_the_jungles_of_the_gods": {
+    "key": "wh2_main_vor_the_jungles_of_the_gods",
+    "name": "The Jungles of the Gods",
+    "fill": "335A14"
+  },
+  "wh2_main_vor_the_lost_valleys": {
+    "key": "wh2_main_vor_the_lost_valleys",
+    "name": "The Lost Valley",
+    "fill": "D04FEC"
+  },
+  "wh2_main_vor_the_red_rivers": {
+    "key": "wh2_main_vor_the_red_rivers",
+    "name": "The Red Rivers",
+    "fill": "764479"
+  },
+  "wh2_main_vor_the_road_of_skulls": {
+    "key": "wh2_main_vor_the_road_of_skulls",
+    "name": "The Road of Skulls",
+    "fill": "06D1D8"
+  },
+  "wh2_main_vor_the_turtle_isles": {
+    "key": "wh2_main_vor_the_turtle_isles",
+    "name": "The Turtle Isles",
+    "fill": "490777"
+  },
+  "wh2_main_vor_the_vampire_coast": {
+    "key": "wh2_main_vor_the_vampire_coast",
+    "name": "The Vampire Coast",
+    "fill": "8C774A"
+  },
+  "wh2_main_vor_tiranoc": {
+    "key": "wh2_main_vor_tiranoc",
+    "name": "Tiranoc",
+    "fill": "BEB76D"
+  },
+  "wh2_main_vor_unicorn_gate": {
+    "key": "wh2_main_vor_unicorn_gate",
+    "name": "Unicorn Gate",
+    "fill": "DDDB15"
+  },
+  "wh2_main_vor_western_jungles": {
+    "key": "wh2_main_vor_western_jungles",
+    "name": "Western Jungles",
+    "fill": "924ECC"
+  }
+}

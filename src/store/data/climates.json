@@ -1,0 +1,32 @@
+{
+  "chaotic": {
+    "fill": "red"
+  },
+  "desert": {
+    "fill": "yellow"
+  },
+  "frozen": {
+    "fill": "cyan"
+  },
+  "island": {
+    "fill": "forestgreen"
+  },
+  "jungle": {
+    "fill": "lime"
+  },
+  "magicforest": {
+    "fill": "teal"
+  },
+  "mountain": {
+    "fill": "grey"
+  },
+  "savannah": {
+    "fill": "orange"
+  },
+  "temperate": {
+    "fill": "white"
+  },
+  "wasteland": {
+    "fill": "purple"
+  }
+}
