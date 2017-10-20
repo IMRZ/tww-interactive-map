@@ -10,7 +10,6 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "svg-pan-zoom": "^3.5.3",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.0"
@@ -54,7 +53,7 @@
     "webpack-merge": "^4.1.0"
   },
   "engines": {
-    "node": ">= 4.0.0",
+    "node": ">= 6.0.0",
     "npm": ">= 3.0.0"
   },
   "browserslist": [

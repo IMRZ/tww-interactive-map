@@ -1,8 +1,8 @@
 <template>
   <div id="app">
-    <m-control-panel></m-control-panel>
-    <m-map-container></m-map-container>
-    <m-cursor-tooltip></m-cursor-tooltip>
+    <m-control-panel />
+    <m-map-container />
+    <m-cursor-tooltip />
   </div>
 </template>
 

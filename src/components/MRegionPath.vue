@@ -7,11 +7,11 @@ export default {
   name: "m-region-path",
   props: ["region"],
   mounted() {
-    this.determineColor(this.$route.path);
+    this.fill = this.getFill(this.$route.path);
   },
   watch: {
     $route(to, from) {
-      this.determineColor(to.path);
+      this.fill = this.getFill(to.path);
     }
   },
   data() {
@@ -20,6 +20,9 @@ export default {
     };
   },
   computed: {
+    regionFill() {
+      return `#${this.region.rgb}`;
+    },
     provinceFill() {
       const provinceKey = this.region.province.key;
       return `#${this.$store.getters.provinces[provinceKey].fill}`;
@@ -30,20 +33,16 @@ export default {
     }
   },
   methods: {
-    determineColor(overlay) {
+    getFill(overlay) {
       switch (overlay) {
         case "/regions":
-          this.fill = this.region.rgb;
-          break;
+          return this.regionFill;
         case "/provinces":
-          this.fill = this.provinceFill;
-          break;
+          return this.provinceFill;
         case "/climates":
-          this.fill = this.climateFill;
-          break;
+          return this.climateFill;
         default:
-          this.fill = "transparent";
-          break;
+          return "transparent";
       }
     },
     onMouseMove(e) {
