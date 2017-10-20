@@ -2,10 +2,8 @@
   <div class="m-cursor-tooltip" :style="[tooltip.style]">
     <pre v-if="tooltip.type === 'pre'">{{ tooltip.data.text }}</pre>
     <div v-if="tooltip.type === 'region'" class="region">
-      <div class="header">
-        <div class="content">
-          <img :src="climateIcon" />{{ tooltip.data.regionName }}
-        </div>
+      <div class="heading">
+        <img :src="climateIcon" />{{ tooltip.data.regionName }}
       </div>
       <div>Province: {{ tooltip.data.provinceName }}</div>
       <div>Climate: {{ climateName }}</div>
@@ -85,25 +83,29 @@ export default {
   border-image: url("/static/images/tooltip_frame.png") 14 14 14 14 fill repeat;
 
   .region {
-    width: 228px;
+    margin-top: -7px;
 
-    .header {
-      position: absolute;
-      top: -14px;
-      left: -14px;
-      height: 39px;
-      width: 256px;
-      background-image: url("/static/images/tooltip_header.png");
-      padding: 10px 10px 0 10px;
+    .heading {
+      position: relative;
+      margin-bottom: 5px;
+      display: flex;
+      align-items: center;
 
-      .content {
-        margin-top: -3px;
-        display: flex;
-        align-items: center;
+      &::after {
+        content: '';
+        position: absolute;
+        top: -7px;
+        left: -14px;
+        right: -14px;
+        height: 39px;
+        border: solid;
+        border-width: 0 14px 0 80px;
+        z-index: -1;
+        border-image: url("/static/images/tooltip_header.png") 0 14 0 80 fill repeat;
+      }
 
-        img {
-          margin-right: 5px;
-        }
+      img {
+        margin-right: 5px;
       }
     }
   }
@@ -112,10 +114,6 @@ export default {
     margin: 0;
     padding: 0;
     font-family: Georgia, Times, "Times New Roman", serif;
-  }
-
-  .region {
-    margin-top: 25px;
   }
 }
 </style>
