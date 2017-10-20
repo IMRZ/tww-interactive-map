@@ -14,10 +14,13 @@ export default new Vuex.Store({
     provinces,
     climates,
     tooltip: {
-      top: 0,
-      left: 0,
+      x: 0,
+      y: 0,
       visibility: 'hidden',
-      text: ''
+      type: 'pre',
+      data: {
+        text: ''
+      }
     }
   },
   getters: {
@@ -36,10 +39,7 @@ export default new Vuex.Store({
   },
   mutations: {
     setTooltip(state, payload) {
-      state.tooltip.top = payload.top;
-      state.tooltip.left = payload.left;
-      state.tooltip.visibility = payload.visibility;
-      state.tooltip.text = payload.text;
+      state.tooltip = payload;
     }
   }
 });
