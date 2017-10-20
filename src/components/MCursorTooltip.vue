@@ -77,6 +77,7 @@ export default {
 <style lang="scss">
 .m-cursor-tooltip {
   position: fixed;
+  pointer-events: none;
   color: #fff8d7;
   border: solid;
   border-width: 14px 14px 14px 14px;
