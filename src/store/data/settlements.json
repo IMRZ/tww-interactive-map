@@ -1,0 +1,1127 @@
+[
+  {
+    "key": "wh2_main_vor_aghol_wastelands_fortress_of_the_damned",
+    "x": 2500,
+    "y": 200
+  },
+  {
+    "key": "wh2_main_vor_aghol_wastelands_palace_of_princes",
+    "x": 2800,
+    "y": 150
+  },
+  {
+    "key": "wh2_main_vor_aghol_wastelands_the_palace_of_ruin",
+    "x": 2000,
+    "y": 50
+  },
+  {
+    "key": "wh2_main_vor_albion_albion",
+    "x": 3015,
+    "y": 360
+  },
+  {
+    "key": "wh2_main_vor_albion_pack_ice_bay",
+    "x": 3290,
+    "y": 750
+  },
+  {
+    "key": "wh2_main_vor_albion_troll_fjord",
+    "x": 3245,
+    "y": 515
+  },
+  {
+    "key": "wh2_main_vor_ash_river_numas",
+    "x": 3250,
+    "y": 2300
+  },
+  {
+    "key": "wh2_main_vor_ash_river_quatar",
+    "x": 3200,
+    "y": 2450
+  },
+  {
+    "key": "wh2_main_vor_ash_river_the_salt_plain",
+    "x": 3100,
+    "y": 2200
+  },
+  {
+    "key": "wh2_main_vor_ashen_coast_scarpels_lair",
+    "x": 200,
+    "y": 1100
+  },
+  {
+    "key": "wh2_main_vor_ashen_coast_sulpharets",
+    "x": 100,
+    "y": 1200
+  },
+  {
+    "key": "wh2_main_vor_ashen_coast_tyrant_peak",
+    "x": 240,
+    "y": 900
+  },
+  {
+    "key": "wh2_main_vor_avelorn_evershale",
+    "x": 2350,
+    "y": 850
+  },
+  {
+    "key": "wh2_main_vor_avelorn_gaean_vale",
+    "x": 2420,
+    "y": 1020
+  },
+  {
+    "key": "wh2_main_vor_avelorn_tor_saroir",
+    "x": 2550,
+    "y": 800
+  },
+  {
+    "key": "wh2_main_vor_caledor_caledors_repose",
+    "x": 2200,
+    "y": 1500
+  },
+  {
+    "key": "wh2_main_vor_caledor_tor_sethai",
+    "x": 2060,
+    "y": 1350
+  },
+  {
+    "key": "wh2_main_vor_caledor_vauls_anvil",
+    "x": 2100,
+    "y": 1700
+  },
+  {
+    "key": "wh2_main_vor_central_spine_of_sotek_caverns_of_the_great_bat",
+    "x": 610,
+    "y": 3210
+  },
+  {
+    "key": "wh2_main_vor_central_spine_of_sotek_chiquibol",
+    "x": 610,
+    "y": 3060
+  },
+  {
+    "key": "wh2_main_vor_chrace_elisia",
+    "x": 2750,
+    "y": 700
+  },
+  {
+    "key": "wh2_main_vor_chrace_tor_achare",
+    "x": 2650,
+    "y": 600
+  },
+  {
+    "key": "wh2_main_vor_chrace_tor_gard",
+    "x": 2520,
+    "y": 590
+  },
+  {
+    "key": "wh2_main_vor_coast_of_araby_al_haikk",
+    "x": 2550,
+    "y": 2080
+  },
+  {
+    "key": "wh2_main_vor_coast_of_araby_copher",
+    "x": 2200,
+    "y": 2030
+  },
+  {
+    "key": "wh2_main_vor_coast_of_araby_fyrus",
+    "x": 2780,
+    "y": 2000
+  },
+  {
+    "key": "wh2_main_vor_coast_of_araby_martek",
+    "x": 2390,
+    "y": 2020
+  },
+  {
+    "key": "wh2_main_vor_coast_of_squalls_macu_peaks",
+    "x": 210,
+    "y": 1790
+  },
+  {
+    "key": "wh2_main_vor_coast_of_squalls_monument_of_the_sun",
+    "x": 110,
+    "y": 1910
+  },
+  {
+    "key": "wh2_main_vor_coast_of_squalls_shrine_of_sotek",
+    "x": 120,
+    "y": 2010
+  },
+  {
+    "key": "wh2_main_vor_cobra_pass_eye_of_the_panther",
+    "x": 2280,
+    "y": 2160
+  },
+  {
+    "key": "wh2_main_vor_cobra_pass_vulture_mountain",
+    "x": 2225,
+    "y": 2330
+  },
+  {
+    "key": "wh2_main_vor_copper_desert_the_dust_gate",
+    "x": 920,
+    "y": 3500
+  },
+  {
+    "key": "wh2_main_vor_copper_desert_the_forgotten_isles",
+    "x": 660,
+    "y": 3600
+  },
+  {
+    "key": "wh2_main_vor_copper_desert_the_golden_colossus",
+    "x": 550,
+    "y": 3320
+  },
+  {
+    "key": "wh2_main_vor_cothique_mistnar",
+    "x": 2930,
+    "y": 520
+  },
+  {
+    "key": "wh2_main_vor_cothique_tor_koruali",
+    "x": 2950,
+    "y": 710
+  },
+  {
+    "key": "wh2_main_vor_culchan_plains_chupayotl",
+    "x": 1430,
+    "y": 3280
+  },
+  {
+    "key": "wh2_main_vor_culchan_plains_kaiax",
+    "x": 1090,
+    "y": 3570
+  },
+  {
+    "key": "wh2_main_vor_culchan_plains_the_southern_sentinels",
+    "x": 1260,
+    "y": 3380
+  },
+  {
+    "key": "wh2_main_vor_culchan_plains_xlansec",
+    "x": 1320,
+    "y": 3520
+  },
+  {
+    "key": "wh2_main_vor_deadwood_dargoth",
+    "x": 1540,
+    "y": 210
+  },
+  {
+    "key": "wh2_main_vor_deadwood_nagrar",
+    "x": 1660,
+    "y": 270
+  },
+  {
+    "key": "wh2_main_vor_deadwood_shagrath",
+    "x": 1690,
+    "y": 120
+  },
+  {
+    "key": "wh2_main_vor_deadwood_the_frozen_city",
+    "x": 1560,
+    "y": 110
+  },
+  {
+    "key": "wh2_main_vor_eagle_gate",
+    "x": 2040,
+    "y": 1120
+  },
+  {
+    "key": "wh2_main_vor_eataine_angerrial",
+    "x": 2520,
+    "y": 1400
+  },
+  {
+    "key": "wh2_main_vor_eataine_shrine_of_asuryan",
+    "x": 2420,
+    "y": 1310
+  },
+  {
+    "key": "wh2_main_vor_ellyrion_reavers_mark",
+    "x": 2220,
+    "y": 900
+  },
+  {
+    "key": "wh2_main_vor_ellyrion_the_arc_span",
+    "x": 2190,
+    "y": 1300
+  },
+  {
+    "key": "wh2_main_vor_ellyrion_tor_elyr",
+    "x": 2150,
+    "y": 1050
+  },
+  {
+    "key": "wh2_main_vor_forest_of_the_viper_chotecs_causeway",
+    "x": 410,
+    "y": 1730
+  },
+  {
+    "key": "wh2_main_vor_forest_of_the_viper_fallen_gates",
+    "x": 290,
+    "y": 1530
+  },
+  {
+    "key": "wh2_main_vor_forest_of_the_viper_mirror_pool_of_tepok",
+    "x": 520,
+    "y": 1620
+  },
+  {
+    "key": "wh2_main_vor_grey_guardians_grey_rock_point",
+    "x": 780,
+    "y": 1460
+  },
+  {
+    "key": "wh2_main_vor_grey_guardians_ssildra_tor",
+    "x": 440,
+    "y": 1440
+  },
+  {
+    "key": "wh2_main_vor_grey_guardians_titan_peak",
+    "x": 280,
+    "y": 1290
+  },
+  {
+    "key": "wh2_main_vor_griffon_gate",
+    "x": 2080,
+    "y": 950
+  },
+  {
+    "key": "wh2_main_vor_headhunters_jungle_altar_of_the_horned_rat",
+    "x": 1253,
+    "y": 2949
+  },
+  {
+    "key": "wh2_main_vor_headhunters_jungle_marks_of_the_old_ones",
+    "x": 1186,
+    "y": 3096
+  },
+  {
+    "key": "wh2_main_vor_heart_of_the_jungle_oreons_camp",
+    "x": 2895,
+    "y": 2972
+  },
+  {
+    "key": "wh2_main_vor_iron_mountains_altar_of_ultimate_darkness",
+    "x": 700,
+    "y": 340
+  },
+  {
+    "key": "wh2_main_vor_iron_mountains_cragroth_deep",
+    "x": 500,
+    "y": 410
+  },
+  {
+    "key": "wh2_main_vor_iron_mountains_rackdo_gorge",
+    "x": 375,
+    "y": 270
+  },
+  {
+    "key": "wh2_main_vor_iron_mountains_shroktak_mount",
+    "x": 540,
+    "y": 240
+  },
+  {
+    "key": "wh2_main_vor_iron_peaks_ancient_city_of_quintex",
+    "x": 680,
+    "y": 1020
+  },
+  {
+    "key": "wh2_main_vor_iron_peaks_ironspike",
+    "x": 480,
+    "y": 1120
+  },
+  {
+    "key": "wh2_main_vor_iron_peaks_the_moon_shard",
+    "x": 740,
+    "y": 1180
+  },
+  {
+    "key": "wh2_main_vor_ironfrost_glacier_bear_isle",
+    "x": 130,
+    "y": 60
+  },
+  {
+    "key": "wh2_main_vor_ironfrost_glacier_dagraks_end",
+    "x": 740,
+    "y": 90
+  },
+  {
+    "key": "wh2_main_vor_ironfrost_glacier_ironfrost",
+    "x": 410,
+    "y": 60
+  },
+  {
+    "key": "wh2_main_vor_ironfrost_glacier_mung_encampment",
+    "x": 1320,
+    "y": 40
+  },
+  {
+    "key": "wh2_main_vor_isthmus_of_lustria_hexoatl",
+    "x": 470,
+    "y": 1870
+  },
+  {
+    "key": "wh2_main_vor_isthmus_of_lustria_monolith_of_fallen_gods",
+    "x": 690,
+    "y": 1820
+  },
+  {
+    "key": "wh2_main_vor_isthmus_of_lustria_ziggurat_of_dawn",
+    "x": 790,
+    "y": 1690
+  },
+  {
+    "key": "wh2_main_vor_jungle_of_pahualaxa_floating_pyramid",
+    "x": 420,
+    "y": 2140
+  },
+  {
+    "key": "wh2_main_vor_jungle_of_pahualaxa_monument_of_the_moon",
+    "x": 605,
+    "y": 2080
+  },
+  {
+    "key": "wh2_main_vor_jungle_of_pahualaxa_pahuax",
+    "x": 330,
+    "y": 2050
+  },
+  {
+    "key": "wh2_main_vor_jungle_of_pahualaxa_the_high_sentinel",
+    "x": 550,
+    "y": 2160
+  },
+  {
+    "key": "wh2_main_vor_jungles_of_green_mist_pillars_of_unseen_constellations",
+    "x": 350,
+    "y": 2650
+  },
+  {
+    "key": "wh2_main_vor_jungles_of_green_mist_spektazuma",
+    "x": 475,
+    "y": 2300
+  },
+  {
+    "key": "wh2_main_vor_jungles_of_green_mist_wellsprings_of_eternity",
+    "x": 325,
+    "y": 2425
+  },
+  {
+    "key": "wh2_main_vor_kingdom_of_beasts_serpent_coast",
+    "x": 3005,
+    "y": 3250
+  },
+  {
+    "key": "wh2_main_vor_kingdom_of_beasts_temple_of_skulls",
+    "x": 3115,
+    "y": 3080
+  },
+  {
+    "key": "wh2_main_vor_kingdom_of_beasts_the_cursed_jungle",
+    "x": 3280,
+    "y": 2915
+  },
+  {
+    "key": "wh2_main_vor_land_of_assassins_lashiek",
+    "x": 2025,
+    "y": 2155
+  },
+  {
+    "key": "wh2_main_vor_land_of_assassins_palace_of_the_wizard_caliph",
+    "x": 2070,
+    "y": 2425
+  },
+  {
+    "key": "wh2_main_vor_land_of_assassins_sorcerers_islands",
+    "x": 1850,
+    "y": 2180
+  },
+  {
+    "key": "wh2_main_vor_land_of_the_dead_black_pyramid_of_nagash",
+    "x": 2960,
+    "y": 2425
+  },
+  {
+    "key": "wh2_main_vor_land_of_the_dead_khemri",
+    "x": 3090,
+    "y": 2405
+  },
+  {
+    "key": "wh2_main_vor_land_of_the_dead_springs_of_eternal_life",
+    "x": 3190,
+    "y": 2580
+  },
+  {
+    "key": "wh2_main_vor_land_of_the_dead_zandri",
+    "x": 2820,
+    "y": 2205
+  },
+  {
+    "key": "wh2_main_vor_land_of_the_dervishes_el-kalabad",
+    "x": 2330,
+    "y": 2405
+  },
+  {
+    "key": "wh2_main_vor_land_of_the_dervishes_elven_ruins",
+    "x": 2265,
+    "y": 2610
+  },
+  {
+    "key": "wh2_main_vor_land_of_the_dervishes_sudenburg",
+    "x": 2563,
+    "y": 2563
+  },
+  {
+    "key": "wh2_main_vor_mosquito_swamps_tlax",
+    "x": 1095,
+    "y": 2175
+  },
+  {
+    "key": "wh2_main_vor_mosquito_swamps_xahutec",
+    "x": 1130,
+    "y": 2330
+  },
+  {
+    "key": "wh2_main_vor_mosquito_swamps_xlanhuapec",
+    "x": 1040,
+    "y": 2470
+  },
+  {
+    "key": "wh2_main_vor_nagarythe_shrine_of_khaine",
+    "x": 2510,
+    "y": 450
+  },
+  {
+    "key": "wh2_main_vor_nagarythe_tor_anlec",
+    "x": 2355,
+    "y": 605
+  },
+  {
+    "key": "wh2_main_vor_nagarythe_tor_dranil",
+    "x": 2005,
+    "y": 755
+  },
+  {
+    "key": "wh2_main_vor_naggarond_har_kaldra",
+    "x": 915,
+    "y": 285
+  },
+  {
+    "key": "wh2_main_vor_naggarond_kaelra",
+    "x": 805,
+    "y": 245
+  },
+  {
+    "key": "wh2_main_vor_naggarond_naggarond",
+    "x": 995,
+    "y": 430
+  },
+  {
+    "key": "wh2_main_vor_northern_great_jungle_chaqua",
+    "x": 865,
+    "y": 2625
+  },
+  {
+    "key": "wh2_main_vor_northern_great_jungle_itza",
+    "x": 890,
+    "y": 2870
+  },
+  {
+    "key": "wh2_main_vor_northern_great_jungle_quetza",
+    "x": 1000,
+    "y": 2735
+  },
+  {
+    "key": "wh2_main_vor_northern_great_jungle_quittax",
+    "x": 665,
+    "y": 2735
+  },
+  {
+    "key": "wh2_main_vor_northern_spine_of_sotek_cavern_of_the_mlexigaur",
+    "x": 470,
+    "y": 2720
+  },
+  {
+    "key": "wh2_main_vor_northern_spine_of_sotek_hualotal",
+    "x": 490,
+    "y": 2950
+  },
+  {
+    "key": "wh2_main_vor_northern_spine_of_sotek_monument_of_izzatal",
+    "x": 575,
+    "y": 2545
+  },
+  {
+    "key": "wh2_main_vor_northern_yvresse_sardenath",
+    "x": 3150,
+    "y": 910
+  },
+  {
+    "key": "wh2_main_vor_northern_yvresse_tor_yvresse",
+    "x": 2925,
+    "y": 1085
+  },
+  {
+    "key": "wh2_main_vor_northern_yvresse_tralinia",
+    "x": 3115,
+    "y": 1070
+  },
+  {
+    "key": "wh2_main_vor_obsidian_peaks_ice_rock_gorge",
+    "x": 870,
+    "y": 855
+  },
+  {
+    "key": "wh2_main_vor_obsidian_peaks_ice_spire",
+    "x": 530,
+    "y": 775
+  },
+  {
+    "key": "wh2_main_vor_obsidian_peaks_keshta_vault",
+    "x": 630,
+    "y": 715
+  },
+  {
+    "key": "wh2_main_vor_obsidian_peaks_temple_of_addaioth",
+    "x": 715,
+    "y": 805
+  },
+  {
+    "key": "wh2_main_vor_phoenix_gate",
+    "x": 2355,
+    "y": 740
+  },
+  {
+    "key": "wh2_main_vor_plain_of_spiders_clarak_spire",
+    "x": 210,
+    "y": 750
+  },
+  {
+    "key": "wh2_main_vor_plain_of_spiders_pits_of_zardok",
+    "x": 390,
+    "y": 705
+  },
+  {
+    "key": "wh2_main_vor_red_desert_drackla_spire",
+    "x": 160,
+    "y": 345
+  },
+  {
+    "key": "wh2_main_vor_red_desert_rothkar_spire",
+    "x": 240,
+    "y": 555
+  },
+  {
+    "key": "wh2_main_vor_river_qurveza_axlotl",
+    "x": 1100,
+    "y": 2850
+  },
+  {
+    "key": "wh2_main_vor_river_qurveza_mouth_of_qurveza",
+    "x": 1210,
+    "y": 2735
+  },
+  {
+    "key": "wh2_main_vor_saphery_port_elistor",
+    "x": 2660,
+    "y": 1280
+  },
+  {
+    "key": "wh2_main_vor_saphery_shadow_peak",
+    "x": 2775,
+    "y": 895
+  },
+  {
+    "key": "wh2_main_vor_saphery_tor_finu",
+    "x": 2755,
+    "y": 990
+  },
+  {
+    "key": "wh2_main_vor_saphery_tower_of_hoeth",
+    "x": 2780,
+    "y": 1185
+  },
+  {
+    "key": "wh2_main_vor_sartosa_sartosa",
+    "x": 3260,
+    "y": 1715
+  },
+  {
+    "key": "wh2_main_vor_scorpion_coast_chotec",
+    "x": 957,
+    "y": 2115
+  },
+  {
+    "key": "wh2_main_vor_scorpion_coast_temple_of_tlencan",
+    "x": 805,
+    "y": 2130
+  },
+  {
+    "key": "wh2_main_vor_sea_of_dread_tor_elasor",
+    "x": 2965,
+    "y": 3735
+  },
+  {
+    "key": "wh2_main_vor_sea_of_dread_tower_of_the_stars",
+    "x": 3200,
+    "y": 3565
+  },
+  {
+    "key": "wh2_main_vor_sea_of_dread_tower_of_the_sun",
+    "x": 3245,
+    "y": 3755
+  },
+  {
+    "key": "wh2_main_vor_settlers_coast_port_reaver",
+    "x": 675,
+    "y": 1950
+  },
+  {
+    "key": "wh2_main_vor_settlers_coast_skeggi",
+    "x": 850,
+    "y": 1840
+  },
+  {
+    "key": "wh2_main_vor_settlers_coast_swamp_town",
+    "x": 530,
+    "y": 1995
+  },
+  {
+    "key": "wh2_main_vor_shadow_wood_circle_of_destruction",
+    "x": 1182,
+    "y": 675
+  },
+  {
+    "key": "wh2_main_vor_shadow_wood_clar_karond",
+    "x": 1018,
+    "y": 735
+  },
+  {
+    "key": "wh2_main_vor_shadow_wood_daldrachs_lair",
+    "x": 1065,
+    "y": 598
+  },
+  {
+    "key": "wh2_main_vor_shadow_wood_venom_glade",
+    "x": 1059,
+    "y": 884
+  },
+  {
+    "key": "wh2_main_vor_shifting_mangrove_coastline_temple_avenue_of_gold",
+    "x": 2902,
+    "y": 3489
+  },
+  {
+    "key": "wh2_main_vor_shifting_mangrove_coastline_teotiqua",
+    "x": 2970,
+    "y": 3358
+  },
+  {
+    "key": "wh2_main_vor_shifting_sands_antoch",
+    "x": 2764,
+    "y": 2733
+  },
+  {
+    "key": "wh2_main_vor_shifting_sands_bhagar",
+    "x": 2910,
+    "y": 2598
+  },
+  {
+    "key": "wh2_main_vor_shifting_sands_ka-sabar",
+    "x": 3016,
+    "y": 2834
+  },
+  {
+    "key": "wh2_main_vor_shifting_sands_plain_of_tuskers",
+    "x": 2599,
+    "y": 2734
+  },
+  {
+    "key": "wh2_main_vor_southern_badlands_galbaraz",
+    "x": 3344,
+    "y": 2096
+  },
+  {
+    "key": "wh2_main_vor_southern_badlands_gor_gazan",
+    "x": 3292,
+    "y": 2208
+  },
+  {
+    "key": "wh2_main_vor_southern_great_jungle_gwakmol_crater",
+    "x": 830,
+    "y": 3144
+  },
+  {
+    "key": "wh2_main_vor_southern_great_jungle_mortuary_of_tzulaqua",
+    "x": 943,
+    "y": 3042
+  },
+  {
+    "key": "wh2_main_vor_southern_great_jungle_xhotl",
+    "x": 735,
+    "y": 2916
+  },
+  {
+    "key": "wh2_main_vor_southern_jungles_dawns_light",
+    "x": 2351,
+    "y": 3473
+  },
+  {
+    "key": "wh2_main_vor_southern_jungles_scrag_hole",
+    "x": 2433,
+    "y": 3606
+  },
+  {
+    "key": "wh2_main_vor_southern_jungles_yuatek",
+    "x": 2578,
+    "y": 3399
+  },
+  {
+    "key": "wh2_main_vor_southern_spine_of_sotek_mine_of_the_bearded_skulls",
+    "x": 768,
+    "y": 3337
+  },
+  {
+    "key": "wh2_main_vor_southern_spine_of_sotek_thrice-cursed_peak",
+    "x": 942,
+    "y": 3425
+  },
+  {
+    "key": "wh2_main_vor_southern_yvresse_cairn_thel",
+    "x": 2705,
+    "y": 1474
+  },
+  {
+    "key": "wh2_main_vor_southern_yvresse_elessaeli",
+    "x": 2938,
+    "y": 1329
+  },
+  {
+    "key": "wh2_main_vor_southern_yvresse_shrine_of_loec",
+    "x": 2924,
+    "y": 1556
+  },
+  {
+    "key": "wh2_main_vor_southlands_world_edge_mountains_karag_orrud",
+    "x": 3329,
+    "y": 2550
+  },
+  {
+    "key": "wh2_main_vor_southlands_world_edge_mountains_karak_zorn",
+    "x": 3100,
+    "y": 2961
+  },
+  {
+    "key": "wh2_main_vor_southlands_world_edge_mountains_lost_plateau",
+    "x": 3198,
+    "y": 2829
+  },
+  {
+    "key": "wh2_main_vor_southlands_world_edge_mountains_mount_arachnos",
+    "x": 3290,
+    "y": 2701
+  },
+  {
+    "key": "wh2_main_vor_straits_of_lothern_glittering_tower",
+    "x": 2465,
+    "y": 1610
+  },
+  {
+    "key": "wh2_main_vor_straits_of_lothern_lothern",
+    "x": 2425,
+    "y": 1560
+  },
+  {
+    "key": "wh2_main_vor_straits_of_lothern_tower_of_lysean",
+    "x": 2340,
+    "y": 1410
+  },
+  {
+    "key": "wh2_main_vor_the_black_coast_arnheim",
+    "x": 1190,
+    "y": 1304
+  },
+  {
+    "key": "wh2_main_vor_the_black_coast_bleak_hold_fortress",
+    "x": 988,
+    "y": 1136
+  },
+  {
+    "key": "wh2_main_vor_the_black_coast_hag_hall",
+    "x": 970,
+    "y": 989
+  },
+  {
+    "key": "wh2_main_vor_the_black_coast_vauls_anvil",
+    "x": 1160,
+    "y": 970
+  },
+  {
+    "key": "wh2_main_vor_the_black_flood_hag_graef",
+    "x": 867,
+    "y": 576
+  },
+  {
+    "key": "wh2_main_vor_the_black_flood_storag_kor",
+    "x": 528,
+    "y": 615
+  },
+  {
+    "key": "wh2_main_vor_the_black_flood_temple_of_khaine",
+    "x": 732,
+    "y": 563
+  },
+  {
+    "key": "wh2_main_vor_the_broken_land_black_creek_spire",
+    "x": 1633,
+    "y": 611
+  },
+  {
+    "key": "wh2_main_vor_the_broken_land_blacklight_tower",
+    "x": 1469,
+    "y": 446
+  },
+  {
+    "key": "wh2_main_vor_the_broken_land_karond_kar",
+    "x": 1691,
+    "y": 526
+  },
+  {
+    "key": "wh2_main_vor_the_broken_land_slavers_point",
+    "x": 1578,
+    "y": 674
+  },
+  {
+    "key": "wh2_main_vor_the_capes_citadel_of_dusk",
+    "x": 1572,
+    "y": 3587
+  },
+  {
+    "key": "wh2_main_vor_the_capes_fortress_of_dawn",
+    "x": 2042,
+    "y": 3794
+  },
+  {
+    "key": "wh2_main_vor_the_chill_road_ashrak",
+    "x": 1053,
+    "y": 230
+  },
+  {
+    "key": "wh2_main_vor_the_chill_road_ghrond",
+    "x": 1135,
+    "y": 283
+  },
+  {
+    "key": "wh2_main_vor_the_chill_road_the_great_arena",
+    "x": 1138,
+    "y": 420
+  },
+  {
+    "key": "wh2_main_vor_the_clawed_coast_hoteks_column",
+    "x": 1248,
+    "y": 739
+  },
+  {
+    "key": "wh2_main_vor_the_clawed_coast_the_monoliths",
+    "x": 1439,
+    "y": 630
+  },
+  {
+    "key": "wh2_main_vor_the_clawed_coast_the_twisted_glade",
+    "x": 1348,
+    "y": 813
+  },
+  {
+    "key": "wh2_main_vor_the_creeping_jungle_temple_of_kara",
+    "x": 699,
+    "y": 2291
+  },
+  {
+    "key": "wh2_main_vor_the_creeping_jungle_tlanxla",
+    "x": 613,
+    "y": 2424
+  },
+  {
+    "key": "wh2_main_vor_the_creeping_jungle_tlaxtlan",
+    "x": 839,
+    "y": 2485
+  },
+  {
+    "key": "wh2_main_vor_the_dragon_isles_isle_of_the_crimson_skull",
+    "x": 109,
+    "y": 2369
+  },
+  {
+    "key": "wh2_main_vor_the_dragon_isles_the_blood_hall",
+    "x": 209,
+    "y": 2871
+  },
+  {
+    "key": "wh2_main_vor_the_forbidden_jungle_chamber_of_visions",
+    "x": 449,
+    "y": 3033
+  },
+  {
+    "key": "wh2_main_vor_the_forbidden_jungle_sentinels_of_xeti",
+    "x": 537,
+    "y": 3191
+  },
+  {
+    "key": "wh2_main_vor_the_great_desert_bel_aliad",
+    "x": 2490,
+    "y": 2255
+  },
+  {
+    "key": "wh2_main_vor_the_great_desert_black_tower_of_arkhan",
+    "x": 2786,
+    "y": 2413
+  },
+  {
+    "key": "wh2_main_vor_the_great_desert_pools_of_despair",
+    "x": 2675,
+    "y": 2256
+  },
+  {
+    "key": "wh2_main_vor_the_jungles_of_the_gods_caverns_of_sotek",
+    "x": 2788,
+    "y": 3532
+  },
+  {
+    "key": "wh2_main_vor_the_jungles_of_the_gods_tor_surpindar",
+    "x": 2630,
+    "y": 3627
+  },
+  {
+    "key": "wh2_main_vor_the_lost_valleys_oyxl",
+    "x": 1107,
+    "y": 3266
+  },
+  {
+    "key": "wh2_main_vor_the_lost_valleys_subatuun",
+    "x": 894,
+    "y": 3232
+  },
+  {
+    "key": "wh2_main_vor_the_lost_valleys_the_sentinel_of_time",
+    "x": 1171,
+    "y": 3380
+  },
+  {
+    "key": "wh2_main_vor_the_red_rivers_cuexotl",
+    "x": 2686,
+    "y": 3008
+  },
+  {
+    "key": "wh2_main_vor_the_red_rivers_golden_tower_of_the_gods",
+    "x": 2841,
+    "y": 3139
+  },
+  {
+    "key": "wh2_main_vor_the_red_rivers_nahuontl",
+    "x": 2457,
+    "y": 3071
+  },
+  {
+    "key": "wh2_main_vor_the_red_rivers_zlatan",
+    "x": 2450,
+    "y": 3232
+  },
+  {
+    "key": "wh2_main_vor_the_road_of_skulls_har_ganeth",
+    "x": 1281,
+    "y": 393
+  },
+  {
+    "key": "wh2_main_vor_the_road_of_skulls_kauark",
+    "x": 1388,
+    "y": 225
+  },
+  {
+    "key": "wh2_main_vor_the_road_of_skulls_spite_reach",
+    "x": 1335,
+    "y": 309
+  },
+  {
+    "key": "wh2_main_vor_the_road_of_skulls_the_black_pillar",
+    "x": 1536,
+    "y": 313
+  },
+  {
+    "key": "wh2_main_vor_the_turtle_isles_golden_ziggurat",
+    "x": 277,
+    "y": 3043
+  },
+  {
+    "key": "wh2_main_vor_the_turtle_isles_great_turtle_isle",
+    "x": 264,
+    "y": 3232
+  },
+  {
+    "key": "wh2_main_vor_the_turtle_isles_mud_isle",
+    "x": 385,
+    "y": 3351
+  },
+  {
+    "key": "wh2_main_vor_the_vampire_coast_pox_marsh",
+    "x": 1297,
+    "y": 2174
+  },
+  {
+    "key": "wh2_main_vor_the_vampire_coast_the_awakening",
+    "x": 1311,
+    "y": 2363
+  },
+  {
+    "key": "wh2_main_vor_the_vampire_coast_the_blood_swamps",
+    "x": 1302,
+    "y": 2511
+  },
+  {
+    "key": "wh2_main_vor_the_vampire_coast_the_star_tower",
+    "x": 1460,
+    "y": 2735
+  },
+  {
+    "key": "wh2_main_vor_tiranoc_salvation_isle",
+    "x": 1939,
+    "y": 766
+  },
+  {
+    "key": "wh2_main_vor_tiranoc_the_high_vale",
+    "x": 1980,
+    "y": 947
+  },
+  {
+    "key": "wh2_main_vor_tiranoc_tor_anroc",
+    "x": 1810,
+    "y": 1081
+  },
+  {
+    "key": "wh2_main_vor_tiranoc_whitepeak",
+    "x": 1939,
+    "y": 1189
+  },
+  {
+    "key": "wh2_main_vor_unicorn_gate",
+    "x": 2136,
+    "y": 843
+  },
+  {
+    "key": "wh2_main_vor_western_jungles_deaths-head_monoliths",
+    "x": 2297,
+    "y": 2830
+  },
+  {
+    "key": "wh2_main_vor_western_jungles_statues_of_the_gods",
+    "x": 2370,
+    "y": 2971
+  },
+  {
+    "key": "wh2_main_vor_western_jungles_tlaqua",
+    "x": 2452,
+    "y": 2847
+  }
+]

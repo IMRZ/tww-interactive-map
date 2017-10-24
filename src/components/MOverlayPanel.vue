@@ -1,6 +1,10 @@
 <template>
   <div id="m-overlay-panel">
     <div class="button-container">
+      <span>Filters:</span>
+      <m-button class="small" :tooltip-text="'Settlements'" @click.native="setOverlay('/')"></m-button>
+      <m-button class="small" :tooltip-text="'Resources'" @click.native="setOverlay('/')"></m-button>
+      <span style="width: 40px;"></span>
       <span>Overlays:</span>
       <m-button class="small" :tooltip-text="'None'" @click.native="setOverlay('/')"></m-button>
       <m-button class="small" :icon="'/static/images/icon_filter_faction.png'" :tooltip-text="'Regions'" @click.native="setOverlay('/regions')"></m-button>

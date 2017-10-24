@@ -1,6 +1,6 @@
 <template>
   <div id="map-container">
-    <svg ref="map" xmlns="http://www.w3.org/2000/svg" version="1.1"
+    <svg ref="map" xmlns="http://www.w3.org/2000/svg" version="1.1" zoomAndPan
       v-on:mouseup="stopPanning"
       v-on:mouseleave="stopPanning"
       v-on:mousedown="startPanning"
@@ -8,7 +8,8 @@
       v-on:wheel="doZoom">
       <g ref="content" :transform="transform">
         <image xlink:href="/static/images/wh2_main_great_vortex_map.png" width="3378" height="3869" x="0" y="0" />
-        <m-region-path v-for="region in regions" :key="region.key" :region="region"></m-region-path>
+        <m-region-path v-for="region in regions" :key="region.key" :region="region" />
+        <m-map-node v-for="(s, index) in settlements" :key="index" :tsfm="tsfm" :container-refs="$refs" :x="s.x" :y="s.y" />
       </g>
     </svg>
   </div>
@@ -16,22 +17,29 @@
 
 <script>
 import MRegionPath from "@/components/MRegionPath";
+import MMapNode from "@/components/MMapNode";
+
+import settlements from "../store/data/settlements.json";
 
 export default {
   name: "map-container",
   components: {
-    "m-region-path": MRegionPath
+    "m-region-path": MRegionPath,
+    "m-map-node": MMapNode
   },
-  ready() {
+  mounted() {
     this.setCTM(this.$refs.content.getCTM());
   },
   data() {
     return {
+      zoomLevel: 1,
       zoomScale: 0.4,
       isPanning: false,
       stateTf: undefined,
       stateOrigin: undefined,
-      transform: "matrix(0.3, 0, 0, 0.3, 400, 0)"
+      transform: "matrix(0.25, 0, 0, 0.25, 480, 0)",
+      tsfm: undefined,
+      settlements: settlements
     };
   },
   methods: {
@@ -49,6 +57,7 @@ export default {
       }
     },
     setCTM(m) {
+      this.tsfm = m;
       this.transform = `matrix(${m.a},${m.b},${m.c},${m.d},${m.e},${m.f})`;
     },
     stopPanning(e) {
@@ -65,12 +74,26 @@ export default {
       e.preventDefault();
       if (this.isPanning) {
         const p = this.getEventPoint(e).matrixTransform(this.stateTf);
-        this.setCTM(this.stateTf.inverse().translate(p.x - this.stateOrigin.x, p.y -this. stateOrigin.y));
+        this.setCTM(this.stateTf.inverse().translate(p.x - this.stateOrigin.x, p.y - this. stateOrigin.y));
+      }
+    },
+    zoomAllowed(z) {
+      if ((z > 1 && this.zoomLevel < 15)) {
+        this.zoomLevel +=1;
+        return true;
+      } else if ((z < 1 && this.zoomLevel > 0)) {
+        this.zoomLevel -=1;
+        return true;
+      } else {
+        return false;
       }
     },
     doZoom(e) {
       e.preventDefault();
-      const z = Math.pow(1 + this.zoomScale, this.getWheelDelta(e));
+      const z = Math.pow(1 + 0.5, this.getWheelDelta(e));
+
+      if (!this.zoomAllowed(z)) return;
+
       const g = this.$refs.content;
       const root = this.$refs.map;
       const p = this.getEventPoint(e).matrixTransform(g.getCTM().inverse());

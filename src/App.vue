@@ -26,23 +26,22 @@ html {
   box-sizing: border-box;
   height: 100%;
   font-family: Georgia, Times, "Times New Roman", serif;
-
-  body {
-    margin: 0;
-    height: 100%;
-    background: linear-gradient(rgba(0, 0, 255, 0.2), rgba(0, 0, 255, 0.2)),
-      url("/static/images/veins.png");
-
-    #app {
-      height: 100%;
-    }
-  }
 }
 
 *,
 *:before,
 *:after {
   box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  background: url("/static/images/com.totalwar.warhammer.background.texture.jpg");
+
+  #app {
+    height: 100%;
+  }
 }
 </style>
 

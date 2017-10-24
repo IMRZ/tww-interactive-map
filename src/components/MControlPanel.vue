@@ -8,6 +8,7 @@
     </div>
     <m-overlay-panel></m-overlay-panel>
     <m-info-panel></m-info-panel>
+    <!-- <m-side-panel /> -->
   </div>
 </template>
 
@@ -15,13 +16,15 @@
 import MButton from "@/components/MButton";
 import MOverlayPanel from "@/components/MOverlayPanel";
 import MInfoPanel from "@/components/MInfoPanel";
+import MSidePanel from "@/components/MSidePanel";
 
 export default {
   name: "m-control-panel",
   components: {
     "m-button": MButton,
     "m-overlay-panel": MOverlayPanel,
-    "m-info-panel": MInfoPanel
+    "m-info-panel": MInfoPanel,
+    "m-side-panel": MSidePanel
   }
 };
 </script>
