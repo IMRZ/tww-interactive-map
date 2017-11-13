@@ -1,0 +1,562 @@
+{
+  "wh2_main_aghol_wastelands": {
+    "key": "wh2_main_aghol_wastelands",
+    "name": "Aghol Wastelands",
+    "fill": "62917D"
+  },
+  "wh2_main_ash_river": {
+    "key": "wh2_main_ash_river",
+    "name": "Ash River",
+    "fill": "2C336D"
+  },
+  "wh2_main_atalan_mountains": {
+    "key": "wh2_main_atalan_mountains",
+    "name": "Atalan Mountains",
+    "fill": "00C0C6"
+  },
+  "wh2_main_avelorn": {
+    "key": "wh2_main_avelorn",
+    "name": "Avelorn",
+    "fill": "EDDB57"
+  },
+  "wh2_main_blackspine_mountains": {
+    "key": "wh2_main_blackspine_mountains",
+    "name": "Black Spine Mountains",
+    "fill": "7DDA68"
+  },
+  "wh2_main_caledor": {
+    "key": "wh2_main_caledor",
+    "name": "Caledor",
+    "fill": "E0FCB2"
+  },
+  "wh2_main_charnel_valley": {
+    "key": "wh2_main_charnel_valley",
+    "name": "Charnel Valley",
+    "fill": "8000C2"
+  },
+  "wh2_main_chrace": {
+    "key": "wh2_main_chrace",
+    "name": "Chrace",
+    "fill": "1441A1"
+  },
+  "wh2_main_coast_of_araby": {
+    "key": "wh2_main_coast_of_araby",
+    "name": "Coast of Araby",
+    "fill": "56015C"
+  },
+  "wh2_main_cothique": {
+    "key": "wh2_main_cothique",
+    "name": "Cothique",
+    "fill": "83E462"
+  },
+  "wh2_main_crater_of_the_walking_dead": {
+    "key": "wh2_main_crater_of_the_walking_dead",
+    "name": "Crater of the Waking Dead",
+    "fill": "0C6EDE"
+  },
+  "wh2_main_deadwood": {
+    "key": "wh2_main_deadwood",
+    "name": "Deadwood",
+    "fill": "7E41E5"
+  },
+  "wh2_main_devils_backbone": {
+    "key": "wh2_main_devils_backbone",
+    "name": "Devil's Backbone",
+    "fill": "04A7D6"
+  },
+  "wh2_main_doom_glades": {
+    "key": "wh2_main_doom_glades",
+    "name": "Doom Glades",
+    "fill": "ACF8BA"
+  },
+  "wh2_main_eagle_gate": {
+    "key": "wh2_main_eagle_gate",
+    "name": "Eagle Gate",
+    "fill": "9936CE"
+  },
+  "wh2_main_eataine": {
+    "key": "wh2_main_eataine",
+    "name": "Eataine",
+    "fill": "E212E2"
+  },
+  "wh2_main_ellyrion": {
+    "key": "wh2_main_ellyrion",
+    "name": "Ellyrion",
+    "fill": "BA54BF"
+  },
+  "wh2_main_great_desert_of_araby": {
+    "key": "wh2_main_great_desert_of_araby",
+    "name": "Great Desert of Araby",
+    "fill": "8A9991"
+  },
+  "wh2_main_griffon_gate": {
+    "key": "wh2_main_griffon_gate",
+    "name": "Griffon Gate",
+    "fill": "A85B09"
+  },
+  "wh2_main_headhunters_jungle": {
+    "key": "wh2_main_headhunters_jungle",
+    "name": "Headhunter's Jungle",
+    "fill": "AB1CF6"
+  },
+  "wh2_main_hell_pit": {
+    "key": "wh2_main_hell_pit",
+    "name": "Hell Pit",
+    "fill": "17006F"
+  },
+  "wh2_main_huahuan_desert": {
+    "key": "wh2_main_huahuan_desert",
+    "name": "Huahuan Desert",
+    "fill": "55B5CC"
+  },
+  "wh2_main_iron_mountains": {
+    "key": "wh2_main_iron_mountains",
+    "name": "Iron Mountains",
+    "fill": "291767"
+  },
+  "wh2_main_ironfrost_glacier": {
+    "key": "wh2_main_ironfrost_glacier",
+    "name": "Ironfrost Glacier",
+    "fill": "F0B4E7"
+  },
+  "wh2_main_isthmus_of_lustria": {
+    "key": "wh2_main_isthmus_of_lustria",
+    "name": "Isthmus of Lustria",
+    "fill": "A6295C"
+  },
+  "wh2_main_jungles_of_green_mists": {
+    "key": "wh2_main_jungles_of_green_mists",
+    "name": "Jungles of Green Mist",
+    "fill": "78F989"
+  },
+  "wh2_main_kingdom_of_beasts": {
+    "key": "wh2_main_kingdom_of_beasts",
+    "name": "Kingdom of Beasts",
+    "fill": "827460"
+  },
+  "wh2_main_land_of_assassins": {
+    "key": "wh2_main_land_of_assassins",
+    "name": "Land of Assassins",
+    "fill": "7FE70E"
+  },
+  "wh2_main_land_of_the_dead": {
+    "key": "wh2_main_land_of_the_dead",
+    "name": "Land of the Dead",
+    "fill": "1AAE11"
+  },
+  "wh2_main_nagarythe": {
+    "key": "wh2_main_nagarythe",
+    "name": "Nagarythe",
+    "fill": "203540"
+  },
+  "wh2_main_northern_great_jungle": {
+    "key": "wh2_main_northern_great_jungle",
+    "name": "Northern Great Jungle",
+    "fill": "9942C4"
+  },
+  "wh2_main_northern_jungle_of_pahualaxa": {
+    "key": "wh2_main_northern_jungle_of_pahualaxa",
+    "name": "Northern Jungles of Pahualaxa",
+    "fill": "1DACC6"
+  },
+  "wh2_main_obsidian_peaks": {
+    "key": "wh2_main_obsidian_peaks",
+    "name": "Obsidian Peaks",
+    "fill": "94CD45"
+  },
+  "wh2_main_phoenix_gate": {
+    "key": "wh2_main_phoenix_gate",
+    "name": "Phoenix Gate",
+    "fill": "4C6654"
+  },
+  "wh2_main_saphery": {
+    "key": "wh2_main_saphery",
+    "name": "Saphery",
+    "fill": "7B27FD"
+  },
+  "wh2_main_shifting_sands": {
+    "key": "wh2_main_shifting_sands",
+    "name": "Shifting Sands",
+    "fill": "3551E6"
+  },
+  "wh2_main_skavenblight": {
+    "key": "wh2_main_skavenblight",
+    "name": "Skavenblight",
+    "fill": "00D362"
+  },
+  "wh2_main_southern_great_jungle": {
+    "key": "wh2_main_southern_great_jungle",
+    "name": "Southern Great Jungle",
+    "fill": "4187A8"
+  },
+  "wh2_main_southern_jungle_of_pahualaxa": {
+    "key": "wh2_main_southern_jungle_of_pahualaxa",
+    "name": "Southern Jungles of Pahualaxa",
+    "fill": "43C8CC"
+  },
+  "wh2_main_southlands_jungle": {
+    "key": "wh2_main_southlands_jungle",
+    "name": "Southlands Jungle",
+    "fill": "9D8871"
+  },
+  "wh2_main_southlands_worlds_edge_mountains": {
+    "key": "wh2_main_southlands_worlds_edge_mountains",
+    "name": "Southlands World's Edge Mtns.",
+    "fill": "16CAD2"
+  },
+  "wh2_main_spine_of_sotek": {
+    "key": "wh2_main_spine_of_sotek",
+    "name": "Spine of Sotek",
+    "fill": "DBB287"
+  },
+  "wh2_main_the_black_coast": {
+    "key": "wh2_main_the_black_coast",
+    "name": "The Black Coast",
+    "fill": "99B528"
+  },
+  "wh2_main_the_black_flood": {
+    "key": "wh2_main_the_black_flood",
+    "name": "The Black Flood",
+    "fill": "D75BCC"
+  },
+  "wh2_main_the_broken_land": {
+    "key": "wh2_main_the_broken_land",
+    "name": "The Broken Lands",
+    "fill": "C2DACA"
+  },
+  "wh2_main_the_chill_road": {
+    "key": "wh2_main_the_chill_road",
+    "name": "The Chill Road",
+    "fill": "474499"
+  },
+  "wh2_main_the_clawed_coast": {
+    "key": "wh2_main_the_clawed_coast",
+    "name": "The Clawed Coast",
+    "fill": "0254BD"
+  },
+  "wh2_main_the_creeping_jungle": {
+    "key": "wh2_main_the_creeping_jungle",
+    "name": "The Creeping Jungle",
+    "fill": "35FA23"
+  },
+  "wh2_main_the_road_of_skulls": {
+    "key": "wh2_main_the_road_of_skulls",
+    "name": "The Road of Skulls",
+    "fill": "82AD7F"
+  },
+  "wh2_main_tiranoc": {
+    "key": "wh2_main_tiranoc",
+    "name": "Tiranoc",
+    "fill": "31996A"
+  },
+  "wh2_main_titan_peaks": {
+    "key": "wh2_main_titan_peaks",
+    "name": "Titan Peaks",
+    "fill": "7A49D0"
+  },
+  "wh2_main_unicorn_gate": {
+    "key": "wh2_main_unicorn_gate",
+    "name": "Unicorn Gate",
+    "fill": "150042"
+  },
+  "wh2_main_vampire_coast": {
+    "key": "wh2_main_vampire_coast",
+    "name": "Vampire Coast",
+    "fill": "156144"
+  },
+  "wh2_main_volcanic_islands": {
+    "key": "wh2_main_volcanic_islands",
+    "name": "Volcanic Islands",
+    "fill": "D65C35"
+  },
+  "wh2_main_yvresse": {
+    "key": "wh2_main_yvresse",
+    "name": "Yvresse",
+    "fill": "2620C5"
+  },
+  "wh_main_wydrioth": {
+    "key": "wh_main_wydrioth",
+    "name": "Wydrioth",
+    "fill": "D20500"
+  },
+  "wh_main_torgovann": {
+    "key": "wh_main_torgovann",
+    "name": "Torgovann",
+    "fill": "C37093"
+  },
+  "wh_main_argwylon": {
+    "key": "wh_main_argwylon",
+    "name": "Argwylon",
+    "fill": "B8301D"
+  },
+  "wh_main_talsyn": {
+    "key": "wh_main_talsyn",
+    "name": "Talsyn",
+    "fill": "4E126D"
+  },
+  "wh_main_averland": {
+    "key": "wh_main_averland",
+    "name": "Averland",
+    "fill": "5308FF"
+  },
+  "wh_main_bastonne_et_montfort": {
+    "key": "wh_main_bastonne_et_montfort",
+    "name": "Bastonne",
+    "fill": "F583BE"
+  },
+  "wh_main_black_mountains": {
+    "key": "wh_main_black_mountains",
+    "name": "Black Mountains",
+    "fill": "458E7B"
+  },
+  "wh_main_blightwater": {
+    "key": "wh_main_blightwater",
+    "name": "Blightwater",
+    "fill": "EB60F9"
+  },
+  "wh_main_blood_river_valley": {
+    "key": "wh_main_blood_river_valley",
+    "name": "Blood River Valley",
+    "fill": "9463CE"
+  },
+  "wh_main_bordeleaux_et_aquitaine": {
+    "key": "wh_main_bordeleaux_et_aquitaine",
+    "name": "Bordeleaux",
+    "fill": "3240BB"
+  },
+  "wh_main_carcassone_et_brionne": {
+    "key": "wh_main_carcassone_et_brionne",
+    "name": "Carcassonne",
+    "fill": "C769DA"
+  },
+  "wh_main_couronne_et_languille": {
+    "key": "wh_main_couronne_et_languille",
+    "name": "Couronne",
+    "fill": "961705"
+  },
+  "wh_main_death_pass": {
+    "key": "wh_main_death_pass",
+    "name": "Death Pass",
+    "fill": "989DFB"
+  },
+  "wh_main_desolation_of_nagash": {
+    "key": "wh_main_desolation_of_nagash",
+    "name": "Desolation of Nagash",
+    "fill": "C29536"
+  },
+  "wh_main_eastern_badlands": {
+    "key": "wh_main_eastern_badlands",
+    "name": "Eastern Badlands",
+    "fill": "2DE6EF"
+  },
+  "wh_main_eastern_border_princes": {
+    "key": "wh_main_eastern_border_princes",
+    "name": "E. Border Princes",
+    "fill": "B9357D"
+  },
+  "wh_main_eastern_oblast": {
+    "key": "wh_main_eastern_oblast",
+    "name": "Eastern Oblast",
+    "fill": "F9F2E4"
+  },
+  "wh_main_eastern_sylvania": {
+    "key": "wh_main_eastern_sylvania",
+    "name": "Eastern Sylvania",
+    "fill": "5EB2F8"
+  },
+  "wh_main_estalia": {
+    "key": "wh_main_estalia",
+    "name": "Estalia",
+    "fill": "32C72A"
+  },
+  "wh_main_forest_of_arden": {
+    "key": "wh_main_forest_of_arden",
+    "name": "Forest of Arden",
+    "fill": "15B873"
+  },
+  "wh_main_gianthome_mountains": {
+    "key": "wh_main_gianthome_mountains",
+    "name": "Gianthome Mountains",
+    "fill": "5D532A"
+  },
+  "wh_main_goromadny_mountains": {
+    "key": "wh_main_goromadny_mountains",
+    "name": "Goromadny Mtns.",
+    "fill": "8C0A4C"
+  },
+  "wh_main_helspire_mountains": {
+    "key": "wh_main_helspire_mountains",
+    "name": "Helspire Mountains",
+    "fill": "76CAD1"
+  },
+  "wh_main_hochland": {
+    "key": "wh_main_hochland",
+    "name": "Hochland",
+    "fill": "937053"
+  },
+  "wh_main_ice_tooth_mountains": {
+    "key": "wh_main_ice_tooth_mountains",
+    "name": "Ice Tooth Mountains",
+    "fill": "37C5BC"
+  },
+  "wh_main_lyonesse": {
+    "key": "wh_main_lyonesse",
+    "name": "Lyonesse",
+    "fill": "BBA553"
+  },
+  "wh_main_middenland": {
+    "key": "wh_main_middenland",
+    "name": "Middenland",
+    "fill": "D1C205"
+  },
+  "wh_main_mountains_of_hel": {
+    "key": "wh_main_mountains_of_hel",
+    "name": "Mountains of Hel",
+    "fill": "9B8843"
+  },
+  "wh_main_mountains_of_naglfari": {
+    "key": "wh_main_mountains_of_naglfari",
+    "name": "Mountains of Naglfari",
+    "fill": "B93C25"
+  },
+  "wh_main_nordland": {
+    "key": "wh_main_nordland",
+    "name": "Nordland",
+    "fill": "9F2560"
+  },
+  "wh_main_northern_grey_mountains": {
+    "key": "wh_main_northern_grey_mountains",
+    "name": "Northern Grey Mtns.",
+    "fill": "0FD477"
+  },
+  "wh_main_northern_oblast": {
+    "key": "wh_main_northern_oblast",
+    "name": "Northern Oblast",
+    "fill": "ED5FFC"
+  },
+  "wh_main_northern_worlds_edge_mountains": {
+    "key": "wh_main_northern_worlds_edge_mountains",
+    "name": "N. World's Edge Mtns.",
+    "fill": "106353"
+  },
+  "wh_main_ostermark": {
+    "key": "wh_main_ostermark",
+    "name": "Ostermark",
+    "fill": "72FBB6"
+  },
+  "wh_main_ostland": {
+    "key": "wh_main_ostland",
+    "name": "Ostland",
+    "fill": "AB1966"
+  },
+  "wh_main_parravon_et_quenelles": {
+    "key": "wh_main_parravon_et_quenelles",
+    "name": "Parravon",
+    "fill": "7D1A7C"
+  },
+  "wh_main_peak_pass": {
+    "key": "wh_main_peak_pass",
+    "name": "Peak Pass",
+    "fill": "EAFCE5"
+  },
+  "wh_main_reikland": {
+    "key": "wh_main_reikland",
+    "name": "Reikland",
+    "fill": "037B46"
+  },
+  "wh_main_rib_peaks": {
+    "key": "wh_main_rib_peaks",
+    "name": "Rib Peaks",
+    "fill": "423E78"
+  },
+  "wh_main_southern_badlands": {
+    "key": "wh_main_southern_badlands",
+    "name": "Southern Badlands",
+    "fill": "7213DA"
+  },
+  "wh_main_southern_grey_mountains": {
+    "key": "wh_main_southern_grey_mountains",
+    "name": "Southern Grey Mtns.",
+    "fill": "F5BBA8"
+  },
+  "wh_main_southern_oblast": {
+    "key": "wh_main_southern_oblast",
+    "name": "Southern Oblast",
+    "fill": "6A5015"
+  },
+  "wh_main_stirland": {
+    "key": "wh_main_stirland",
+    "name": "Stirland",
+    "fill": "20F89A"
+  },
+  "wh_main_talabecland": {
+    "key": "wh_main_talabecland",
+    "name": "Talabecland",
+    "fill": "45F4A7"
+  },
+  "wh_main_the_silver_road": {
+    "key": "wh_main_the_silver_road",
+    "name": "The Silver Road",
+    "fill": "FD7BA7"
+  },
+  "wh_main_the_vaults": {
+    "key": "wh_main_the_vaults",
+    "name": "The Vaults",
+    "fill": "45C6BC"
+  },
+  "wh_main_the_wasteland": {
+    "key": "wh_main_the_wasteland",
+    "name": "The Wasteland",
+    "fill": "D91126"
+  },
+  "wh_main_tilea": {
+    "key": "wh_main_tilea",
+    "name": "Tilea",
+    "fill": "6A17D9"
+  },
+  "wh_main_troll_country": {
+    "key": "wh_main_troll_country",
+    "name": "Troll Country",
+    "fill": "CB52F6"
+  },
+  "wh_main_trollheim_mountains": {
+    "key": "wh_main_trollheim_mountains",
+    "name": "Trollheim Mountains",
+    "fill": "E5C0F3"
+  },
+  "wh_main_vanaheim_mountains": {
+    "key": "wh_main_vanaheim_mountains",
+    "name": "Vanaheim Mountains",
+    "fill": "BF541C"
+  },
+  "wh_main_western_badlands": {
+    "key": "wh_main_western_badlands",
+    "name": "Western Badlands",
+    "fill": "4CA1A8"
+  },
+  "wh_main_western_border_princes": {
+    "key": "wh_main_western_border_princes",
+    "name": "W. Border Princes",
+    "fill": "22AA75"
+  },
+  "wh_main_western_sylvania": {
+    "key": "wh_main_western_sylvania",
+    "name": "Western Sylvania",
+    "fill": "EAD348"
+  },
+  "wh_main_wissenland": {
+    "key": "wh_main_wissenland",
+    "name": "Wissenland",
+    "fill": "D59A8B"
+  },
+  "wh_main_yn_edri_eternos": {
+    "key": "wh_main_yn_edri_eternos",
+    "name": "Yn Edri Eternos",
+    "fill": "B095EC"
+  },
+  "wh_main_zhufbar": {
+    "key": "wh_main_zhufbar",
+    "name": "Zhufbar",
+    "fill": "3A9F2A"
+  }
+}
