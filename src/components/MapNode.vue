@@ -10,7 +10,6 @@
 
 <script>
 import MapTooltipMixin from '@/mixins/MapTooltipMixin';
-import StoreMixin from '@/mixins/StoreMixin';
 
 export default {
   name: 'MapNode',
@@ -19,11 +18,13 @@ export default {
     svgElement: SVGSVGElement,
     mapMatrix: SVGMatrix
   },
-  mixins: [MapTooltipMixin, StoreMixin],
+  mixins: [
+    MapTooltipMixin
+  ],
   mounted() {
     this.elementTransform = this.svgElement.createSVGTransform();
     this.$el.transform.baseVal.appendItem(this.elementTransform);
-    this.setMatrix(this.mapMatrix);
+    this.setCTM(this.mapMatrix);
   },
   data() {
     return {
@@ -32,18 +33,20 @@ export default {
   },
   watch: {
     mapMatrix(newValue) {
-      this.setMatrix(newValue);
+      this.setCTM(newValue);
     }
   },
   methods: {
-    setMatrix(m) {
-      const matrix = m.inverse();
-      matrix.e = this.settlement.x;
-      matrix.f = this.settlement.y;
+    setCTM(mapMatrix) {
+      const matrix = this.svgElement.createSVGMatrix();
+      matrix.a = 1;
+      matrix.d = 1;
+      matrix.e = this.settlement.x * mapMatrix.a;
+      matrix.f = this.settlement.y * mapMatrix.d;
       this.elementTransform.setMatrix(matrix);
     },
     onMouseMove(e) {
-      this.showTooltip(e, 'pre', { text: 'MapNode' });
+      this.showTooltip(e, 'pre', { text: this.settlement.key });
     },
     onMouseLeave() {
       this.hideTooltip();

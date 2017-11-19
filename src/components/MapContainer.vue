@@ -5,6 +5,7 @@
     @mousedown="startPanning"
     @mousemove="doPan"
     @wheel="doZoom">
+
     <g ref="map" :transform="mapTransform" v-show="isMapVisible">
       <image x="0" y="0"
         :href="map.path"
@@ -21,16 +22,21 @@
           :overlay="overlay"
         />
       </g>
-      <g id="nodes" v-if="mapMatrix">
-        <MapNode
-          v-for="settlement in settlements"
-          :key="settlement.key"
-          :settlement="settlement"
-          :svgElement="$el"
-          :mapMatrix="mapMatrix"
-        />
-      </g>
     </g>
+
+    <g id="nodes"
+      v-if="mapMatrix"
+      v-show="isMapVisible"
+      :transform="nodesTransform">
+      <MapNode
+        v-for="settlement in settlements"
+        :key="settlement.key"
+        :settlement="settlement"
+        :svgElement="$el"
+        :mapMatrix="mapMatrix"
+      />
+    </g>
+
   </svg>
 </template>
 
@@ -57,6 +63,8 @@ export default {
       mapMatrix: undefined,
       isPanning: false,
       isMapVisible: false,
+
+      nodesTransform: undefined,
 
       stateTf: undefined,
       stateOrigin: undefined
@@ -95,10 +103,13 @@ export default {
       p.y = e.clientY;
       return p;
     },
+
     setCTM(m) {
       this.mapMatrix = m;
-      this.mapTransform = `matrix(${m.a},${m.b},${m.c},${m.d},${m.e},${m.f})`;
+      this.nodesTransform = `matrix(1,0,0,1,${m.e},${m.f})`;
+      this.mapTransform = `matrix(${m.a},0,0,${m.d},${m.e},${m.f})`;
     },
+
     getWheelDelta(e) {
       if (e.wheelDelta) {
         return (e.wheelDelta / 360 > 0) ? 1 : -1;
