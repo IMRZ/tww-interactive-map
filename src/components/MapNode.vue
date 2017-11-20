@@ -37,12 +37,12 @@ export default {
     }
   },
   methods: {
-    setCTM(mapMatrix) {
+    setCTM(m) {
       const matrix = this.svgElement.createSVGMatrix();
       matrix.a = 1;
       matrix.d = 1;
-      matrix.e = this.settlement.x * mapMatrix.a;
-      matrix.f = this.settlement.y * mapMatrix.d;
+      matrix.e = this.settlement.x * m.a;
+      matrix.f = this.settlement.y * m.d;
       this.elementTransform.setMatrix(matrix);
     },
     onMouseMove(e) {

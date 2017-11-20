@@ -6,7 +6,9 @@
     @mousemove="doPan"
     @wheel="doZoom">
 
-    <g ref="map" :transform="mapTransform" v-show="isMapVisible">
+    <g ref="map"
+      :transform="mapTransform"
+      v-show="isMapVisible">
       <image x="0" y="0"
         :href="map.path"
         :width="map.width"
@@ -18,8 +20,6 @@
           v-for="region in map.regions"
           :key="region.key"
           :region="region"
-          :mapId="mapId"
-          :overlay="overlay"
         />
       </g>
     </g>
@@ -29,7 +29,7 @@
       v-show="isMapVisible"
       :transform="nodesTransform">
       <MapNode
-        v-for="settlement in settlements"
+        v-for="settlement in map.settlements"
         :key="settlement.key"
         :settlement="settlement"
         :svgElement="$el"
@@ -41,14 +41,13 @@
 </template>
 
 <script>
-import StoreMixin from '@/mixins/StoreMixin';
+import MapGettersMixin from '@/mixins/MapGettersMixin';
 import MapRegion from '@/components/MapRegion';
 import MapNode from '@/components/MapNode';
 
 export default {
   name: 'MapContainer',
-  props: ['mapId', 'overlay'],
-  mixins: [StoreMixin],
+  mixins: [MapGettersMixin],
   components: {
     MapRegion,
     MapNode
@@ -56,6 +55,11 @@ export default {
   mounted() {
     this.mapMatrix = this.$refs.map.getCTM();
     this.stateTf = this.$refs.map.getCTM().inverse();
+  },
+  watch: {
+    map(newValue, oldValue) {
+      if (newValue !== oldValue) this.isMapVisible = false;
+    }
   },
   data() {
     return {
@@ -90,11 +94,22 @@ export default {
     },
     doZoom(e) {
       e.preventDefault();
-      const z = Math.pow(1.25, this.getWheelDelta(e)); // z = (1.25 || 0.8)
+      const z = this.getWheelDelta(e);
       const mapElement = this.$refs.map;
       const { x , y } = this.getEventPoint(e).matrixTransform(mapElement.getCTM().inverse());
       const k = this.$el.createSVGMatrix().translate(x, y).scale(z).translate(-x, -y);
-      this.setCTM(mapElement.getCTM().multiply(k));
+
+      let testMatrix = mapElement.getCTM();
+      const scale = (testMatrix.a + z).toPrecision(2);
+
+      if (scale < 0.2 || scale > 2) return;
+
+      testMatrix = testMatrix.translate(x, y);
+      testMatrix.a = scale;
+      testMatrix.d = scale;
+      testMatrix = testMatrix.translate(-x, -y);
+
+      this.setCTM(testMatrix);
       this.stateTf = this.stateTf.multiply(k.inverse());
     },
     getEventPoint(e) {
@@ -112,22 +127,13 @@ export default {
 
     getWheelDelta(e) {
       if (e.wheelDelta) {
-        return (e.wheelDelta / 360 > 0) ? 1 : -1;
+        return (e.wheelDelta / 360 > 0) ? 0.2 : -0.2;
       } else {
-        return (e.deltaY / -9 > 0) ? 1 : -1;
+        return (e.deltaY / -9 > 0) ? 0.2 : -0.2;
       }
     },
     onLoad() {
       this.isMapVisible = true;
-    }
-  },
-  computed: {
-    map() {
-      this.isMapVisible = false; // TODO: firefox not firing here...
-      return this.maps[this.mapId];
-    },
-    settlements() {
-      return this.map.settlements;
     }
   }
 };

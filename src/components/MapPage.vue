@@ -1,13 +1,8 @@
 <template>
   <div id="MapPage">
-    <MapOverlayPanel
-      :mapId="mapId"
-    />
+    <MapOverlayPanel />
     <MapTooltip />
-    <MapContainer
-      :mapId="mapId"
-      :overlay="overlay"
-    />
+    <MapContainer />
   </div>
 </template>
 
@@ -18,10 +13,6 @@ import MapContainer from '@/components/MapContainer';
 
 export default {
   name: 'MapPage',
-  props: {
-    mapId: String,
-    overlay: String,
-  },
   components: {
     MapOverlayPanel,
     MapTooltip,

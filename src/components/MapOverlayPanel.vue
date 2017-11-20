@@ -28,11 +28,11 @@
 </template>
 
 <script>
+import MapGettersMixin from '@/mixins/MapGettersMixin';
+
 export default {
   name: 'MapOverlayPanel',
-  props: {
-    mapId: String
-  },
+  mixins: [MapGettersMixin],
   data() {
     return {
       overlays: [

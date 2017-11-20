@@ -45,9 +45,11 @@ export default new Vuex.Store({
     highlight: undefined
   },
   getters: {
+    route: (state) => state.route,
     maps: (state) => state.maps,
     climates: (state) => state.climates,
     tooltip: (state) => state.tooltip,
+
     highlight: (state) => state.highlight
   },
   mutations: {

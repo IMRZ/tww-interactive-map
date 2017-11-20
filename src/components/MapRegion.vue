@@ -10,20 +10,15 @@
 
 <script>
 import MapTooltipMixin from '@/mixins/MapTooltipMixin';
-import StoreMixin from '@/mixins/StoreMixin';
+import MapGettersMixin from '@/mixins/MapGettersMixin';
 
 export default {
   name: 'MapRegion',
   props: {
-    region: Object,
-    mapId: String,
-    overlay: String
+    region: Object
   },
-  mixins: [MapTooltipMixin, StoreMixin],
+  mixins: [MapTooltipMixin, MapGettersMixin],
   computed: {
-    map() {
-      return this.maps[this.mapId];
-    },
     province() {
       return this.map.provinces[this.region.provinceKey];
     },

@@ -14,11 +14,7 @@ export default new Router({
     },
     {
       path: '/map/:id',
-      component: MapPage,
-      props: (route) => ({
-        mapId: route.params.id,
-        overlay: route.query.overlay
-      }),
+      component: MapPage
     }
   ]
 });
