@@ -1,17 +1,17 @@
-import throttle from 'lodash/throttle';
-import { mapMutations } from 'vuex';
-import { SET_TOOLTIP } from '@/store/mutations';
+import Vue from 'vue';
+
+const tooltipEventBus = new Vue();
 
 export default {
   methods: {
-    ...mapMutations({
-      'setTooltip': SET_TOOLTIP
-    }),
-    showTooltip: throttle(function ({ x, y }, type, data) {
-      this.setTooltip({ visibility: 'visible', x, y, type, data });
-    }, 15),
+    setTooltipHandler(handler) {
+      tooltipEventBus.$on('tooltip_changed', handler);
+    },
+    updateTooltip({ x, y }, type, data) {
+      tooltipEventBus.$emit('tooltip_changed', { visibility: 'visible', x, y, type, data });
+    },
     hideTooltip() {
-      this.setTooltip({ visibility: 'hidden' });
+      tooltipEventBus.$emit('tooltip_changed', { visibility: 'hidden' });
     }
   }
 };

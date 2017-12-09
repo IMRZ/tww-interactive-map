@@ -1,5 +1,5 @@
 <template>
-  <div class="MapTooltip" :style="[tooltip.style]">
+  <div id="MapTooltip" :style="[tooltip.style]">
     <pre v-if="tooltip.type === 'pre'">{{ tooltip.data.text }}</pre>
     <div v-if="tooltip.type === 'region'" class="region">
       <div class="heading">
@@ -12,10 +12,13 @@
 </template>
 
 <script>
+import MapTooltipMixin from '@/mixins/MapTooltipMixin';
+
 export default {
   name: 'MapTooltip',
+  mixins: [MapTooltipMixin],
   mounted() {
-    this.$store.watch(state => state.tooltip, this.onTooltipChanged);
+    this.setTooltipHandler(this.onTooltipChanged);
   },
   data() {
     return {
@@ -70,7 +73,7 @@ export default {
 </script>
 
 <style lang="scss">
-.MapTooltip {
+#MapTooltip {
   position: fixed;
   pointer-events: none;
   color: #fff8d7;
@@ -97,8 +100,7 @@ export default {
         border: solid;
         border-width: 0 14px 0 80px;
         z-index: -1;
-        border-image: url('/static/images/tooltip_header.png') 0 14 0 80 fill
-          repeat;
+        border-image: url('/static/images/tooltip_header.png') 0 14 0 80 fill repeat;
       }
 
       img {

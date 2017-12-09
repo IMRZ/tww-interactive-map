@@ -1,53 +1,53 @@
 <template>
-  <svg id="MapContainer" xmlns="http://www.w3.org/2000/svg" version="1.1"
-    @mouseup="stopPanning"
-    @mouseleave="stopPanning"
-    @mousedown="startPanning"
-    @mousemove="doPan"
-    @wheel="doZoom">
+  <div id="MapContainer">
+    <svg ref="svg" xmlns="http://www.w3.org/2000/svg" version="1.1"
+      @mouseup="stopPanning"
+      @mouseleave="stopPanning"
+      @mousedown="startPanning"
+      @mousemove="doPan"
+      @wheel="doZoom">
 
-    <g ref="map"
-      :transform="mapTransform"
-      v-show="isMapVisible">
-      <image x="0" y="0"
-        :href="map.path"
-        :width="map.width"
-        :height="map.height"
-        @load="onLoad"
-      />
-      <g id="regions">
-        <MapRegion
-          v-for="region in map.regions"
-          :key="region.key"
-          :region="region"
+      <g ref="map"
+        :transform="mapTransform"
+        v-show="isMapVisible">
+        <image x="0" y="0"
+          :href="map.path"
+          :width="map.width"
+          :height="map.height"
+          @load="onLoad"
+        />
+        <g id="regions">
+          <MapRegion
+            v-for="region in map.regions"
+            :key="region.key"
+            :region="region"
+          />
+        </g>
+      </g>
+      <g id="nodes"
+        v-if="mapMatrix"
+        v-show="isMapVisible"
+        :transform="nodesTransform">
+        <MapNode
+          v-for="settlement in map.settlements"
+          :key="settlement.key"
+          :settlement="settlement"
+          :mapMatrix="mapMatrix"
         />
       </g>
-    </g>
-
-    <g id="nodes"
-      v-if="mapMatrix"
-      v-show="isMapVisible"
-      :transform="nodesTransform">
-      <MapNode
-        v-for="settlement in map.settlements"
-        :key="settlement.key"
-        :settlement="settlement"
-        :svgElement="$el"
-        :mapMatrix="mapMatrix"
-      />
-    </g>
-
-  </svg>
+    </svg>
+  </div>
 </template>
 
 <script>
+import SvgMixin from '@/mixins/SvgMixin';
 import MapGettersMixin from '@/mixins/MapGettersMixin';
 import MapRegion from '@/components/MapRegion';
 import MapNode from '@/components/MapNode';
 
 export default {
   name: 'MapContainer',
-  mixins: [MapGettersMixin],
+  mixins: [SvgMixin, MapGettersMixin],
   components: {
     MapRegion,
     MapNode
@@ -55,6 +55,7 @@ export default {
   mounted() {
     this.mapMatrix = this.$refs.map.getCTM();
     this.stateTf = this.$refs.map.getCTM().inverse();
+    // https://codepen.io/techslides/pen/zowLd
   },
   watch: {
     map(newValue, oldValue) {
@@ -97,7 +98,6 @@ export default {
       const z = this.getWheelDelta(e);
       const mapElement = this.$refs.map;
       const { x , y } = this.getEventPoint(e).matrixTransform(mapElement.getCTM().inverse());
-      const k = this.$el.createSVGMatrix().translate(x, y).scale(z).translate(-x, -y);
 
       let testMatrix = mapElement.getCTM();
       const scale = (testMatrix.a + z).toPrecision(2);
@@ -110,10 +110,10 @@ export default {
       testMatrix = testMatrix.translate(-x, -y);
 
       this.setCTM(testMatrix);
-      this.stateTf = this.stateTf.multiply(k.inverse());
+      this.stateTf = testMatrix.inverse();
     },
     getEventPoint(e) {
-      const p = this.$el.createSVGPoint();
+      const p = this.createSVGPoint();
       p.x = e.clientX;
       p.y = e.clientY;
       return p;
@@ -140,15 +140,20 @@ export default {
 </script>
 
 <style lang="scss">
-svg#MapContainer {
-  display: block;
+#MapContainer {
   width: 100%;
-  min-width: inherit;
-  max-width: inherit;
   height: 100%;
-  min-height: inherit;
-  max-height: inherit;
-  padding: none;
-  margin: none;
+
+  svg {
+    display: block;
+    width: 100%;
+    min-width: inherit;
+    max-width: inherit;
+    height: 100%;
+    min-height: inherit;
+    max-height: inherit;
+    padding: none;
+    margin: none;
+  }
 }
 </style>

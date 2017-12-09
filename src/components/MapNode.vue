@@ -1,34 +1,49 @@
 <template>
   <g class="MapNode">
-    <foreignObject style="pointer-events: none;" width="24" height="24" @mousemove="onMouseMove" @mouseleave="onMouseLeave">
-      <div class="container">
-        <img style="pointer-events: auto;" src="/static/images/wh_settlement_schematic.png">
+    <foreignObject width="24" height="24"
+      v-if="scale < 1"
+      transform="translate(-12, -12)"
+      @mousemove="onMouseMove"
+      @mouseleave="onMouseLeave">
+      <img src="/static/images/wh_settlement_schematic.png">
+    </foreignObject>
+    <foreignObject width="400" height="51"
+      v-if="scale > 0.2"
+      :opacity="scale"
+      transform="translate(-48, -30)"
+      @mousemove="onMouseMove"
+      @mouseleave="onMouseLeave">
+      <div class="info">
+        <span class="settlement">
+          <span>{{ settlementName }}</span>
+        </span>
+        <img class="climate-icon" :src="climateIcon" />
       </div>
     </foreignObject>
   </g>
 </template>
 
 <script>
+import SvgMixin from '@/mixins/SvgMixin';
 import MapTooltipMixin from '@/mixins/MapTooltipMixin';
+import MapGettersMixin from '@/mixins/MapGettersMixin';
 
 export default {
   name: 'MapNode',
+  mixins: [SvgMixin, MapTooltipMixin, MapGettersMixin],
   props: {
     settlement: Object,
-    svgElement: SVGSVGElement,
     mapMatrix: SVGMatrix
   },
-  mixins: [
-    MapTooltipMixin
-  ],
   mounted() {
-    this.elementTransform = this.svgElement.createSVGTransform();
+    this.elementTransform = this.createSVGTransform();
     this.$el.transform.baseVal.appendItem(this.elementTransform);
     this.setCTM(this.mapMatrix);
   },
   data() {
     return {
-      elementTransform: undefined
+      elementTransform: undefined,
+      scale: 1
     };
   },
   watch: {
@@ -36,17 +51,25 @@ export default {
       this.setCTM(newValue);
     }
   },
+  computed: {
+    settlementName() {
+      return this.map.regions[this.settlement.key].name;
+    },
+    climateIcon() {
+      const climate = this.map.regions[this.settlement.key].climate;
+      return `/static/images/climate_icons/${this.$store.getters.climates[climate].icon}`;
+    }
+  },
   methods: {
     setCTM(m) {
-      const matrix = this.svgElement.createSVGMatrix();
-      matrix.a = 1;
-      matrix.d = 1;
+      const matrix = this.createSVGMatrix();
       matrix.e = this.settlement.x * m.a;
       matrix.f = this.settlement.y * m.d;
       this.elementTransform.setMatrix(matrix);
+      this.scale = Number((m.a).toPrecision(2)) - 0.5;
     },
     onMouseMove(e) {
-      this.showTooltip(e, 'pre', { text: this.settlement.key });
+      this.updateTooltip(e, 'pre', { text: `Settlement: ${this.settlementName}` });
     },
     onMouseLeave() {
       this.hideTooltip();
@@ -57,14 +80,35 @@ export default {
 
 <style lang="scss">
 .MapNode {
-  .container {
-    height: 24px;
-    margin-left: -12px;
-    margin-top: -12px;
+  foreignobject {
+    pointer-events: none;
+  }
 
-    img {
-      width: 24px;
-      height: 24px;
+  img {
+    pointer-events: auto;
+    width: 24px;
+    height: 24px;
+  }
+
+  .info {
+    display: flex;
+    align-items: center;
+    height: 51px;
+
+    .settlement {
+      display: flex;
+      align-items: center;
+      padding-top: 6px;
+      pointer-events: auto;
+      color: black;
+      height: 51px;
+      border: solid;
+      border-width: 0 64px 0 48px;
+      border-image: url('/static/images/city_info_scroll.png')  0 64 0 48 fill repeat;
+    }
+
+    .climate-icon {
+      margin-left: 0;
     }
   }
 }

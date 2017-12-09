@@ -1,10 +1,10 @@
 <template>
-  <path
+  <path v-if="climate"
     class="MapRegion"
     :style="{ fill, 'stroke-width': '20', stroke: highlight === region.key ? 'red' : 'transparent' }"
     :d="region.d"
-    @mousemove="climate ? onMouseMove($event) : undefined"
-    @mouseleave="climate ? onMouseLeave($event) : undefined"
+    @mousemove="onMouseMove"
+    @mouseleave="onMouseLeave"
   />
 </template>
 
@@ -43,14 +43,14 @@ export default {
   },
   methods: {
     onMouseMove(e) {
-      this.showTooltip(e, 'region', {
+      this.updateTooltip(e, 'region', {
         provinceName: this.province.name,
         regionName: this.region.name,
         regionIsCapital: this.region.isCapital,
         climate: this.region.climate
       });
     },
-    onMouseLeave() {
+    onMouseLeave(e) {
       this.hideTooltip();
     }
   }
