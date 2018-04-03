@@ -2,13 +2,13 @@
   <div id="LandingPage">
     <router-link class="map-select" tag="div" to="/map/vor">
       <div class="image-container">
-        <img src="/static/images/campaign_select_great_vortex.png" />
+        <img src="static/images/campaign_select_great_vortex.png" />
       </div>
       <span>The Eye of the Vortex</span>
     </router-link>
     <router-link class="map-select" tag="div" to="/map/mem">
       <div class="image-container">
-        <img src="/static/images/campaign_select_grand_campaign.png" />
+        <img src="static/images/campaign_select_grand_campaign.png" />
       </div>
       <span>Mortal Empires</span>
     </router-link>

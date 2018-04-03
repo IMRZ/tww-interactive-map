@@ -18,7 +18,7 @@ export default new Vuex.Store({
         regions: memRegions,
         provinces: memProvinces,
         settlements: [],
-        path: '/static/images/wh_main_map.png',
+        path: 'static/images/wh_main_map.png',
         width: '4096',
         height: '3352'
       },
@@ -26,7 +26,7 @@ export default new Vuex.Store({
         regions: vorRegions,
         provinces: vorProvinces,
         settlements: vorSettlements,
-        path: '/static/images/wh2_main_great_vortex_map.png',
+        path: 'static/images/wh2_main_great_vortex_map.png',
         width: '3378',
         height: '3869'
       }

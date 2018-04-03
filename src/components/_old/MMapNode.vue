@@ -1,11 +1,11 @@
 <template>
   <g class="map-node">
-    <!-- <image ref="i" xlink:href="/static/images/wh_settlement_schematic.png" width="24" height="24" /> -->
+    <!-- <image ref="i" xlink:href="static/images/wh_settlement_schematic.png" width="24" height="24" /> -->
     <foreignObject style="pointer-events: none;" ref="i" width="24" height="24">
       <div class="container" xmlns="http://www.w3.org/1999/xhtml">
-        <img style="pointer-events: auto;" src="/static/images/wh_settlement_schematic.png">
-        <!-- <img src="/static/images/resource_colony.png">
-        <img src="/static/images/strategic_location.png"> -->
+        <img style="pointer-events: auto;" src="static/images/wh_settlement_schematic.png">
+        <!-- <img src="static/images/resource_colony.png">
+        <img src="static/images/strategic_location.png"> -->
       </div>
     </foreignObject>
   </g>

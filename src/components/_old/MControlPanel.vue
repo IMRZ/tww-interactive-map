@@ -2,8 +2,8 @@
   <div id="m-control-panel">
     <div id="bar-top-left">
       <div class="button-container">
-        <m-button :icon="'/static/images/icon_menu.png'" :tooltip-text="'Menu'"></m-button>
-        <m-button :icon="'/static/images/icon_question_mark.png'" :tooltip-text="'About'"></m-button>
+        <m-button :icon="'static/images/icon_menu.png'" :tooltip-text="'Menu'"></m-button>
+        <m-button :icon="'static/images/icon_question_mark.png'" :tooltip-text="'About'"></m-button>
       </div>
     </div>
     <m-overlay-panel></m-overlay-panel>
@@ -43,7 +43,7 @@ export default {
   flex: 0 1 auto;
   border: solid;
   border-width: 0 0 0 30px;
-  border-image: url("/static/images/bar_top_left.png") 0 0 0 30 fill repeat;
+  border-image: url("static/images/bar_top_left.png") 0 0 0 30 fill repeat;
   margin-right: 100px;
   position: relative;
   display: flex;
@@ -55,7 +55,7 @@ export default {
     width: 139px;
     height: 52px;
     right: -100px;
-    background-image: url("/static/images//bar_top_left_corner.png");
+    background-image: url("static/images//bar_top_left_corner.png");
   }
 
   .button-container {

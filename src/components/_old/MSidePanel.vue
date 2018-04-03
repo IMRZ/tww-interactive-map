@@ -19,6 +19,6 @@ export default {
   color: #fff8d7;
   border: solid;
   border-width: 14px 14px 14px 14px;
-  border-image: url("/static/images/tooltip_frame.png") 14 14 14 14 fill repeat;
+  border-image: url("static/images/tooltip_frame.png") 14 14 14 14 fill repeat;
 }
 </style>

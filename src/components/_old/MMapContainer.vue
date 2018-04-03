@@ -7,7 +7,7 @@
       v-on:mousemove="doPan"
       v-on:wheel="doZoom">
       <g ref="content" :transform="transform">
-        <image xlink:href="/static/images/wh2_main_great_vortex_map.png" width="3378" height="3869" x="0" y="0" />
+        <image xlink:href="static/images/wh2_main_great_vortex_map.png" width="3378" height="3869" x="0" y="0" />
         <m-region-path v-for="region in regions" :key="region.key" :region="region" />
         <m-map-node v-for="(s, index) in settlements" :key="index" :tsfm="tsfm" :container-refs="$refs" :x="s.x" :y="s.y" />
       </g>

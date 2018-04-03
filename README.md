@@ -2,6 +2,8 @@
 
 > Total War Warhammer Interactive Map
 
+Demo: https://imrz.github.io/tww-interactive-map
+
 ## Build Setup
 
 ``` bash

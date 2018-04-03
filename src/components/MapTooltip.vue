@@ -66,7 +66,7 @@ export default {
     },
     climateIcon() {
       const climate = this.tooltip.data.climate;
-      return `/static/images/climate_icons/${this.$store.getters.climates[climate].icon}`;
+      return `static/images/climate_icons/${this.$store.getters.climates[climate].icon}`;
     }
   }
 };
@@ -79,7 +79,7 @@ export default {
   color: #fff8d7;
   border: solid;
   border-width: 14px 14px 14px 14px;
-  border-image: url('/static/images/tooltip_frame.png') 14 14 14 14 fill repeat;
+  border-image: url('../assets/tooltip_frame.png') 14 14 14 14 fill repeat;
 
   .region {
     margin-top: -7px;
@@ -100,7 +100,7 @@ export default {
         border: solid;
         border-width: 0 14px 0 80px;
         z-index: -1;
-        border-image: url('/static/images/tooltip_header.png') 0 14 0 80 fill repeat;
+        border-image: url('../assets/tooltip_header.png') 0 14 0 80 fill repeat;
       }
 
       img {

@@ -20,16 +20,16 @@ export default {
 .m-button {
   width: 38px;
   height: 38px;
-  background-image: url("/static/images/button_round_small_underlay.png");
+  background-image: url("static/images/button_round_small_underlay.png");
   flex: 0 1 auto;
   position: relative;
 
   &:hover {
-    background-image: url("/static/images/button_round_small_hover.png");
+    background-image: url("static/images/button_round_small_hover.png");
   }
 
   &:active {
-    background-image: url("/static/images/button_round_small_pressed.png");
+    background-image: url("static/images/button_round_small_pressed.png");
   }
 
   .icon {

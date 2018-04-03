@@ -5,7 +5,7 @@
       transform="translate(-12, -12)"
       @mousemove="onMouseMove"
       @mouseleave="onMouseLeave">
-      <img src="/static/images/wh_settlement_schematic.png">
+      <img src="static/images/wh_settlement_schematic.png">
     </foreignObject>
     <foreignObject width="400" height="51"
       v-if="scale > 0.2"
@@ -57,7 +57,7 @@ export default {
     },
     climateIcon() {
       const climate = this.map.regions[this.settlement.key].climate;
-      return `/static/images/climate_icons/${this.$store.getters.climates[climate].icon}`;
+      return `static/images/climate_icons/${this.$store.getters.climates[climate].icon}`;
     }
   },
   methods: {
@@ -104,7 +104,7 @@ export default {
       height: 51px;
       border: solid;
       border-width: 0 64px 0 48px;
-      border-image: url('/static/images/city_info_scroll.png')  0 64 0 48 fill repeat;
+      border-image: url('../assets/city_info_scroll.png')  0 64 0 48 fill repeat;
     }
 
     .climate-icon {

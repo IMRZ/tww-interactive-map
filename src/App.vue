@@ -26,7 +26,7 @@ html {
 body {
   margin: 0;
   height: 100%;
-  background: url('/static/images/com.totalwar.warhammer.background.texture.jpg');
+  background: url('./assets/com.totalwar.warhammer.background.texture.jpg');
 
   #app {
     height: 100%;
