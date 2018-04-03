@@ -40,14 +40,14 @@
 </template>
 
 <script>
-import SvgMixin from '@/mixins/SvgMixin';
+import SvgUtilMixin from '@/mixins/SvgUtilMixin';
 import MapGettersMixin from '@/mixins/MapGettersMixin';
 import MapRegion from '@/components/MapRegion';
 import MapNode from '@/components/MapNode';
 
 export default {
   name: 'MapContainer',
-  mixins: [SvgMixin, MapGettersMixin],
+  mixins: [SvgUtilMixin, MapGettersMixin],
   components: {
     MapRegion,
     MapNode

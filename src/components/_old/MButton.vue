@@ -1,5 +1,5 @@
 <template>
-  <div class="m-button" v-on:mousemove="onMouseMove" v-on:mouseleave="onMouseLeave">
+  <div class="m-button">
     <img class="icon" v-if="icon" :src="icon" />
   </div>
 </template>
@@ -12,30 +12,6 @@ export default {
     return {
       showTooltip: false
     };
-  },
-  methods: {
-    onMouseMove(e) {
-      this.$store.commit("setTooltip", {
-        x: e.x,
-        y: e.y,
-        visibility: "visible",
-        type: "pre",
-        data: {
-          text: this.tooltipText
-        }
-      });
-    },
-    onMouseLeave() {
-      this.$store.commit("setTooltip", {
-        x: 0,
-        y: 0,
-        visibility: "hidden",
-        type: "",
-        data: {
-          text: ""
-        }
-      });
-    }
   }
 };
 </script>

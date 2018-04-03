@@ -1,7 +1,7 @@
 <template>
   <g class="map-node">
     <!-- <image ref="i" xlink:href="/static/images/wh_settlement_schematic.png" width="24" height="24" /> -->
-    <foreignObject style="pointer-events: none;" ref="i" width="24" height="24" v-on:mousemove="onMouseMove" v-on:mouseleave="onMouseLeave">
+    <foreignObject style="pointer-events: none;" ref="i" width="24" height="24">
       <div class="container" xmlns="http://www.w3.org/1999/xhtml">
         <img style="pointer-events: auto;" src="/static/images/wh_settlement_schematic.png">
         <!-- <img src="/static/images/resource_colony.png">
@@ -36,30 +36,6 @@ export default {
       m.e = this.x;
       m.f = this.y;
       this.xf.setMatrix(m);
-    }
-  },
-  methods: {
-    onMouseMove(e) {
-      this.$store.commit("setTooltip", {
-        x: e.x,
-        y: e.y,
-        visibility: "visible",
-        type: "pre",
-        data: {
-          text: "MapNode"
-        }
-      });
-    },
-    onMouseLeave() {
-      this.$store.commit("setTooltip", {
-        x: 0,
-        y: 0,
-        visibility: "hidden",
-        type: "",
-        data: {
-          text: ""
-        }
-      });
     }
   }
 };

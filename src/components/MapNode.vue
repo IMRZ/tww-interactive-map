@@ -24,13 +24,13 @@
 </template>
 
 <script>
-import SvgMixin from '@/mixins/SvgMixin';
+import SvgUtilMixin from '@/mixins/SvgUtilMixin';
 import MapTooltipMixin from '@/mixins/MapTooltipMixin';
 import MapGettersMixin from '@/mixins/MapGettersMixin';
 
 export default {
   name: 'MapNode',
-  mixins: [SvgMixin, MapTooltipMixin, MapGettersMixin],
+  mixins: [SvgUtilMixin, MapTooltipMixin, MapGettersMixin],
   props: {
     settlement: Object,
     mapMatrix: SVGMatrix

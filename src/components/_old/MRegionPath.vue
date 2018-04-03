@@ -1,5 +1,5 @@
 <template>
-  <path class="m-region-path" :d="region.d" :style="{ fill }" v-on:mousemove="onMouseMove" v-on:mouseleave="onMouseLeave" />
+  <path class="m-region-path" :d="region.d" :style="{ fill }" />
 </template>
 
 <script>
@@ -44,34 +44,7 @@ export default {
         default:
           return 'transparent';
       }
-    },
-    onMouseMove(e) {
-      const climateName = this.$store.getters.climates[this.region.climate].name;
-      this.$store.commit('setTooltip', {
-        x: e.x,
-        y: e.y,
-        visibility: 'visible',
-        type: 'region',
-        data: {
-          provinceName: this.region.province.name,
-          regionName: this.region.name,
-          regionIsCapital: this.region.isCapital,
-          climate: this.region.climate
-        }
-      });
-    },
-    onMouseLeave() {
-      this.$store.commit('setTooltip', {
-        x: 0,
-        y: 0,
-        visibility: 'hidden',
-        type: '',
-        data: {
-          text: ''
-        }
-      });
     }
-  }
 };
 </script>
 
