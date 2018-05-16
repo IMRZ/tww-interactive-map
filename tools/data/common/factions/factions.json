@@ -1,0 +1,16 @@
+{
+  "wh_dlc08_nor_norsca": {
+    "key": "wh_dlc08_nor_norsca",
+    "name": "Norsca",
+    "adjective": "Norsca",
+    "flagsPath": "ui/flags/wh_dlc08_nor_norsca",
+    "primaryColour": "000000"
+  },
+  "wh_dlc08_nor_wintertooth": {
+    "key": "wh_dlc08_nor_wintertooth",
+    "name": "Wintertooth",
+    "adjective": "Wintertooth",
+    "flagsPath": "ui/flags/wh_dlc08_nor_wintertooth",
+    "primaryColour": "000000"
+  }
+}

@@ -1,120 +1,129 @@
 <template>
-  <div id="MapTooltip" :style="[tooltip.style]">
-    <pre v-if="tooltip.type === 'pre'">{{ tooltip.data.text }}</pre>
-    <div v-if="tooltip.type === 'region'" class="region">
-      <div class="heading">
-        <img :src="climateIcon" />{{ tooltip.data.regionName }}
-      </div>
-      <div>Province: {{ tooltip.data.provinceName }}</div>
-      <div>Climate: {{ climateName }}</div>
+  <div id="MapTooltip" :style="style">
+    <div class="content" v-if="tooltipData && tooltipData.type === 'region'">
+      <div>Region: {{getRegionName(tooltipData.regionKey)}}</div>
+      <div>Province: {{getProvinceName(tooltipData.regionKey)}}</div>
+      <div>Climate: {{getClimate(tooltipData.regionKey)}}</div>
     </div>
+    <div class="content" v-else-if="tooltipData && tooltipData.type === 'settlement'">
+      <div>Settlement: {{getRegionName(tooltipData.regionKey)}}</div>
+    </div>
+    <div class="content" v-else-if="tooltipData && tooltipData.type === 'startpos'">
+      <div>Faction: {{getFactionName(tooltipData.factionKey)}}</div>
+      <div v-if="tooltipData.lord">Lord: {{tooltipData.lord}}</div>
+    </div>
+    <div class="content" v-else-if="tooltipData && tooltipData.type === 'chokepoint'">
+      <div>Chokepoint: {{tooltipData.key.split("wh2_main_chokepoint_")[1].replace(/_/g, " ")}}</div>
+    </div>
+    <pre v-else>{{tooltipData}}</pre>
   </div>
 </template>
 
 <script>
-import MapTooltipMixin from '@/mixins/MapTooltipMixin';
-
 export default {
-  name: 'MapTooltip',
-  mixins: [MapTooltipMixin],
-  mounted() {
-    this.setTooltipHandler(this.onTooltipChanged);
+  name: "MapTooltip",
+  props: {
+    event: MouseEvent,
+    common: Object,
+    map: Object
   },
   data() {
     return {
-      cursorOffset: 10,
-      tooltip: {
-        type: undefined,
-        data: undefined,
-        style: {
-          visibility: 'hidden'
-        },
-      }
+      offset: 20
     };
   },
   methods: {
-    onTooltipChanged({ x, y, visibility, type, data}) {
-      this.tooltip = {
-        type,
-        data,
-        style: {
-          visibility,
-          ...this.getHorizontalPosition(x),
-          ...this.getVerticalPosition(y)
-        }
-      };
+    getFactionName(key) {
+      return this.common.factions[key].name;
     },
-    getHorizontalPosition(x) {
-      if (x > window.innerWidth * 0.8) {
-        return { 'right': `${window.innerWidth - x + this.cursorOffset}px` };
-      } else {
-        return { 'left': `${x + this.cursorOffset}px` };
-      }
+    getProvinceName(key) {
+      const provinceKey = this.map.regions[key].provinceKey;
+      return this.map.provinces[provinceKey].name;
     },
-    getVerticalPosition(y) {
-      if (y > window.innerHeight * 0.8) {
-        return { 'bottom': `${window.innerHeight - y + this.cursorOffset}px` };
-      } else {
-        return { 'top': `${y + this.cursorOffset}px` };
-      }
+    getRegionName(key) {
+      return this.map.regions[key].name;
+    },
+    getClimate(key) {
+      const climateKey = this.map.regions[key].climate
+      return this.common.climates[climateKey].name;
     }
   },
   computed: {
-    climateName() {
-      const climate = this.tooltip.data.climate;
-      return this.$store.getters.climates[climate].name;
+    tooltipData() {
+      const dataMapTooltip = this.event && this.event.target.getAttribute("data-map-tooltip");
+      if (dataMapTooltip) {
+        const [type, ...data] = dataMapTooltip.split(":");
+        switch (type) {
+          case "region": {
+            const [regionKey] = data;
+            return {
+              type,
+              regionKey
+            };
+          }
+          case "settlement": {
+            const [regionKey] = data;
+            return {
+              type,
+              regionKey
+            };
+          }
+          case "chokepoint": {
+            const [key, fill] = data;
+            return {
+              type,
+              key,
+              fill
+            };
+          }
+          case "startpos": {
+            const [factionKey, lord] = data;
+            return {
+              type,
+              factionKey,
+              lord
+            };
+          }
+          default: {
+            return { type };
+          }
+        }
+      }
+      return undefined;
     },
-    climateIcon() {
-      const climate = this.tooltip.data.climate;
-      return `static/images/climate_icons/${this.$store.getters.climates[climate].icon}`;
+    style() {
+      if (this.tooltipData) {
+        const { x, y } = this.event;
+        return {
+          opacity: 1,
+          left: `${x + this.offset}px`,
+          top: `${y + this.offset}px`
+        };
+      }
+      return { opacity: 0 };
     }
   }
 };
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 #MapTooltip {
   position: fixed;
   pointer-events: none;
-  color: #fff8d7;
+  color: #FFF8D7;
   border: solid;
   border-width: 14px 14px 14px 14px;
-  border-image: url('../assets/tooltip_frame.png') 14 14 14 14 fill repeat;
+  border-image: url("../assets/ui/tooltip_frame.png") 14 14 14 14 fill repeat;
+  filter: drop-shadow(0 0 15px #222222);
+  transition: opacity 0.3s;
 
-  .region {
-    margin-top: -7px;
-
-    .heading {
-      position: relative;
-      margin-bottom: 5px;
-      display: flex;
-      align-items: center;
-
-      &::after {
-        content: '';
-        position: absolute;
-        top: -7px;
-        left: -14px;
-        right: -14px;
-        height: 39px;
-        border: solid;
-        border-width: 0 14px 0 80px;
-        z-index: -1;
-        border-image: url('../assets/tooltip_header.png') 0 14 0 80 fill repeat;
-      }
-
-      img {
-        margin-right: 5px;
-      }
-    }
+  .content {
+    padding: 2px;
   }
 
   pre {
     margin: 0;
     padding: 0;
-    font-family: Georgia, Times, 'Times New Roman', serif;
   }
 }
 </style>
-
-

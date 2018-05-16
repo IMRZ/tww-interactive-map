@@ -1,0 +1,62 @@
+{
+  "chaotic": {
+    "name": "Chaotic",
+    "description": "Wasteland Nature’s rules do not apply in regions under the influence of the Ruinous Powers. Only the followers of the Dark Gods could hope to remain here, and even they do so at great personal risk.",
+    "fill": "purple",
+    "icon": "/ui/icons/chaotic_wasteland.png"
+  },
+  "desert": {
+    "name": "Desert",
+    "description": "The sun burns and very little grows here, yet the shifting sands of this region hide more than mere dunes - certain races have proven tenacious in this climate.",
+    "fill": "yellow",
+    "icon": "/ui/icons/desert.png"
+  },
+  "frozen": {
+    "name": "Frozen",
+    "description": "Eternal winter blights this region. Lakes of ice, fierce shard storms and snow-covered fjords scatter the environment. It takes a determined kind of people to eke out a life here.",
+    "fill": "cyan",
+    "icon": "/ui/icons/frozen.png"
+  },
+  "island": {
+    "name": "Temperate Island",
+    "description": "Climate on the isles in this region is changeable. However, the trees grow tall and strong, the hunting is good, and crops can be grown by competent farmers.",
+    "fill": "lime",
+    "icon": "/ui/icons/temperate_island.png"
+  },
+  "jungle": {
+    "name": "Jungle",
+    "description": "Dense jungle is hot and humid, and often home to creatures and plants that consider potential empire-builders to be prey.",
+    "fill": "forestgreen",
+    "icon": "/ui/icons/jungle.png"
+  },
+  "magicforest": {
+    "name": "Magical Forest",
+    "description": "Steeped in magic, just who is allowed to remain in the forests' interior is the will of the trees themselves and their spirit allies.",
+    "fill": "teal",
+    "icon": "/ui/icons/magical_forest.png"
+  },
+  "mountain": {
+    "name": "Mountain",
+    "description": "The snow-capped peaks of this world scrape the sky. Mountainous regions are hazardous, although those races that inhabit them rarely live on the surface.",
+    "fill": "grey",
+    "icon": "/ui/icons/mountain.png"
+  },
+  "savannah": {
+    "name": "Savannah",
+    "description": "Scattered tree growth is broken by course grasslands and watering holes. Here, the climate is hot and the bugs grow large.",
+    "fill": "orange",
+    "icon": "/ui/icons/savannah.png"
+  },
+  "temperate": {
+    "name": "Temperate",
+    "description": "The terrain of this region consists of lush grasslands and sprawling forests, with food and resources in abundance.",
+    "fill": "white",
+    "icon": "/ui/icons/temperate.png"
+  },
+  "wasteland": {
+    "name": "Wasteland",
+    "description": "Scorched or scoured - nothing grows here and only a few races could survive in this region, let alone thrive.",
+    "fill": "red",
+    "icon": "/ui/icons/wasteland.png"
+  }
+}

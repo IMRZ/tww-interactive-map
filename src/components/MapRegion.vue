@@ -1,70 +1,56 @@
 <template>
-  <path v-if="climate"
-    class="MapRegion"
-    :style="{ fill, 'stroke-width': '20', stroke: highlight === region.key ? 'red' : 'transparent' }"
+  <path class="MapRegion"
     :d="region.d"
-    @mousemove="onMouseMove"
-    @mouseleave="onMouseLeave"
+    :style="style"
+    :data-map-tooltip="dataMapTooltip"
   />
 </template>
 
 <script>
-import MapTooltipMixin from '@/mixins/MapTooltipMixin';
-import MapGettersMixin from '@/mixins/MapGettersMixin';
-
 export default {
-  name: 'MapRegion',
+  name: "MapRegion",
   props: {
-    region: Object
+    region: Object,
+    mode: String,
+    climates: Object,
+    provinces: Object
   },
-  mixins: [MapTooltipMixin, MapGettersMixin],
   computed: {
-    province() {
-      return this.map.provinces[this.region.provinceKey];
-    },
     climate() {
       return this.climates[this.region.climate];
     },
-    fill() {
-      switch (this.overlay) {
-        case 'regions':
-          return this.region.provinceKey ? `#${this.region.fill}` : 'transparent';
-        case 'provinces':
-          return this.province ? `#${this.province.fill}` : 'transparent';
-        case 'climates':
-          return this.climate ? `${this.climate.fill}` : 'transparent';
+    province() {
+      return this.provinces[this.region.provinceKey];
+    },
+    style() {
+      switch (this.mode) {
+        case "regions":
+          return { fill: `#${this.region.fill}` };
+        case "climates":
+          return { fill: this.climate ? `${this.climate.fill}` : "transparent" };
+        case "provinces":
+          return { fill: this.province ? `#${this.province.fill}` : "transparent" }
         default:
-          return 'transparent';
+          return { fill: "transparent", stroke: "transparent" };
       }
     },
-    highlight() {
-      return this.$store.getters.highlight;
-    }
-  },
-  methods: {
-    onMouseMove(e) {
-      this.updateTooltip(e, 'region', {
-        provinceName: this.province.name,
-        regionName: this.region.name,
-        regionIsCapital: this.region.isCapital,
-        climate: this.region.climate
-      });
-    },
-    onMouseLeave(e) {
-      this.hideTooltip();
+    dataMapTooltip() {
+      const { key } = this.region;
+      return `region:${key}`;
     }
   }
 };
 </script>
 
-<style lang="scss">
-path.MapRegion {
+<style lang="scss" scoped>
+.MapRegion {
   fill: transparent;
   fill-opacity: 0.4;
 
   &:hover {
-    fill-opacity: 0.6;
+    stroke: black;
+    stroke-width: 1;
+    fill-opacity: 0.2;
   }
 }
 </style>
-

@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="battle_catchment_override_areas.xsd" export_time="Mon Aug 7 15:43:57 2017" revision="16" export_branch="T:/" export_user="bob">
+<edit_uuid>3e90d2a4-95c2-43cd-ab08-eaac53875549</edit_uuid>
+<battle_catchment_override_areas record_uuid="{4feb1686-8e91-466b-bfe6-0d4bd2205d57}" record_timestamp="1478768448047" record_key="Gatekeeper">
+<area>Gatekeeper</area>
+<blue>0</blue>
+<green>0</green>
+<red>0</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{2e9a51e4-6f4f-4fcc-bbf6-95f263287f5c}" record_timestamp="1494435017753" record_key="altar_of_ultimate_darkness">
+<area>altar_of_ultimate_darkness</area>
+<blue>255</blue>
+<green>143</green>
+<red>21</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{66fdbeff-b1ad-4263-bb93-e16edefa7919}" record_timestamp="1494435017818" record_key="arnheim">
+<area>arnheim</area>
+<blue>216</blue>
+<green>67</green>
+<red>164</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{4a1c8d82-5919-42cc-afdd-626cde6cd9b8}" record_timestamp="1494435017782" record_key="caverns_of_the_great_bat">
+<area>caverns_of_the_great_bat</area>
+<blue>64</blue>
+<green>124</green>
+<red>103</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{865f0051-79e7-4853-86cf-c27ecdd68b89}" record_timestamp="1494435017796" record_key="fallen_gates">
+<area>fallen_gates</area>
+<blue>143</blue>
+<green>182</green>
+<red>131</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{8243800b-c3f5-4ff3-99a5-30c3342c743a}" record_timestamp="1494435017775" record_key="gouger_gully">
+<area>gouger_gully</area>
+<blue>43</blue>
+<green>85</green>
+<red>191</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{c42822df-9048-468e-b09f-d004adae6c41}" record_timestamp="1494435017826" record_key="isle_of_the_crimson_skull">
+<area>isle_of_the_crimson_skull</area>
+<blue>73</blue>
+<green>67</green>
+<red>194</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{85f2eaf7-9bba-4e74-80e8-310f5f18dc9f}" record_timestamp="1494435017803" record_key="mortuary_of_tzulaqua">
+<area>mortuary_of_tzulaqua</area>
+<blue>94</blue>
+<green>216</green>
+<red>167</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{97e8d164-07bf-466c-967c-243ac62c87e0}" record_timestamp="1494435017811" record_key="mosquito_swamps">
+<area>mosquito_swamps</area>
+<blue>131</blue>
+<green>249</green>
+<red>103</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{2ab09dd8-18a1-4f7f-8aae-05691a7e7035}" record_timestamp="1494435017834" record_key="tower_of_hoeth">
+<area>tower_of_hoeth</area>
+<blue>255</blue>
+<green>152</green>
+<red>94</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{bca508ea-7444-4d32-b97e-99c9d34f10e7}" record_timestamp="1494435017788" record_key="vauls_anvil">
+<area>vauls_anvil</area>
+<blue>243</blue>
+<green>213</green>
+<red>103</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{5c832620-5f49-4f7a-9695-300ad4a23bd8}" record_timestamp="1494435017768" record_key="warp_shard_caverns">
+<area>warp_shard_caverns</area>
+<blue>97</blue>
+<green>134</green>
+<red>21</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{2b4032a6-41c2-4150-a120-8b556ace866a}" record_timestamp="1492606841582" record_key="wh2_def_bleak_forest">
+<area>wh2_def_bleak_forest</area>
+<blue>82</blue>
+<green>128</green>
+<red>61</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{45bfdfeb-0624-4696-81ff-851c6bfdd0c7}" record_timestamp="1492606841615" record_key="wh2_def_bleak_main">
+<area>wh2_def_bleak_main</area>
+<blue>109</blue>
+<green>185</green>
+<red>194</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{db7fc45d-8cee-40ab-8369-c59d63ae1be8}" record_timestamp="1492606841655" record_key="wh2_def_coast">
+<area>wh2_def_coast</area>
+<blue>94</blue>
+<green>209</green>
+<red>252</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{68699f21-5564-4d5b-b9c7-b1febd461a64}" record_timestamp="1492606841697" record_key="wh2_def_dense_forest">
+<area>wh2_def_dense_forest</area>
+<blue>0</blue>
+<green>94</green>
+<red>36</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{0be3c51e-889d-40bb-a749-88dd5b87b46f}" record_timestamp="1492606841739" record_key="wh2_def_desert">
+<area>wh2_def_desert</area>
+<blue>127</blue>
+<green>197</green>
+<red>228</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{d3e4a10d-411e-4696-af66-5233e79af64f}" record_timestamp="1492606841783" record_key="wh2_def_forest">
+<area>wh2_def_forest</area>
+<blue>70</blue>
+<green>76</green>
+<red>67</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{0a2cba9e-b3ea-49a8-a531-0e559b3b93c6}" record_timestamp="1492606841829" record_key="wh2_def_grassland">
+<area>wh2_def_grassland</area>
+<blue>0</blue>
+<green>134</green>
+<red>115</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{c20ec27d-2be9-4aef-b6fc-9653020f59da}" record_timestamp="1492606841877" record_key="wh2_def_hills">
+<area>wh2_def_hills</area>
+<blue>137</blue>
+<green>160</green>
+<red>47</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{08de9f19-f1f8-4261-8340-213b204a995f}" record_timestamp="1492606841927" record_key="wh2_def_mountains">
+<area>wh2_def_mountains</area>
+<blue>20</blue>
+<green>20</green>
+<red>20</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{d4007bee-f43b-4993-95ba-3c9e00211d01}" record_timestamp="1492606841979" record_key="wh2_def_petrified_coast">
+<area>wh2_def_petrified_coast</area>
+<blue>73</blue>
+<green>103</green>
+<red>149</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{17b160f4-479d-4188-8a70-1740a7050763}" record_timestamp="1492606842034" record_key="wh2_def_petrified_forest">
+<area>wh2_def_petrified_forest</area>
+<blue>73</blue>
+<green>109</green>
+<red>100</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{d6f3dbf3-ee9a-4cdc-8987-bcf99191ddb9}" record_timestamp="1492606842094" record_key="wh2_def_petrified_main">
+<area>wh2_def_petrified_main</area>
+<blue>58</blue>
+<green>67</green>
+<red>118</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{d3239530-05a1-42a7-9888-e29754870cd0}" record_timestamp="1492606842153" record_key="wh2_def_plains">
+<area>wh2_def_plains</area>
+<blue>100</blue>
+<green>100</green>
+<red>150</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{8bfd845a-a92c-4825-ad76-9be7653dac78}" record_timestamp="1492606842213" record_key="wh2_def_red_desert_coast">
+<area>wh2_def_red_desert_coast</area>
+<blue>94</blue>
+<green>85</green>
+<red>255</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{1106a0b9-d7a6-4b80-b21a-f98c6fdf2978}" record_timestamp="1492606842277" record_key="wh2_def_red_desert_main">
+<area>wh2_def_red_desert_main</area>
+<blue>49</blue>
+<green>46</green>
+<red>197</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{4dc5ece3-beb0-4c49-a9cf-85d66d706973}" record_timestamp="1492606842302" record_key="wh2_def_tutorial_battle">
+<area>wh2_def_tutorial_battle</area>
+<blue>255</blue>
+<green>255</green>
+<red>0</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{f12477d8-0ed7-42bc-bffa-bcfd1976778c}" record_timestamp="1492606842342" record_key="wh2_hef_tutorial_battle">
+<area>wh2_hef_tutorial_battle</area>
+<blue>255</blue>
+<green>0</green>
+<red>255</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{54ababb5-9233-41ea-9ea5-043f0529951d}" record_timestamp="1492606842410" record_key="wh2_lustria_and_southlands_jungle">
+<area>wh2_lustria_and_southlands_jungle</area>
+<blue>0</blue>
+<green>155</green>
+<red>73</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{b3127925-8361-41a5-bd0d-f11d1e3da692}" record_timestamp="1492606842480" record_key="wh2_lustria_and_southlands_mountains">
+<area>wh2_lustria_and_southlands_mountains</area>
+<blue>100</blue>
+<green>131</green>
+<red>150</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{867c6db2-9b6b-41a5-bde0-a95bd6a6b996}" record_timestamp="1492606842556" record_key="wh2_lustria_and_southlands_plains">
+<area>wh2_lustria_and_southlands_plains</area>
+<blue>100</blue>
+<green>191</green>
+<red>206</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{9da3f041-9ab9-4a47-ab3b-62c40ffbf5eb}" record_timestamp="1492606842633" record_key="wh2_lustria_and_southlands_swamps">
+<area>wh2_lustria_and_southlands_swamps</area>
+<blue>100</blue>
+<green>94</green>
+<red>39</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{9883c65a-d04e-4c1d-adf3-74bca9a2c17a}" record_timestamp="1492606842710" record_key="wh2_lustria_coast">
+<area>wh2_lustria_coast</area>
+<blue>115</blue>
+<green>234</green>
+<red>252</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{93ecfd8e-667c-4dac-a6fd-712df00bd03c}" record_timestamp="1492606842791" record_key="wh2_lustria_desert">
+<area>wh2_lustria_desert</area>
+<blue>127</blue>
+<green>179</green>
+<red>228</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{5ef793b5-33d5-48df-b5e4-7fc00d8e4832}" record_timestamp="1492606842823" record_key="wh2_lzd_tutorial_battle">
+<area>wh2_lzd_tutorial_battle</area>
+<blue>0</blue>
+<green>255</green>
+<red>255</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{92d183dd-e39e-47a8-869b-49b1037512af}" record_timestamp="1492590942991" record_key="wh2_main_chokepoint_badlands_chasm">
+<area>wh2_main_chokepoint_badlands_chasm</area>
+<blue>243</blue>
+<green>198</green>
+<red>29</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{28b9cb82-ab0e-4e29-8e69-d5782eb9354f}" record_timestamp="1492590942991" record_key="wh2_main_chokepoint_badlands_mountain_pass">
+<area>wh2_main_chokepoint_badlands_mountain_pass</area>
+<blue>127</blue>
+<green>14</green>
+<red>40</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{ce3398a0-7bd0-4738-b552-b62591afd642}" record_timestamp="1492590942992" record_key="wh2_main_chokepoint_badlands_river">
+<area>wh2_main_chokepoint_badlands_river</area>
+<blue>221</blue>
+<green>15</green>
+<red>35</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{3b31de34-4760-467f-ad61-66e976a3f8df}" record_timestamp="1492590942992" record_key="wh2_main_chokepoint_blood_river_valley_river">
+<area>wh2_main_chokepoint_blood_river_valley_river</area>
+<blue>171</blue>
+<green>24</green>
+<red>177</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{8df26c57-640d-44c2-8b0d-05dd93e27b94}" record_timestamp="1487949578271" record_key="wh2_main_chokepoint_def_chasm">
+<area>wh2_main_chokepoint_def_chasm</area>
+<blue>255</blue>
+<green>67</green>
+<red>213</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{319c4d00-b16c-4eb1-8599-668514fcfe4e}" record_timestamp="1488900419171" record_key="wh2_main_chokepoint_def_chasm_b">
+<area>wh2_main_chokepoint_def_chasm_b</area>
+<blue>183</blue>
+<green>98</green>
+<red>144</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{af1c2f95-2e47-4dd7-8064-a26eca1d1f15}" record_timestamp="1492590942992" record_key="wh2_main_chokepoint_def_grassland_river">
+<area>wh2_main_chokepoint_def_grassland_river</area>
+<blue>178</blue>
+<green>227</green>
+<red>80</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{b5a7fb1a-3024-4668-91ec-34c3a14d3ce7}" record_timestamp="1492590942992" record_key="wh2_main_chokepoint_generic_mountain_pass">
+<area>wh2_main_chokepoint_generic_mountain_pass</area>
+<blue>44</blue>
+<green>86</green>
+<red>49</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{9d302c83-3fe0-42d7-88eb-29423c9c52ba}" record_timestamp="1502117037224" record_key="wh2_main_chokepoint_generic_mountain_pass_climate_hef">
+<area>wh2_main_chokepoint_generic_mountain_pass_climate_hef</area>
+<blue>44</blue>
+<green>86</green>
+<red>99</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{28e4c073-a2fe-4ad8-9b78-46e5182ad2d3}" record_timestamp="1492590942992" record_key="wh2_main_chokepoint_grassland_river">
+<area>wh2_main_chokepoint_grassland_river</area>
+<blue>70</blue>
+<green>37</green>
+<red>13</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{fc2de8b6-78e6-41ad-9516-354af6a6f862}" record_timestamp="1492590942992" record_key="wh2_main_chokepoint_lzd_lustria_mountain_pass">
+<area>wh2_main_chokepoint_lzd_lustria_mountain_pass</area>
+<blue>34</blue>
+<green>231</green>
+<red>228</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{67abdea0-5051-4067-bdb2-dfb5a98a6ae3}" record_timestamp="1502117037191" record_key="wh2_main_chokepoint_lzd_lustria_mountain_pass_climate_stl">
+<area>wh2_main_chokepoint_lzd_lustria_mountain_pass_climate_stl</area>
+<blue>34</blue>
+<green>231</green>
+<red>248</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{965807a0-d902-4674-b621-7a5cbc84c042}" record_timestamp="1492590943018" record_key="wh2_main_chokepoint_lzd_river">
+<area>wh2_main_chokepoint_lzd_river</area>
+<blue>42</blue>
+<green>255</green>
+<red>0</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{88dd1e1e-d474-4bfc-bfc6-8a19ca87e318}" record_timestamp="1492590942992" record_key="wh2_main_chokepoint_norsca_chasm">
+<area>wh2_main_chokepoint_norsca_chasm</area>
+<blue>232</blue>
+<green>124</green>
+<red>158</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{fb4758fb-0357-41ea-bc9c-7bd324e88904}" record_timestamp="1492590942992" record_key="wh2_main_chokepoint_norsca_river">
+<area>wh2_main_chokepoint_norsca_river</area>
+<blue>169</blue>
+<green>76</green>
+<red>10</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{c7d7913a-6cd3-4e38-b4ad-aa4d1c360b94}" record_timestamp="1492590942992" record_key="wh2_main_chokepoint_northern_mountain_pass">
+<area>wh2_main_chokepoint_northern_mountain_pass</area>
+<blue>149</blue>
+<green>240</green>
+<red>137</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{6a61ed6e-3497-488d-b4e4-dfabf8fac8b5}" record_timestamp="1492590942992" record_key="wh2_main_chokepoint_northern_river">
+<area>wh2_main_chokepoint_northern_river</area>
+<blue>29</blue>
+<green>58</green>
+<red>105</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{75dc5373-d9a6-40bb-94d4-4ffa50be594b}" record_timestamp="1492590942992" record_key="wh2_main_chokepoint_southland_chasm">
+<area>wh2_main_chokepoint_southland_chasm</area>
+<blue>52</blue>
+<green>32</green>
+<red>231</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{bfd1844f-06a2-4210-ad53-e4fd0d1241f2}" record_timestamp="1492590942992" record_key="wh2_main_chokepoint_southland_mountain_pass">
+<area>wh2_main_chokepoint_southland_mountain_pass</area>
+<blue>222</blue>
+<green>27</green>
+<red>227</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{1520fc8c-58f2-455d-855c-10f0379b192f}" record_timestamp="1502117037215" record_key="wh2_main_chokepoint_southland_mountain_pass_climate_lzd">
+<area>wh2_main_chokepoint_southland_mountain_pass_climate_lzd</area>
+<blue>222</blue>
+<green>27</green>
+<red>247</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{6c31250d-bb4a-4100-945d-a48cfe08aef7}" record_timestamp="1488900422701" record_key="wh2_main_chokepoint_southland_river">
+<area>wh2_main_chokepoint_southland_river</area>
+<blue>84</blue>
+<green>255</green>
+<red>249</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{96f55d71-6ff0-4d4f-9127-2de021c82cc1}" record_timestamp="1492590942993" record_key="wh2_main_chokepoint_sylvania_river">
+<area>wh2_main_chokepoint_sylvania_river</area>
+<blue>52</blue>
+<green>179</green>
+<red>220</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{425e70e5-87c9-44e3-8a7f-d9f1427d4d2b}" record_timestamp="1492590943018" record_key="wh2_main_chokepoint_ult_river">
+<area>wh2_main_chokepoint_ult_river</area>
+<blue>83</blue>
+<green>140</green>
+<red>153</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{eef78156-6bec-406e-97f0-06462cd2ba70}" record_timestamp="1492606842905" record_key="wh2_norsca_coast">
+<area>wh2_norsca_coast</area>
+<blue>222</blue>
+<green>219</green>
+<red>203</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{ae982f23-5fca-492a-af77-fefb5696d9d7}" record_timestamp="1492606842990" record_key="wh2_norsca_forest">
+<area>wh2_norsca_forest</area>
+<blue>240</blue>
+<green>127</green>
+<red>100</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{d8f7bd81-f0c8-4a9e-a458-332e2e3a7430}" record_timestamp="1492606843076" record_key="wh2_norsca_grassland">
+<area>wh2_norsca_grassland</area>
+<blue>244</blue>
+<green>225</green>
+<red>182</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{e64276f4-19ef-479e-92d8-a72317e10669}" record_timestamp="1492606843163" record_key="wh2_norsca_hills">
+<area>wh2_norsca_hills</area>
+<blue>210</blue>
+<green>175</green>
+<red>84</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{3aeb706e-f20d-4a5a-a1ce-d85b9a7e26bd}" record_timestamp="1492606843251" record_key="wh2_norsca_mountains">
+<area>wh2_norsca_mountains</area>
+<blue>134</blue>
+<green>20</green>
+<red>20</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{70214dd7-1792-4acb-a354-d6a185741a6a}" record_timestamp="1492606843343" record_key="wh2_norsca_tundra">
+<area>wh2_norsca_tundra</area>
+<blue>234</blue>
+<green>237</green>
+<red>222</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{61ac6e6a-f673-49ac-9792-0357a5d1e70a}" record_timestamp="1493218544838" record_key="wh2_skv_tutorial_battle">
+<area>wh2_skv_tutorial_battle</area>
+<blue>0</blue>
+<green>100</green>
+<red>0</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{ed4ac0e4-2909-441d-8c4a-02d695f1f5ef}" record_timestamp="1492606843473" record_key="wh2_southlands_coast">
+<area>wh2_southlands_coast</area>
+<blue>173</blue>
+<green>219</green>
+<red>225</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{e0f3e1bf-f2a7-4b61-9996-fd9b360d3694}" record_timestamp="1492606843567" record_key="wh2_southlands_desert">
+<area>wh2_southlands_desert</area>
+<blue>127</blue>
+<green>161</green>
+<red>228</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{85abf6c9-ac57-47fe-a82c-9dc6bd7cbb46}" record_timestamp="1492606843667" record_key="wh2_southlands_grassland">
+<area>wh2_southlands_grassland</area>
+<blue>0</blue>
+<green>79</green>
+<red>73</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{f7ce31aa-7eed-4f49-9d86-b445567aadc4}" record_timestamp="1492606843768" record_key="wh2_ulthuan_coast_inner">
+<area>wh2_ulthuan_coast_inner</area>
+<blue>182</blue>
+<green>219</green>
+<red>240</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{a70ea21c-c37c-4ba4-a5a9-37667697e1ae}" record_timestamp="1492606843873" record_key="wh2_ulthuan_coast_outer">
+<area>wh2_ulthuan_coast_outer</area>
+<blue>213</blue>
+<green>194</green>
+<red>194</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{d112014d-5b6a-4797-aab3-07472c4e5a70}" record_timestamp="1492606843977" record_key="wh2_ulthuan_forest_inner">
+<area>wh2_ulthuan_forest_inner</area>
+<blue>105</blue>
+<green>150</green>
+<red>75</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{148235d0-26d3-43ac-bc6e-8beac8200013}" record_timestamp="1492606844082" record_key="wh2_ulthuan_forest_outer">
+<area>wh2_ulthuan_forest_outer</area>
+<blue>105</blue>
+<green>130</green>
+<red>75</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{f8334961-04f0-47e1-b450-705e7786eba8}" record_timestamp="1492606844190" record_key="wh2_ulthuan_grassland_inner">
+<area>wh2_ulthuan_grassland_inner</area>
+<blue>240</blue>
+<green>212</green>
+<red>165</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{aa9521ba-83d0-4603-a02a-d1d7b2eed8e6}" record_timestamp="1492606844300" record_key="wh2_ulthuan_grassland_outer">
+<area>wh2_ulthuan_grassland_outer</area>
+<blue>170</blue>
+<green>206</green>
+<red>152</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{203262ee-f286-4f1e-ac31-c782eaf5afba}" record_timestamp="1492606844412" record_key="wh2_ulthuan_mountains">
+<area>wh2_ulthuan_mountains</area>
+<blue>220</blue>
+<green>90</green>
+<red>90</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{0f44164c-e03f-4e04-b7bc-db39cf1e22ce}" record_timestamp="1492606844525" record_key="wh2_ulthuan_plains">
+<area>wh2_ulthuan_plains</area>
+<blue>91</blue>
+<green>128</green>
+<red>128</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{6fac8072-8fee-4a1a-b7d8-8f74230fc05e}" record_timestamp="1478766974506" record_key="wh_dlc05_main_wef_forest_areas">
+<area>wh_dlc05_main_wef_forest_areas</area>
+<blue>0</blue>
+<green>152</green>
+<red>0</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{9c1ebf56-0d97-45b2-8b3d-7529ff0664e0}" record_timestamp="1478766974505" record_key="wh_dlc05_main_wef_oak_of_ages_area">
+<area>wh_dlc05_main_wef_oak_of_ages_area</area>
+<blue>0</blue>
+<green>255</green>
+<red>0</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{133ff00d-c64e-45a5-a756-0bdaf3ff747d}" record_timestamp="1478766974506" record_key="wh_dlc05_main_wef_river_areas">
+<area>wh_dlc05_main_wef_river_areas</area>
+<blue>255</blue>
+<green>152</green>
+<red>0</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{0448e730-8a52-4324-be15-e8ce117c0123}" record_timestamp="1482337084640" record_key="wh_main_badlands_areas">
+<area>wh_main_badlands_areas</area>
+<blue>91</blue>
+<green>124</green>
+<red>203</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{83f578c7-01e3-4eb9-bee0-0da3f534c644}" record_timestamp="1482337084639" record_key="wh_main_mountain_pass_areas">
+<area>wh_main_mountain_pass_areas</area>
+<blue>255</blue>
+<green>206</green>
+<red>158</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{cba591a2-8b13-44ef-aa3c-01ea51a9a5d3}" record_timestamp="1482337084640" record_key="wh_main_norsca_areas">
+<area>wh_main_norsca_areas</area>
+<blue>197</blue>
+<green>255</green>
+<red>0</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{5441589b-e7bc-4ea9-9698-28051bdd62a9}" record_timestamp="1482337084639" record_key="wh_main_vampire_areas">
+<area>wh_main_vampire_areas</area>
+<blue>197</blue>
+<green>121</green>
+<red>161</red>
+</battle_catchment_override_areas>
+</dataroot>

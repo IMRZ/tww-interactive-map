@@ -1,12 +1,12 @@
 <template>
-  <div id="app">
+  <div id="App">
     <router-view></router-view>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'app'
+  name: "App"
 };
 </script>
 
@@ -26,11 +26,10 @@ html {
 body {
   margin: 0;
   height: 100%;
-  background: url('./assets/com.totalwar.warhammer.background.texture.jpg');
+  background: url("./assets/ui/background.jpg");
+}
 
-  #app {
-    height: 100%;
-  }
+#App {
+  height: 100%;
 }
 </style>
-

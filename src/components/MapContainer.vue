@@ -1,116 +1,139 @@
 <template>
-  <div id="MapContainer">
-    <svg ref="svg" xmlns="http://www.w3.org/2000/svg" version="1.1"
-      @mouseup="stopPanning"
-      @mouseleave="stopPanning"
-      @mousedown="startPanning"
-      @mousemove="doPan"
-      @wheel="doZoom">
+  <div id="MapContainer"
+    @mouseup.prevent="stopPan"
+    @mouseleave.prevent="stopPan"
+    @mousedown.prevent="startPan"
+    @mousemove.prevent="doPan"
+    @wheel.prevent="doZoom"
+  >
+    <MapNodeOverlaySettlement
+      v-if="nodeOverlay === 'settlements'"
+      :style="overlayTransform"
+      :mapMatrix="mapMatrix"
+      :settlements="map.settlements"
+    />
+    <MapNodeOverlayStartposition
+      v-else-if="nodeOverlay === 'start_positions'"
+      :style="overlayTransform"
+      :mapMatrix="mapMatrix"
+      :startPositions="map.startpositions"
+      :factions="common.factions"
+    />
 
-      <g ref="map"
-        :transform="mapTransform"
-        v-show="isMapVisible">
-        <image x="0" y="0"
-          :href="map.path"
-          :width="map.width"
-          :height="map.height"
-          @load="onLoad"
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+      <g ref="map" :transform="mapTransform">
+        <image
+          :href="map.settings.path"
+          :width="map.settings.width"
+          :height="map.settings.height"
+          :style="{ opacity: settings.mapOpacity }"
         />
-        <g id="regions">
+        <g v-if="mapOverlay === `regions`">
           <MapRegion
-            v-for="region in map.regions"
-            :key="region.key"
+            v-for="region in map.regions" :key="region.key"
             :region="region"
+            :provinces="map.provinces"
+            :climates="common.climates"
+            :mode="mapOverlayMode"
           />
         </g>
-      </g>
-      <g id="nodes"
-        v-if="mapMatrix"
-        v-show="isMapVisible"
-        :transform="nodesTransform">
-        <MapNode
-          v-for="settlement in map.settlements"
-          :key="settlement.key"
-          :settlement="settlement"
-          :mapMatrix="mapMatrix"
-        />
+        <g v-else-if="mapOverlay === `choke_points`" :transform="map.settings.chokepoints_transform">
+          <MapChokepoint
+            v-for="chokepoint in map.chokepoints" :key="chokepoint.key"
+            :chokepoint="chokepoint"
+            :mode="mapOverlayMode"
+          />
+        </g>
       </g>
     </svg>
   </div>
 </template>
 
 <script>
-import SvgUtilMixin from '@/mixins/SvgUtilMixin';
-import MapGettersMixin from '@/mixins/MapGettersMixin';
-import MapRegion from '@/components/MapRegion';
-import MapNode from '@/components/MapNode';
+import SvgUtil from "@/mixins/SvgUtil";
+import MapSettings from "@/mixins/MapSettings";
+import MapRegion from "@/components/MapRegion";
+import MapChokepoint from "@/components/MapChokepoint";
+import MapNodeOverlaySettlement from "@/components/MapNodeOverlaySettlement";
+import MapNodeOverlayStartposition from "@/components/MapNodeOverlayStartposition";
 
 export default {
-  name: 'MapContainer',
-  mixins: [SvgUtilMixin, MapGettersMixin],
+  name: "MapContainer",
+  mixins: [SvgUtil, MapSettings],
   components: {
     MapRegion,
-    MapNode
+    MapChokepoint,
+    MapNodeOverlaySettlement,
+    MapNodeOverlayStartposition
+  },
+  props: {
+    common: Object,
+    map: Object
+  },
+  created() {
+    const e = -this.map.settings.width / 4;
+    const f = -this.map.settings.height / 4;
+    this.overlayTransform = { transform: `matrix(1,0,0,1,${e},${f})` };
+    this.mapTransform = `matrix(1,0,0,1,${e},${f})`;
   },
   mounted() {
     this.mapMatrix = this.$refs.map.getCTM();
-    this.stateTf = this.$refs.map.getCTM().inverse();
-    // https://codepen.io/techslides/pen/zowLd
-  },
-  watch: {
-    map(newValue, oldValue) {
-      if (newValue !== oldValue) this.isMapVisible = false;
-    }
+    this.mpt = this.$refs.map.getCTM().inverse();
   },
   data() {
     return {
-      mapTransform: 'matrix(1,0,0,1,0,0)',
-      mapMatrix: undefined,
       isPanning: false,
-      isMapVisible: false,
-
-      nodesTransform: undefined,
-
-      stateTf: undefined,
-      stateOrigin: undefined
+      mapMatrix: undefined,
+      overlayTransform: undefined,
+      mapTransform: undefined,
+      mpt: undefined, // mapPanTransform
+      mpo: undefined // mapPanOrigin
     };
   },
   methods: {
-    stopPanning(e) {
-      e.preventDefault();
+    onLoad() {
+       console.log("loaded image");
+    },
+    stopPan(e) {
       this.isPanning = false;
     },
-    startPanning(e) {
-      e.preventDefault();
+    startPan(e) {
       this.isPanning = true;
-      this.stateTf = this.$refs.map.getCTM().inverse();
-      this.stateOrigin = this.getEventPoint(e).matrixTransform(this.stateTf);
+      this.mpt = this.$refs.map.getCTM().inverse();
+      this.mpo = this.getEventPoint(e).matrixTransform(this.mpt);
     },
     doPan(e) {
-      e.preventDefault();
       if (this.isPanning) {
-        const p = this.getEventPoint(e).matrixTransform(this.stateTf);
-        this.setCTM(this.stateTf.inverse().translate(p.x - this.stateOrigin.x, p.y - this.stateOrigin.y));
+        const p = this.getEventPoint(e).matrixTransform(this.mpt);
+        this.setCTM(
+          this.mpt.inverse().translate(p.x - this.mpo.x, p.y - this.mpo.y)
+        );
       }
     },
     doZoom(e) {
-      e.preventDefault();
       const z = this.getWheelDelta(e);
       const mapElement = this.$refs.map;
       const { x , y } = this.getEventPoint(e).matrixTransform(mapElement.getCTM().inverse());
 
-      let testMatrix = mapElement.getCTM();
-      const scale = (testMatrix.a + z).toPrecision(2);
+      let matrix = mapElement.getCTM();
+      const scale = (matrix.a + z).toPrecision(3);
 
       if (scale < 0.2 || scale > 2) return;
 
-      testMatrix = testMatrix.translate(x, y);
-      testMatrix.a = scale;
-      testMatrix.d = scale;
-      testMatrix = testMatrix.translate(-x, -y);
+      matrix = matrix.translate(x, y);
+      matrix.a = scale;
+      matrix.d = scale;
+      matrix = matrix.translate(-x, -y);
 
-      this.setCTM(testMatrix);
-      this.stateTf = testMatrix.inverse();
+      this.setCTM(matrix);
+      this.mpt = matrix.inverse();
+    },
+    getWheelDelta(e) {
+      if (e.wheelDelta) {
+        return (e.wheelDelta / 360 > 0) ? 0.05 : -0.05;
+      } else {
+        return (e.deltaY / -9 > 0) ? 0.05 : -0.05;
+      }
     },
     getEventPoint(e) {
       const p = this.createSVGPoint();
@@ -118,42 +141,31 @@ export default {
       p.y = e.clientY;
       return p;
     },
-
     setCTM(m) {
       this.mapMatrix = m;
-      this.nodesTransform = `matrix(1,0,0,1,${m.e},${m.f})`;
       this.mapTransform = `matrix(${m.a},0,0,${m.d},${m.e},${m.f})`;
-    },
-
-    getWheelDelta(e) {
-      if (e.wheelDelta) {
-        return (e.wheelDelta / 360 > 0) ? 0.2 : -0.2;
-      } else {
-        return (e.deltaY / -9 > 0) ? 0.2 : -0.2;
-      }
-    },
-    onLoad() {
-      this.isMapVisible = true;
+      this.overlayTransform = {
+        transform: `matrix(1,0,0,1,${m.e},${m.f})`
+      };
     }
   }
 };
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 #MapContainer {
-  width: 100%;
   height: 100%;
+}
 
-  svg {
-    display: block;
-    width: 100%;
-    min-width: inherit;
-    max-width: inherit;
-    height: 100%;
-    min-height: inherit;
-    max-height: inherit;
-    padding: none;
-    margin: none;
-  }
+svg {
+  display: block;
+  width: 100%;
+  min-width: inherit;
+  max-width: inherit;
+  height: 100%;
+  min-height: inherit;
+  max-height: inherit;
+  padding: none;
+  margin: none;
 }
 </style>
