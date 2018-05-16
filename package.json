@@ -6,7 +6,8 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "tools-generate-data": "node tools/data/index.js"
+    "tools-generate-data": "node tools/data/index.js",
+    "deploy": "npm run build && push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "dependencies": {
     "register-service-worker": "^1.0.0",
@@ -24,6 +25,7 @@
     "@vue/eslint-config-prettier": "^3.0.0-beta.10",
     "folktale": "^2.1.0",
     "node-sass": "^4.9.0",
+    "push-dir": "^0.4.1",
     "ramda": "^0.25.0",
     "sass-loader": "^6.0.6",
     "vue-template-compiler": "^2.5.13",
