@@ -46,6 +46,20 @@ export default {
     getClimate(key) {
       const climateKey = this.map.regions[key].climate
       return this.common.climates[climateKey].name;
+    },
+    getHorizontalPosition(x) {
+      if (x > window.innerWidth * 0.8) {
+        return { right: `${window.innerWidth - x + this.offset}px` };
+      } else {
+        return { left: `${x + this.offset}px` };
+      }
+    },
+    getVerticalPosition(y) {
+      if (y > window.innerHeight * 0.8) {
+        return { bottom: `${window.innerHeight - y + this.offset}px` };
+      } else {
+        return { top: `${y + this.offset}px` };
+      }
     }
   },
   computed: {
@@ -96,8 +110,8 @@ export default {
         const { x, y } = this.event;
         return {
           opacity: 1,
-          left: `${x + this.offset}px`,
-          top: `${y + this.offset}px`
+          ...this.getHorizontalPosition(x),
+          ...this.getVerticalPosition(y)
         };
       }
       return { opacity: 0 };

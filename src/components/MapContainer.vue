@@ -105,9 +105,8 @@ export default {
     doPan(e) {
       if (this.isPanning) {
         const p = this.getEventPoint(e).matrixTransform(this.mpt);
-        this.setCTM(
-          this.mpt.inverse().translate(p.x - this.mpo.x, p.y - this.mpo.y)
-        );
+        const m = this.mpt.inverse().translate(p.x - this.mpo.x, p.y - this.mpo.y);
+        this.setCTM(m);
       }
     },
     doZoom(e) {
