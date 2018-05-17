@@ -11,10 +11,12 @@ export default {
 </script>
 
 <style lang="scss">
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer');
+
 html {
   box-sizing: border-box;
   height: 100%;
-  font-family: Georgia, Times, 'Times New Roman', serif;
+  font-family: 'IM Fell Great Primer', serif;
 }
 
 *,
@@ -27,7 +29,7 @@ body {
   margin: 0;
   height: 100%;
   background-color: #222222;
-  box-shadow: inset 0 0 200px #000;
+  box-shadow: inset 0 0 400px #000;
 }
 
 #App {

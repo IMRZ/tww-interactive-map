@@ -2,9 +2,10 @@
   <div id="MapControlSection">
 
     <div class="map-overlay-mode-section">
-      <MapLegendClimate :climates="data.common.climates" v-if="mapOverlayMode === 'climates'" />
-
-      <TwPanel type="info" v-if="mapOverlay === 'regions'">
+      <MapLegendClimate v-if="mapOverlayMode === 'climates'"
+        :climates="data.common.climates"
+      />
+      <TwPanel v-if="mapOverlay === 'regions'">
         <TwPanelTitle>Regions</TwPanelTitle>
         <TwPanelField label="None" :icon="require('./ui/skins/warhammer2/icon_cross_small.png')" >
           <TwRadio v-model="mapOverlayMode" value="" />
@@ -19,7 +20,7 @@
           <TwRadio v-model="mapOverlayMode" value="climates" />
         </TwPanelField>
       </TwPanel>
-      <TwPanel type="info" v-else-if="mapOverlay === 'choke_points'">
+      <TwPanel v-else-if="mapOverlay === 'choke_points'">
         <TwPanelTitle>Chokepoints</TwPanelTitle>
         <TwPanelField label="Single colour" :icon="require('./ui/skins/warhammer2/icon_spectate_battle.png')">
           <TwRadio v-model="mapOverlayMode" value="" />

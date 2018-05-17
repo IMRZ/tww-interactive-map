@@ -32,7 +32,7 @@ export default {
   .background {
     position: absolute;
     top: 0; right: 0; bottom: 7px; left: 0;
-    background: url("./skins//default/panel_back_tile.png");
+    background: url("./skins/default/panel_back_tile.png");
     background-size: cover;
     z-index: -2;
   }
@@ -46,7 +46,7 @@ export default {
     top: 0; right: 0; bottom: 0; left: 0;
     border: solid 20px;
     border-width: 20px 20px 20px 20px;
-    border-image: url("./skins//default/panel_back_border.png") 20 20 20 20 fill repeat;
+    border-image: url("./skins/default/panel_back_border.png") 20 20 20 20 fill repeat;
     z-index: -1;
   }
 
@@ -55,7 +55,7 @@ export default {
     top: 0; right: 0; bottom: 0; left: 0;
     border: solid 14px;
     border-width: 14px 14px 14px 14px;
-    border-image: url("./skins//default/tooltip_frame.png") 14 14 14 14 fill repeat;
+    border-image: url("./skins/default/tooltip_frame.png") 14 14 14 14 fill repeat;
     z-index: -1;
   }
 
