@@ -26,7 +26,8 @@ html {
 body {
   margin: 0;
   height: 100%;
-  background: url("./assets/ui/background.jpg");
+  background-color: #222222;
+  box-shadow: inset 0 0 200px #000;
 }
 
 #App {
