@@ -2485,7 +2485,99 @@
       "d": "M995 222v5h-8v12h12v-10h8v-12h-12v5zM1160 241.5v3.5h-12v12h12v-7h12v-12h-12v3.5zM929 246v6h8v11h12v-12h-8v-11h-12v6zM896 261c0 5.7.1 6 2.5 6s2.5.3 2.5 6v6h12v-6c0-5.7-.1-6-2.5-6s-2.5-.3-2.5-6v-6h-12v6zM994 323v6h12v-12h-12v6zM1141 325v6h-8v12h12v-12h8v-12h-12v6zM940 340v6h-3.5c-3.5 0-3.5 0-3.5 4.5v4.5h-10v12h12v-9h10v-12h7v-12h-12v6zM1008 340v6h12v-12h-12v6zM912 384v6h6v12h9v12h12v-12h-9v-12h-6v-12h-12v6zM902 434v6h12v-12h-12v6zM1262 453v6h5.5c5.2 0 5.5.1 5.5 2.5s.3 2.5 6 2.5h6v-12h-5.5c-5.2 0-5.5-.1-5.5-2.5s-.3-2.5-6-2.5h-6v6z"
     }
   ],
-  "startpositions": [],
+  "startpositions": [
+    {
+      "factionKey": "wh2_main_hef_high_elves",
+      "flag": {
+        "x": 2425,
+        "y": 1560
+      }
+    },
+    {
+      "factionKey": "wh2_main_hef_order_of_loremasters",
+      "flag": {
+        "x": 264,
+        "y": 3232
+      }
+    },
+    {
+      "factionKey": "wh2_main_def_dark_elves",
+      "flag": {
+        "x": 995,
+        "y": 430
+      }
+    },
+    {
+      "factionKey": "wh2_main_def_cult_of_pleasure",
+      "flag": {
+        "x": 680,
+        "y": 1020
+      }
+    },
+    {
+      "factionKey": "wh2_main_lzd_lizardmen",
+      "flag": {
+        "x": 470,
+        "y": 1870
+      }
+    },
+    {
+      "factionKey": "wh2_main_lzd_last_defenders",
+      "flag": {
+        "x": 3115,
+        "y": 3080
+      }
+    },
+    {
+      "factionKey": "wh2_main_skv_skaven",
+      "flag": {
+        "x": 2578,
+        "y": 3399
+      }
+    },
+    {
+      "factionKey": "wh2_main_skv_clan_pestilens",
+      "flag": {
+        "x": 1107,
+        "y": 3266
+      }
+    },
+    {
+      "factionKey": "wh2_dlc09_skv_clan_rictus",
+      "flag": {
+        "x": 1248,
+        "y": 739
+      }
+    },
+    {
+      "factionKey": "wh2_dlc09_tmb_khemri",
+      "flag": {
+        "x": 3090,
+        "y": 2405
+      }
+    },
+    {
+      "factionKey": "wh2_dlc09_tmb_lybaras",
+      "flag": {
+        "x": 660,
+        "y": 3600
+      }
+    },
+    {
+      "factionKey": "wh2_dlc09_tmb_followers_of_nagash",
+      "flag": {
+        "x": 2070,
+        "y": 2425
+      }
+    },
+    {
+      "factionKey": "wh2_dlc09_tmb_exiles_of_nehek",
+      "flag": {
+        "x": 200,
+        "y": 1100
+      }
+    }
+  ],
   "settlements": [
     {
       "key": "wh2_main_vor_aghol_wastelands_fortress_of_the_damned",
