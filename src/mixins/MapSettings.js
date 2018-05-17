@@ -34,7 +34,6 @@ export default {
       },
       set(value) {
         let query;
-
         if (value) {
           const { mapOverlayMode, ...otherQueryParams } = this.route.query;
           query = {
@@ -45,7 +44,6 @@ export default {
           const { mapOverlay, mapOverlayMode, ...otherQueryParams } = this.route.query;
           query = otherQueryParams;
         }
-
         this.$router.replace({ query });
       }
     },
@@ -56,7 +54,6 @@ export default {
       },
       set(value) {
         let query;
-
         if (value) {
           query = {
             ...this.route.query,
@@ -66,7 +63,6 @@ export default {
           const { mapOverlayMode, ...otherQueryParams } = this.route.query;
           query = otherQueryParams;
         }
-
         this.$router.replace({ query });
       }
     },
@@ -77,7 +73,6 @@ export default {
       },
       set(value) {
         let query;
-
         if (value) {
           query = {
             ...this.route.query,
@@ -87,7 +82,6 @@ export default {
           const { nodeOverlay, ...otherQueryParams } = this.route.query;
           query = otherQueryParams;
         }
-
         this.$router.replace({ query });
       }
     }

@@ -37,13 +37,11 @@
             :mode="mapOverlayMode"
           />
         </g>
-        <g v-else-if="mapOverlay === `choke_points`" :transform="map.settings.chokepoints_transform">
-          <MapChokepoint
-            v-for="chokepoint in map.chokepoints" :key="chokepoint.key"
-            :chokepoint="chokepoint"
-            :mode="mapOverlayMode"
-          />
-        </g>
+        <MapOverlayChokepoint v-else-if="mapOverlay === `choke_points`"
+          :chokepoints="map.chokepoints"
+          :mode="mapOverlayMode"
+          :transform="map.settings.chokepoints_transform"
+        />
       </g>
     </svg>
   </div>
@@ -52,19 +50,19 @@
 <script>
 import SvgUtil from "@/mixins/SvgUtil";
 import MapSettings from "@/mixins/MapSettings";
-import MapRegion from "@/components/MapRegion";
-import MapChokepoint from "@/components/MapChokepoint";
 import MapNodeOverlaySettlement from "@/components/MapNodeOverlaySettlement";
 import MapNodeOverlayStartposition from "@/components/MapNodeOverlayStartposition";
+import MapOverlayChokepoint from "@/components/MapOverlayChokepoint";
+import MapRegion from "@/components/MapRegion";
 
 export default {
   name: "MapContainer",
   mixins: [SvgUtil, MapSettings],
   components: {
-    MapRegion,
-    MapChokepoint,
     MapNodeOverlaySettlement,
-    MapNodeOverlayStartposition
+    MapNodeOverlayStartposition,
+    MapOverlayChokepoint,
+    MapRegion
   },
   props: {
     common: Object,
