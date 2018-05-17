@@ -49,6 +49,7 @@
 
 <script>
 import SvgUtil from "@/mixins/SvgUtil";
+import WindowUtil from "@/mixins/WindowUtil";
 import MapSettings from "@/mixins/MapSettings";
 import MapNodeOverlaySettlement from "@/components/MapNodeOverlaySettlement";
 import MapNodeOverlayStartposition from "@/components/MapNodeOverlayStartposition";
@@ -57,7 +58,7 @@ import MapRegion from "@/components/MapRegion";
 
 export default {
   name: "MapContainer",
-  mixins: [SvgUtil, MapSettings],
+  mixins: [SvgUtil, WindowUtil, MapSettings],
   components: {
     MapNodeOverlaySettlement,
     MapNodeOverlayStartposition,
@@ -69,14 +70,16 @@ export default {
     map: Object
   },
   created() {
-    const e = -this.map.settings.width / 4;
-    const f = -this.map.settings.height / 4;
-    this.overlayTransform = { transform: `matrix(1,0,0,1,${e},${f})` };
-    this.mapTransform = `matrix(1,0,0,1,${e},${f})`;
+    const windowCenter = this.getWindowCenter();
+    const e = this.getWindowCenter().x - this.map.settings.width / 2 * 0.25;
+    const f = this.getWindowCenter().y - this.map.settings.height / 2 * 0.25;
+    this.overlayTransform = { transform: `matrix(0.25,0,0,0.25,${e},${f})` };
+    this.mapTransform = `matrix(0.25,0,0,0.25,${e},${f})`;
   },
   mounted() {
-    this.mapMatrix = this.$refs.map.getCTM();
-    this.mpt = this.$refs.map.getCTM().inverse();
+    const m = this.$refs.map.getCTM();
+    this.mpt = m.inverse();
+    this.setCTM(m);
   },
   data() {
     return {
