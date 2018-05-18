@@ -124,8 +124,8 @@
   {
     "factionKey": "wh2_main_lzd_last_defenders",
     "flag": {
-      "x": 3629,
-      "y": 3191
+      "x": 3823,
+      "y": 3288
     }
   },
   {
@@ -208,8 +208,8 @@
   {
     "factionKey": "wh2_dlc09_tmb_followers_of_nagash",
     "flag": {
-      "x": 1631,
-      "y": 3271
+      "x": 1465,
+      "y": 3120
     }
   },
   {
@@ -231,6 +231,27 @@
     "flag": {
       "x": 2610,
       "y": 204
+    }
+  },
+  {
+    "factionKey": "wh2_main_hef_avelorn",
+    "flag": {
+      "x": 890,
+      "y": 1706
+    }
+  },
+  {
+    "factionKey": "wh2_main_def_har_ganeth",
+    "flag": {
+      "x": 620,
+      "y": 425
+    }
+  },
+  {
+    "factionKey": "wh2_main_hef_nagarythe",
+    "flag": {
+      "x": 649,
+      "y": 1502
     }
   }
 ]

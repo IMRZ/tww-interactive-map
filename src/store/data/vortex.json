@@ -2576,6 +2576,27 @@
         "x": 200,
         "y": 1100
       }
+    },
+    {
+      "factionKey": "wh2_main_hef_avelorn",
+      "flag": {
+        "x": 2420,
+        "y": 1020
+      }
+    },
+    {
+      "factionKey": "wh2_main_def_har_ganeth",
+      "flag": {
+        "x": 1281,
+        "y": 393
+      }
+    },
+    {
+      "factionKey": "wh2_main_hef_nagarythe",
+      "flag": {
+        "x": 2080,
+        "y": 715
+      }
     }
   ],
   "settlements": [

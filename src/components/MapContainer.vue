@@ -92,9 +92,6 @@ export default {
     };
   },
   methods: {
-    onLoad() {
-       console.log("loaded image");
-    },
     stopPan(e) {
       this.isPanning = false;
     },
