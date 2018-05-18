@@ -17,6 +17,8 @@ html {
   box-sizing: border-box;
   height: 100%;
   font-family: 'IM Fell Great Primer', serif;
+  background: url("./assets/background.jpg");
+  background-size: cover;
 }
 
 *,
@@ -28,8 +30,7 @@ html {
 body {
   margin: 0;
   height: 100%;
-  background-color: #222222;
-  box-shadow: inset 0 0 400px #000;
+  background-color: rgba(0, 0, 0, 0.95);
 }
 
 #App {
