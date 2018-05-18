@@ -16,11 +16,7 @@ const promise = Promise.all([
   regions,
   regionToProvinceJunctions
 ]) => {
-  // fs.writeFileSync(
-  //   // path.resolve(__dirname, "../../src/store/data/") + "common.json",
-  //   "src/store/data/common.json",
-  //   JSON.stringify(common, null, 2)
-  // );
+  const battleMaps = require("./battle_maps.json");
 
   return {
     campaignMapSettlements,
@@ -28,7 +24,8 @@ const promise = Promise.all([
     factions,
     provinces,
     regions,
-    regionToProvinceJunctions
+    regionToProvinceJunctions,
+    battleMaps
   };
 });
 

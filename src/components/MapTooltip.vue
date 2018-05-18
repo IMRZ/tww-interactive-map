@@ -13,7 +13,8 @@
       <div v-if="tooltipData.lord">Lord: {{tooltipData.lord}}</div>
     </div>
     <div class="content" v-else-if="tooltipData && tooltipData.type === 'chokepoint'">
-      <div>Chokepoint: {{tooltipData.key.split("wh2_main_chokepoint_")[1].replace(/_/g, " ")}}</div>
+      <div>Chokepoint: {{getBattleMapLabel(tooltipData.key)}}</div>
+      <!-- <img :src="getBattleMapPreview(tooltipData.key)"> -->
     </div>
     <pre v-else>{{tooltipData}}</pre>
   </div>
@@ -29,10 +30,18 @@ export default {
   },
   data() {
     return {
-      offset: 20
+      offset: 20,
+      baseUrl: process.env.BASE_URL
     };
   },
   methods: {
+    getBattleMapLabel(key) {
+      return this.common.battleMaps[key].label;
+    },
+    getBattleMapPreview(key) {
+      const preview = this.common.battleMaps[key].preview;
+      return `${this.baseUrl}ui/chokepoints/${preview}.png`;
+    },
     getFactionName(key) {
       return this.common.factions[key].name;
     },
