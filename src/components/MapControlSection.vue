@@ -1,6 +1,11 @@
 <template>
   <div id="MapControlSection">
 
+    <TwCornerButton
+      :icon="require('./ui/skins/default/icon_home.png')"
+      :onClick="() => $router.push('/')"
+    />
+
     <div class="map-overlay-mode-section">
       <MapLegendClimate v-if="mapOverlayMode === 'climates'"
         :climates="data.common.climates"
@@ -75,6 +80,7 @@ import TwPanelTitle from "@/components/ui/TwPanelTitle";
 import TwPanelField from "@/components/ui/TwPanelField";
 import TwCheckbox from "@/components/ui/TwCheckbox";
 import TwRadio from "@/components/ui/TwRadio";
+import TwCornerButton from "@/components/ui/TwCornerButton";
 
 export default {
   name: "MapControlSection",
@@ -85,7 +91,8 @@ export default {
     TwPanelTitle,
     TwPanelField,
     TwCheckbox,
-    TwRadio
+    TwRadio,
+    TwCornerButton
   },
   computed: {
     mapOpacity() {
@@ -108,7 +115,7 @@ export default {
   right: 0;
   top: 0;
   bottom: 0;
-  margin: 20px 0;
+  margin: 0 0 20px 0;
   width: 280px;
   display: flex;
   flex-direction: column;
