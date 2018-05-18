@@ -1,69 +1,84 @@
 <template>
   <div id="MainView">
-    <router-link class="map-select" tag="div" to="/map/vortex">
-      <div class="image-container">
-        <img src="@/assets/ui/campaign_select_great_vortex.png" />
-      </div>
-      <span>The Eye of the Vortex</span>
-    </router-link>
-    <router-link class="map-select" tag="div" to="/map/mortal_empires">
-      <div class="image-container">
-        <img src="@/assets/ui/campaign_select_grand_campaign.png" />
-      </div>
-      <span>Mortal Empires</span>
-    </router-link>
+    <div class="container">
+      <router-link class="map-select" tag="div" to="/map/vortex">
+        <div class="image vortex">
+          <h1>The Great Vortex</h1>
+        </div>
+      </router-link>
+      <router-link class="map-select" tag="div" to="/map/mortal_empires">
+        <div class="image mortal">
+          <h1>Mortal Empires</h1>
+        </div>
+      </router-link>
+    </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'MainView'
+  name: "MainView"
 };
 </script>
 
 <style lang="scss">
 #MainView {
-  width: 100%;
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #fff8d7;
 
-  .map-select {
+  .container {
+    flex: 1;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #232324;
-    border: solid 1px #b29871;
-    margin: 10px;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-top: solid 2px rgba(255, 255, 255, 0.2);
+    border-bottom: solid 2px rgba(255, 255, 255, 0.2);
+  }
+
+  .map-select {
+    width: 315px;
+    height: 195px;
+    overflow: hidden;
     cursor: pointer;
+    margin: 10px;
+  }
+
+  h1 {
+    text-shadow: 2px 2px black;
+  }
+
+  .image {
+    margin: -5px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-end;
+    text-align: center;
+    color: white;
+  }
+
+  .mortal {
+    background: url("../assets/ui/campaign_select_grand_campaign.png");
+    background-size: cover;
+    box-shadow: inset 0 -150px 150px -150px red;
 
     &:hover {
-      @keyframes pulse {
-        from { box-shadow: inset 0 0 5px rgba(0,0,0,.075), 0 0 30px 5px rgba(102, 175, 233, 0.8); }
-        50% { box-shadow: inset 0 0 5px rgba(0,0,0,.075), 0 0 60px 5px rgba(102, 175, 233, 0.8); }
-        to { box-shadow: inset 0 0 5px rgba(0,0,0,.075), 0 0 30px 5px rgba(102, 175, 233, 0.8); }
-      }
-
-      animation-name: pulse;
-      animation-duration: 3s;
-      animation-iteration-count: infinite;
+      box-shadow: inset 0 -250px 250px -250px red;
     }
+  }
 
-    .image-container {
-      height: 185px;
-      overflow: hidden;
-      border-bottom: solid 1px #b29871;
+  .vortex {
+    background: url("../assets/ui/campaign_select_great_vortex.png");
+    background-size: cover;
+    box-shadow: inset 0 -150px 150px -150px skyblue;
 
-      img {
-        margin: -10px;
-      }
-    }
-
-    span {
-      padding: 5px;
+    &:hover {
+      box-shadow: inset 0 -250px 250px -250px skyblue;
     }
   }
 }
