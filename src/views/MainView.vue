@@ -45,6 +45,7 @@ export default {
     overflow: hidden;
     cursor: pointer;
     margin: 10px;
+    filter: drop-shadow(0 0 15px black);
   }
 
   h1 {
