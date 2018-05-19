@@ -30,7 +30,7 @@ html {
 body {
   margin: 0;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.95);
+  background-color: rgba(0, 0, 0, 0.90);
 }
 
 #App {

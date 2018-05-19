@@ -1,16 +1,22 @@
 <template>
   <div id="MainView">
+    <div class="header">
+      <h1 class="title">Total War: Warhammer - Interactive Map</h1>
+    </div>
     <div class="container">
       <router-link class="map-select" tag="div" to="/map/vortex">
         <div class="image vortex">
-          <h1>The Great Vortex</h1>
+          <h2>The Great Vortex</h2>
         </div>
       </router-link>
       <router-link class="map-select" tag="div" to="/map/mortal_empires">
         <div class="image mortal">
-          <h1>Mortal Empires</h1>
+          <h2>Mortal Empires</h2>
         </div>
       </router-link>
+    </div>
+    <div class="footer">
+      <div class="version">Version: 0.1.0</div>
     </div>
   </div>
 </template>
@@ -25,11 +31,36 @@ export default {
 #MainView {
   height: 100%;
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
+  color: white;
+
+  .header {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    .title {
+      text-align: center;
+      font-size: 3em;
+    }
+  }
+
+  .footer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    .version {
+      text-align: center;
+      padding: 10px;
+    }
+  }
 
   .container {
-    flex: 1;
+    flex: 0 1 auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -46,10 +77,11 @@ export default {
     cursor: pointer;
     margin: 10px;
     filter: drop-shadow(0 0 15px black);
-  }
 
-  h1 {
-    text-shadow: 2px 2px black;
+    h2 {
+      text-shadow: 2px 2px black;
+      font-size: 2em;
+    }
   }
 
   .image {
@@ -60,7 +92,6 @@ export default {
     align-content: center;
     justify-content: flex-end;
     text-align: center;
-    color: white;
   }
 
   .mortal {
