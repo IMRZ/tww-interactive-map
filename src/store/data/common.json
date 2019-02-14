@@ -12,6 +12,10 @@
       "key": "wh2_main_aghol_wastelands_the_palace_of_ruin",
       "climate": "chaotic"
     },
+    "wh2_main_albion_albion": {
+      "key": "wh2_main_albion_albion",
+      "climate": "chaotic"
+    },
     "wh2_main_ash_river_numas": {
       "key": "wh2_main_ash_river_numas",
       "climate": "desert"
@@ -204,6 +208,10 @@
       "key": "wh2_main_griffon_gate",
       "climate": "island"
     },
+    "wh2_main_headhunters_jungle_chupayotl": {
+      "key": "wh2_main_headhunters_jungle_chupayotl",
+      "climate": "island"
+    },
     "wh2_main_headhunters_jungle_mangrove_coast": {
       "key": "wh2_main_headhunters_jungle_mangrove_coast",
       "climate": "jungle"
@@ -216,21 +224,25 @@
       "key": "wh2_main_headhunters_jungle_oyxl",
       "climate": "jungle"
     },
+    "wh2_main_heart_of_the_jungle_oreons_camp": {
+      "key": "wh2_main_heart_of_the_jungle_oreons_camp",
+      "climate": "magicforest"
+    },
     "wh2_main_hell_pit_hell_pit": {
       "key": "wh2_main_hell_pit_hell_pit",
       "climate": "wasteland"
     },
     "wh2_main_huahuan_desert_chamber_of_visions": {
       "key": "wh2_main_huahuan_desert_chamber_of_visions",
-      "climate": "desert"
+      "climate": "jungle"
     },
     "wh2_main_huahuan_desert_sentinels_of_xeti": {
       "key": "wh2_main_huahuan_desert_sentinels_of_xeti",
-      "climate": "desert"
+      "climate": "jungle"
     },
     "wh2_main_huahuan_desert_the_golden_colossus": {
       "key": "wh2_main_huahuan_desert_the_golden_colossus",
-      "climate": "desert"
+      "climate": "jungle"
     },
     "wh2_main_iron_mountains_altar_of_ultimate_darkness": {
       "key": "wh2_main_iron_mountains_altar_of_ultimate_darkness",
@@ -270,7 +282,7 @@
     },
     "wh2_main_isthmus_of_lustria_ziggurat_of_dawn": {
       "key": "wh2_main_isthmus_of_lustria_ziggurat_of_dawn",
-      "climate": "jungle"
+      "climate": "savannah"
     },
     "wh2_main_jungles_of_green_mists_spektazuma": {
       "key": "wh2_main_jungles_of_green_mists_spektazuma",
@@ -314,6 +326,14 @@
     },
     "wh2_main_land_of_the_dead_zandri": {
       "key": "wh2_main_land_of_the_dead_zandri",
+      "climate": "desert"
+    },
+    "wh2_main_land_of_the_dervishes_plain_of_tuskers": {
+      "key": "wh2_main_land_of_the_dervishes_plain_of_tuskers",
+      "climate": "desert"
+    },
+    "wh2_main_land_of_the_dervishes_sudenburg": {
+      "key": "wh2_main_land_of_the_dervishes_sudenburg",
       "climate": "desert"
     },
     "wh2_main_nagarythe_shrine_of_khaine": {
@@ -426,7 +446,7 @@
     },
     "wh2_main_southern_jungle_of_pahualaxa_monument_of_the_moon": {
       "key": "wh2_main_southern_jungle_of_pahualaxa_monument_of_the_moon",
-      "climate": "savannah"
+      "climate": "jungle"
     },
     "wh2_main_southern_jungle_of_pahualaxa_pahuax": {
       "key": "wh2_main_southern_jungle_of_pahualaxa_pahuax",
@@ -467,70 +487,6 @@
     "wh2_main_spine_of_sotek_monument_of_izzatal": {
       "key": "wh2_main_spine_of_sotek_monument_of_izzatal",
       "climate": "mountain"
-    },
-    "wh2_main_testbed_01": {
-      "key": "wh2_main_testbed_01",
-      "climate": "chaotic"
-    },
-    "wh2_main_testbed_02": {
-      "key": "wh2_main_testbed_02",
-      "climate": "temperate"
-    },
-    "wh2_main_testbed_03": {
-      "key": "wh2_main_testbed_03",
-      "climate": "frozen"
-    },
-    "wh2_main_testbed_04": {
-      "key": "wh2_main_testbed_04",
-      "climate": "island"
-    },
-    "wh2_main_testbed_05": {
-      "key": "wh2_main_testbed_05",
-      "climate": "jungle"
-    },
-    "wh2_main_testbed_06": {
-      "key": "wh2_main_testbed_06",
-      "climate": "magicforest"
-    },
-    "wh2_main_testbed_07": {
-      "key": "wh2_main_testbed_07",
-      "climate": "mountain"
-    },
-    "wh2_main_testbed_08": {
-      "key": "wh2_main_testbed_08",
-      "climate": "savannah"
-    },
-    "wh2_main_testbed_09": {
-      "key": "wh2_main_testbed_09",
-      "climate": "desert"
-    },
-    "wh2_main_testbed_10": {
-      "key": "wh2_main_testbed_10",
-      "climate": "wasteland"
-    },
-    "wh2_main_testbed_11": {
-      "key": "wh2_main_testbed_11",
-      "climate": "chaotic"
-    },
-    "wh2_main_testbed_12": {
-      "key": "wh2_main_testbed_12",
-      "climate": "desert"
-    },
-    "wh2_main_testbed_13": {
-      "key": "wh2_main_testbed_13",
-      "climate": "frozen"
-    },
-    "wh2_main_testbed_14": {
-      "key": "wh2_main_testbed_14",
-      "climate": "island"
-    },
-    "wh2_main_testbed_15": {
-      "key": "wh2_main_testbed_15",
-      "climate": "jungle"
-    },
-    "wh2_main_testbed_16": {
-      "key": "wh2_main_testbed_16",
-      "climate": "temperate"
     },
     "wh2_main_the_black_coast_arnheim": {
       "key": "wh2_main_the_black_coast_arnheim",
@@ -603,6 +559,10 @@
     "wh2_main_the_creeping_jungle_tlaxtlan": {
       "key": "wh2_main_the_creeping_jungle_tlaxtlan",
       "climate": "jungle"
+    },
+    "wh2_main_the_galleons_graveyard": {
+      "key": "wh2_main_the_galleons_graveyard",
+      "climate": "ocean"
     },
     "wh2_main_the_road_of_skulls_har_ganeth": {
       "key": "wh2_main_the_road_of_skulls_har_ganeth",
@@ -878,7 +838,7 @@
     },
     "wh2_main_vor_forest_of_the_viper_mirror_pool_of_tepok": {
       "key": "wh2_main_vor_forest_of_the_viper_mirror_pool_of_tepok",
-      "climate": "jungle"
+      "climate": "savannah"
     },
     "wh2_main_vor_grey_guardians_grey_rock_point": {
       "key": "wh2_main_vor_grey_guardians_grey_rock_point",
@@ -1439,6 +1399,10 @@
     "wh2_main_vor_the_forbidden_jungle_sentinels_of_xeti": {
       "key": "wh2_main_vor_the_forbidden_jungle_sentinels_of_xeti",
       "climate": "jungle"
+    },
+    "wh2_main_vor_the_galleons_graveyard": {
+      "key": "wh2_main_vor_the_galleons_graveyard",
+      "climate": "ocean"
     },
     "wh2_main_vor_the_great_desert_bel_aliad": {
       "key": "wh2_main_vor_the_great_desert_bel_aliad",
@@ -2579,6 +2543,10 @@
     "wh2_main_vor_ashen_coast_tyrant_peak": {
       "key": "wh2_main_vor_ashen_coast_tyrant_peak",
       "climate": "mountain"
+    },
+    "wh2_main_sartosa_sartosa": {
+      "key": "wh2_main_sartosa_sartosa",
+      "climate": "temperate"
     }
   },
   "climates": {
@@ -2641,6 +2609,12 @@
       "description": "Scorched or scoured - nothing grows here and only a few races could survive in this region, let alone thrive.",
       "fill": "red",
       "icon": "/ui/icons/wasteland.png"
+    },
+    "ocean": {
+      "name": "Ocean",
+      "description": "The oceans of the world harbour many great wrecks and treasures, as only the best seafaring races can truly master its currents and tides.",
+      "fill": "blue",
+      "icon": "/ui/icons/ocean.png"
     }
   },
   "factions": {
@@ -2805,6 +2779,222 @@
       "name": "Court of Lybaras",
       "flagsPath": "ui/flags/wh2_dlc09_tmb_lybaras",
       "primaryColour": "BAB6A3"
+    },
+    "wh2_dlc10_def_blood_voyage": {
+      "key": "wh2_dlc10_def_blood_voyage",
+      "name": "Blood Voyage",
+      "flagsPath": "ui/flags/wh2_dlc10_def_blood_voyage",
+      "primaryColour": "800000"
+    },
+    "wh2_dlc11_brt_bretonnia_dil": {
+      "key": "wh2_dlc11_brt_bretonnia_dil",
+      "name": "Bretonnian Merchants",
+      "flagsPath": "ui/flags/wh_main_brt_bretonnia_rebels",
+      "primaryColour": "F8F4E4"
+    },
+    "wh2_dlc11_cst_harpoon_the_sunken_land_corsairs": {
+      "key": "wh2_dlc11_cst_harpoon_the_sunken_land_corsairs",
+      "name": "The Sunken Land Corsairs",
+      "flagsPath": "ui/flags/wh2_dlc11_cst_harpoon_the_sunken_land_corsairs",
+      "primaryColour": "800000"
+    },
+    "wh2_dlc11_cst_noctilus": {
+      "key": "wh2_dlc11_cst_noctilus",
+      "name": "The Dreadfleet",
+      "flagsPath": "ui/flags/wh2_dlc11_cst_noctilus",
+      "primaryColour": "BF1480"
+    },
+    "wh2_dlc11_cst_noctilus_separatists": {
+      "key": "wh2_dlc11_cst_noctilus_separatists",
+      "name": "The Dreadfleet Separatists",
+      "flagsPath": "ui/flags/wh2_dlc11_cst_noctilus_separatists",
+      "primaryColour": "153348"
+    },
+    "wh2_dlc11_cst_pirates_of_sartosa": {
+      "key": "wh2_dlc11_cst_pirates_of_sartosa",
+      "name": "Pirates of Sartosa",
+      "flagsPath": "ui/flags/wh2_dlc11_cst_pirates_of_sartosa",
+      "primaryColour": "CBB121"
+    },
+    "wh2_dlc11_cst_pirates_of_sartosa_separatists": {
+      "key": "wh2_dlc11_cst_pirates_of_sartosa_separatists",
+      "name": "Pirates of Sartosa Separatists",
+      "flagsPath": "ui/flags/wh2_dlc11_cst_pirates_of_sartosa_separatists",
+      "primaryColour": "153347"
+    },
+    "wh2_dlc11_cst_rogue_bleak_coast_buccaneers": {
+      "key": "wh2_dlc11_cst_rogue_bleak_coast_buccaneers",
+      "name": "Bleak Coast Buccaneers",
+      "flagsPath": "ui/flags/wh2_dlc11_cst_rogue_bleak_coast_buccaneers",
+      "primaryColour": "800000"
+    },
+    "wh2_dlc11_cst_rogue_boyz_of_the_forbidden_coast": {
+      "key": "wh2_dlc11_cst_rogue_boyz_of_the_forbidden_coast",
+      "name": "The Boyz of the Forbidden Coast",
+      "flagsPath": "ui/flags/wh2_dlc11_cst_rogue_boyz_of_the_forbidden_coast",
+      "primaryColour": "800000"
+    },
+    "wh2_dlc11_cst_rogue_freebooters_of_port_royale": {
+      "key": "wh2_dlc11_cst_rogue_freebooters_of_port_royale",
+      "name": "Freebooters of Port Royale",
+      "flagsPath": "ui/flags/wh2_dlc11_cst_rogue_freebooters_of_port_royale",
+      "primaryColour": "800000"
+    },
+    "wh2_dlc11_cst_rogue_grey_point_scuttlers": {
+      "key": "wh2_dlc11_cst_rogue_grey_point_scuttlers",
+      "name": "Grey Point Scuttlers",
+      "flagsPath": "ui/flags/wh2_dlc11_cst_rogue_grey_point_scuttlers",
+      "primaryColour": "800000"
+    },
+    "wh2_dlc11_cst_rogue_terrors_of_the_dark_straights": {
+      "key": "wh2_dlc11_cst_rogue_terrors_of_the_dark_straights",
+      "name": "The Terrors of the Dark Straits",
+      "flagsPath": "ui/flags/wh2_dlc11_cst_rogue_terrors_of_the_dark_straights",
+      "primaryColour": "800000"
+    },
+    "wh2_dlc11_cst_rogue_the_churning_gulf_raiders": {
+      "key": "wh2_dlc11_cst_rogue_the_churning_gulf_raiders",
+      "name": "The Churning Gulf Raiders",
+      "flagsPath": "ui/flags/wh2_dlc11_cst_rogue_the_churning_gulf_raiders",
+      "primaryColour": "800000"
+    },
+    "wh2_dlc11_cst_rogue_tyrants_of_the_black_ocean": {
+      "key": "wh2_dlc11_cst_rogue_tyrants_of_the_black_ocean",
+      "name": "The Tyrants of the Black Ocean",
+      "flagsPath": "ui/flags/wh2_dlc11_cst_rogue_tyrants_of_the_black_ocean",
+      "primaryColour": "800000"
+    },
+    "wh2_dlc11_cst_shanty_dragon_spine_privateers": {
+      "key": "wh2_dlc11_cst_shanty_dragon_spine_privateers",
+      "name": "Dragon Spine Privateers",
+      "flagsPath": "ui/flags/wh2_dlc11_cst_shanty_dragon_spine_privateers",
+      "primaryColour": "800000"
+    },
+    "wh2_dlc11_cst_shanty_middle_sea_brigands": {
+      "key": "wh2_dlc11_cst_shanty_middle_sea_brigands",
+      "name": "Middle Sea Brigands",
+      "flagsPath": "ui/flags/wh2_dlc11_cst_shanty_middle_sea_brigands",
+      "primaryColour": "800000"
+    },
+    "wh2_dlc11_cst_shanty_shark_straight_seadogs": {
+      "key": "wh2_dlc11_cst_shanty_shark_straight_seadogs",
+      "name": "Shark Strait Seadogs",
+      "flagsPath": "ui/flags/wh2_dlc11_cst_shanty_shark_straight_seadogs",
+      "primaryColour": "800000"
+    },
+    "wh2_dlc11_cst_the_drowned": {
+      "key": "wh2_dlc11_cst_the_drowned",
+      "name": "The Drowned",
+      "flagsPath": "ui/flags/wh2_dlc11_cst_the_drowned",
+      "primaryColour": "304785"
+    },
+    "wh2_dlc11_cst_the_drowned_separatists": {
+      "key": "wh2_dlc11_cst_the_drowned_separatists",
+      "name": "The Drowned Separatists",
+      "flagsPath": "ui/flags/wh2_dlc11_cst_the_drowned_separatists",
+      "primaryColour": "153347"
+    },
+    "wh2_dlc11_cst_vampire_coast": {
+      "key": "wh2_dlc11_cst_vampire_coast",
+      "name": "Vampire Coast",
+      "flagsPath": "ui/flags/wh2_dlc11_cst_vampire_coast",
+      "primaryColour": "3A6979"
+    },
+    "wh2_dlc11_cst_vampire_coast_encounters": {
+      "key": "wh2_dlc11_cst_vampire_coast_encounters",
+      "name": "Rogue Pirates",
+      "flagsPath": "ui/flags/wh2_dlc11_cst_vampire_coast_mutineers",
+      "primaryColour": "153348"
+    },
+    "wh2_dlc11_cst_vampire_coast_qb1": {
+      "key": "wh2_dlc11_cst_vampire_coast_qb1",
+      "name": "Vampire Coast",
+      "flagsPath": "ui/flags/wh2_dlc11_cst_vampire_coast_rebels",
+      "primaryColour": "153348"
+    },
+    "wh2_dlc11_cst_vampire_coast_qb2": {
+      "key": "wh2_dlc11_cst_vampire_coast_qb2",
+      "name": "Vampire Coast",
+      "flagsPath": "ui/flags/wh2_dlc11_cst_vampire_coast_rebels",
+      "primaryColour": "153348"
+    },
+    "wh2_dlc11_cst_vampire_coast_qb3": {
+      "key": "wh2_dlc11_cst_vampire_coast_qb3",
+      "name": "Vampire Coast",
+      "flagsPath": "ui/flags/wh2_dlc11_cst_vampire_coast_rebels",
+      "primaryColour": "153348"
+    },
+    "wh2_dlc11_cst_vampire_coast_qb4": {
+      "key": "wh2_dlc11_cst_vampire_coast_qb4",
+      "name": "Vampire Coast",
+      "flagsPath": "ui/flags/wh2_dlc11_cst_vampire_coast_rebels",
+      "primaryColour": "153348"
+    },
+    "wh2_dlc11_cst_vampire_coast_rebellion_rebels": {
+      "key": "wh2_dlc11_cst_vampire_coast_rebellion_rebels",
+      "name": "Vampire Coast Rebels",
+      "flagsPath": "ui/flags/wh2_dlc11_cst_vampire_coast_rebels",
+      "primaryColour": "BA270A"
+    },
+    "wh2_dlc11_cst_vampire_coast_rebels": {
+      "key": "wh2_dlc11_cst_vampire_coast_rebels",
+      "name": "Vampire Coast Mutineers",
+      "flagsPath": "ui/flags/wh2_dlc11_cst_vampire_coast_mutineers",
+      "primaryColour": "3E3E3E"
+    },
+    "wh2_dlc11_cst_vampire_coast_separatists": {
+      "key": "wh2_dlc11_cst_vampire_coast_separatists",
+      "name": "Vampire Coast Separatists",
+      "flagsPath": "ui/flags/wh2_dlc11_cst_vampire_coast_separatists",
+      "primaryColour": "153348"
+    },
+    "wh2_dlc11_def_dark_elves_dil": {
+      "key": "wh2_dlc11_def_dark_elves_dil",
+      "name": "Dark Elf Slavers",
+      "flagsPath": "ui/flags/wh2_main_def_dark_elves_rebels",
+      "primaryColour": "DACCDA"
+    },
+    "wh2_dlc11_def_the_blessed_dread": {
+      "key": "wh2_dlc11_def_the_blessed_dread",
+      "name": "The Blessed Dread",
+      "flagsPath": "ui/flags/wh2_dlc11_def_the_blessed_dread",
+      "primaryColour": "1A6E83"
+    },
+    "wh2_dlc11_def_the_blessed_dread_separatists": {
+      "key": "wh2_dlc11_def_the_blessed_dread_separatists",
+      "name": "The Blessed Dread Separatists",
+      "flagsPath": "ui/flags/wh2_dlc11_def_the_blessed_dread_separatists",
+      "primaryColour": "686868"
+    },
+    "wh2_dlc11_emp_empire_dil": {
+      "key": "wh2_dlc11_emp_empire_dil",
+      "name": "Exotic Goods Hauler",
+      "flagsPath": "ui/flags/wh_main_emp_empire_rebels",
+      "primaryColour": "E00606"
+    },
+    "wh2_dlc11_emp_empire_qb5": {
+      "key": "wh2_dlc11_emp_empire_qb5",
+      "name": "The Empire",
+      "flagsPath": "ui/flags/wh_main_emp_empire",
+      "primaryColour": "E00606"
+    },
+    "wh2_dlc11_nor_norsca_dil": {
+      "key": "wh2_dlc11_nor_norsca_dil",
+      "name": "Norscan Raiders",
+      "flagsPath": "ui/flags/wh_main_nor_norsca_rebels",
+      "primaryColour": "A55AB9"
+    },
+    "wh2_dlc11_nor_norsca_qb4": {
+      "key": "wh2_dlc11_nor_norsca_qb4",
+      "name": "Skjold Raiders",
+      "flagsPath": "ui/flags/wh_main_nor_norsca_rebels",
+      "primaryColour": "A55AB9"
+    },
+    "wh2_dlc11_vmp_the_barrow_legion": {
+      "key": "wh2_dlc11_vmp_the_barrow_legion",
+      "name": "The Barrow Legion",
+      "flagsPath": "ui/flags/wh2_dlc11_vmp_the_barrow_legion",
+      "primaryColour": "43728C"
     },
     "wh2_main_brt_knights_of_origo": {
       "key": "wh2_main_brt_knights_of_origo",
@@ -3026,6 +3216,12 @@
       "key": "wh2_main_def_har_ganeth",
       "name": "Har Ganeth",
       "flagsPath": "ui/flags/wh2_main_def_har_ganeth",
+      "primaryColour": "353434"
+    },
+    "wh2_main_def_har_ganeth_separatists": {
+      "key": "wh2_main_def_har_ganeth_separatists",
+      "name": "Har Ganeth Separatists",
+      "flagsPath": "ui/flags/wh2_main_def_har_ganeth_separatists",
       "primaryColour": "353434"
     },
     "wh2_main_def_karond_kar": {
@@ -3746,31 +3942,13 @@
       "key": "wh2_main_vmp_vampire_coast",
       "name": "Vampire Coast",
       "flagsPath": "ui/flags/wh2_main_vmp_vampire_coast",
-      "primaryColour": "153347"
+      "primaryColour": "153348"
     },
     "wh2_main_wef_bowmen_of_oreon": {
       "key": "wh2_main_wef_bowmen_of_oreon",
       "name": "Bowmen of Oreon",
       "flagsPath": "ui/flags/wh2_main_wef_oreon",
       "primaryColour": "EDE5DF"
-    },
-    "wh_dlc03_brt_bretonnia_qb1": {
-      "key": "wh_dlc03_brt_bretonnia_qb1",
-      "name": "Bretonnia",
-      "flagsPath": "ui/flags/wh_main_brt_bretonnia",
-      "primaryColour": "4E51AB"
-    },
-    "wh_dlc03_brt_bretonnia_qb2": {
-      "key": "wh_dlc03_brt_bretonnia_qb2",
-      "name": "Bretonnia",
-      "flagsPath": "ui/flags/wh_main_brt_bretonnia",
-      "primaryColour": "4E51AB"
-    },
-    "wh_dlc03_brt_bretonnia_qb3": {
-      "key": "wh_dlc03_brt_bretonnia_qb3",
-      "name": "Bretonnia",
-      "flagsPath": "ui/flags/wh_main_brt_bretonnia",
-      "primaryColour": "4E51AB"
     },
     "wh_dlc03_bst_beastmen": {
       "key": "wh_dlc03_bst_beastmen",
@@ -3844,90 +4022,6 @@
       "flagsPath": "ui/flags/wh_dlc03_bst_beastmen_jagged_horn",
       "primaryColour": "000000"
     },
-    "wh_dlc03_bst_mini_beastmen_rebels": {
-      "key": "wh_dlc03_bst_mini_beastmen_rebels",
-      "name": "Beastmen Rebels",
-      "flagsPath": "ui/flags/wh_dlc03_bst_beastmen_rebels",
-      "primaryColour": "060606"
-    },
-    "wh_dlc03_bst_mini_beastmen_rebels_brayherd": {
-      "key": "wh_dlc03_bst_mini_beastmen_rebels_brayherd",
-      "name": "Beastmen Rebels Brayherd",
-      "flagsPath": "ui/flags/wh_dlc03_bst_beastmen_rebels",
-      "primaryColour": "000000"
-    },
-    "wh_dlc03_bst_mini_jagged_horn": {
-      "key": "wh_dlc03_bst_mini_jagged_horn",
-      "name": "Jagged-Horn Tribe",
-      "flagsPath": "ui/flags/wh_dlc03_bst_beastmen_jagged_horn",
-      "primaryColour": "000000"
-    },
-    "wh_dlc03_bst_mini_jagged_horn_brayherd": {
-      "key": "wh_dlc03_bst_mini_jagged_horn_brayherd",
-      "name": "Jagged-Horn Tribe Brayherd",
-      "flagsPath": "ui/flags/wh_dlc03_bst_beastmen_jagged_horn",
-      "primaryColour": "000000"
-    },
-    "wh_dlc03_bst_mini_khazrak_herd": {
-      "key": "wh_dlc03_bst_mini_khazrak_herd",
-      "name": "Warherd of the One-Eye",
-      "flagsPath": "ui/flags/wh_dlc03_bst_beastmen",
-      "primaryColour": "060606"
-    },
-    "wh_dlc03_bst_mini_khazrak_herd_brayherd": {
-      "key": "wh_dlc03_bst_mini_khazrak_herd_brayherd",
-      "name": "Brayherd of the One-Eye",
-      "flagsPath": "ui/flags/wh_dlc03_bst_beastmen",
-      "primaryColour": "000000"
-    },
-    "wh_dlc03_bst_mini_redhorn": {
-      "key": "wh_dlc03_bst_mini_redhorn",
-      "name": "Redhorn Tribe",
-      "flagsPath": "ui/flags/wh_dlc03_bst_beastmen_redhorn",
-      "primaryColour": "000000"
-    },
-    "wh_dlc03_bst_mini_redhorn_brayherd": {
-      "key": "wh_dlc03_bst_mini_redhorn_brayherd",
-      "name": "Redhorn Tribe Brayherd",
-      "flagsPath": "ui/flags/wh_dlc03_bst_beastmen_redhorn",
-      "primaryColour": "000000"
-    },
-    "wh_dlc03_bst_mini_ripper_horn": {
-      "key": "wh_dlc03_bst_mini_ripper_horn",
-      "name": "Ripper-Horn Tribe",
-      "flagsPath": "ui/flags/wh_dlc03_bst_beastmen_ripper_horn",
-      "primaryColour": "000000"
-    },
-    "wh_dlc03_bst_mini_ripper_horn_brayherd": {
-      "key": "wh_dlc03_bst_mini_ripper_horn_brayherd",
-      "name": "Ripper-Horn Tribe Brayherd",
-      "flagsPath": "ui/flags/wh_dlc03_bst_beastmen_ripper_horn",
-      "primaryColour": "000000"
-    },
-    "wh_dlc03_bst_mini_shadowgor": {
-      "key": "wh_dlc03_bst_mini_shadowgor",
-      "name": "Shadowgor Warherd",
-      "flagsPath": "ui/flags/wh_dlc03_bst_beastmen_shadowgor",
-      "primaryColour": "000000"
-    },
-    "wh_dlc03_bst_mini_shadowgor_brayherd": {
-      "key": "wh_dlc03_bst_mini_shadowgor_brayherd",
-      "name": "Shadowgor Brayherd",
-      "flagsPath": "ui/flags/wh_dlc03_bst_beastmen_shadowgor",
-      "primaryColour": "000000"
-    },
-    "wh_dlc03_bst_mini_skrinderkin": {
-      "key": "wh_dlc03_bst_mini_skrinderkin",
-      "name": "Skrinderkin Warherd",
-      "flagsPath": "ui/flags/wh_dlc03_bst_beastmen_skrinderkin",
-      "primaryColour": "000000"
-    },
-    "wh_dlc03_bst_mini_skrinderkin_brayherd": {
-      "key": "wh_dlc03_bst_mini_skrinderkin_brayherd",
-      "name": "Skrinderkin Brayherd",
-      "flagsPath": "ui/flags/wh_dlc03_bst_beastmen_skrinderkin",
-      "primaryColour": "000000"
-    },
     "wh_dlc03_bst_redhorn": {
       "key": "wh_dlc03_bst_redhorn",
       "name": "Redhorn Tribe",
@@ -3940,353 +4034,17 @@
       "flagsPath": "ui/flags/wh_dlc03_bst_beastmen_redhorn",
       "primaryColour": "060606"
     },
-    "wh_dlc03_emp_carroburg": {
-      "key": "wh_dlc03_emp_carroburg",
-      "name": "Carroburg",
-      "flagsPath": "ui/flags/wh_dlc03_mini_emp_carroburg",
-      "primaryColour": "922626"
-    },
-    "wh_dlc03_emp_cult_of_ulric": {
-      "key": "wh_dlc03_emp_cult_of_ulric",
-      "name": "Cult of Ulric",
-      "flagsPath": "ui/flags/wh_dlc03_mini_emp_ulric",
-      "primaryColour": "9BAFDC"
-    },
-    "wh_dlc03_emp_empire_qb1": {
-      "key": "wh_dlc03_emp_empire_qb1",
-      "name": "The Empire",
-      "flagsPath": "ui/flags/wh_main_emp_empire",
-      "primaryColour": "E00606"
-    },
-    "wh_dlc03_emp_empire_qb2": {
-      "key": "wh_dlc03_emp_empire_qb2",
-      "name": "The Empire",
-      "flagsPath": "ui/flags/wh_main_emp_empire",
-      "primaryColour": "E00606"
-    },
-    "wh_dlc03_emp_empire_qb3": {
-      "key": "wh_dlc03_emp_empire_qb3",
-      "name": "The Empire",
-      "flagsPath": "ui/flags/wh_main_emp_empire",
-      "primaryColour": "E00606"
-    },
-    "wh_dlc03_emp_empire_qb4": {
-      "key": "wh_dlc03_emp_empire_qb4",
-      "name": "The Empire",
-      "flagsPath": "ui/flags/wh_main_emp_empire",
-      "primaryColour": "E00606"
-    },
-    "wh_dlc03_emp_empire_rebels": {
-      "key": "wh_dlc03_emp_empire_rebels",
-      "name": "Empire Rebels",
-      "flagsPath": "ui/flags/wh_main_emp_empire_rebels",
-      "primaryColour": "2F2F2F"
-    },
-    "wh_dlc03_emp_hochland": {
-      "key": "wh_dlc03_emp_hochland",
-      "name": "Hochland",
-      "flagsPath": "ui/flags/wh_main_emp_hochland",
-      "primaryColour": "3C3C3C"
-    },
-    "wh_dlc03_emp_marienburg": {
-      "key": "wh_dlc03_emp_marienburg",
-      "name": "Marienburg",
-      "flagsPath": "ui/flags/wh_main_emp_marienburg",
-      "primaryColour": "EBDA4B"
-    },
-    "wh_dlc03_emp_marienburg_rebels": {
-      "key": "wh_dlc03_emp_marienburg_rebels",
-      "name": "Marienburg Rebels",
-      "flagsPath": "ui/flags/wh_main_emp_marienburg_rebels",
-      "primaryColour": "F2EFEF"
-    },
-    "wh_dlc03_emp_middenland": {
-      "key": "wh_dlc03_emp_middenland",
-      "name": "Middenheim",
-      "flagsPath": "ui/flags/wh_main_emp_middenheim",
-      "primaryColour": "2C2776"
-    },
-    "wh_dlc03_emp_middenland_qb1": {
-      "key": "wh_dlc03_emp_middenland_qb1",
-      "name": "Middenland",
-      "flagsPath": "ui/flags/wh_main_emp_middenland",
-      "primaryColour": "2C2776"
-    },
-    "wh_dlc03_emp_middenland_qb2": {
-      "key": "wh_dlc03_emp_middenland_qb2",
-      "name": "Middenland",
-      "flagsPath": "ui/flags/wh_main_emp_middenland",
-      "primaryColour": "2C2776"
-    },
-    "wh_dlc03_emp_wissenland_qb1": {
-      "key": "wh_dlc03_emp_wissenland_qb1",
-      "name": "Wissenland",
-      "flagsPath": "ui/flags/wh_main_emp_wissenland",
-      "primaryColour": "E00606"
-    },
-    "wh_dlc03_emp_wissenland_qb2": {
-      "key": "wh_dlc03_emp_wissenland_qb2",
-      "name": "Wissenland",
-      "flagsPath": "ui/flags/wh_main_emp_wissenland",
-      "primaryColour": "E00606"
-    },
-    "wh_dlc03_emp_wissenland_qb3": {
-      "key": "wh_dlc03_emp_wissenland_qb3",
-      "name": "Wissenland",
-      "flagsPath": "ui/flags/wh_main_emp_wissenland",
-      "primaryColour": "E00606"
-    },
-    "wh_dlc03_emp_wissenland_qb4": {
-      "key": "wh_dlc03_emp_wissenland_qb4",
-      "name": "Wissenland",
-      "flagsPath": "ui/flags/wh_main_emp_wissenland",
-      "primaryColour": "E00606"
-    },
-    "wh_dlc03_grn_black_pit": {
-      "key": "wh_dlc03_grn_black_pit",
-      "name": "The Black Pit Tribe",
-      "flagsPath": "ui/flags/wh_dlc03_mini_grn_black_pit",
-      "primaryColour": "1A1B1B"
-    },
-    "wh_dlc03_grn_black_pit_waaagh": {
-      "key": "wh_dlc03_grn_black_pit_waaagh",
-      "name": "The Black Pit Tribe Waaagh!",
-      "flagsPath": "ui/flags/wh_dlc03_mini_grn_black_pit",
-      "primaryColour": "1A1B1B"
-    },
-    "wh_dlc03_grn_gloomy_woods": {
-      "key": "wh_dlc03_grn_gloomy_woods",
-      "name": "Gloomy Woodz Tribe",
-      "flagsPath": "ui/flags/wh_dlc03_mini_grn_gloomy_woods",
-      "primaryColour": "4F581C"
-    },
-    "wh_dlc03_grn_gloomy_woods_waaagh": {
-      "key": "wh_dlc03_grn_gloomy_woods_waaagh",
-      "name": "Gloomy Woodz Tribe Waaagh!",
-      "flagsPath": "ui/flags/wh_dlc03_mini_grn_gloomy_woods",
-      "primaryColour": "4F581C"
-    },
-    "wh_dlc03_grn_greenskin_rebels": {
-      "key": "wh_dlc03_grn_greenskin_rebels",
-      "name": "Greenskin Rebels",
-      "flagsPath": "ui/flags/wh_main_grn_greenskins_rebels",
-      "primaryColour": "000000"
-    },
-    "wh_dlc03_grn_greenskin_rebels_waaagh": {
-      "key": "wh_dlc03_grn_greenskin_rebels_waaagh",
-      "name": "Greenskin Rebels Waaagh!",
-      "flagsPath": "ui/flags/wh_main_grn_greenskins_rebels",
-      "primaryColour": "000000"
-    },
-    "wh_dlc05_brt_mini_aquitaine": {
-      "key": "wh_dlc05_brt_mini_aquitaine",
-      "name": "Aquitaine",
-      "flagsPath": "ui/flags/wh_dlc05_brt_aquitaine",
-      "primaryColour": "DCB030"
-    },
-    "wh_dlc05_brt_mini_bastonne": {
-      "key": "wh_dlc05_brt_mini_bastonne",
-      "name": "Bastonne",
-      "flagsPath": "ui/flags/wh_main_brt_bastonne",
-      "primaryColour": "E5D532"
-    },
-    "wh_dlc05_brt_mini_bordeleaux": {
-      "key": "wh_dlc05_brt_mini_bordeleaux",
-      "name": "Bordeleaux",
-      "flagsPath": "ui/flags/wh_main_brt_bordeleaux",
-      "primaryColour": "49579A"
-    },
-    "wh_dlc05_brt_mini_bretonnia_rebels": {
-      "key": "wh_dlc05_brt_mini_bretonnia_rebels",
-      "name": "Bretonnian Rebels",
-      "flagsPath": "ui/flags/wh_main_brt_bretonnia_rebels",
-      "primaryColour": "4E51AB"
-    },
-    "wh_dlc05_brt_mini_brionne": {
-      "key": "wh_dlc05_brt_mini_brionne",
-      "name": "Brionne",
-      "flagsPath": "ui/flags/wh_dlc05_brt_brionne",
-      "primaryColour": "F8F4E4"
-    },
-    "wh_dlc05_brt_mini_carcassonne": {
-      "key": "wh_dlc05_brt_mini_carcassonne",
-      "name": "Carcassonne",
-      "flagsPath": "ui/flags/wh_main_brt_carcassonne",
-      "primaryColour": "5C59A9"
-    },
-    "wh_dlc05_brt_mini_gisoreux": {
-      "key": "wh_dlc05_brt_mini_gisoreux",
-      "name": "Gisoreux",
-      "flagsPath": "ui/flags/wh_dlc05_brt_gisoreux",
-      "primaryColour": "A22A32"
-    },
-    "wh_dlc05_brt_mini_montfort": {
-      "key": "wh_dlc05_brt_mini_montfort",
-      "name": "Montfort",
-      "flagsPath": "ui/flags/wh_dlc05_brt_montfort",
-      "primaryColour": "323232"
-    },
-    "wh_dlc05_brt_mini_parravon": {
-      "key": "wh_dlc05_brt_mini_parravon",
-      "name": "Parravon",
-      "flagsPath": "ui/flags/wh_main_brt_parravon",
-      "primaryColour": "323232"
-    },
-    "wh_dlc05_brt_mini_quenelles": {
-      "key": "wh_dlc05_brt_mini_quenelles",
-      "name": "Quenelles",
-      "flagsPath": "ui/flags/wh_dlc05_brt_quenelles",
-      "primaryColour": "1C4996"
-    },
-    "wh_dlc05_bst_mini_beastmen_rebels": {
-      "key": "wh_dlc05_bst_mini_beastmen_rebels",
-      "name": "Beastmen Rebels",
-      "flagsPath": "ui/flags/wh_dlc03_bst_beastmen_rebels",
-      "primaryColour": "8D776B"
-    },
-    "wh_dlc05_bst_mini_beastmen_rebels_brayherd": {
-      "key": "wh_dlc05_bst_mini_beastmen_rebels_brayherd",
-      "name": "Beastmen Rebels Brayherd",
-      "flagsPath": "ui/flags/wh_dlc03_bst_beastmen_rebels",
-      "primaryColour": "8D776B"
-    },
-    "wh_dlc05_bst_mini_morghur_herd": {
-      "key": "wh_dlc05_bst_mini_morghur_herd",
+    "wh_dlc05_bst_morghur_herd": {
+      "key": "wh_dlc05_bst_morghur_herd",
       "name": "Warherd of the Shadowgave",
       "flagsPath": "ui/flags/wh_dlc05_bst_beastmen_morghur_herd",
       "primaryColour": "EDDAC7"
-    },
-    "wh_dlc05_bst_mini_morghur_herd_brayherd": {
-      "key": "wh_dlc05_bst_mini_morghur_herd_brayherd",
-      "name": "Brayherd of the Shadowgave",
-      "flagsPath": "ui/flags/wh_dlc05_bst_beastmen_morghur_herd",
-      "primaryColour": "EDDAC7"
-    },
-    "wh_dlc05_dwf_mini_karak_ziflin": {
-      "key": "wh_dlc05_dwf_mini_karak_ziflin",
-      "name": "Karak Ziflin",
-      "flagsPath": "ui/flags/wh_main_dwf_karak_ziflin",
-      "primaryColour": "9E5D42"
-    },
-    "wh_dlc05_grn_mini_deff_grindaz": {
-      "key": "wh_dlc05_grn_mini_deff_grindaz",
-      "name": "Deff Grindaz Tribe",
-      "flagsPath": "ui/flags/wh_dlc05_grn_deff_grindaz",
-      "primaryColour": "6845A2"
-    },
-    "wh_dlc05_grn_mini_deff_grindaz_waaagh": {
-      "key": "wh_dlc05_grn_mini_deff_grindaz_waaagh",
-      "name": "Deff Grindaz Tribe Waaagh!",
-      "flagsPath": "ui/flags/wh_dlc05_grn_deff_grindaz",
-      "primaryColour": "6845A2"
-    },
-    "wh_dlc05_grn_mini_greenskin_rebels": {
-      "key": "wh_dlc05_grn_mini_greenskin_rebels",
-      "name": "Greenskin Rebels",
-      "flagsPath": "ui/flags/wh_main_grn_greenskins_rebels",
-      "primaryColour": "F0EA32"
-    },
-    "wh_dlc05_grn_mini_greenskin_rebels_waaagh": {
-      "key": "wh_dlc05_grn_mini_greenskin_rebels_waaagh",
-      "name": "Greenskin Rebels Waaagh!",
-      "flagsPath": "ui/flags/wh_main_grn_greenskins_rebels",
-      "primaryColour": "F0EA32"
-    },
-    "wh_dlc05_grn_mini_skullsmasherz": {
-      "key": "wh_dlc05_grn_mini_skullsmasherz",
-      "name": "Skullsmasherz Tribe",
-      "flagsPath": "ui/flags/wh_main_grn_skullsmasherz",
-      "primaryColour": "F3F3F3"
-    },
-    "wh_dlc05_grn_mini_skullsmasherz_waaagh": {
-      "key": "wh_dlc05_grn_mini_skullsmasherz_waaagh",
-      "name": "Skullsmasherz Tribe Waaagh!",
-      "flagsPath": "ui/flags/wh_main_grn_skullsmasherz",
-      "primaryColour": "F3F3F3"
-    },
-    "wh_dlc05_vmp_mousillon": {
-      "key": "wh_dlc05_vmp_mousillon",
-      "name": "Mousillon",
-      "flagsPath": "ui/flags/wh_main_vmp_mousillon",
-      "primaryColour": "EDDC66"
     },
     "wh_dlc05_wef_argwylon": {
       "key": "wh_dlc05_wef_argwylon",
       "name": "Argwylon",
       "flagsPath": "ui/flags/wh_dlc05_wef_argwylon",
       "primaryColour": "82E63F"
-    },
-    "wh_dlc05_wef_mini_anmyr": {
-      "key": "wh_dlc05_wef_mini_anmyr",
-      "name": "Anmyr",
-      "flagsPath": "ui/flags/wh_dlc05_wef_anmyr",
-      "primaryColour": "42744E"
-    },
-    "wh_dlc05_wef_mini_argwylon": {
-      "key": "wh_dlc05_wef_mini_argwylon",
-      "name": "Argwylon",
-      "flagsPath": "ui/flags/wh_dlc05_wef_argwylon",
-      "primaryColour": "82E63F"
-    },
-    "wh_dlc05_wef_mini_arranoc": {
-      "key": "wh_dlc05_wef_mini_arranoc",
-      "name": "Arranoc",
-      "flagsPath": "ui/flags/wh_dlc05_wef_arranoc",
-      "primaryColour": "3A783C"
-    },
-    "wh_dlc05_wef_mini_atylwyth": {
-      "key": "wh_dlc05_wef_mini_atylwyth",
-      "name": "Atylwyth",
-      "flagsPath": "ui/flags/wh_dlc05_wef_atylwyth",
-      "primaryColour": "4DAB9D"
-    },
-    "wh_dlc05_wef_mini_cavaroc": {
-      "key": "wh_dlc05_wef_mini_cavaroc",
-      "name": "Cavaroc",
-      "flagsPath": "ui/flags/wh_dlc05_wef_cavaroc",
-      "primaryColour": "4AB153"
-    },
-    "wh_dlc05_wef_mini_cythral": {
-      "key": "wh_dlc05_wef_mini_cythral",
-      "name": "Cythral",
-      "flagsPath": "ui/flags/wh_dlc05_wef_cythral",
-      "primaryColour": "2F573A"
-    },
-    "wh_dlc05_wef_mini_fyr_darric": {
-      "key": "wh_dlc05_wef_mini_fyr_darric",
-      "name": "Fyr Darric",
-      "flagsPath": "ui/flags/wh_dlc05_wef_fyr_darric",
-      "primaryColour": "601C22"
-    },
-    "wh_dlc05_wef_mini_modryn": {
-      "key": "wh_dlc05_wef_mini_modryn",
-      "name": "Modryn",
-      "flagsPath": "ui/flags/wh_dlc05_wef_modryn",
-      "primaryColour": "3C464C"
-    },
-    "wh_dlc05_wef_mini_tirsyth": {
-      "key": "wh_dlc05_wef_mini_tirsyth",
-      "name": "Tirsyth",
-      "flagsPath": "ui/flags/wh_dlc05_wef_tirsyth",
-      "primaryColour": "CA7310"
-    },
-    "wh_dlc05_wef_mini_torgovann": {
-      "key": "wh_dlc05_wef_mini_torgovann",
-      "name": "Torgovann",
-      "flagsPath": "ui/flags/wh_dlc05_wef_torgovann",
-      "primaryColour": "721A13"
-    },
-    "wh_dlc05_wef_mini_wood_elves": {
-      "key": "wh_dlc05_wef_mini_wood_elves",
-      "name": "Wood Elves",
-      "flagsPath": "ui/flags/wh_dlc05_wef_wood_elves",
-      "primaryColour": "378250"
-    },
-    "wh_dlc05_wef_mini_wydrioth": {
-      "key": "wh_dlc05_wef_mini_wydrioth",
-      "name": "Wydrioth",
-      "flagsPath": "ui/flags/wh_dlc05_wef_wydrioth",
-      "primaryColour": "A6D792"
     },
     "wh_dlc05_wef_torgovann": {
       "key": "wh_dlc05_wef_torgovann",
@@ -4329,6 +4087,90 @@
       "name": "Wydrioth",
       "flagsPath": "ui/flags/wh_dlc05_wef_wydrioth",
       "primaryColour": "A6D792"
+    },
+    "wh_dlc08_chs_chaos_challenger_khorne": {
+      "key": "wh_dlc08_chs_chaos_challenger_khorne",
+      "name": "Challenger of the Hound",
+      "flagsPath": "ui/flags/wh_dlc08_chs_challenger_of_the_hound",
+      "primaryColour": "5C2322"
+    },
+    "wh_dlc08_chs_chaos_challenger_khorne_qb": {
+      "key": "wh_dlc08_chs_chaos_challenger_khorne_qb",
+      "name": "Challenger of the Hound",
+      "flagsPath": "ui/flags/wh_dlc08_chs_challenger_of_the_hound",
+      "primaryColour": "5C2322"
+    },
+    "wh_dlc08_chs_chaos_challenger_nurgle": {
+      "key": "wh_dlc08_chs_chaos_challenger_nurgle",
+      "name": "Challenger of the Crow",
+      "flagsPath": "ui/flags/wh_dlc08_chs_challenger_of_the_crow",
+      "primaryColour": "7B784F"
+    },
+    "wh_dlc08_chs_chaos_challenger_nurgle_qb": {
+      "key": "wh_dlc08_chs_chaos_challenger_nurgle_qb",
+      "name": "Challenger of the Crow",
+      "flagsPath": "ui/flags/wh_dlc08_chs_challenger_of_the_crow",
+      "primaryColour": "7B784F"
+    },
+    "wh_dlc08_chs_chaos_challenger_slaanesh": {
+      "key": "wh_dlc08_chs_chaos_challenger_slaanesh",
+      "name": "Challenger of the Serpent",
+      "flagsPath": "ui/flags/wh_dlc08_chs_challenger_of_the_serpent",
+      "primaryColour": "A196AA"
+    },
+    "wh_dlc08_chs_chaos_challenger_slaanesh_qb": {
+      "key": "wh_dlc08_chs_chaos_challenger_slaanesh_qb",
+      "name": "Challenger of the Serpent",
+      "flagsPath": "ui/flags/wh_dlc08_chs_challenger_of_the_serpent",
+      "primaryColour": "A196AA"
+    },
+    "wh_dlc08_chs_chaos_challenger_tzeentch": {
+      "key": "wh_dlc08_chs_chaos_challenger_tzeentch",
+      "name": "Challenger of the Eagle",
+      "flagsPath": "ui/flags/wh_dlc08_chs_challenger_of_the_eagle",
+      "primaryColour": "91A4AD"
+    },
+    "wh_dlc08_chs_chaos_challenger_tzeentch_qb": {
+      "key": "wh_dlc08_chs_chaos_challenger_tzeentch_qb",
+      "name": "Challenger of the Eagle",
+      "flagsPath": "ui/flags/wh_dlc08_chs_challenger_of_the_eagle",
+      "primaryColour": "91A4AD"
+    },
+    "wh_dlc08_nor_goromadny_tribe": {
+      "key": "wh_dlc08_nor_goromadny_tribe",
+      "name": "Goromadny Tribe",
+      "flagsPath": "ui/flags/wh_dlc08_nor_goromadny",
+      "primaryColour": "D8C116"
+    },
+    "wh_dlc08_nor_helspire_tribe": {
+      "key": "wh_dlc08_nor_helspire_tribe",
+      "name": "Helspire Tribe",
+      "flagsPath": "ui/flags/wh_dlc08_nor_helspire",
+      "primaryColour": "B04726"
+    },
+    "wh_dlc08_nor_naglfarlings": {
+      "key": "wh_dlc08_nor_naglfarlings",
+      "name": "Naglfarlings",
+      "flagsPath": "ui/flags/wh_dlc08_nor_naglfarlings",
+      "primaryColour": "B3838E"
+    },
+    "wh_dlc08_nor_norsca": {
+      "key": "wh_dlc08_nor_norsca",
+      "name": "Norsca",
+      "flagsPath": "ui/flags/wh_dlc08_nor_norsca",
+      "primaryColour": "CA9602"
+    },
+    "wh_dlc08_nor_vanaheimlings": {
+      "key": "wh_dlc08_nor_vanaheimlings",
+      "name": "Vanaheimlings",
+      "flagsPath": "ui/flags/wh_dlc08_nor_vanaheimlings",
+      "primaryColour": "C6B529"
+    },
+    "wh_dlc08_nor_wintertooth": {
+      "key": "wh_dlc08_nor_wintertooth",
+      "name": "Wintertooth",
+      "flagsPath": "ui/flags/wh_dlc08_nor_wintertooth",
+      "primaryColour": "4E7494"
     },
     "wh_main_brt_artois": {
       "key": "wh_main_brt_artois",
@@ -4930,6 +4772,18 @@
       "flagsPath": "ui/flags/wh_main_nor_norsca_rebels",
       "primaryColour": "88B6D2"
     },
+    "wh_main_nor_norsca_separatists": {
+      "key": "wh_main_nor_norsca_separatists",
+      "name": "Rival Norse Tribe",
+      "flagsPath": "ui/flags/wh_main_nor_norsca_rebels",
+      "primaryColour": "A55AB9"
+    },
+    "wh_main_nor_norsca_separatists_sorcerer_lord": {
+      "key": "wh_main_nor_norsca_separatists_sorcerer_lord",
+      "name": "Rival Norse Tribe",
+      "flagsPath": "ui/flags/wh_main_nor_norsca_rebels",
+      "primaryColour": "A55AB9"
+    },
     "wh_main_nor_sarl": {
       "key": "wh_main_nor_sarl",
       "name": "Sarl",
@@ -5037,26 +4891,16 @@
       "name": "Waldenhof",
       "flagsPath": "ui/flags/wh_main_vmp_waldenhof",
       "primaryColour": "A0B651"
-    },
-    "wh_dlc08_nor_norsca": {
-      "key": "wh_dlc08_nor_norsca",
-      "name": "Norsca",
-      "adjective": "Norsca",
-      "flagsPath": "ui/flags/wh_dlc08_nor_norsca",
-      "primaryColour": "000000"
-    },
-    "wh_dlc08_nor_wintertooth": {
-      "key": "wh_dlc08_nor_wintertooth",
-      "name": "Wintertooth",
-      "adjective": "Wintertooth",
-      "flagsPath": "ui/flags/wh_dlc08_nor_wintertooth",
-      "primaryColour": "000000"
     }
   },
   "provinces": {
     "wh2_main_aghol_wastelands": {
       "key": "wh2_main_aghol_wastelands",
       "name": "Aghol Wastelands"
+    },
+    "wh2_main_albion": {
+      "key": "wh2_main_albion",
+      "name": "Albion"
     },
     "wh2_main_ash_river": {
       "key": "wh2_main_ash_river",
@@ -5122,9 +4966,17 @@
       "key": "wh2_main_ellyrion",
       "name": "Ellyrion"
     },
+    "wh2_main_galleons_graveyard": {
+      "key": "wh2_main_galleons_graveyard",
+      "name": "The Galleon's Graveyard"
+    },
     "wh2_main_great_desert_of_araby": {
       "key": "wh2_main_great_desert_of_araby",
       "name": "Great Desert of Araby"
+    },
+    "wh2_main_great_mortis_delta": {
+      "key": "wh2_main_great_mortis_delta",
+      "name": "Great Mortis Delta"
     },
     "wh2_main_griffon_gate": {
       "key": "wh2_main_griffon_gate",
@@ -5133,6 +4985,10 @@
     "wh2_main_headhunters_jungle": {
       "key": "wh2_main_headhunters_jungle",
       "name": "Headhunter's Jungle"
+    },
+    "wh2_main_heart_of_the_jungle": {
+      "key": "wh2_main_heart_of_the_jungle",
+      "name": "Heart of the Jungle"
     },
     "wh2_main_hell_pit": {
       "key": "wh2_main_hell_pit",
@@ -5170,6 +5026,10 @@
       "key": "wh2_main_land_of_the_dead",
       "name": "Land of the Dead"
     },
+    "wh2_main_land_of_the_dervishes": {
+      "key": "wh2_main_land_of_the_dervishes",
+      "name": "Land of the Dervishes"
+    },
     "wh2_main_nagarythe": {
       "key": "wh2_main_nagarythe",
       "name": "Nagarythe"
@@ -5193,6 +5053,10 @@
     "wh2_main_saphery": {
       "key": "wh2_main_saphery",
       "name": "Saphery"
+    },
+    "wh2_main_sartosa": {
+      "key": "wh2_main_sartosa",
+      "name": "Sartosa"
     },
     "wh2_main_shifting_sands": {
       "key": "wh2_main_shifting_sands",
@@ -5221,38 +5085,6 @@
     "wh2_main_spine_of_sotek": {
       "key": "wh2_main_spine_of_sotek",
       "name": "Spine of Sotek"
-    },
-    "wh2_main_testbed_01": {
-      "key": "wh2_main_testbed_01",
-      "name": "wh2_main_testbed_01"
-    },
-    "wh2_main_testbed_02": {
-      "key": "wh2_main_testbed_02",
-      "name": "wh2_main_testbed_02"
-    },
-    "wh2_main_testbed_03": {
-      "key": "wh2_main_testbed_03",
-      "name": "wh2_main_testbed_03"
-    },
-    "wh2_main_testbed_04": {
-      "key": "wh2_main_testbed_04",
-      "name": "wh2_main_testbed_04"
-    },
-    "wh2_main_testbed_05": {
-      "key": "wh2_main_testbed_05",
-      "name": "wh2_main_testbed_05"
-    },
-    "wh2_main_testbed_06": {
-      "key": "wh2_main_testbed_06",
-      "name": "wh2_main_testbed_06"
-    },
-    "wh2_main_testbed_07": {
-      "key": "wh2_main_testbed_07",
-      "name": "wh2_main_testbed_07"
-    },
-    "wh2_main_testbed_08": {
-      "key": "wh2_main_testbed_08",
-      "name": "wh2_main_testbed_08"
     },
     "wh2_main_the_black_coast": {
       "key": "wh2_main_the_black_coast",
@@ -5377,6 +5209,14 @@
     "wh2_main_vor_forest_of_the_viper": {
       "key": "wh2_main_vor_forest_of_the_viper",
       "name": "Forests of the Viper"
+    },
+    "wh2_main_vor_galleons_graveyard": {
+      "key": "wh2_main_vor_galleons_graveyard",
+      "name": "The Galleon's Graveyard"
+    },
+    "wh2_main_vor_great_mortis_delta": {
+      "key": "wh2_main_vor_great_mortis_delta",
+      "name": "Great Mortis Delta"
     },
     "wh2_main_vor_grey_guardians": {
       "key": "wh2_main_vor_grey_guardians",
@@ -5866,6 +5706,12 @@
       "fill": "B04ECC",
       "isSea": false
     },
+    "wh2_main_albion_albion": {
+      "key": "wh2_main_albion_albion",
+      "name": "Albion",
+      "fill": "674A19",
+      "isSea": false
+    },
     "wh2_main_ash_river_numas": {
       "key": "wh2_main_ash_river_numas",
       "name": "Numas",
@@ -6148,10 +5994,22 @@
       "fill": "E2F486",
       "isSea": false
     },
+    "wh2_main_great_mortis_delta_black_pyramid_of_nagash": {
+      "key": "wh2_main_great_mortis_delta_black_pyramid_of_nagash",
+      "name": "Black Pyramid of Nagash",
+      "fill": "FDE1CB",
+      "isSea": false
+    },
     "wh2_main_griffon_gate": {
       "key": "wh2_main_griffon_gate",
       "name": "Griffon Gate",
       "fill": "A85B09",
+      "isSea": false
+    },
+    "wh2_main_headhunters_jungle_chupayotl": {
+      "key": "wh2_main_headhunters_jungle_chupayotl",
+      "name": "Chupayotl",
+      "fill": "6FF499",
       "isSea": false
     },
     "wh2_main_headhunters_jungle_mangrove_coast": {
@@ -6170,6 +6028,12 @@
       "key": "wh2_main_headhunters_jungle_oyxl",
       "name": "Oyxl",
       "fill": "AB1CF6",
+      "isSea": false
+    },
+    "wh2_main_heart_of_the_jungle_oreons_camp": {
+      "key": "wh2_main_heart_of_the_jungle_oreons_camp",
+      "name": "Oreon's Camp",
+      "fill": "F2A33D",
       "isSea": false
     },
     "wh2_main_hell_pit_hell_pit": {
@@ -6322,6 +6186,18 @@
       "fill": "2D6865",
       "isSea": false
     },
+    "wh2_main_land_of_the_dervishes_plain_of_tuskers": {
+      "key": "wh2_main_land_of_the_dervishes_plain_of_tuskers",
+      "name": "Plain of Tuskers",
+      "fill": "35E3D2",
+      "isSea": false
+    },
+    "wh2_main_land_of_the_dervishes_sudenburg": {
+      "key": "wh2_main_land_of_the_dervishes_sudenburg",
+      "name": "Sudenburg",
+      "fill": "F80E61",
+      "isSea": false
+    },
     "wh2_main_nagarythe_shrine_of_khaine": {
       "key": "wh2_main_nagarythe_shrine_of_khaine",
       "name": "Shrine of Khaine",
@@ -6436,6 +6312,12 @@
       "fill": "7B27FD",
       "isSea": false
     },
+    "wh2_main_sartosa_sartosa": {
+      "key": "wh2_main_sartosa_sartosa",
+      "name": "Sartosa",
+      "fill": "53BEE4",
+      "isSea": false
+    },
     "wh2_main_sea_bay_of_corsairs": {
       "key": "wh2_main_sea_bay_of_corsairs",
       "name": "Bay of Corsairs",
@@ -6542,6 +6424,12 @@
       "key": "wh2_main_sea_the_forbidding_coast",
       "name": "The Forbidding Coast",
       "fill": "31C963",
+      "isSea": true
+    },
+    "wh2_main_sea_the_galleons_graveyard": {
+      "key": "wh2_main_sea_the_galleons_graveyard",
+      "name": "The Galleon's Graveyard",
+      "fill": "010101",
       "isSea": true
     },
     "wh2_main_sea_the_isles": {
@@ -6676,102 +6564,6 @@
       "fill": "3DE459",
       "isSea": false
     },
-    "wh2_main_testbed_01": {
-      "key": "wh2_main_testbed_01",
-      "name": "wh2_main_testbed_01",
-      "fill": "C70711",
-      "isSea": false
-    },
-    "wh2_main_testbed_02": {
-      "key": "wh2_main_testbed_02",
-      "name": "wh2_main_testbed_02",
-      "fill": "7B5404",
-      "isSea": false
-    },
-    "wh2_main_testbed_03": {
-      "key": "wh2_main_testbed_03",
-      "name": "wh2_main_testbed_03",
-      "fill": "F36E61",
-      "isSea": false
-    },
-    "wh2_main_testbed_04": {
-      "key": "wh2_main_testbed_04",
-      "name": "wh2_main_testbed_04",
-      "fill": "DAFB1C",
-      "isSea": false
-    },
-    "wh2_main_testbed_05": {
-      "key": "wh2_main_testbed_05",
-      "name": "wh2_main_testbed_05",
-      "fill": "198787",
-      "isSea": false
-    },
-    "wh2_main_testbed_06": {
-      "key": "wh2_main_testbed_06",
-      "name": "wh2_main_testbed_06",
-      "fill": "EC7014",
-      "isSea": false
-    },
-    "wh2_main_testbed_07": {
-      "key": "wh2_main_testbed_07",
-      "name": "wh2_main_testbed_07",
-      "fill": "D80BAF",
-      "isSea": false
-    },
-    "wh2_main_testbed_08": {
-      "key": "wh2_main_testbed_08",
-      "name": "wh2_main_testbed_08",
-      "fill": "917044",
-      "isSea": false
-    },
-    "wh2_main_testbed_09": {
-      "key": "wh2_main_testbed_09",
-      "name": "wh2_main_testbed_09",
-      "fill": "D3B86C",
-      "isSea": false
-    },
-    "wh2_main_testbed_10": {
-      "key": "wh2_main_testbed_10",
-      "name": "wh2_main_testbed_10",
-      "fill": "62C3A7",
-      "isSea": false
-    },
-    "wh2_main_testbed_11": {
-      "key": "wh2_main_testbed_11",
-      "name": "wh2_main_testbed_11",
-      "fill": "475B27",
-      "isSea": false
-    },
-    "wh2_main_testbed_12": {
-      "key": "wh2_main_testbed_12",
-      "name": "wh2_main_testbed_12",
-      "fill": "D259D0",
-      "isSea": false
-    },
-    "wh2_main_testbed_13": {
-      "key": "wh2_main_testbed_13",
-      "name": "wh2_main_testbed_13",
-      "fill": "1C0C2F",
-      "isSea": false
-    },
-    "wh2_main_testbed_14": {
-      "key": "wh2_main_testbed_14",
-      "name": "wh2_main_testbed_14",
-      "fill": "1BF035",
-      "isSea": false
-    },
-    "wh2_main_testbed_15": {
-      "key": "wh2_main_testbed_15",
-      "name": "wh2_main_testbed_15",
-      "fill": "11C7C2",
-      "isSea": false
-    },
-    "wh2_main_testbed_16": {
-      "key": "wh2_main_testbed_16",
-      "name": "wh2_main_testbed_16",
-      "fill": "BE5428",
-      "isSea": false
-    },
     "wh2_main_the_black_coast_arnheim": {
       "key": "wh2_main_the_black_coast_arnheim",
       "name": "Arnheim",
@@ -6878,6 +6670,12 @@
       "key": "wh2_main_the_creeping_jungle_tlaxtlan",
       "name": "Tlaxtlan",
       "fill": "35FA23",
+      "isSea": false
+    },
+    "wh2_main_the_galleons_graveyard": {
+      "key": "wh2_main_the_galleons_graveyard",
+      "name": "The Galleon's Graveyard",
+      "fill": "373839",
       "isSea": false
     },
     "wh2_main_the_road_of_skulls_har_ganeth": {
@@ -7024,6 +6822,12 @@
       "fill": "D96399",
       "isSea": false
     },
+    "wh2_main_vor_ash_river_springs_of_eternal_life": {
+      "key": "wh2_main_vor_ash_river_springs_of_eternal_life",
+      "name": "Springs of Eternal Life",
+      "fill": "C12118",
+      "isSea": false
+    },
     "wh2_main_vor_ash_river_the_salt_plain": {
       "key": "wh2_main_vor_ash_river_the_salt_plain",
       "name": "The Salt Plain",
@@ -7040,6 +6844,12 @@
       "key": "wh2_main_vor_ashen_coast_sulpharets",
       "name": "Sulpharets",
       "fill": "30C000",
+      "isSea": false
+    },
+    "wh2_main_vor_ashen_coast_titan_peak": {
+      "key": "wh2_main_vor_ashen_coast_titan_peak",
+      "name": "Titan Peak",
+      "fill": "4BF6F2",
       "isSea": false
     },
     "wh2_main_vor_ashen_coast_tyrant_peak": {
@@ -7300,6 +7110,12 @@
       "fill": "7B8A3D",
       "isSea": false
     },
+    "wh2_main_vor_great_mortis_delta_black_pyramid_of_nagash": {
+      "key": "wh2_main_vor_great_mortis_delta_black_pyramid_of_nagash",
+      "name": "Black Pyramid of Nagash",
+      "fill": "2205BF",
+      "isSea": false
+    },
     "wh2_main_vor_grey_guardians_grey_rock_point": {
       "key": "wh2_main_vor_grey_guardians_grey_rock_point",
       "name": "Grey Rock Point",
@@ -7310,6 +7126,12 @@
       "key": "wh2_main_vor_grey_guardians_ssildra_tor",
       "name": "Ss'ildra Tor",
       "fill": "0C59D1",
+      "isSea": false
+    },
+    "wh2_main_vor_grey_guardians_sulpharets": {
+      "key": "wh2_main_vor_grey_guardians_sulpharets",
+      "name": "Sulpharets",
+      "fill": "30C000",
       "isSea": false
     },
     "wh2_main_vor_grey_guardians_titan_peak": {
@@ -7522,6 +7344,12 @@
       "fill": "C12118",
       "isSea": false
     },
+    "wh2_main_vor_land_of_the_dead_the_salt_plain": {
+      "key": "wh2_main_vor_land_of_the_dead_the_salt_plain",
+      "name": "The Salt Plain",
+      "fill": "BF15D5",
+      "isSea": false
+    },
     "wh2_main_vor_land_of_the_dead_zandri": {
       "key": "wh2_main_vor_land_of_the_dead_zandri",
       "name": "Zandri",
@@ -7644,7 +7472,7 @@
     },
     "wh2_main_vor_northern_yvresse_sardenath": {
       "key": "wh2_main_vor_northern_yvresse_sardenath",
-      "name": "Sardentah",
+      "name": "Sardenath",
       "fill": "7E7C8D",
       "isSea": false
     },
@@ -7970,6 +7798,12 @@
       "key": "wh2_main_vor_sea_the_forbidding_coast",
       "name": "The Forbidding Coast",
       "fill": "000000",
+      "isSea": true
+    },
+    "wh2_main_vor_sea_the_galleons_graveyard": {
+      "key": "wh2_main_vor_sea_the_galleons_graveyard",
+      "name": "The Galleon's Graveyard",
+      "fill": "96D420",
       "isSea": true
     },
     "wh2_main_vor_sea_the_great_ocean": {
@@ -8362,6 +8196,12 @@
       "fill": "90D854",
       "isSea": false
     },
+    "wh2_main_vor_the_galleons_graveyard": {
+      "key": "wh2_main_vor_the_galleons_graveyard",
+      "name": "The Galleon's Graveyard",
+      "fill": "373839",
+      "isSea": false
+    },
     "wh2_main_vor_the_great_desert_bel_aliad": {
       "key": "wh2_main_vor_the_great_desert_bel_aliad",
       "name": "Bel Aliad",
@@ -8383,7 +8223,7 @@
     "wh2_main_vor_the_isle_of_the_dead": {
       "key": "wh2_main_vor_the_isle_of_the_dead",
       "name": "The Isle of the Dead",
-      "fill": "000000",
+      "fill": "6F1600",
       "isSea": false
     },
     "wh2_main_vor_the_jungles_of_the_gods_caverns_of_sotek": {
@@ -9543,6 +9383,11 @@
       "provinceKey": "wh2_main_aghol_wastelands",
       "isCapital": false
     },
+    "wh2_main_albion_albion": {
+      "regionKey": "wh2_main_albion_albion",
+      "provinceKey": "wh2_main_albion",
+      "isCapital": true
+    },
     "wh2_main_ash_river_numas": {
       "regionKey": "wh2_main_ash_river_numas",
       "provinceKey": "wh2_main_ash_river",
@@ -9778,10 +9623,20 @@
       "provinceKey": "wh2_main_great_desert_of_araby",
       "isCapital": false
     },
+    "wh2_main_great_mortis_delta_black_pyramid_of_nagash": {
+      "regionKey": "wh2_main_great_mortis_delta_black_pyramid_of_nagash",
+      "provinceKey": "wh2_main_great_mortis_delta",
+      "isCapital": true
+    },
     "wh2_main_griffon_gate": {
       "regionKey": "wh2_main_griffon_gate",
       "provinceKey": "wh2_main_griffon_gate",
       "isCapital": true
+    },
+    "wh2_main_headhunters_jungle_chupayotl": {
+      "regionKey": "wh2_main_headhunters_jungle_chupayotl",
+      "provinceKey": "wh2_main_headhunters_jungle",
+      "isCapital": false
     },
     "wh2_main_headhunters_jungle_mangrove_coast": {
       "regionKey": "wh2_main_headhunters_jungle_mangrove_coast",
@@ -9796,6 +9651,11 @@
     "wh2_main_headhunters_jungle_oyxl": {
       "regionKey": "wh2_main_headhunters_jungle_oyxl",
       "provinceKey": "wh2_main_headhunters_jungle",
+      "isCapital": true
+    },
+    "wh2_main_heart_of_the_jungle_oreons_camp": {
+      "regionKey": "wh2_main_heart_of_the_jungle_oreons_camp",
+      "provinceKey": "wh2_main_heart_of_the_jungle",
       "isCapital": true
     },
     "wh2_main_hell_pit_hell_pit": {
@@ -9896,12 +9756,12 @@
     "wh2_main_land_of_assassins_lashiek": {
       "regionKey": "wh2_main_land_of_assassins_lashiek",
       "provinceKey": "wh2_main_land_of_assassins",
-      "isCapital": true
+      "isCapital": false
     },
     "wh2_main_land_of_assassins_palace_of_the_wizard_caliph": {
       "regionKey": "wh2_main_land_of_assassins_palace_of_the_wizard_caliph",
       "provinceKey": "wh2_main_land_of_assassins",
-      "isCapital": false
+      "isCapital": true
     },
     "wh2_main_land_of_assassins_sorcerers_islands": {
       "regionKey": "wh2_main_land_of_assassins_sorcerers_islands",
@@ -9922,6 +9782,16 @@
       "regionKey": "wh2_main_land_of_the_dead_zandri",
       "provinceKey": "wh2_main_land_of_the_dead",
       "isCapital": false
+    },
+    "wh2_main_land_of_the_dervishes_plain_of_tuskers": {
+      "regionKey": "wh2_main_land_of_the_dervishes_plain_of_tuskers",
+      "provinceKey": "wh2_main_land_of_the_dervishes",
+      "isCapital": false
+    },
+    "wh2_main_land_of_the_dervishes_sudenburg": {
+      "regionKey": "wh2_main_land_of_the_dervishes_sudenburg",
+      "provinceKey": "wh2_main_land_of_the_dervishes",
+      "isCapital": true
     },
     "wh2_main_nagarythe_shrine_of_khaine": {
       "regionKey": "wh2_main_nagarythe_shrine_of_khaine",
@@ -10016,6 +9886,11 @@
     "wh2_main_saphery_tower_of_hoeth": {
       "regionKey": "wh2_main_saphery_tower_of_hoeth",
       "provinceKey": "wh2_main_saphery",
+      "isCapital": true
+    },
+    "wh2_main_sartosa_sartosa": {
+      "regionKey": "wh2_main_sartosa_sartosa",
+      "provinceKey": "wh2_main_sartosa",
       "isCapital": true
     },
     "wh2_main_shifting_sands_antoch": {
@@ -10113,86 +9988,6 @@
       "provinceKey": "wh2_main_spine_of_sotek",
       "isCapital": false
     },
-    "wh2_main_testbed_01": {
-      "regionKey": "wh2_main_testbed_01",
-      "provinceKey": "wh2_main_testbed_01",
-      "isCapital": true
-    },
-    "wh2_main_testbed_02": {
-      "regionKey": "wh2_main_testbed_02",
-      "provinceKey": "wh2_main_testbed_01",
-      "isCapital": false
-    },
-    "wh2_main_testbed_03": {
-      "regionKey": "wh2_main_testbed_03",
-      "provinceKey": "wh2_main_testbed_02",
-      "isCapital": true
-    },
-    "wh2_main_testbed_04": {
-      "regionKey": "wh2_main_testbed_04",
-      "provinceKey": "wh2_main_testbed_02",
-      "isCapital": false
-    },
-    "wh2_main_testbed_05": {
-      "regionKey": "wh2_main_testbed_05",
-      "provinceKey": "wh2_main_testbed_03",
-      "isCapital": true
-    },
-    "wh2_main_testbed_06": {
-      "regionKey": "wh2_main_testbed_06",
-      "provinceKey": "wh2_main_testbed_03",
-      "isCapital": false
-    },
-    "wh2_main_testbed_07": {
-      "regionKey": "wh2_main_testbed_07",
-      "provinceKey": "wh2_main_testbed_04",
-      "isCapital": true
-    },
-    "wh2_main_testbed_08": {
-      "regionKey": "wh2_main_testbed_08",
-      "provinceKey": "wh2_main_testbed_04",
-      "isCapital": false
-    },
-    "wh2_main_testbed_09": {
-      "regionKey": "wh2_main_testbed_09",
-      "provinceKey": "wh2_main_testbed_05",
-      "isCapital": true
-    },
-    "wh2_main_testbed_10": {
-      "regionKey": "wh2_main_testbed_10",
-      "provinceKey": "wh2_main_testbed_05",
-      "isCapital": false
-    },
-    "wh2_main_testbed_11": {
-      "regionKey": "wh2_main_testbed_11",
-      "provinceKey": "wh2_main_testbed_06",
-      "isCapital": true
-    },
-    "wh2_main_testbed_12": {
-      "regionKey": "wh2_main_testbed_12",
-      "provinceKey": "wh2_main_testbed_06",
-      "isCapital": false
-    },
-    "wh2_main_testbed_13": {
-      "regionKey": "wh2_main_testbed_13",
-      "provinceKey": "wh2_main_testbed_07",
-      "isCapital": true
-    },
-    "wh2_main_testbed_14": {
-      "regionKey": "wh2_main_testbed_14",
-      "provinceKey": "wh2_main_testbed_07",
-      "isCapital": false
-    },
-    "wh2_main_testbed_15": {
-      "regionKey": "wh2_main_testbed_15",
-      "provinceKey": "wh2_main_testbed_08",
-      "isCapital": true
-    },
-    "wh2_main_testbed_16": {
-      "regionKey": "wh2_main_testbed_16",
-      "provinceKey": "wh2_main_testbed_08",
-      "isCapital": false
-    },
     "wh2_main_the_black_coast_arnheim": {
       "regionKey": "wh2_main_the_black_coast_arnheim",
       "provinceKey": "wh2_main_the_black_coast",
@@ -10281,6 +10076,11 @@
     "wh2_main_the_creeping_jungle_tlaxtlan": {
       "regionKey": "wh2_main_the_creeping_jungle_tlaxtlan",
       "provinceKey": "wh2_main_the_creeping_jungle",
+      "isCapital": true
+    },
+    "wh2_main_the_galleons_graveyard": {
+      "regionKey": "wh2_main_the_galleons_graveyard",
+      "provinceKey": "wh2_main_galleons_graveyard",
       "isCapital": true
     },
     "wh2_main_the_road_of_skulls_har_ganeth": {
@@ -10403,6 +10203,11 @@
       "provinceKey": "wh2_main_vor_ash_river",
       "isCapital": false
     },
+    "wh2_main_vor_ash_river_springs_of_eternal_life": {
+      "regionKey": "wh2_main_vor_ash_river_springs_of_eternal_life",
+      "provinceKey": "wh2_main_vor_ash_river",
+      "isCapital": false
+    },
     "wh2_main_vor_ash_river_the_salt_plain": {
       "regionKey": "wh2_main_vor_ash_river_the_salt_plain",
       "provinceKey": "wh2_main_vor_ash_river",
@@ -10411,12 +10216,17 @@
     "wh2_main_vor_ashen_coast_scarpels_lair": {
       "regionKey": "wh2_main_vor_ashen_coast_scarpels_lair",
       "provinceKey": "wh2_main_vor_ashen_coast",
-      "isCapital": false
+      "isCapital": true
     },
     "wh2_main_vor_ashen_coast_sulpharets": {
       "regionKey": "wh2_main_vor_ashen_coast_sulpharets",
       "provinceKey": "wh2_main_vor_ashen_coast",
-      "isCapital": true
+      "isCapital": false
+    },
+    "wh2_main_vor_ashen_coast_titan_peak": {
+      "regionKey": "wh2_main_vor_ashen_coast_titan_peak",
+      "provinceKey": "wh2_main_vor_ashen_coast",
+      "isCapital": false
     },
     "wh2_main_vor_ashen_coast_tyrant_peak": {
       "regionKey": "wh2_main_vor_ashen_coast_tyrant_peak",
@@ -10633,6 +10443,11 @@
       "provinceKey": "wh2_main_vor_forest_of_the_viper",
       "isCapital": true
     },
+    "wh2_main_vor_great_mortis_delta_black_pyramid_of_nagash": {
+      "regionKey": "wh2_main_vor_great_mortis_delta_black_pyramid_of_nagash",
+      "provinceKey": "wh2_main_vor_great_mortis_delta",
+      "isCapital": true
+    },
     "wh2_main_vor_grey_guardians_grey_rock_point": {
       "regionKey": "wh2_main_vor_grey_guardians_grey_rock_point",
       "provinceKey": "wh2_main_vor_grey_guardians",
@@ -10642,6 +10457,11 @@
       "regionKey": "wh2_main_vor_grey_guardians_ssildra_tor",
       "provinceKey": "wh2_main_vor_grey_guardians",
       "isCapital": true
+    },
+    "wh2_main_vor_grey_guardians_sulpharets": {
+      "regionKey": "wh2_main_vor_grey_guardians_sulpharets",
+      "provinceKey": "wh2_main_vor_grey_guardians",
+      "isCapital": false
     },
     "wh2_main_vor_grey_guardians_titan_peak": {
       "regionKey": "wh2_main_vor_grey_guardians_titan_peak",
@@ -10791,12 +10611,12 @@
     "wh2_main_vor_land_of_assassins_lashiek": {
       "regionKey": "wh2_main_vor_land_of_assassins_lashiek",
       "provinceKey": "wh2_main_vor_land_of_assassins",
-      "isCapital": true
+      "isCapital": false
     },
     "wh2_main_vor_land_of_assassins_palace_of_the_wizard_caliph": {
       "regionKey": "wh2_main_vor_land_of_assassins_palace_of_the_wizard_caliph",
       "provinceKey": "wh2_main_vor_land_of_assassins",
-      "isCapital": false
+      "isCapital": true
     },
     "wh2_main_vor_land_of_assassins_sorcerers_islands": {
       "regionKey": "wh2_main_vor_land_of_assassins_sorcerers_islands",
@@ -10815,6 +10635,11 @@
     },
     "wh2_main_vor_land_of_the_dead_springs_of_eternal_life": {
       "regionKey": "wh2_main_vor_land_of_the_dead_springs_of_eternal_life",
+      "provinceKey": "wh2_main_vor_land_of_the_dead",
+      "isCapital": false
+    },
+    "wh2_main_vor_land_of_the_dead_the_salt_plain": {
+      "regionKey": "wh2_main_vor_land_of_the_dead_the_salt_plain",
       "provinceKey": "wh2_main_vor_land_of_the_dead",
       "isCapital": false
     },
@@ -11331,6 +11156,11 @@
     "wh2_main_vor_the_forbidden_jungle_sentinels_of_xeti": {
       "regionKey": "wh2_main_vor_the_forbidden_jungle_sentinels_of_xeti",
       "provinceKey": "wh2_main_vor_the_forbidden_jungle",
+      "isCapital": true
+    },
+    "wh2_main_vor_the_galleons_graveyard": {
+      "regionKey": "wh2_main_vor_the_galleons_graveyard",
+      "provinceKey": "wh2_main_vor_galleons_graveyard",
       "isCapital": true
     },
     "wh2_main_vor_the_great_desert_bel_aliad": {
@@ -11861,7 +11691,7 @@
     "wh_main_northern_grey_mountains_blackstone_post": {
       "regionKey": "wh_main_northern_grey_mountains_blackstone_post",
       "provinceKey": "wh_main_northern_grey_mountains",
-      "isCapital": false
+      "isCapital": true
     },
     "wh_main_northern_grey_mountains_grung_zint": {
       "regionKey": "wh_main_northern_grey_mountains_grung_zint",
@@ -11871,7 +11701,7 @@
     "wh_main_northern_grey_mountains_karak_ziflin": {
       "regionKey": "wh_main_northern_grey_mountains_karak_ziflin",
       "provinceKey": "wh_main_northern_grey_mountains",
-      "isCapital": true
+      "isCapital": false
     },
     "wh_main_northern_oblast_fort_ostrosk": {
       "regionKey": "wh_main_northern_oblast_fort_ostrosk",

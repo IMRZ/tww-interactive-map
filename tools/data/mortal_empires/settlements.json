@@ -1473,5 +1473,15 @@
     "key": "wh_main_zhufbar_zhufbar",
     "x": 2849,
     "y": 1456
+  },
+  {
+    "key": "wh2_main_vor_albion",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "key": "wh2_main_sartosa_sartosa",
+    "x": 0,
+    "y": 0
   }
 ]

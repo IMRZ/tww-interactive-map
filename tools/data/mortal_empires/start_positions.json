@@ -250,8 +250,50 @@
   {
     "factionKey": "wh2_main_hef_nagarythe",
     "flag": {
-      "x": 649,
-      "y": 1502
+      "x": 427,
+      "y": 1594
+    }
+  },
+  {
+    "factionKey": "wh2_dlc11_vmp_the_barrow_legion",
+    "flag": {
+      "x": 1723,
+      "y": 1338
+    }
+  },
+  {
+    "factionKey": "wh2_main_emp_pirates_of_sartosa",
+    "flag": {
+      "x": 1890,
+      "y": 2426
+    }
+  },
+  {
+    "factionKey": "wh2_main_vmp_vampire_coast",
+    "flag": {
+      "x": 913,
+      "y": 2745
+    }
+  },
+  {
+    "factionKey": "wh2_dlc11_cst_noctilus",
+    "flag": {
+      "x": 1152,
+      "y": 2391
+    }
+  },
+  {
+    "factionKey": "wh2_dlc11_cst_the_drowned",
+    "flag": {
+      "x": 469,
+      "y": 2104
+    }
+  },
+  {
+    "factionKey": "wh2_dlc11_def_the_blessed_dread",
+    "flag": {
+      "x": 911,
+      "y": 3172
     }
   }
 ]

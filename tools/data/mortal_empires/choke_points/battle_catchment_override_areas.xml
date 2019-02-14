@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="battle_catchment_override_areas.xsd" export_time="Mon Aug 7 15:43:57 2017" revision="16" export_branch="T:/" export_user="bob">
-<edit_uuid>3e90d2a4-95c2-43cd-ab08-eaac53875549</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="battle_catchment_override_areas.xsd" export_time="Tue Oct 2 11:12:00 2018" revision="22" export_branch="C:/Users/mark.sinclair/AppData/Roaming/TWDaemon/1144/dave" export_user="bob">
+<edit_uuid>ea13272b-0307-4b6f-a18c-ac84f7fe047e</edit_uuid>
 <battle_catchment_override_areas record_uuid="{4feb1686-8e91-466b-bfe6-0d4bd2205d57}" record_timestamp="1478768448047" record_key="Gatekeeper">
 <area>Gatekeeper</area>
 <blue>0</blue>
@@ -168,6 +168,48 @@
 <blue>255</blue>
 <green>255</green>
 <red>0</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{cd72fb4d-4076-4311-a958-82287c546720}" record_timestamp="1537185595782" record_key="wh2_dlc11_coast_skjold">
+<area>wh2_dlc11_coast_skjold</area>
+<blue>243</blue>
+<green>144</green>
+<red>0</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{67a60917-e3c9-493f-9ced-7b2ff7cda385}" record_timestamp="1538475113974" record_key="wh2_dlc11_galleons_graveyard">
+<area>wh2_dlc11_galleons_graveyard</area>
+<blue>120</blue>
+<green>22</green>
+<red>238</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{0602efd2-d3ef-4b7a-8e67-917fd5dc177d}" record_timestamp="1534154385684" record_key="wh2_dlc11_island_desert">
+<area>wh2_dlc11_island_desert</area>
+<blue>47</blue>
+<green>128</green>
+<red>167</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{7063eb32-bef0-43f9-835e-c7e775052be0}" record_timestamp="1534154385657" record_key="wh2_dlc11_island_grassy">
+<area>wh2_dlc11_island_grassy</area>
+<blue>55</blue>
+<green>124</green>
+<red>24</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{c2a2e4f7-1ab6-4ae3-b4b0-586731f92c41}" record_timestamp="1534154385631" record_key="wh2_dlc11_island_rocky">
+<area>wh2_dlc11_island_rocky</area>
+<blue>78</blue>
+<green>78</green>
+<red>84</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{597d1a62-d356-4ab1-947b-a74902d75fac}" record_timestamp="1534154385604" record_key="wh2_dlc11_island_snowy">
+<area>wh2_dlc11_island_snowy</area>
+<blue>214</blue>
+<green>214</green>
+<red>202</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{b4cddb34-1de0-4d07-8580-d07f4cb3b6bd}" record_timestamp="1537185595571" record_key="wh2_dlc11_island_tropical">
+<area>wh2_dlc11_island_tropical</area>
+<blue>47</blue>
+<green>205</green>
+<red>162</red>
 </battle_catchment_override_areas>
 <battle_catchment_override_areas record_uuid="{f12477d8-0ed7-42bc-bffa-bcfd1976778c}" record_timestamp="1492606842342" record_key="wh2_hef_tutorial_battle">
 <area>wh2_hef_tutorial_battle</area>
@@ -390,6 +432,12 @@
 <blue>234</blue>
 <green>237</green>
 <red>222</red>
+</battle_catchment_override_areas>
+<battle_catchment_override_areas record_uuid="{a3335e71-6c88-446a-9d14-d2272db2b371}" record_timestamp="1523950694533" record_key="wh2_shrine_of_khaine">
+<area>wh2_shrine_of_khaine</area>
+<blue>52</blue>
+<green>178</green>
+<red>232</red>
 </battle_catchment_override_areas>
 <battle_catchment_override_areas record_uuid="{61ac6e6a-f673-49ac-9792-0357a5d1e70a}" record_timestamp="1493218544838" record_key="wh2_skv_tutorial_battle">
 <area>wh2_skv_tutorial_battle</area>

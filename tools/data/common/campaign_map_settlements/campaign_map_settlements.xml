@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="campaign_map_settlements.xsd" export_time="Wed Aug 9 08:46:54 2017" revision="101" export_branch="T:/" export_user="bob">
-<edit_uuid>87713cda-ec7b-4210-b105-dfa6e5db279e</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="campaign_map_settlements.xsd" export_time="Tue Jul 17 10:16:07 2018" revision="111" export_branch="C:/Users/mark.sinclair/AppData/Roaming/TWDaemon/1054/dave" export_user="bob">
+<edit_uuid>8c1041b6-4210-448d-955c-30b71a78bb2d</edit_uuid>
 <campaign_map_settlements record_uuid="{fbec60ef-db04-42c3-ae92-2313d7e2067c}" record_timestamp="1484839291333" record_key="settlement:wh2_main_aghol_wastelands_fortress_of_the_damned">
 <citybar_height_offset>0</citybar_height_offset>
 <climate_type>climate_chaotic</climate_type>
@@ -15,6 +15,11 @@
 <citybar_height_offset>0</citybar_height_offset>
 <climate_type>climate_chaotic</climate_type>
 <settlement_id>settlement:wh2_main_aghol_wastelands_the_palace_of_ruin</settlement_id>
+</campaign_map_settlements>
+<campaign_map_settlements record_uuid="{8ef6b553-9bfd-46fb-8c82-761b5233279a}" record_timestamp="1531395416397" record_key="settlement:wh2_main_albion_albion">
+<citybar_height_offset>0</citybar_height_offset>
+<climate_type>climate_chaotic</climate_type>
+<settlement_id>settlement:wh2_main_albion_albion</settlement_id>
 </campaign_map_settlements>
 <campaign_map_settlements record_uuid="{32e2fe74-d5ee-4d0f-9267-b408b7dd5225}" record_timestamp="1479987990804" record_key="settlement:wh2_main_ash_river_numas">
 <citybar_height_offset>0</citybar_height_offset>
@@ -256,6 +261,11 @@
 <climate_type>climate_island</climate_type>
 <settlement_id>settlement:wh2_main_griffon_gate</settlement_id>
 </campaign_map_settlements>
+<campaign_map_settlements record_uuid="{a21ddb1e-8331-4c12-b332-2457dc07ef13}" record_timestamp="1530618112466" record_key="settlement:wh2_main_headhunters_jungle_chupayotl">
+<citybar_height_offset>0</citybar_height_offset>
+<climate_type>climate_island</climate_type>
+<settlement_id>settlement:wh2_main_headhunters_jungle_chupayotl</settlement_id>
+</campaign_map_settlements>
 <campaign_map_settlements record_uuid="{c15dc154-f669-47ce-9fa8-45a81eb33027}" record_timestamp="1479987991941" record_key="settlement:wh2_main_headhunters_jungle_mangrove_coast">
 <citybar_height_offset>0</citybar_height_offset>
 <climate_type>climate_jungle</climate_type>
@@ -271,6 +281,11 @@
 <climate_type>climate_jungle</climate_type>
 <settlement_id>settlement:wh2_main_headhunters_jungle_oyxl</settlement_id>
 </campaign_map_settlements>
+<campaign_map_settlements record_uuid="{d59d0740-5adb-4c63-84ca-68c9eb90ecc1}" record_timestamp="1530890502330" record_key="settlement:wh2_main_heart_of_the_jungle_oreons_camp">
+<citybar_height_offset>0</citybar_height_offset>
+<climate_type>climate_magicforest</climate_type>
+<settlement_id>settlement:wh2_main_heart_of_the_jungle_oreons_camp</settlement_id>
+</campaign_map_settlements>
 <campaign_map_settlements record_uuid="{d68db36d-710d-4d39-95e0-17ec08054872}" record_timestamp="1479987991999" record_key="settlement:wh2_main_hell_pit_hell_pit">
 <citybar_height_offset>0</citybar_height_offset>
 <climate_type>climate_wasteland</climate_type>
@@ -278,17 +293,17 @@
 </campaign_map_settlements>
 <campaign_map_settlements record_uuid="{65790512-24eb-48cf-bf14-567016c87e4d}" record_timestamp="1479987992025" record_key="settlement:wh2_main_huahuan_desert_chamber_of_visions">
 <citybar_height_offset>0</citybar_height_offset>
-<climate_type>climate_desert</climate_type>
+<climate_type>climate_jungle</climate_type>
 <settlement_id>settlement:wh2_main_huahuan_desert_chamber_of_visions</settlement_id>
 </campaign_map_settlements>
 <campaign_map_settlements record_uuid="{449cf97a-8989-48a5-8670-b4941e2b6235}" record_timestamp="1479987992050" record_key="settlement:wh2_main_huahuan_desert_sentinels_of_xeti">
 <citybar_height_offset>0</citybar_height_offset>
-<climate_type>climate_desert</climate_type>
+<climate_type>climate_jungle</climate_type>
 <settlement_id>settlement:wh2_main_huahuan_desert_sentinels_of_xeti</settlement_id>
 </campaign_map_settlements>
 <campaign_map_settlements record_uuid="{935138ec-7c98-4f83-85ea-7b15fade8d65}" record_timestamp="1479987992076" record_key="settlement:wh2_main_huahuan_desert_the_golden_colossus">
 <citybar_height_offset>0</citybar_height_offset>
-<climate_type>climate_desert</climate_type>
+<climate_type>climate_jungle</climate_type>
 <settlement_id>settlement:wh2_main_huahuan_desert_the_golden_colossus</settlement_id>
 </campaign_map_settlements>
 <campaign_map_settlements record_uuid="{bd665be2-306e-402b-b7e2-f1ffc78ed6c1}" record_timestamp="1479987992413" record_key="settlement:wh2_main_iron_mountains_altar_of_ultimate_darkness">
@@ -338,7 +353,7 @@
 </campaign_map_settlements>
 <campaign_map_settlements record_uuid="{72c0e339-7aa7-4709-9cd7-97d4783c2fc6}" record_timestamp="1479987992530" record_key="settlement:wh2_main_isthmus_of_lustria_ziggurat_of_dawn">
 <citybar_height_offset>0</citybar_height_offset>
-<climate_type>climate_jungle</climate_type>
+<climate_type>climate_savannah</climate_type>
 <settlement_id>settlement:wh2_main_isthmus_of_lustria_ziggurat_of_dawn</settlement_id>
 </campaign_map_settlements>
 <campaign_map_settlements record_uuid="{bc5ae8a8-4e52-4295-a243-70add16daf18}" record_timestamp="1479987992565" record_key="settlement:wh2_main_jungles_of_green_mists_spektazuma">
@@ -395,6 +410,16 @@
 <citybar_height_offset>0</citybar_height_offset>
 <climate_type>climate_desert</climate_type>
 <settlement_id>settlement:wh2_main_land_of_the_dead_zandri</settlement_id>
+</campaign_map_settlements>
+<campaign_map_settlements record_uuid="{271cd993-aca7-4746-ad4d-783a2756ffdf}" record_timestamp="1531235209467" record_key="settlement:wh2_main_land_of_the_dervishes_plain_of_tuskers">
+<citybar_height_offset>0</citybar_height_offset>
+<climate_type>climate_desert</climate_type>
+<settlement_id>settlement:wh2_main_land_of_the_dervishes_plain_of_tuskers</settlement_id>
+</campaign_map_settlements>
+<campaign_map_settlements record_uuid="{a284969a-bc8d-43bc-b1dc-5be886bc0a10}" record_timestamp="1531235209467" record_key="settlement:wh2_main_land_of_the_dervishes_sudenburg">
+<citybar_height_offset>0</citybar_height_offset>
+<climate_type>climate_desert</climate_type>
+<settlement_id>settlement:wh2_main_land_of_the_dervishes_sudenburg</settlement_id>
 </campaign_map_settlements>
 <campaign_map_settlements record_uuid="{82c17300-543b-4e07-b432-eab4d34d5b34}" record_timestamp="1479987992943" record_key="settlement:wh2_main_nagarythe_shrine_of_khaine">
 <citybar_height_offset>0</citybar_height_offset>
@@ -533,7 +558,7 @@
 </campaign_map_settlements>
 <campaign_map_settlements record_uuid="{6f1f3e86-deba-4e8e-9578-aa6119ad9c57}" record_timestamp="1479987994026" record_key="settlement:wh2_main_southern_jungle_of_pahualaxa_monument_of_the_moon">
 <citybar_height_offset>0</citybar_height_offset>
-<climate_type>climate_savannah</climate_type>
+<climate_type>climate_jungle</climate_type>
 <settlement_id>settlement:wh2_main_southern_jungle_of_pahualaxa_monument_of_the_moon</settlement_id>
 </campaign_map_settlements>
 <campaign_map_settlements record_uuid="{4febb530-1b3d-4ba9-9775-467dd9caf689}" record_timestamp="1479987993961" record_key="settlement:wh2_main_southern_jungle_of_pahualaxa_pahuax">
@@ -585,86 +610,6 @@
 <citybar_height_offset>0</citybar_height_offset>
 <climate_type>climate_mountain</climate_type>
 <settlement_id>settlement:wh2_main_spine_of_sotek_monument_of_izzatal</settlement_id>
-</campaign_map_settlements>
-<campaign_map_settlements record_uuid="{89a9e977-ee96-4f5c-930e-1d6bf76dab83}" record_timestamp="1495622824391" record_key="settlement:wh2_main_testbed_01">
-<citybar_height_offset>0</citybar_height_offset>
-<climate_type>climate_chaotic</climate_type>
-<settlement_id>settlement:wh2_main_testbed_01</settlement_id>
-</campaign_map_settlements>
-<campaign_map_settlements record_uuid="{52823824-d495-48b1-bf9c-d37d2d0eac3d}" record_timestamp="1495622824934" record_key="settlement:wh2_main_testbed_02">
-<citybar_height_offset>0</citybar_height_offset>
-<climate_type>climate_temperate</climate_type>
-<settlement_id>settlement:wh2_main_testbed_02</settlement_id>
-</campaign_map_settlements>
-<campaign_map_settlements record_uuid="{05663b9e-c76e-4a5b-8371-f94a1d8a02c1}" record_timestamp="1495622824457" record_key="settlement:wh2_main_testbed_03">
-<citybar_height_offset>0</citybar_height_offset>
-<climate_type>climate_frozen</climate_type>
-<settlement_id>settlement:wh2_main_testbed_03</settlement_id>
-</campaign_map_settlements>
-<campaign_map_settlements record_uuid="{d4596020-a99b-4527-baa8-5e67826bd14e}" record_timestamp="1495622824497" record_key="settlement:wh2_main_testbed_04">
-<citybar_height_offset>0</citybar_height_offset>
-<climate_type>climate_island</climate_type>
-<settlement_id>settlement:wh2_main_testbed_04</settlement_id>
-</campaign_map_settlements>
-<campaign_map_settlements record_uuid="{522bf1da-b8de-4106-876e-6f5dbe25165b}" record_timestamp="1495622824532" record_key="settlement:wh2_main_testbed_05">
-<citybar_height_offset>0</citybar_height_offset>
-<climate_type>climate_jungle</climate_type>
-<settlement_id>settlement:wh2_main_testbed_05</settlement_id>
-</campaign_map_settlements>
-<campaign_map_settlements record_uuid="{1d5100b9-579a-4d0a-99fe-1e49a4e41ab3}" record_timestamp="1495622824559" record_key="settlement:wh2_main_testbed_06">
-<citybar_height_offset>0</citybar_height_offset>
-<climate_type>climate_magicforest</climate_type>
-<settlement_id>settlement:wh2_main_testbed_06</settlement_id>
-</campaign_map_settlements>
-<campaign_map_settlements record_uuid="{e08d5e14-4a34-4128-93c0-312ae43a901e}" record_timestamp="1495622824588" record_key="settlement:wh2_main_testbed_07">
-<citybar_height_offset>0</citybar_height_offset>
-<climate_type>climate_mountain</climate_type>
-<settlement_id>settlement:wh2_main_testbed_07</settlement_id>
-</campaign_map_settlements>
-<campaign_map_settlements record_uuid="{c934b48b-0955-4141-b050-68aeead5d17d}" record_timestamp="1495622824616" record_key="settlement:wh2_main_testbed_08">
-<citybar_height_offset>0</citybar_height_offset>
-<climate_type>climate_savannah</climate_type>
-<settlement_id>settlement:wh2_main_testbed_08</settlement_id>
-</campaign_map_settlements>
-<campaign_map_settlements record_uuid="{c4d64e74-0ecc-41f5-9bdf-25f21509529f}" record_timestamp="1495622824894" record_key="settlement:wh2_main_testbed_09">
-<citybar_height_offset>0</citybar_height_offset>
-<climate_type>climate_desert</climate_type>
-<settlement_id>settlement:wh2_main_testbed_09</settlement_id>
-</campaign_map_settlements>
-<campaign_map_settlements record_uuid="{90d19fd1-1f02-4adc-bb82-f0095c27fa9f}" record_timestamp="1495622824657" record_key="settlement:wh2_main_testbed_10">
-<citybar_height_offset>0</citybar_height_offset>
-<climate_type>climate_wasteland</climate_type>
-<settlement_id>settlement:wh2_main_testbed_10</settlement_id>
-</campaign_map_settlements>
-<campaign_map_settlements record_uuid="{5a4469c1-9dce-4da8-915c-f109cf8f6c27}" record_timestamp="1495622824686" record_key="settlement:wh2_main_testbed_11">
-<citybar_height_offset>0</citybar_height_offset>
-<climate_type>climate_chaotic</climate_type>
-<settlement_id>settlement:wh2_main_testbed_11</settlement_id>
-</campaign_map_settlements>
-<campaign_map_settlements record_uuid="{9f7a9d2d-e010-4c72-b2f7-90a1fb03500e}" record_timestamp="1495622824730" record_key="settlement:wh2_main_testbed_12">
-<citybar_height_offset>0</citybar_height_offset>
-<climate_type>climate_desert</climate_type>
-<settlement_id>settlement:wh2_main_testbed_12</settlement_id>
-</campaign_map_settlements>
-<campaign_map_settlements record_uuid="{9a93b1c5-805d-4f97-b068-075817f3d125}" record_timestamp="1495622824778" record_key="settlement:wh2_main_testbed_13">
-<citybar_height_offset>0</citybar_height_offset>
-<climate_type>climate_frozen</climate_type>
-<settlement_id>settlement:wh2_main_testbed_13</settlement_id>
-</campaign_map_settlements>
-<campaign_map_settlements record_uuid="{769838c8-2f52-4994-9100-6f4c43daeefb}" record_timestamp="1495622824821" record_key="settlement:wh2_main_testbed_14">
-<citybar_height_offset>0</citybar_height_offset>
-<climate_type>climate_island</climate_type>
-<settlement_id>settlement:wh2_main_testbed_14</settlement_id>
-</campaign_map_settlements>
-<campaign_map_settlements record_uuid="{04b385ee-8b12-4217-a1a1-8f3889161bcc}" record_timestamp="1495622824859" record_key="settlement:wh2_main_testbed_15">
-<citybar_height_offset>0</citybar_height_offset>
-<climate_type>climate_jungle</climate_type>
-<settlement_id>settlement:wh2_main_testbed_15</settlement_id>
-</campaign_map_settlements>
-<campaign_map_settlements record_uuid="{35900c76-e845-4cf8-b924-93d0f39f1bfe}" record_timestamp="1481281205355" record_key="settlement:wh2_main_testbed_16">
-<citybar_height_offset>0</citybar_height_offset>
-<climate_type>climate_temperate</climate_type>
-<settlement_id>settlement:wh2_main_testbed_16</settlement_id>
 </campaign_map_settlements>
 <campaign_map_settlements record_uuid="{18d40e48-583f-4a48-b378-0a5cbd520c20}" record_timestamp="1479987994360" record_key="settlement:wh2_main_the_black_coast_arnheim">
 <citybar_height_offset>0</citybar_height_offset>
@@ -755,6 +700,11 @@
 <citybar_height_offset>0</citybar_height_offset>
 <climate_type>climate_jungle</climate_type>
 <settlement_id>settlement:wh2_main_the_creeping_jungle_tlaxtlan</settlement_id>
+</campaign_map_settlements>
+<campaign_map_settlements record_uuid="{16d8e094-3d87-4a08-86b9-d68333794e72}" record_timestamp="1530029348230" record_key="settlement:wh2_main_the_galleons_graveyard">
+<citybar_height_offset>0</citybar_height_offset>
+<climate_type>climate_ocean</climate_type>
+<settlement_id>settlement:wh2_main_the_galleons_graveyard</settlement_id>
 </campaign_map_settlements>
 <campaign_map_settlements record_uuid="{2e1ea387-d43d-4fdf-b031-c32084712f0b}" record_timestamp="1479987995225" record_key="settlement:wh2_main_the_road_of_skulls_har_ganeth">
 <citybar_height_offset>0</citybar_height_offset>
@@ -1103,7 +1053,7 @@
 </campaign_map_settlements>
 <campaign_map_settlements record_uuid="{13becf69-3d64-4bf7-8355-8b65972c817d}" record_timestamp="1479904999106" record_key="settlement:wh2_main_vor_forest_of_the_viper_mirror_pool_of_tepok">
 <citybar_height_offset>0</citybar_height_offset>
-<climate_type>climate_jungle</climate_type>
+<climate_type>climate_savannah</climate_type>
 <settlement_id>settlement:wh2_main_vor_forest_of_the_viper_mirror_pool_of_tepok</settlement_id>
 </campaign_map_settlements>
 <campaign_map_settlements record_uuid="{3a1f23a4-22fb-426c-981e-ec6bc9c07279}" record_timestamp="1479904998823" record_key="settlement:wh2_main_vor_grey_guardians_grey_rock_point">
@@ -1805,6 +1755,11 @@
 <citybar_height_offset>0</citybar_height_offset>
 <climate_type>climate_jungle</climate_type>
 <settlement_id>settlement:wh2_main_vor_the_forbidden_jungle_sentinels_of_xeti</settlement_id>
+</campaign_map_settlements>
+<campaign_map_settlements record_uuid="{7c2c579c-c0a4-4613-8279-f4262d616da3}" record_timestamp="1530029269873" record_key="settlement:wh2_main_vor_the_galleons_graveyard">
+<citybar_height_offset>0</citybar_height_offset>
+<climate_type>climate_ocean</climate_type>
+<settlement_id>settlement:wh2_main_vor_the_galleons_graveyard</settlement_id>
 </campaign_map_settlements>
 <campaign_map_settlements record_uuid="{ed19d11e-e5d1-4987-a817-842ad60b7f58}" record_timestamp="1479904985531" record_key="settlement:wh2_main_vor_the_great_desert_bel_aliad">
 <citybar_height_offset>0</citybar_height_offset>

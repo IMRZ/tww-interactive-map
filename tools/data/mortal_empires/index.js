@@ -6,6 +6,9 @@ function isMortalEmpires(key) {
 }
 
 function combineRegionData(regions, provinces, regionToProvinceJunctions, campaignMapSettlements, regionPaths) {
+  // TODO: fix me cant find key 'wh2_main_sartosa_sartosa'
+  campaignMapSettlements["wh2_main_sartosa_sartosa"] = { key: "wh2_main_sartosa_sartosa", climate: "temperate" };
+
   return Object.values(regions)
     .filter(region => isMortalEmpires(region.key))
     .filter(region => region.isSea === false)

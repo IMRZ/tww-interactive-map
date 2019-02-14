@@ -58,5 +58,11 @@
     "description": "Scorched or scoured - nothing grows here and only a few races could survive in this region, let alone thrive.",
     "fill": "red",
     "icon": "/ui/icons/wasteland.png"
+  },
+  "ocean": {
+    "name": "Ocean",
+    "description": "The oceans of the world harbour many great wrecks and treasures, as only the best seafaring races can truly master its currents and tides.",
+    "fill": "blue",
+    "icon": "/ui/icons/ocean.png"
   }
 }

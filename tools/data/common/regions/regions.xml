@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="regions.xsd" export_time="Wed Sep 13 14:27:14 2017" revision="158" export_branch="T:/branches/warhammer2/dev/warhammer/binaries.x64" export_user="bob">
-<edit_uuid>75d67af9-5681-4d1f-a3fa-b041e0fb6143</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="regions.xsd" export_time="Tue Nov 20 16:07:39 2018" revision="184" export_branch="C:/Users/mark.sinclair/AppData/Roaming/TWDaemon/1211/dave" export_user="bob">
+<edit_uuid>3d7d0909-2ecf-4579-a3b1-51e86bd1da03</edit_uuid>
 <regions record_uuid="{308fda85-f6a5-44b1-8103-bad3b2757cb8}" record_timestamp="1488882011889" record_key="wh2_main_aghol_wastelands_fortress_of_the_damned">
 <b>125</b>
 <battle_name state="APPROVED" last_approved_text="Fortress of the Damned" last_edit_user="bob">Fortress of the Damned</battle_name>
@@ -37,10 +37,22 @@
 <owner_bundle></owner_bundle>
 <r>176</r>
 </regions>
-<regions record_uuid="{8d04c90c-9570-4f6c-b7c6-3425fb8968bd}" record_timestamp="1488900431068" record_key="wh2_main_ash_river_numas">
+<regions record_uuid="{99050fe3-65ca-4b62-b65f-2380be05f2fd}" record_timestamp="1531395414885" record_key="wh2_main_albion_albion">
+<b>25</b>
+<battle_name state="APPROVED" last_approved_text="Albion" last_edit_user="bob">Albion</battle_name>
+<faction_swapping_id>emp</faction_swapping_id>
+<g>74</g>
+<in_encyclopedia>1</in_encyclopedia>
+<is_sea>0</is_sea>
+<key>wh2_main_albion_albion</key>
+<onscreen state="APPROVED" last_approved_text="Albion" last_edit_user="bob">Albion</onscreen>
+<owner_bundle></owner_bundle>
+<r>103</r>
+</regions>
+<regions record_uuid="{8d04c90c-9570-4f6c-b7c6-3425fb8968bd}" record_timestamp="1507815452098" record_key="wh2_main_ash_river_numas">
 <b>109</b>
 <battle_name state="APPROVED" last_approved_text="Numas" last_edit_user="bob">Numas</battle_name>
-<faction_swapping_id>vmp</faction_swapping_id>
+<faction_swapping_id>tmb</faction_swapping_id>
 <g>51</g>
 <in_encyclopedia>1</in_encyclopedia>
 <is_sea>0</is_sea>
@@ -49,10 +61,10 @@
 <owner_bundle></owner_bundle>
 <r>44</r>
 </regions>
-<regions record_uuid="{7eac0ec6-271e-4455-8b3c-3f999f944248}" record_timestamp="1488900431105" record_key="wh2_main_ash_river_quatar">
+<regions record_uuid="{7eac0ec6-271e-4455-8b3c-3f999f944248}" record_timestamp="1507815452105" record_key="wh2_main_ash_river_quatar">
 <b>117</b>
 <battle_name state="APPROVED" last_approved_text="Quatar" last_edit_user="bob">Quatar</battle_name>
-<faction_swapping_id>vmp</faction_swapping_id>
+<faction_swapping_id>tmb</faction_swapping_id>
 <g>64</g>
 <in_encyclopedia>1</in_encyclopedia>
 <is_sea>0</is_sea>
@@ -61,10 +73,10 @@
 <owner_bundle></owner_bundle>
 <r>39</r>
 </regions>
-<regions record_uuid="{3f78bf98-203d-4e7e-a519-f7d0dc914963}" record_timestamp="1488900431142" record_key="wh2_main_ash_river_springs_of_eternal_life">
+<regions record_uuid="{3f78bf98-203d-4e7e-a519-f7d0dc914963}" record_timestamp="1507815452111" record_key="wh2_main_ash_river_springs_of_eternal_life">
 <b>6</b>
 <battle_name state="APPROVED" last_approved_text="Springs of Eternal Life" last_edit_user="bob">Springs of Eternal Life</battle_name>
-<faction_swapping_id>vmp</faction_swapping_id>
+<faction_swapping_id>tmb</faction_swapping_id>
 <g>153</g>
 <in_encyclopedia>1</in_encyclopedia>
 <is_sea>0</is_sea>
@@ -148,7 +160,7 @@
 <regions record_uuid="{ce32ba05-0b3d-4809-a16c-7624ff939e98}" record_timestamp="1488900431374" record_key="wh2_main_blackspine_mountains_plain_of_dogs">
 <b>210</b>
 <battle_name state="APPROVED" last_approved_text="Plain of Dogs" last_edit_user="bob">Plain of Dogs</battle_name>
-<faction_swapping_id>grn</faction_swapping_id>
+<faction_swapping_id>def</faction_swapping_id>
 <g>33</g>
 <in_encyclopedia>1</in_encyclopedia>
 <is_sea>0</is_sea>
@@ -157,10 +169,10 @@
 <owner_bundle></owner_bundle>
 <r>45</r>
 </regions>
-<regions record_uuid="{837e7b73-9363-4f4d-b4e4-f6331c14c2fa}" record_timestamp="1488900431406" record_key="wh2_main_blackspine_mountains_plain_of_spiders">
+<regions record_uuid="{837e7b73-9363-4f4d-b4e4-f6331c14c2fa}" record_timestamp="1507815452092" record_key="wh2_main_blackspine_mountains_plain_of_spiders">
 <b>242</b>
 <battle_name state="APPROVED" last_approved_text="Plain of Spiders" last_edit_user="bob">Plain of Spiders</battle_name>
-<faction_swapping_id>grn</faction_swapping_id>
+<faction_swapping_id>tmb</faction_swapping_id>
 <g>165</g>
 <in_encyclopedia>1</in_encyclopedia>
 <is_sea>0</is_sea>
@@ -172,7 +184,7 @@
 <regions record_uuid="{62d9e81f-c5f3-45ba-90a9-7c6f7e8f807f}" record_timestamp="1488900431437" record_key="wh2_main_blackspine_mountains_red_desert">
 <b>104</b>
 <battle_name state="APPROVED" last_approved_text="Red Desert" last_edit_user="bob">Red Desert</battle_name>
-<faction_swapping_id>grn</faction_swapping_id>
+<faction_swapping_id>def</faction_swapping_id>
 <g>218</g>
 <in_encyclopedia>1</in_encyclopedia>
 <is_sea>0</is_sea>
@@ -313,10 +325,10 @@
 <owner_bundle></owner_bundle>
 <r>131</r>
 </regions>
-<regions record_uuid="{aa3db5c2-0bd9-4607-b0eb-6444b01f9b50}" record_timestamp="1488900431822" record_key="wh2_main_crater_of_the_walking_dead_doom_glade">
+<regions record_uuid="{aa3db5c2-0bd9-4607-b0eb-6444b01f9b50}" record_timestamp="1507815452118" record_key="wh2_main_crater_of_the_walking_dead_doom_glade">
 <b>247</b>
 <battle_name state="APPROVED" last_approved_text="Doom Glade" last_edit_user="bob">Doom Glade</battle_name>
-<faction_swapping_id>vmp</faction_swapping_id>
+<faction_swapping_id>tmb</faction_swapping_id>
 <g>180</g>
 <in_encyclopedia>1</in_encyclopedia>
 <is_sea>0</is_sea>
@@ -325,10 +337,10 @@
 <owner_bundle></owner_bundle>
 <r>141</r>
 </regions>
-<regions record_uuid="{31bbdfff-088f-4ad9-af30-9fb09532141b}" record_timestamp="1488900431855" record_key="wh2_main_crater_of_the_walking_dead_rasetra">
+<regions record_uuid="{31bbdfff-088f-4ad9-af30-9fb09532141b}" record_timestamp="1507815452125" record_key="wh2_main_crater_of_the_walking_dead_rasetra">
 <b>222</b>
 <battle_name state="APPROVED" last_approved_text="Rasetra" last_edit_user="bob">Rasetra</battle_name>
-<faction_swapping_id>vmp</faction_swapping_id>
+<faction_swapping_id>tmb</faction_swapping_id>
 <g>110</g>
 <in_encyclopedia>1</in_encyclopedia>
 <is_sea>0</is_sea>
@@ -385,10 +397,10 @@
 <owner_bundle></owner_bundle>
 <r>126</r>
 </regions>
-<regions record_uuid="{96a07b3c-2267-49de-9c98-3ad1ac3e489d}" record_timestamp="1488900432019" record_key="wh2_main_devils_backbone_lahmia">
+<regions record_uuid="{96a07b3c-2267-49de-9c98-3ad1ac3e489d}" record_timestamp="1507815452132" record_key="wh2_main_devils_backbone_lahmia">
 <b>214</b>
 <battle_name state="APPROVED" last_approved_text="Lahmia" last_edit_user="bob">Lahmia</battle_name>
-<faction_swapping_id>vmp</faction_swapping_id>
+<faction_swapping_id>tmb</faction_swapping_id>
 <g>167</g>
 <in_encyclopedia>1</in_encyclopedia>
 <is_sea>0</is_sea>
@@ -397,10 +409,10 @@
 <owner_bundle></owner_bundle>
 <r>4</r>
 </regions>
-<regions record_uuid="{c1868bc0-7bbb-4ae6-8da3-84c4a0d45e03}" record_timestamp="1488900432051" record_key="wh2_main_devils_backbone_lybaras">
+<regions record_uuid="{c1868bc0-7bbb-4ae6-8da3-84c4a0d45e03}" record_timestamp="1507815452139" record_key="wh2_main_devils_backbone_lybaras">
 <b>201</b>
 <battle_name state="APPROVED" last_approved_text="Lybaras" last_edit_user="bob">Lybaras</battle_name>
-<faction_swapping_id>vmp</faction_swapping_id>
+<faction_swapping_id>tmb</faction_swapping_id>
 <g>117</g>
 <in_encyclopedia>1</in_encyclopedia>
 <is_sea>0</is_sea>
@@ -409,10 +421,10 @@
 <owner_bundle></owner_bundle>
 <r>245</r>
 </regions>
-<regions record_uuid="{72aa9369-f200-44c0-bc7e-b7e781d12178}" record_timestamp="1488900432082" record_key="wh2_main_devils_backbone_mahrak">
+<regions record_uuid="{72aa9369-f200-44c0-bc7e-b7e781d12178}" record_timestamp="1507815452146" record_key="wh2_main_devils_backbone_mahrak">
 <b>83</b>
 <battle_name state="APPROVED" last_approved_text="Mahrak" last_edit_user="bob">Mahrak</battle_name>
-<faction_swapping_id>vmp</faction_swapping_id>
+<faction_swapping_id>tmb</faction_swapping_id>
 <g>43</g>
 <in_encyclopedia>1</in_encyclopedia>
 <is_sea>0</is_sea>
@@ -556,7 +568,7 @@
 <regions record_uuid="{b2e46922-e1e6-4eb2-8579-487ab611abc9}" record_timestamp="1488900432499" record_key="wh2_main_great_desert_of_araby_bel_aliad">
 <b>217</b>
 <battle_name state="APPROVED" last_approved_text="Bel Aliad" last_edit_user="bob">Bel Aliad</battle_name>
-<faction_swapping_id>vmp</faction_swapping_id>
+<faction_swapping_id>brt</faction_swapping_id>
 <g>11</g>
 <in_encyclopedia>1</in_encyclopedia>
 <is_sea>0</is_sea>
@@ -565,10 +577,10 @@
 <owner_bundle></owner_bundle>
 <r>24</r>
 </regions>
-<regions record_uuid="{d963fe71-ef42-45d6-96b9-0658967ffb9d}" record_timestamp="1488900432531" record_key="wh2_main_great_desert_of_araby_black_tower_of_arkhan">
+<regions record_uuid="{d963fe71-ef42-45d6-96b9-0658967ffb9d}" record_timestamp="1507815452152" record_key="wh2_main_great_desert_of_araby_black_tower_of_arkhan">
 <b>145</b>
 <battle_name state="APPROVED" last_approved_text="Black Tower of Arkhan" last_edit_user="bob">Black Tower of Arkhan</battle_name>
-<faction_swapping_id>vmp</faction_swapping_id>
+<faction_swapping_id>tmb</faction_swapping_id>
 <g>153</g>
 <in_encyclopedia>1</in_encyclopedia>
 <is_sea>0</is_sea>
@@ -589,10 +601,10 @@
 <owner_bundle></owner_bundle>
 <r>236</r>
 </regions>
-<regions record_uuid="{e326a968-58a8-4346-a08b-e6233e82d4d1}" record_timestamp="1488900432593" record_key="wh2_main_great_desert_of_araby_pools_of_despair">
+<regions record_uuid="{e326a968-58a8-4346-a08b-e6233e82d4d1}" record_timestamp="1507815452160" record_key="wh2_main_great_desert_of_araby_pools_of_despair">
 <b>134</b>
 <battle_name state="APPROVED" last_approved_text="Pools of Despair" last_edit_user="bob">Pools of Despair</battle_name>
-<faction_swapping_id>vmp</faction_swapping_id>
+<faction_swapping_id>tmb</faction_swapping_id>
 <g>244</g>
 <in_encyclopedia>1</in_encyclopedia>
 <is_sea>0</is_sea>
@@ -600,6 +612,18 @@
 <onscreen state="APPROVED" last_approved_text="Pools of Despair" last_edit_user="bob">Pools of Despair</onscreen>
 <owner_bundle></owner_bundle>
 <r>226</r>
+</regions>
+<regions record_uuid="{4456a632-bdc4-4a79-af64-430ea01419eb}" record_timestamp="1508251711495" record_key="wh2_main_great_mortis_delta_black_pyramid_of_nagash">
+<b>203</b>
+<battle_name state="APPROVED" last_approved_text="Black Pyramid of Nagash" last_edit_user="bob">Black Pyramid of Nagash</battle_name>
+<faction_swapping_id>tmb</faction_swapping_id>
+<g>225</g>
+<in_encyclopedia>1</in_encyclopedia>
+<is_sea>0</is_sea>
+<key>wh2_main_great_mortis_delta_black_pyramid_of_nagash</key>
+<onscreen state="APPROVED" last_approved_text="Black Pyramid of Nagash" last_edit_user="bob">Black Pyramid of Nagash</onscreen>
+<owner_bundle></owner_bundle>
+<r>253</r>
 </regions>
 <regions record_uuid="{71e46f92-cbdf-42c6-81d9-7517168e90a4}" record_timestamp="1488900432625" record_key="wh2_main_griffon_gate">
 <b>9</b>
@@ -612,6 +636,18 @@
 <onscreen state="APPROVED" last_approved_text="Griffon Gate" last_edit_user="bob">Griffon Gate</onscreen>
 <owner_bundle></owner_bundle>
 <r>168</r>
+</regions>
+<regions record_uuid="{0eb0b112-474b-43cb-ab7b-30acddad4b06}" record_timestamp="1537872048239" record_key="wh2_main_headhunters_jungle_chupayotl">
+<b>153</b>
+<battle_name state="APPROVED" last_approved_text="Chupayotl" last_edit_user="bob">Chupayotl</battle_name>
+<faction_swapping_id>def</faction_swapping_id>
+<g>244</g>
+<in_encyclopedia>1</in_encyclopedia>
+<is_sea>0</is_sea>
+<key>wh2_main_headhunters_jungle_chupayotl</key>
+<onscreen state="APPROVED" last_approved_text="Chupayotl" last_edit_user="bob">Chupayotl</onscreen>
+<owner_bundle></owner_bundle>
+<r>111</r>
 </regions>
 <regions record_uuid="{3508047f-638c-4aa7-8e40-4939f7feaa7c}" record_timestamp="1488900432657" record_key="wh2_main_headhunters_jungle_mangrove_coast">
 <b>133</b>
@@ -648,6 +684,18 @@
 <onscreen state="APPROVED" last_approved_text="Oyxl" last_edit_user="bob">Oyxl</onscreen>
 <owner_bundle></owner_bundle>
 <r>171</r>
+</regions>
+<regions record_uuid="{4af9ff19-1bbd-458f-ab22-b294d9f4b249}" record_timestamp="1530890502325" record_key="wh2_main_heart_of_the_jungle_oreons_camp">
+<b>61</b>
+<battle_name state="APPROVED" last_approved_text="Oreon's Camp" last_edit_user="bob">Oreon's Camp</battle_name>
+<faction_swapping_id>emp</faction_swapping_id>
+<g>163</g>
+<in_encyclopedia>1</in_encyclopedia>
+<is_sea>0</is_sea>
+<key>wh2_main_heart_of_the_jungle_oreons_camp</key>
+<onscreen state="APPROVED" last_approved_text="Oreon's Camp" last_edit_user="bob">Oreon's Camp</onscreen>
+<owner_bundle></owner_bundle>
+<r>242</r>
 </regions>
 <regions record_uuid="{e1409820-39a4-4550-8188-b3a1e82ebe93}" record_timestamp="1488900432775" record_key="wh2_main_hell_pit_hell_pit">
 <b>111</b>
@@ -892,7 +940,7 @@
 <regions record_uuid="{ae1bb463-87bb-46eb-bc0a-07dae83aedec}" record_timestamp="1496825365390" record_key="wh2_main_land_of_assassins_palace_of_the_wizard_caliph">
 <b>99</b>
 <battle_name state="APPROVED" last_approved_text="Wizard Caliph's Palace" last_edit_user="bob">Wizard Caliph's Palace</battle_name>
-<faction_swapping_id>brt</faction_swapping_id>
+<faction_swapping_id>tmb</faction_swapping_id>
 <g>31</g>
 <in_encyclopedia>1</in_encyclopedia>
 <is_sea>0</is_sea>
@@ -901,10 +949,10 @@
 <owner_bundle></owner_bundle>
 <r>73</r>
 </regions>
-<regions record_uuid="{f461031f-ae2a-490b-8c83-a6ed1a591570}" record_timestamp="1488900433370" record_key="wh2_main_land_of_assassins_sorcerers_islands">
+<regions record_uuid="{f461031f-ae2a-490b-8c83-a6ed1a591570}" record_timestamp="1507815452084" record_key="wh2_main_land_of_assassins_sorcerers_islands">
 <b>186</b>
 <battle_name state="APPROVED" last_approved_text="Sorcerer's Islands" last_edit_user="bob">Sorcerer's Islands</battle_name>
-<faction_swapping_id>brt</faction_swapping_id>
+<faction_swapping_id>tmb</faction_swapping_id>
 <g>230</g>
 <in_encyclopedia>1</in_encyclopedia>
 <is_sea>0</is_sea>
@@ -913,10 +961,10 @@
 <owner_bundle></owner_bundle>
 <r>143</r>
 </regions>
-<regions record_uuid="{217a2362-b79c-41f5-9c40-33f0aa9aa122}" record_timestamp="1488900433402" record_key="wh2_main_land_of_the_dead_khemri">
+<regions record_uuid="{217a2362-b79c-41f5-9c40-33f0aa9aa122}" record_timestamp="1507815452167" record_key="wh2_main_land_of_the_dead_khemri">
 <b>17</b>
 <battle_name state="APPROVED" last_approved_text="Khemri" last_edit_user="bob">Khemri</battle_name>
-<faction_swapping_id>vmp</faction_swapping_id>
+<faction_swapping_id>tmb</faction_swapping_id>
 <g>174</g>
 <in_encyclopedia>1</in_encyclopedia>
 <is_sea>0</is_sea>
@@ -925,10 +973,10 @@
 <owner_bundle></owner_bundle>
 <r>26</r>
 </regions>
-<regions record_uuid="{ff0f33ae-b3d6-4cbf-b582-bbae3b3ce678}" record_timestamp="1490361804915" record_key="wh2_main_land_of_the_dead_pyramid_of_nagash">
+<regions record_uuid="{ff0f33ae-b3d6-4cbf-b582-bbae3b3ce678}" record_timestamp="1507815452174" record_key="wh2_main_land_of_the_dead_pyramid_of_nagash">
 <b>203</b>
 <battle_name state="APPROVED" last_approved_text="Black Pyramid of Nagash" last_edit_user="bob">Black Pyramid of Nagash</battle_name>
-<faction_swapping_id>vmp</faction_swapping_id>
+<faction_swapping_id>tmb</faction_swapping_id>
 <g>225</g>
 <in_encyclopedia>1</in_encyclopedia>
 <is_sea>0</is_sea>
@@ -937,10 +985,10 @@
 <owner_bundle></owner_bundle>
 <r>253</r>
 </regions>
-<regions record_uuid="{4455d55d-f511-43ba-97b1-95c8e406b47a}" record_timestamp="1488900433468" record_key="wh2_main_land_of_the_dead_zandri">
+<regions record_uuid="{4455d55d-f511-43ba-97b1-95c8e406b47a}" record_timestamp="1507815452181" record_key="wh2_main_land_of_the_dead_zandri">
 <b>101</b>
 <battle_name state="APPROVED" last_approved_text="Zandri" last_edit_user="bob">Zandri</battle_name>
-<faction_swapping_id>vmp</faction_swapping_id>
+<faction_swapping_id>tmb</faction_swapping_id>
 <g>104</g>
 <in_encyclopedia>1</in_encyclopedia>
 <is_sea>0</is_sea>
@@ -948,6 +996,30 @@
 <onscreen state="APPROVED" last_approved_text="Zandri" last_edit_user="bob">Zandri</onscreen>
 <owner_bundle></owner_bundle>
 <r>45</r>
+</regions>
+<regions record_uuid="{e0949c93-035f-4b5c-ad08-6efae1501169}" record_timestamp="1531235209077" record_key="wh2_main_land_of_the_dervishes_plain_of_tuskers">
+<b>210</b>
+<battle_name state="APPROVED" last_approved_text="Plain of Tuskers" last_edit_user="bob">Plain of Tuskers</battle_name>
+<faction_swapping_id>emp</faction_swapping_id>
+<g>227</g>
+<in_encyclopedia>1</in_encyclopedia>
+<is_sea>0</is_sea>
+<key>wh2_main_land_of_the_dervishes_plain_of_tuskers</key>
+<onscreen state="APPROVED" last_approved_text="Plain of Tuskers" last_edit_user="bob">Plain of Tuskers</onscreen>
+<owner_bundle></owner_bundle>
+<r>53</r>
+</regions>
+<regions record_uuid="{ace1f119-7e36-44be-b8c0-f55e5299458b}" record_timestamp="1531235209077" record_key="wh2_main_land_of_the_dervishes_sudenburg">
+<b>97</b>
+<battle_name state="APPROVED" last_approved_text="Sudenburg" last_edit_user="bob">Sudenburg</battle_name>
+<faction_swapping_id>emp</faction_swapping_id>
+<g>14</g>
+<in_encyclopedia>1</in_encyclopedia>
+<is_sea>0</is_sea>
+<key>wh2_main_land_of_the_dervishes_sudenburg</key>
+<onscreen state="APPROVED" last_approved_text="Sudenburg" last_edit_user="bob">Sudenburg</onscreen>
+<owner_bundle></owner_bundle>
+<r>248</r>
 </regions>
 <regions record_uuid="{23bf5a25-598b-4e4f-b7f4-df1976171124}" record_timestamp="1488900433501" record_key="wh2_main_nagarythe_shrine_of_khaine">
 <b>221</b>
@@ -961,10 +1033,10 @@
 <owner_bundle></owner_bundle>
 <r>26</r>
 </regions>
-<regions record_uuid="{3c4247f3-a819-4b5d-a9c6-9782a01eab16}" record_timestamp="1505309233087" record_key="wh2_main_nagarythe_tor_anlec">
+<regions record_uuid="{3c4247f3-a819-4b5d-a9c6-9782a01eab16}" record_timestamp="1508936814013" record_key="wh2_main_nagarythe_tor_anlec">
 <b>64</b>
 <battle_name state="APPROVED" last_approved_text="Tor Anlec" last_edit_user="bob">Tor Anlec</battle_name>
-<faction_swapping_id>def</faction_swapping_id>
+<faction_swapping_id>hef</faction_swapping_id>
 <g>53</g>
 <in_encyclopedia>1</in_encyclopedia>
 <is_sea>0</is_sea>
@@ -997,10 +1069,10 @@
 <owner_bundle></owner_bundle>
 <r>69</r>
 </regions>
-<regions record_uuid="{3659919e-831b-485e-9ecc-c8740665cb68}" record_timestamp="1488900433636" record_key="wh2_main_northern_great_jungle_temple_of_tlencan">
+<regions record_uuid="{3659919e-831b-485e-9ecc-c8740665cb68}" record_timestamp="1537872110000" record_key="wh2_main_northern_great_jungle_temple_of_tlencan">
 <b>148</b>
 <battle_name state="APPROVED" last_approved_text="Temple of Tlencan" last_edit_user="bob">Temple of Tlencan</battle_name>
-<faction_swapping_id>lzd</faction_swapping_id>
+<faction_swapping_id>cst</faction_swapping_id>
 <g>34</g>
 <in_encyclopedia>1</in_encyclopedia>
 <is_sea>0</is_sea>
@@ -1036,7 +1108,7 @@
 <regions record_uuid="{c32620fe-ef44-4ceb-8a32-73982f34d9d9}" record_timestamp="1488882023796" record_key="wh2_main_northern_jungle_of_pahualaxa_macu_peaks">
 <b>198</b>
 <battle_name state="APPROVED" last_approved_text="Macu Peaks" last_edit_user="bob">Macu Peaks</battle_name>
-<faction_swapping_id>emp</faction_swapping_id>
+<faction_swapping_id>lzd</faction_swapping_id>
 <g>172</g>
 <in_encyclopedia>1</in_encyclopedia>
 <is_sea>0</is_sea>
@@ -1060,7 +1132,7 @@
 <regions record_uuid="{f30bd179-d338-434c-9a88-ea7d97c70d7e}" record_timestamp="1488882024070" record_key="wh2_main_northern_jungle_of_pahualaxa_shrine_of_sotek">
 <b>192</b>
 <battle_name state="APPROVED" last_approved_text="Shrine of Sotek" last_edit_user="bob">Shrine of Sotek</battle_name>
-<faction_swapping_id>emp</faction_swapping_id>
+<faction_swapping_id>lzd</faction_swapping_id>
 <g>241</g>
 <in_encyclopedia>1</in_encyclopedia>
 <is_sea>0</is_sea>
@@ -1176,6 +1248,18 @@
 <onscreen state="APPROVED" last_approved_text="White Tower of Hoeth" last_edit_user="bob">White Tower of Hoeth</onscreen>
 <owner_bundle></owner_bundle>
 <r>123</r>
+</regions>
+<regions record_uuid="{8a43135c-2b52-43a8-be06-dacffcd839be}" record_timestamp="1537872110000" record_key="wh2_main_sartosa_sartosa">
+<b>228</b>
+<battle_name state="APPROVED" last_approved_text="Sartosa" last_edit_user="bob">Sartosa</battle_name>
+<faction_swapping_id>cst</faction_swapping_id>
+<g>190</g>
+<in_encyclopedia>1</in_encyclopedia>
+<is_sea>0</is_sea>
+<key>wh2_main_sartosa_sartosa</key>
+<onscreen state="APPROVED" last_approved_text="Sartosa" last_edit_user="bob">Sartosa</onscreen>
+<owner_bundle></owner_bundle>
+<r>83</r>
 </regions>
 <regions record_uuid="{715da673-5c00-4afd-a7ba-c30cb1e123c4}" record_timestamp="1488882025450" record_key="wh2_main_sea_bay_of_corsairs">
 <b>97</b>
@@ -1393,6 +1477,18 @@
 <owner_bundle></owner_bundle>
 <r>49</r>
 </regions>
+<regions record_uuid="{67fbce04-46c8-41a5-965a-7477a8472635}" record_timestamp="1530029266511" record_key="wh2_main_sea_the_galleons_graveyard">
+<b>1</b>
+<battle_name state="APPROVED" last_approved_text="The Galleon's Graveyard" last_edit_user="bob">The Galleon's Graveyard</battle_name>
+<faction_swapping_id>emp</faction_swapping_id>
+<g>1</g>
+<in_encyclopedia>1</in_encyclopedia>
+<is_sea>1</is_sea>
+<key>wh2_main_sea_the_galleons_graveyard</key>
+<onscreen state="APPROVED" last_approved_text="The Galleon's Graveyard" last_edit_user="bob">The Galleon's Graveyard</onscreen>
+<owner_bundle></owner_bundle>
+<r>1</r>
+</regions>
 <regions record_uuid="{82660750-9ce7-4202-9e64-b083c184b511}" record_timestamp="1488882027803" record_key="wh2_main_sea_the_isles">
 <b>153</b>
 <battle_name state="APPROVED" last_approved_text="The Isles" last_edit_user="bob">The Isles</battle_name>
@@ -1429,10 +1525,10 @@
 <owner_bundle></owner_bundle>
 <r>188</r>
 </regions>
-<regions record_uuid="{f13de9d5-1d40-4589-976d-7c9398af3170}" record_timestamp="1488900433997" record_key="wh2_main_shifting_sands_antoch">
+<regions record_uuid="{f13de9d5-1d40-4589-976d-7c9398af3170}" record_timestamp="1507815452189" record_key="wh2_main_shifting_sands_antoch">
 <b>185</b>
 <battle_name state="APPROVED" last_approved_text="Antoch" last_edit_user="bob">Antoch</battle_name>
-<faction_swapping_id>vmp</faction_swapping_id>
+<faction_swapping_id>tmb</faction_swapping_id>
 <g>128</g>
 <in_encyclopedia>1</in_encyclopedia>
 <is_sea>0</is_sea>
@@ -1441,10 +1537,10 @@
 <owner_bundle></owner_bundle>
 <r>170</r>
 </regions>
-<regions record_uuid="{ddcbf94e-b985-45a9-8c32-7262e376fb53}" record_timestamp="1488900434030" record_key="wh2_main_shifting_sands_bhagar">
+<regions record_uuid="{ddcbf94e-b985-45a9-8c32-7262e376fb53}" record_timestamp="1507815452196" record_key="wh2_main_shifting_sands_bhagar">
 <b>147</b>
 <battle_name state="APPROVED" last_approved_text="Bhagar" last_edit_user="bob">Bhagar</battle_name>
-<faction_swapping_id>vmp</faction_swapping_id>
+<faction_swapping_id>tmb</faction_swapping_id>
 <g>39</g>
 <in_encyclopedia>1</in_encyclopedia>
 <is_sea>0</is_sea>
@@ -1453,10 +1549,10 @@
 <owner_bundle></owner_bundle>
 <r>74</r>
 </regions>
-<regions record_uuid="{e84063b4-1b0c-49f7-a85a-6ee827527ffd}" record_timestamp="1488900434063" record_key="wh2_main_shifting_sands_ka-sabar">
+<regions record_uuid="{e84063b4-1b0c-49f7-a85a-6ee827527ffd}" record_timestamp="1507815452204" record_key="wh2_main_shifting_sands_ka-sabar">
 <b>230</b>
 <battle_name state="APPROVED" last_approved_text="Ka-Sabar" last_edit_user="bob">Ka-Sabar</battle_name>
-<faction_swapping_id>vmp</faction_swapping_id>
+<faction_swapping_id>tmb</faction_swapping_id>
 <g>81</g>
 <in_encyclopedia>1</in_encyclopedia>
 <is_sea>0</is_sea>
@@ -1525,10 +1621,10 @@
 <owner_bundle></owner_bundle>
 <r>76</r>
 </regions>
-<regions record_uuid="{b57f4035-1fd1-49c4-a1a1-66d95c1822be}" record_timestamp="1488900434254" record_key="wh2_main_southern_jungle_of_pahualaxa_monument_of_the_moon">
+<regions record_uuid="{b57f4035-1fd1-49c4-a1a1-66d95c1822be}" record_timestamp="1537872110000" record_key="wh2_main_southern_jungle_of_pahualaxa_monument_of_the_moon">
 <b>75</b>
 <battle_name state="APPROVED" last_approved_text="Monument of the Moon" last_edit_user="bob">Monument of the Moon</battle_name>
-<faction_swapping_id>lzd</faction_swapping_id>
+<faction_swapping_id>cst</faction_swapping_id>
 <g>8</g>
 <in_encyclopedia>1</in_encyclopedia>
 <is_sea>0</is_sea>
@@ -1657,202 +1753,10 @@
 <owner_bundle></owner_bundle>
 <r>61</r>
 </regions>
-<regions record_uuid="{518e3c22-7257-4d53-ba4c-455171b510fa}" record_timestamp="1488900434606" record_key="wh2_main_testbed_01">
-<b>17</b>
-<battle_name state="APPROVED" last_approved_text="wh2_main_testbed_01" last_edit_user="bob">wh2_main_testbed_01</battle_name>
-<faction_swapping_id>hef</faction_swapping_id>
-<g>7</g>
-<in_encyclopedia>0</in_encyclopedia>
-<is_sea>0</is_sea>
-<key>wh2_main_testbed_01</key>
-<onscreen state="APPROVED" last_approved_text="wh2_main_testbed_01" last_edit_user="bob">wh2_main_testbed_01</onscreen>
-<owner_bundle></owner_bundle>
-<r>199</r>
-</regions>
-<regions record_uuid="{b0f433a7-f1f1-4e7f-8901-fe6ff0f7bcf7}" record_timestamp="1488900434640" record_key="wh2_main_testbed_02">
-<b>4</b>
-<battle_name state="APPROVED" last_approved_text="wh2_main_testbed_02" last_edit_user="bob">wh2_main_testbed_02</battle_name>
-<faction_swapping_id>hef</faction_swapping_id>
-<g>84</g>
-<in_encyclopedia>0</in_encyclopedia>
-<is_sea>0</is_sea>
-<key>wh2_main_testbed_02</key>
-<onscreen state="APPROVED" last_approved_text="wh2_main_testbed_02" last_edit_user="bob">wh2_main_testbed_02</onscreen>
-<owner_bundle></owner_bundle>
-<r>123</r>
-</regions>
-<regions record_uuid="{566e120b-a0d7-4ddf-b901-22800b3039d0}" record_timestamp="1488900434672" record_key="wh2_main_testbed_03">
-<b>97</b>
-<battle_name state="APPROVED" last_approved_text="wh2_main_testbed_03" last_edit_user="bob">wh2_main_testbed_03</battle_name>
-<faction_swapping_id>hef</faction_swapping_id>
-<g>110</g>
-<in_encyclopedia>0</in_encyclopedia>
-<is_sea>0</is_sea>
-<key>wh2_main_testbed_03</key>
-<onscreen state="APPROVED" last_approved_text="wh2_main_testbed_03" last_edit_user="bob">wh2_main_testbed_03</onscreen>
-<owner_bundle></owner_bundle>
-<r>243</r>
-</regions>
-<regions record_uuid="{b556e77f-052a-4010-99f4-0305750ece16}" record_timestamp="1488900434705" record_key="wh2_main_testbed_04">
-<b>28</b>
-<battle_name state="APPROVED" last_approved_text="wh2_main_testbed_04" last_edit_user="bob">wh2_main_testbed_04</battle_name>
-<faction_swapping_id>hef</faction_swapping_id>
-<g>251</g>
-<in_encyclopedia>0</in_encyclopedia>
-<is_sea>0</is_sea>
-<key>wh2_main_testbed_04</key>
-<onscreen state="APPROVED" last_approved_text="wh2_main_testbed_04" last_edit_user="bob">wh2_main_testbed_04</onscreen>
-<owner_bundle></owner_bundle>
-<r>218</r>
-</regions>
-<regions record_uuid="{c458199d-696d-4be6-a57e-3bc09356b486}" record_timestamp="1488900434737" record_key="wh2_main_testbed_05">
-<b>135</b>
-<battle_name state="APPROVED" last_approved_text="wh2_main_testbed_05" last_edit_user="bob">wh2_main_testbed_05</battle_name>
-<faction_swapping_id>lzd</faction_swapping_id>
-<g>135</g>
-<in_encyclopedia>0</in_encyclopedia>
-<is_sea>0</is_sea>
-<key>wh2_main_testbed_05</key>
-<onscreen state="APPROVED" last_approved_text="wh2_main_testbed_05" last_edit_user="bob">wh2_main_testbed_05</onscreen>
-<owner_bundle></owner_bundle>
-<r>25</r>
-</regions>
-<regions record_uuid="{4458ae5f-4fcc-438f-925e-ec7b523fe623}" record_timestamp="1488900434770" record_key="wh2_main_testbed_06">
-<b>20</b>
-<battle_name state="APPROVED" last_approved_text="wh2_main_testbed_06" last_edit_user="bob">wh2_main_testbed_06</battle_name>
-<faction_swapping_id>lzd</faction_swapping_id>
-<g>112</g>
-<in_encyclopedia>0</in_encyclopedia>
-<is_sea>0</is_sea>
-<key>wh2_main_testbed_06</key>
-<onscreen state="APPROVED" last_approved_text="wh2_main_testbed_06" last_edit_user="bob">wh2_main_testbed_06</onscreen>
-<owner_bundle></owner_bundle>
-<r>236</r>
-</regions>
-<regions record_uuid="{67105ba4-84e1-4ad2-9b96-44d50795f537}" record_timestamp="1488900434802" record_key="wh2_main_testbed_07">
-<b>175</b>
-<battle_name state="APPROVED" last_approved_text="wh2_main_testbed_07" last_edit_user="bob">wh2_main_testbed_07</battle_name>
-<faction_swapping_id>lzd</faction_swapping_id>
-<g>11</g>
-<in_encyclopedia>0</in_encyclopedia>
-<is_sea>0</is_sea>
-<key>wh2_main_testbed_07</key>
-<onscreen state="APPROVED" last_approved_text="wh2_main_testbed_07" last_edit_user="bob">wh2_main_testbed_07</onscreen>
-<owner_bundle></owner_bundle>
-<r>216</r>
-</regions>
-<regions record_uuid="{f203457b-3f6a-4084-aa9e-2d801ed01e1c}" record_timestamp="1488900434835" record_key="wh2_main_testbed_08">
-<b>68</b>
-<battle_name state="APPROVED" last_approved_text="wh2_main_testbed_08" last_edit_user="bob">wh2_main_testbed_08</battle_name>
-<faction_swapping_id>lzd</faction_swapping_id>
-<g>112</g>
-<in_encyclopedia>0</in_encyclopedia>
-<is_sea>0</is_sea>
-<key>wh2_main_testbed_08</key>
-<onscreen state="APPROVED" last_approved_text="wh2_main_testbed_08" last_edit_user="bob">wh2_main_testbed_08</onscreen>
-<owner_bundle></owner_bundle>
-<r>145</r>
-</regions>
-<regions record_uuid="{0027e017-1256-46b9-a34c-f990117bbb5f}" record_timestamp="1488900434867" record_key="wh2_main_testbed_09">
-<b>108</b>
-<battle_name state="APPROVED" last_approved_text="wh2_main_testbed_09" last_edit_user="bob">wh2_main_testbed_09</battle_name>
-<faction_swapping_id>def</faction_swapping_id>
-<g>184</g>
-<in_encyclopedia>0</in_encyclopedia>
-<is_sea>0</is_sea>
-<key>wh2_main_testbed_09</key>
-<onscreen state="APPROVED" last_approved_text="wh2_main_testbed_09" last_edit_user="bob">wh2_main_testbed_09</onscreen>
-<owner_bundle></owner_bundle>
-<r>211</r>
-</regions>
-<regions record_uuid="{0471d1f7-1343-43b2-8357-2dc5b0b77de2}" record_timestamp="1488900434900" record_key="wh2_main_testbed_10">
-<b>167</b>
-<battle_name state="APPROVED" last_approved_text="wh2_main_testbed_10" last_edit_user="bob">wh2_main_testbed_10</battle_name>
-<faction_swapping_id>def</faction_swapping_id>
-<g>195</g>
-<in_encyclopedia>0</in_encyclopedia>
-<is_sea>0</is_sea>
-<key>wh2_main_testbed_10</key>
-<onscreen state="APPROVED" last_approved_text="wh2_main_testbed_10" last_edit_user="bob">wh2_main_testbed_10</onscreen>
-<owner_bundle></owner_bundle>
-<r>98</r>
-</regions>
-<regions record_uuid="{513e0569-3901-433f-9e6e-79ed91b5cae3}" record_timestamp="1488900434932" record_key="wh2_main_testbed_11">
-<b>39</b>
-<battle_name state="APPROVED" last_approved_text="wh2_main_testbed_11" last_edit_user="bob">wh2_main_testbed_11</battle_name>
-<faction_swapping_id>def</faction_swapping_id>
-<g>91</g>
-<in_encyclopedia>0</in_encyclopedia>
-<is_sea>0</is_sea>
-<key>wh2_main_testbed_11</key>
-<onscreen state="APPROVED" last_approved_text="wh2_main_testbed_11" last_edit_user="bob">wh2_main_testbed_11</onscreen>
-<owner_bundle></owner_bundle>
-<r>71</r>
-</regions>
-<regions record_uuid="{a58e0f65-98b6-452c-a78e-ce79b4cbe28e}" record_timestamp="1488900434964" record_key="wh2_main_testbed_12">
-<b>208</b>
-<battle_name state="APPROVED" last_approved_text="wh2_main_testbed_12" last_edit_user="bob">wh2_main_testbed_12</battle_name>
-<faction_swapping_id>def</faction_swapping_id>
-<g>89</g>
-<in_encyclopedia>0</in_encyclopedia>
-<is_sea>0</is_sea>
-<key>wh2_main_testbed_12</key>
-<onscreen state="APPROVED" last_approved_text="wh2_main_testbed_12" last_edit_user="bob">wh2_main_testbed_12</onscreen>
-<owner_bundle></owner_bundle>
-<r>210</r>
-</regions>
-<regions record_uuid="{5f2d4951-4f07-497f-99c0-958a7a2fa536}" record_timestamp="1488900434996" record_key="wh2_main_testbed_13">
-<b>47</b>
-<battle_name state="APPROVED" last_approved_text="wh2_main_testbed_13" last_edit_user="bob">wh2_main_testbed_13</battle_name>
-<faction_swapping_id>skv</faction_swapping_id>
-<g>12</g>
-<in_encyclopedia>0</in_encyclopedia>
-<is_sea>0</is_sea>
-<key>wh2_main_testbed_13</key>
-<onscreen state="APPROVED" last_approved_text="wh2_main_testbed_13" last_edit_user="bob">wh2_main_testbed_13</onscreen>
-<owner_bundle></owner_bundle>
-<r>28</r>
-</regions>
-<regions record_uuid="{3fb10d1c-e3b5-43b8-be03-934947bdd4b8}" record_timestamp="1488900435028" record_key="wh2_main_testbed_14">
-<b>53</b>
-<battle_name state="APPROVED" last_approved_text="wh2_main_testbed_14" last_edit_user="bob">wh2_main_testbed_14</battle_name>
-<faction_swapping_id>skv</faction_swapping_id>
-<g>240</g>
-<in_encyclopedia>0</in_encyclopedia>
-<is_sea>0</is_sea>
-<key>wh2_main_testbed_14</key>
-<onscreen state="APPROVED" last_approved_text="wh2_main_testbed_14" last_edit_user="bob">wh2_main_testbed_14</onscreen>
-<owner_bundle></owner_bundle>
-<r>27</r>
-</regions>
-<regions record_uuid="{c2d3ece8-4bef-493c-a901-338be5195f14}" record_timestamp="1488900435060" record_key="wh2_main_testbed_15">
-<b>194</b>
-<battle_name state="APPROVED" last_approved_text="wh2_main_testbed_15" last_edit_user="bob">wh2_main_testbed_15</battle_name>
-<faction_swapping_id>skv</faction_swapping_id>
-<g>199</g>
-<in_encyclopedia>0</in_encyclopedia>
-<is_sea>0</is_sea>
-<key>wh2_main_testbed_15</key>
-<onscreen state="APPROVED" last_approved_text="wh2_main_testbed_15" last_edit_user="bob">wh2_main_testbed_15</onscreen>
-<owner_bundle></owner_bundle>
-<r>17</r>
-</regions>
-<regions record_uuid="{53b72e55-7a4b-4d79-8952-02d28e640c97}" record_timestamp="1488900435092" record_key="wh2_main_testbed_16">
-<b>40</b>
-<battle_name state="APPROVED" last_approved_text="wh2_main_testbed_16" last_edit_user="bob">wh2_main_testbed_16</battle_name>
-<faction_swapping_id>skv</faction_swapping_id>
-<g>84</g>
-<in_encyclopedia>0</in_encyclopedia>
-<is_sea>0</is_sea>
-<key>wh2_main_testbed_16</key>
-<onscreen state="APPROVED" last_approved_text="wh2_main_testbed_16" last_edit_user="bob">wh2_main_testbed_16</onscreen>
-<owner_bundle></owner_bundle>
-<r>190</r>
-</regions>
 <regions record_uuid="{23475fde-79a0-4f40-994f-08c11d69724a}" record_timestamp="1499770711947" record_key="wh2_main_the_black_coast_arnheim">
 <b>40</b>
 <battle_name state="APPROVED" last_approved_text="Arnheim" last_edit_user="bob">Arnheim</battle_name>
-<faction_swapping_id>def</faction_swapping_id>
+<faction_swapping_id>hef</faction_swapping_id>
 <g>181</g>
 <in_encyclopedia>1</in_encyclopedia>
 <is_sea>0</is_sea>
@@ -2065,6 +1969,18 @@
 <owner_bundle></owner_bundle>
 <r>53</r>
 </regions>
+<regions record_uuid="{4647d40d-fc47-4fc0-ae5e-6267199835df}" record_timestamp="1537872110000" record_key="wh2_main_the_galleons_graveyard">
+<b>57</b>
+<battle_name state="APPROVED" last_approved_text="The Galleon's Graveyard" last_edit_user="bob">The Galleon's Graveyard</battle_name>
+<faction_swapping_id>cst</faction_swapping_id>
+<g>56</g>
+<in_encyclopedia>1</in_encyclopedia>
+<is_sea>0</is_sea>
+<key>wh2_main_the_galleons_graveyard</key>
+<onscreen state="APPROVED" last_approved_text="The Galleon's Graveyard" last_edit_user="bob">The Galleon's Graveyard</onscreen>
+<owner_bundle></owner_bundle>
+<r>55</r>
+</regions>
 <regions record_uuid="{5988dbac-da5d-4843-a1fb-37fd6837013c}" record_timestamp="1488900435731" record_key="wh2_main_the_road_of_skulls_har_ganeth">
 <b>127</b>
 <battle_name state="APPROVED" last_approved_text="Har Ganeth" last_edit_user="bob">Har Ganeth</battle_name>
@@ -2197,10 +2113,10 @@
 <owner_bundle></owner_bundle>
 <r>21</r>
 </regions>
-<regions record_uuid="{b09923bf-e03b-484f-9607-7997723533bc}" record_timestamp="1488900436122" record_key="wh2_main_vampire_coast_pox_marsh">
+<regions record_uuid="{b09923bf-e03b-484f-9607-7997723533bc}" record_timestamp="1537872110000" record_key="wh2_main_vampire_coast_pox_marsh">
 <b>66</b>
 <battle_name state="APPROVED" last_approved_text="Pox Marsh" last_edit_user="bob">Pox Marsh</battle_name>
-<faction_swapping_id>vmp</faction_swapping_id>
+<faction_swapping_id>cst</faction_swapping_id>
 <g>107</g>
 <in_encyclopedia>1</in_encyclopedia>
 <is_sea>0</is_sea>
@@ -2209,10 +2125,10 @@
 <owner_bundle></owner_bundle>
 <r>207</r>
 </regions>
-<regions record_uuid="{d529802e-c6e8-40f7-a83b-436d94887217}" record_timestamp="1488900436158" record_key="wh2_main_vampire_coast_the_awakening">
+<regions record_uuid="{d529802e-c6e8-40f7-a83b-436d94887217}" record_timestamp="1537872110000" record_key="wh2_main_vampire_coast_the_awakening">
 <b>68</b>
 <battle_name state="APPROVED" last_approved_text="The Awakening" last_edit_user="bob">The Awakening</battle_name>
-<faction_swapping_id>vmp</faction_swapping_id>
+<faction_swapping_id>cst</faction_swapping_id>
 <g>97</g>
 <in_encyclopedia>1</in_encyclopedia>
 <is_sea>0</is_sea>
@@ -2221,10 +2137,10 @@
 <owner_bundle></owner_bundle>
 <r>21</r>
 </regions>
-<regions record_uuid="{437dfd42-9ca7-4f73-9b87-54bd5d7dac08}" record_timestamp="1488900436210" record_key="wh2_main_vampire_coast_the_blood_swamps">
+<regions record_uuid="{437dfd42-9ca7-4f73-9b87-54bd5d7dac08}" record_timestamp="1537872109999" record_key="wh2_main_vampire_coast_the_blood_swamps">
 <b>70</b>
 <battle_name state="APPROVED" last_approved_text="The Blood Swamps" last_edit_user="bob">The Blood Swamps</battle_name>
-<faction_swapping_id>vmp</faction_swapping_id>
+<faction_swapping_id>cst</faction_swapping_id>
 <g>96</g>
 <in_encyclopedia>1</in_encyclopedia>
 <is_sea>0</is_sea>
@@ -2233,10 +2149,10 @@
 <owner_bundle></owner_bundle>
 <r>102</r>
 </regions>
-<regions record_uuid="{9cbbf776-a825-4461-b565-bc4c1be09dff}" record_timestamp="1488900436243" record_key="wh2_main_volcanic_islands_fuming_serpent">
+<regions record_uuid="{9cbbf776-a825-4461-b565-bc4c1be09dff}" record_timestamp="1537872109999" record_key="wh2_main_volcanic_islands_fuming_serpent">
 <b>47</b>
 <battle_name state="APPROVED" last_approved_text="Fuming Serpent" last_edit_user="bob">Fuming Serpent</battle_name>
-<faction_swapping_id>hef</faction_swapping_id>
+<faction_swapping_id>cst</faction_swapping_id>
 <g>246</g>
 <in_encyclopedia>1</in_encyclopedia>
 <is_sea>0</is_sea>
@@ -2329,10 +2245,10 @@
 <owner_bundle></owner_bundle>
 <r>148</r>
 </regions>
-<regions record_uuid="{863d0c44-0839-4f15-8c23-f6a2db47c9a2}" record_timestamp="1488900436317" record_key="wh2_main_vor_ash_river_numas">
+<regions record_uuid="{863d0c44-0839-4f15-8c23-f6a2db47c9a2}" record_timestamp="1507815452014" record_key="wh2_main_vor_ash_river_numas">
 <b>207</b>
 <battle_name state="APPROVED" last_approved_text="Numas" last_edit_user="bob">Numas</battle_name>
-<faction_swapping_id>vmp</faction_swapping_id>
+<faction_swapping_id>tmb</faction_swapping_id>
 <g>66</g>
 <in_encyclopedia>1</in_encyclopedia>
 <is_sea>0</is_sea>
@@ -2341,10 +2257,10 @@
 <owner_bundle></owner_bundle>
 <r>212</r>
 </regions>
-<regions record_uuid="{711b1e9a-40fc-4d23-9b47-754121b01334}" record_timestamp="1488900436354" record_key="wh2_main_vor_ash_river_quatar">
+<regions record_uuid="{711b1e9a-40fc-4d23-9b47-754121b01334}" record_timestamp="1507815452017" record_key="wh2_main_vor_ash_river_quatar">
 <b>153</b>
 <battle_name state="APPROVED" last_approved_text="Quatar" last_edit_user="bob">Quatar</battle_name>
-<faction_swapping_id>vmp</faction_swapping_id>
+<faction_swapping_id>tmb</faction_swapping_id>
 <g>99</g>
 <in_encyclopedia>1</in_encyclopedia>
 <is_sea>0</is_sea>
@@ -2353,10 +2269,22 @@
 <owner_bundle></owner_bundle>
 <r>217</r>
 </regions>
-<regions record_uuid="{51fce3f5-4975-4074-944d-e9b674f2bdc3}" record_timestamp="1488900436394" record_key="wh2_main_vor_ash_river_the_salt_plain">
+<regions record_uuid="{bdf950ac-44bd-4cf7-9f3d-27f1cbd5f286}" record_timestamp="1508318957260" record_key="wh2_main_vor_ash_river_springs_of_eternal_life">
+<b>24</b>
+<battle_name state="APPROVED" last_approved_text="Springs of Eternal Life" last_edit_user="bob">Springs of Eternal Life</battle_name>
+<faction_swapping_id>tmb</faction_swapping_id>
+<g>33</g>
+<in_encyclopedia>1</in_encyclopedia>
+<is_sea>0</is_sea>
+<key>wh2_main_vor_ash_river_springs_of_eternal_life</key>
+<onscreen state="APPROVED" last_approved_text="Springs of Eternal Life" last_edit_user="bob">Springs of Eternal Life</onscreen>
+<owner_bundle></owner_bundle>
+<r>193</r>
+</regions>
+<regions record_uuid="{51fce3f5-4975-4074-944d-e9b674f2bdc3}" record_timestamp="1507815452021" record_key="wh2_main_vor_ash_river_the_salt_plain">
 <b>213</b>
 <battle_name state="APPROVED" last_approved_text="The Salt Plain" last_edit_user="bob">The Salt Plain</battle_name>
-<faction_swapping_id>vmp</faction_swapping_id>
+<faction_swapping_id>tmb</faction_swapping_id>
 <g>21</g>
 <in_encyclopedia>1</in_encyclopedia>
 <is_sea>0</is_sea>
@@ -2365,10 +2293,10 @@
 <owner_bundle></owner_bundle>
 <r>191</r>
 </regions>
-<regions record_uuid="{09b70d1f-23b3-4c41-99f9-466c323ce382}" record_timestamp="1488900436427" record_key="wh2_main_vor_ashen_coast_scarpels_lair">
+<regions record_uuid="{09b70d1f-23b3-4c41-99f9-466c323ce382}" record_timestamp="1507815452009" record_key="wh2_main_vor_ashen_coast_scarpels_lair">
 <b>228</b>
 <battle_name state="APPROVED" last_approved_text="Scarpel's Lair" last_edit_user="bob">Scarpel's Lair</battle_name>
-<faction_swapping_id>def</faction_swapping_id>
+<faction_swapping_id>tmb</faction_swapping_id>
 <g>103</g>
 <in_encyclopedia>1</in_encyclopedia>
 <is_sea>0</is_sea>
@@ -2388,6 +2316,18 @@
 <onscreen state="APPROVED" last_approved_text="Sulpharets" last_edit_user="bob">Sulpharets</onscreen>
 <owner_bundle></owner_bundle>
 <r>48</r>
+</regions>
+<regions record_uuid="{88468a92-ba2b-4885-8629-2551e7e9ba31}" record_timestamp="1508318957926" record_key="wh2_main_vor_ashen_coast_titan_peak">
+<b>242</b>
+<battle_name state="APPROVED" last_approved_text="Titan Peak" last_edit_user="bob">Titan Peak</battle_name>
+<faction_swapping_id>def</faction_swapping_id>
+<g>246</g>
+<in_encyclopedia>1</in_encyclopedia>
+<is_sea>0</is_sea>
+<key>wh2_main_vor_ashen_coast_titan_peak</key>
+<onscreen state="APPROVED" last_approved_text="Titan Peak" last_edit_user="bob">Titan Peak</onscreen>
+<owner_bundle></owner_bundle>
+<r>75</r>
 </regions>
 <regions record_uuid="{84ecf44d-03ec-4f24-a330-638d3d556a6a}" record_timestamp="1490691161115" record_key="wh2_main_vor_ashen_coast_tyrant_peak">
 <b>77</b>
@@ -2653,10 +2593,10 @@
 <owner_bundle></owner_bundle>
 <r>120</r>
 </regions>
-<regions record_uuid="{3905022b-57b2-4d8a-a6a2-7355d3c58660}" record_timestamp="1488900437486" record_key="wh2_main_vor_copper_desert_the_forgotten_isles">
+<regions record_uuid="{3905022b-57b2-4d8a-a6a2-7355d3c58660}" record_timestamp="1507815452011" record_key="wh2_main_vor_copper_desert_the_forgotten_isles">
 <b>208</b>
 <battle_name state="APPROVED" last_approved_text="The Forgotten Isles" last_edit_user="bob">The Forgotten Isles</battle_name>
-<faction_swapping_id>lzd</faction_swapping_id>
+<faction_swapping_id>tmb</faction_swapping_id>
 <g>178</g>
 <in_encyclopedia>1</in_encyclopedia>
 <is_sea>0</is_sea>
@@ -2701,10 +2641,10 @@
 <owner_bundle></owner_bundle>
 <r>0</r>
 </regions>
-<regions record_uuid="{08b5fbd8-45c5-4dce-afb3-74388a32ae90}" record_timestamp="1488900437630" record_key="wh2_main_vor_culchan_plains_chupayotl">
+<regions record_uuid="{08b5fbd8-45c5-4dce-afb3-74388a32ae90}" record_timestamp="1537872048239" record_key="wh2_main_vor_culchan_plains_chupayotl">
 <b>153</b>
 <battle_name state="APPROVED" last_approved_text="Chupayotl" last_edit_user="bob">Chupayotl</battle_name>
-<faction_swapping_id>lzd</faction_swapping_id>
+<faction_swapping_id>def</faction_swapping_id>
 <g>244</g>
 <in_encyclopedia>1</in_encyclopedia>
 <is_sea>0</is_sea>
@@ -2905,10 +2845,22 @@
 <owner_bundle></owner_bundle>
 <r>123</r>
 </regions>
-<regions record_uuid="{10e34bab-5c91-4121-8bb2-08648ddfed4c}" record_timestamp="1488900438213" record_key="wh2_main_vor_grey_guardians_grey_rock_point">
+<regions record_uuid="{1333fb58-0993-4190-a020-d0694a719632}" record_timestamp="1508318957260" record_key="wh2_main_vor_great_mortis_delta_black_pyramid_of_nagash">
+<b>191</b>
+<battle_name state="APPROVED" last_approved_text="Black Pyramid of Nagash" last_edit_user="bob">Black Pyramid of Nagash</battle_name>
+<faction_swapping_id>tmb</faction_swapping_id>
+<g>5</g>
+<in_encyclopedia>1</in_encyclopedia>
+<is_sea>0</is_sea>
+<key>wh2_main_vor_great_mortis_delta_black_pyramid_of_nagash</key>
+<onscreen state="APPROVED" last_approved_text="Black Pyramid of Nagash" last_edit_user="bob">Black Pyramid of Nagash</onscreen>
+<owner_bundle></owner_bundle>
+<r>34</r>
+</regions>
+<regions record_uuid="{10e34bab-5c91-4121-8bb2-08648ddfed4c}" record_timestamp="1537872109999" record_key="wh2_main_vor_grey_guardians_grey_rock_point">
 <b>76</b>
 <battle_name state="APPROVED" last_approved_text="Grey Rock Point" last_edit_user="bob">Grey Rock Point</battle_name>
-<faction_swapping_id>def</faction_swapping_id>
+<faction_swapping_id>cst</faction_swapping_id>
 <g>186</g>
 <in_encyclopedia>1</in_encyclopedia>
 <is_sea>0</is_sea>
@@ -2928,6 +2880,18 @@
 <onscreen state="APPROVED" last_approved_text="Ss'ildra Tor" last_edit_user="bob">Ss'ildra Tor</onscreen>
 <owner_bundle></owner_bundle>
 <r>12</r>
+</regions>
+<regions record_uuid="{6090fa79-aa69-420b-8e82-7f618bd1bbf2}" record_timestamp="1508318957927" record_key="wh2_main_vor_grey_guardians_sulpharets">
+<b>0</b>
+<battle_name state="APPROVED" last_approved_text="Sulpharets" last_edit_user="bob">Sulpharets</battle_name>
+<faction_swapping_id>def</faction_swapping_id>
+<g>192</g>
+<in_encyclopedia>1</in_encyclopedia>
+<is_sea>0</is_sea>
+<key>wh2_main_vor_grey_guardians_sulpharets</key>
+<onscreen state="APPROVED" last_approved_text="Sulpharets" last_edit_user="bob">Sulpharets</onscreen>
+<owner_bundle></owner_bundle>
+<r>48</r>
 </regions>
 <regions record_uuid="{173eb67e-bf98-487c-b6f9-fba5fef28fd8}" record_timestamp="1488900438281" record_key="wh2_main_vor_grey_guardians_titan_peak">
 <b>242</b>
@@ -3292,7 +3256,7 @@
 <regions record_uuid="{829a7494-663a-4efd-ad32-d7a63406fd2c}" record_timestamp="1496825365378" record_key="wh2_main_vor_land_of_assassins_palace_of_the_wizard_caliph">
 <b>10</b>
 <battle_name state="APPROVED" last_approved_text="Wizard Caliph's Palace" last_edit_user="bob">Wizard Caliph's Palace</battle_name>
-<faction_swapping_id>brt</faction_swapping_id>
+<faction_swapping_id>tmb</faction_swapping_id>
 <g>23</g>
 <in_encyclopedia>1</in_encyclopedia>
 <is_sea>0</is_sea>
@@ -3301,10 +3265,10 @@
 <owner_bundle></owner_bundle>
 <r>148</r>
 </regions>
-<regions record_uuid="{f00dbf14-8fa9-42e3-a390-62da9a8aa4bd}" record_timestamp="1488900439176" record_key="wh2_main_vor_land_of_assassins_sorcerers_islands">
+<regions record_uuid="{f00dbf14-8fa9-42e3-a390-62da9a8aa4bd}" record_timestamp="1507815452005" record_key="wh2_main_vor_land_of_assassins_sorcerers_islands">
 <b>27</b>
 <battle_name state="APPROVED" last_approved_text="Sorcerer's Islands" last_edit_user="bob">Sorcerer's Islands</battle_name>
-<faction_swapping_id>brt</faction_swapping_id>
+<faction_swapping_id>tmb</faction_swapping_id>
 <g>227</g>
 <in_encyclopedia>1</in_encyclopedia>
 <is_sea>0</is_sea>
@@ -3313,10 +3277,10 @@
 <owner_bundle></owner_bundle>
 <r>213</r>
 </regions>
-<regions record_uuid="{6372e465-5117-4dea-96b4-a4f200ad5b79}" record_timestamp="1488900439210" record_key="wh2_main_vor_land_of_the_dead_black_pyramid_of_nagash">
+<regions record_uuid="{6372e465-5117-4dea-96b4-a4f200ad5b79}" record_timestamp="1507815452025" record_key="wh2_main_vor_land_of_the_dead_black_pyramid_of_nagash">
 <b>191</b>
 <battle_name state="APPROVED" last_approved_text="Black Pyramid of Nagash" last_edit_user="bob">Black Pyramid of Nagash</battle_name>
-<faction_swapping_id>vmp</faction_swapping_id>
+<faction_swapping_id>tmb</faction_swapping_id>
 <g>5</g>
 <in_encyclopedia>1</in_encyclopedia>
 <is_sea>0</is_sea>
@@ -3325,10 +3289,10 @@
 <owner_bundle></owner_bundle>
 <r>34</r>
 </regions>
-<regions record_uuid="{31fa3c68-b093-406c-be59-d46d8c77a86b}" record_timestamp="1488900439243" record_key="wh2_main_vor_land_of_the_dead_khemri">
+<regions record_uuid="{31fa3c68-b093-406c-be59-d46d8c77a86b}" record_timestamp="1507815452030" record_key="wh2_main_vor_land_of_the_dead_khemri">
 <b>128</b>
 <battle_name state="APPROVED" last_approved_text="Khemri" last_edit_user="bob">Khemri</battle_name>
-<faction_swapping_id>vmp</faction_swapping_id>
+<faction_swapping_id>tmb</faction_swapping_id>
 <g>101</g>
 <in_encyclopedia>1</in_encyclopedia>
 <is_sea>0</is_sea>
@@ -3337,10 +3301,10 @@
 <owner_bundle></owner_bundle>
 <r>89</r>
 </regions>
-<regions record_uuid="{cc5af51e-c4bf-4b13-9b46-54768836767e}" record_timestamp="1488900439277" record_key="wh2_main_vor_land_of_the_dead_springs_of_eternal_life">
+<regions record_uuid="{cc5af51e-c4bf-4b13-9b46-54768836767e}" record_timestamp="1507815452035" record_key="wh2_main_vor_land_of_the_dead_springs_of_eternal_life">
 <b>24</b>
 <battle_name state="APPROVED" last_approved_text="Springs of Eternal Life" last_edit_user="bob">Springs of Eternal Life</battle_name>
-<faction_swapping_id>vmp</faction_swapping_id>
+<faction_swapping_id>tmb</faction_swapping_id>
 <g>33</g>
 <in_encyclopedia>1</in_encyclopedia>
 <is_sea>0</is_sea>
@@ -3349,10 +3313,22 @@
 <owner_bundle></owner_bundle>
 <r>193</r>
 </regions>
-<regions record_uuid="{bcdd10b3-58dc-4aad-9b64-c24d3a7adc9d}" record_timestamp="1488900439310" record_key="wh2_main_vor_land_of_the_dead_zandri">
+<regions record_uuid="{fc0d2cea-d5b6-4970-a05f-3a859c9338ea}" record_timestamp="1508318957260" record_key="wh2_main_vor_land_of_the_dead_the_salt_plain">
+<b>213</b>
+<battle_name state="APPROVED" last_approved_text="The Salt Plain" last_edit_user="bob">The Salt Plain</battle_name>
+<faction_swapping_id>tmb</faction_swapping_id>
+<g>21</g>
+<in_encyclopedia>1</in_encyclopedia>
+<is_sea>0</is_sea>
+<key>wh2_main_vor_land_of_the_dead_the_salt_plain</key>
+<onscreen state="APPROVED" last_approved_text="The Salt Plain" last_edit_user="bob">The Salt Plain</onscreen>
+<owner_bundle></owner_bundle>
+<r>191</r>
+</regions>
+<regions record_uuid="{bcdd10b3-58dc-4aad-9b64-c24d3a7adc9d}" record_timestamp="1507815452040" record_key="wh2_main_vor_land_of_the_dead_zandri">
 <b>85</b>
 <battle_name state="APPROVED" last_approved_text="Zandri" last_edit_user="bob">Zandri</battle_name>
-<faction_swapping_id>vmp</faction_swapping_id>
+<faction_swapping_id>tmb</faction_swapping_id>
 <g>221</g>
 <in_encyclopedia>1</in_encyclopedia>
 <is_sea>0</is_sea>
@@ -3445,10 +3421,10 @@
 <owner_bundle></owner_bundle>
 <r>106</r>
 </regions>
-<regions record_uuid="{a86fcd30-3531-41a0-829a-72131016dd11}" record_timestamp="1505309233099" record_key="wh2_main_vor_nagarythe_tor_anlec">
+<regions record_uuid="{a86fcd30-3531-41a0-829a-72131016dd11}" record_timestamp="1508936814008" record_key="wh2_main_vor_nagarythe_tor_anlec">
 <b>85</b>
 <battle_name state="APPROVED" last_approved_text="Tor Anlec" last_edit_user="bob">Tor Anlec</battle_name>
-<faction_swapping_id>def</faction_swapping_id>
+<faction_swapping_id>hef</faction_swapping_id>
 <g>123</g>
 <in_encyclopedia>1</in_encyclopedia>
 <is_sea>0</is_sea>
@@ -3589,15 +3565,15 @@
 <owner_bundle></owner_bundle>
 <r>228</r>
 </regions>
-<regions record_uuid="{5c5c2457-5bb0-49b5-908d-9cc20343a5bd}" record_timestamp="1490361804915" record_key="wh2_main_vor_northern_yvresse_sardenath">
+<regions record_uuid="{5c5c2457-5bb0-49b5-908d-9cc20343a5bd}" record_timestamp="1507041172844" record_key="wh2_main_vor_northern_yvresse_sardenath">
 <b>141</b>
-<battle_name state="APPROVED" last_approved_text="Sardentah" last_edit_user="bob">Sardentah</battle_name>
+<battle_name state="APPROVED" last_approved_text="Sardenath" last_edit_user="bob">Sardenath</battle_name>
 <faction_swapping_id>hef</faction_swapping_id>
 <g>124</g>
 <in_encyclopedia>1</in_encyclopedia>
 <is_sea>0</is_sea>
 <key>wh2_main_vor_northern_yvresse_sardenath</key>
-<onscreen state="APPROVED" last_approved_text="Sardentah" last_edit_user="bob">Sardentah</onscreen>
+<onscreen state="APPROVED" last_approved_text="Sardenath" last_edit_user="bob">Sardenath</onscreen>
 <owner_bundle></owner_bundle>
 <r>126</r>
 </regions>
@@ -3805,10 +3781,10 @@
 <owner_bundle></owner_bundle>
 <r>201</r>
 </regions>
-<regions record_uuid="{7e053932-40c3-4320-b630-b0e1295bf8f5}" record_timestamp="1488882056364" record_key="wh2_main_vor_sartosa_sartosa">
+<regions record_uuid="{7e053932-40c3-4320-b630-b0e1295bf8f5}" record_timestamp="1537872109999" record_key="wh2_main_vor_sartosa_sartosa">
 <b>228</b>
 <battle_name state="APPROVED" last_approved_text="Sartosa" last_edit_user="bob">Sartosa</battle_name>
-<faction_swapping_id>emp</faction_swapping_id>
+<faction_swapping_id>cst</faction_swapping_id>
 <g>190</g>
 <in_encyclopedia>1</in_encyclopedia>
 <is_sea>0</is_sea>
@@ -4249,6 +4225,18 @@
 <owner_bundle></owner_bundle>
 <r>0</r>
 </regions>
+<regions record_uuid="{d9e96cc5-e708-49b4-90b1-ef56ca3125e6}" record_timestamp="1536853351034" record_key="wh2_main_vor_sea_the_galleons_graveyard">
+<b>32</b>
+<battle_name state="APPROVED" last_approved_text="The Galleon's Graveyard" last_edit_user="bob">The Galleon's Graveyard</battle_name>
+<faction_swapping_id>emp</faction_swapping_id>
+<g>212</g>
+<in_encyclopedia>1</in_encyclopedia>
+<is_sea>1</is_sea>
+<key>wh2_main_vor_sea_the_galleons_graveyard</key>
+<onscreen state="APPROVED" last_approved_text="The Galleon's Graveyard" last_edit_user="bob">The Galleon's Graveyard</onscreen>
+<owner_bundle></owner_bundle>
+<r>150</r>
+</regions>
 <regions record_uuid="{98023b22-c7e9-4b74-b96e-c39bca739202}" record_timestamp="1488882061509" record_key="wh2_main_vor_sea_the_great_ocean">
 <b>0</b>
 <battle_name state="APPROVED" last_approved_text="The Great Ocean" last_edit_user="bob">The Great Ocean</battle_name>
@@ -4429,10 +4417,10 @@
 <owner_bundle></owner_bundle>
 <r>55</r>
 </regions>
-<regions record_uuid="{9984a61b-66fe-43c3-8713-50c5a828f79f}" record_timestamp="1488900440862" record_key="wh2_main_vor_shifting_sands_antoch">
+<regions record_uuid="{9984a61b-66fe-43c3-8713-50c5a828f79f}" record_timestamp="1507815452046" record_key="wh2_main_vor_shifting_sands_antoch">
 <b>95</b>
 <battle_name state="APPROVED" last_approved_text="Antoch" last_edit_user="bob">Antoch</battle_name>
-<faction_swapping_id>vmp</faction_swapping_id>
+<faction_swapping_id>tmb</faction_swapping_id>
 <g>84</g>
 <in_encyclopedia>1</in_encyclopedia>
 <is_sea>0</is_sea>
@@ -4441,10 +4429,10 @@
 <owner_bundle></owner_bundle>
 <r>242</r>
 </regions>
-<regions record_uuid="{85b0beba-7c68-47c2-9090-11155a1948fd}" record_timestamp="1488900440894" record_key="wh2_main_vor_shifting_sands_bhagar">
+<regions record_uuid="{85b0beba-7c68-47c2-9090-11155a1948fd}" record_timestamp="1507815452052" record_key="wh2_main_vor_shifting_sands_bhagar">
 <b>233</b>
 <battle_name state="APPROVED" last_approved_text="Bhagar" last_edit_user="bob">Bhagar</battle_name>
-<faction_swapping_id>vmp</faction_swapping_id>
+<faction_swapping_id>tmb</faction_swapping_id>
 <g>248</g>
 <in_encyclopedia>1</in_encyclopedia>
 <is_sea>0</is_sea>
@@ -4453,10 +4441,10 @@
 <owner_bundle></owner_bundle>
 <r>78</r>
 </regions>
-<regions record_uuid="{be34d46d-b731-49c3-9287-3a8f0c6eae7d}" record_timestamp="1488900440926" record_key="wh2_main_vor_shifting_sands_ka-sabar">
+<regions record_uuid="{be34d46d-b731-49c3-9287-3a8f0c6eae7d}" record_timestamp="1507815452059" record_key="wh2_main_vor_shifting_sands_ka-sabar">
 <b>140</b>
 <battle_name state="APPROVED" last_approved_text="Ka-Sabar" last_edit_user="bob">Ka-Sabar</battle_name>
-<faction_swapping_id>vmp</faction_swapping_id>
+<faction_swapping_id>tmb</faction_swapping_id>
 <g>250</g>
 <in_encyclopedia>1</in_encyclopedia>
 <is_sea>0</is_sea>
@@ -4465,10 +4453,10 @@
 <owner_bundle></owner_bundle>
 <r>98</r>
 </regions>
-<regions record_uuid="{97b05966-69fc-47b6-97c0-f121a51ef0e3}" record_timestamp="1488900440959" record_key="wh2_main_vor_shifting_sands_plain_of_tuskers">
+<regions record_uuid="{97b05966-69fc-47b6-97c0-f121a51ef0e3}" record_timestamp="1507815452065" record_key="wh2_main_vor_shifting_sands_plain_of_tuskers">
 <b>210</b>
 <battle_name state="APPROVED" last_approved_text="Plain of Tuskers" last_edit_user="bob">Plain of Tuskers</battle_name>
-<faction_swapping_id>vmp</faction_swapping_id>
+<faction_swapping_id>tmb</faction_swapping_id>
 <g>227</g>
 <in_encyclopedia>1</in_encyclopedia>
 <is_sea>0</is_sea>
@@ -4720,7 +4708,7 @@
 <regions record_uuid="{04d5fda8-73b3-43a9-9383-6647fb3d7d9d}" record_timestamp="1499770711951" record_key="wh2_main_vor_the_black_coast_arnheim">
 <b>237</b>
 <battle_name state="APPROVED" last_approved_text="Arnheim" last_edit_user="bob">Arnheim</battle_name>
-<faction_swapping_id>def</faction_swapping_id>
+<faction_swapping_id>hef</faction_swapping_id>
 <g>40</g>
 <in_encyclopedia>1</in_encyclopedia>
 <is_sea>0</is_sea>
@@ -5029,10 +5017,22 @@
 <owner_bundle></owner_bundle>
 <r>144</r>
 </regions>
+<regions record_uuid="{f7bf8be5-aa64-43ee-9c6b-c725ff059bc9}" record_timestamp="1537872109999" record_key="wh2_main_vor_the_galleons_graveyard">
+<b>57</b>
+<battle_name state="APPROVED" last_approved_text="The Galleon's Graveyard" last_edit_user="bob">The Galleon's Graveyard</battle_name>
+<faction_swapping_id>cst</faction_swapping_id>
+<g>56</g>
+<in_encyclopedia>1</in_encyclopedia>
+<is_sea>0</is_sea>
+<key>wh2_main_vor_the_galleons_graveyard</key>
+<onscreen state="APPROVED" last_approved_text="The Galleon's Graveyard" last_edit_user="bob">The Galleon's Graveyard</onscreen>
+<owner_bundle></owner_bundle>
+<r>55</r>
+</regions>
 <regions record_uuid="{4dc64305-bd5f-4fc2-8f50-109d646825f7}" record_timestamp="1488900442570" record_key="wh2_main_vor_the_great_desert_bel_aliad">
 <b>4</b>
 <battle_name state="APPROVED" last_approved_text="Bel Aliad" last_edit_user="bob">Bel Aliad</battle_name>
-<faction_swapping_id>vmp</faction_swapping_id>
+<faction_swapping_id>brt</faction_swapping_id>
 <g>242</g>
 <in_encyclopedia>1</in_encyclopedia>
 <is_sea>0</is_sea>
@@ -5041,10 +5041,10 @@
 <owner_bundle></owner_bundle>
 <r>222</r>
 </regions>
-<regions record_uuid="{cbd8e78c-eb81-4257-aa64-a10fe536779f}" record_timestamp="1488900442603" record_key="wh2_main_vor_the_great_desert_black_tower_of_arkhan">
+<regions record_uuid="{cbd8e78c-eb81-4257-aa64-a10fe536779f}" record_timestamp="1507815452071" record_key="wh2_main_vor_the_great_desert_black_tower_of_arkhan">
 <b>172</b>
 <battle_name state="APPROVED" last_approved_text="Black Tower of Arkhan" last_edit_user="bob">Black Tower of Arkhan</battle_name>
-<faction_swapping_id>vmp</faction_swapping_id>
+<faction_swapping_id>tmb</faction_swapping_id>
 <g>17</g>
 <in_encyclopedia>1</in_encyclopedia>
 <is_sea>0</is_sea>
@@ -5053,10 +5053,10 @@
 <owner_bundle></owner_bundle>
 <r>210</r>
 </regions>
-<regions record_uuid="{4e591573-0589-45bf-b821-bfbc6eade276}" record_timestamp="1488900442635" record_key="wh2_main_vor_the_great_desert_pools_of_despair">
+<regions record_uuid="{4e591573-0589-45bf-b821-bfbc6eade276}" record_timestamp="1507815452078" record_key="wh2_main_vor_the_great_desert_pools_of_despair">
 <b>213</b>
 <battle_name state="APPROVED" last_approved_text="Pools of Despair" last_edit_user="bob">Pools of Despair</battle_name>
-<faction_swapping_id>vmp</faction_swapping_id>
+<faction_swapping_id>tmb</faction_swapping_id>
 <g>78</g>
 <in_encyclopedia>1</in_encyclopedia>
 <is_sea>0</is_sea>
@@ -5069,13 +5069,13 @@
 <b>0</b>
 <battle_name state="APPROVED" last_approved_text="The Isle of the Dead" last_edit_user="bob">The Isle of the Dead</battle_name>
 <faction_swapping_id>emp</faction_swapping_id>
-<g>0</g>
+<g>22</g>
 <in_encyclopedia>1</in_encyclopedia>
 <is_sea>0</is_sea>
 <key>wh2_main_vor_the_isle_of_the_dead</key>
 <onscreen state="APPROVED" last_approved_text="The Isle of the Dead" last_edit_user="bob">The Isle of the Dead</onscreen>
 <owner_bundle></owner_bundle>
-<r>0</r>
+<r>111</r>
 </regions>
 <regions record_uuid="{63c8363e-0773-4719-81d6-0d508f3e6c5a}" record_timestamp="1488900442735" record_key="wh2_main_vor_the_jungles_of_the_gods_caverns_of_sotek">
 <b>4</b>
@@ -5269,10 +5269,10 @@
 <owner_bundle></owner_bundle>
 <r>220</r>
 </regions>
-<regions record_uuid="{e8bb3617-9330-4d01-bc76-316faae0d4d2}" record_timestamp="1488900443095" record_key="wh2_main_vor_the_vampire_coast_pox_marsh">
+<regions record_uuid="{e8bb3617-9330-4d01-bc76-316faae0d4d2}" record_timestamp="1537872109999" record_key="wh2_main_vor_the_vampire_coast_pox_marsh">
 <b>242</b>
 <battle_name state="APPROVED" last_approved_text="Pox Marsh" last_edit_user="bob">Pox Marsh</battle_name>
-<faction_swapping_id>vmp</faction_swapping_id>
+<faction_swapping_id>cst</faction_swapping_id>
 <g>133</g>
 <in_encyclopedia>1</in_encyclopedia>
 <is_sea>0</is_sea>
@@ -5281,10 +5281,10 @@
 <owner_bundle></owner_bundle>
 <r>110</r>
 </regions>
-<regions record_uuid="{59699b2b-dcc9-453c-a6e4-a5b679787cbd}" record_timestamp="1488900443127" record_key="wh2_main_vor_the_vampire_coast_the_awakening">
+<regions record_uuid="{59699b2b-dcc9-453c-a6e4-a5b679787cbd}" record_timestamp="1537872109999" record_key="wh2_main_vor_the_vampire_coast_the_awakening">
 <b>74</b>
 <battle_name state="APPROVED" last_approved_text="The Awakening" last_edit_user="bob">The Awakening</battle_name>
-<faction_swapping_id>vmp</faction_swapping_id>
+<faction_swapping_id>cst</faction_swapping_id>
 <g>119</g>
 <in_encyclopedia>1</in_encyclopedia>
 <is_sea>0</is_sea>
@@ -5293,10 +5293,10 @@
 <owner_bundle></owner_bundle>
 <r>140</r>
 </regions>
-<regions record_uuid="{a9b95b1f-e780-4ab5-a6e9-d0d663df6eaf}" record_timestamp="1488900443161" record_key="wh2_main_vor_the_vampire_coast_the_blood_swamps">
+<regions record_uuid="{a9b95b1f-e780-4ab5-a6e9-d0d663df6eaf}" record_timestamp="1537872109999" record_key="wh2_main_vor_the_vampire_coast_the_blood_swamps">
 <b>30</b>
 <battle_name state="APPROVED" last_approved_text="The Blood Swamps" last_edit_user="bob">The Blood Swamps</battle_name>
-<faction_swapping_id>vmp</faction_swapping_id>
+<faction_swapping_id>cst</faction_swapping_id>
 <g>197</g>
 <in_encyclopedia>1</in_encyclopedia>
 <is_sea>0</is_sea>
@@ -5305,10 +5305,10 @@
 <owner_bundle></owner_bundle>
 <r>250</r>
 </regions>
-<regions record_uuid="{b6c43146-b7e1-44fd-b856-8d6295dce821}" record_timestamp="1488900443194" record_key="wh2_main_vor_the_vampire_coast_the_star_tower">
+<regions record_uuid="{b6c43146-b7e1-44fd-b856-8d6295dce821}" record_timestamp="1537872109999" record_key="wh2_main_vor_the_vampire_coast_the_star_tower">
 <b>18</b>
 <battle_name state="APPROVED" last_approved_text="The Star Tower" last_edit_user="bob">The Star Tower</battle_name>
-<faction_swapping_id>vmp</faction_swapping_id>
+<faction_swapping_id>cst</faction_swapping_id>
 <g>145</g>
 <in_encyclopedia>1</in_encyclopedia>
 <is_sea>0</is_sea>
@@ -5884,7 +5884,7 @@
 <regions record_uuid="{a66af8f9-ee20-4d38-98f6-37b2b67f851e}" record_timestamp="1488881995090" record_key="wh_main_eastern_border_princes_matorca">
 <b>90</b>
 <battle_name state="APPROVED" last_approved_text="Matorca" last_edit_user="bob">Matorca</battle_name>
-<faction_swapping_id>emp</faction_swapping_id>
+<faction_swapping_id>vmp</faction_swapping_id>
 <g>115</g>
 <in_encyclopedia>1</in_encyclopedia>
 <is_sea>0</is_sea>
@@ -6949,10 +6949,10 @@
 <owner_bundle></owner_bundle>
 <r>253</r>
 </regions>
-<regions record_uuid="{3596f3c2-5fcc-4fa8-a3dc-656eb1be228b}" record_timestamp="1488900430587" record_key="wh_main_the_silver_road_mount_squighorn">
+<regions record_uuid="{3596f3c2-5fcc-4fa8-a3dc-656eb1be228b}" record_timestamp="1542730056141" record_key="wh_main_the_silver_road_mount_squighorn">
 <b>41</b>
 <battle_name state="APPROVED" last_approved_text="Mount Squighorn" last_edit_user="bob">Mount Squighorn</battle_name>
-<faction_swapping_id>grn</faction_swapping_id>
+<faction_swapping_id>dwf</faction_swapping_id>
 <g>211</g>
 <in_encyclopedia>1</in_encyclopedia>
 <is_sea>0</is_sea>

@@ -23,23 +23,10 @@ function map(json) {
   }, {});
 }
 
-/** amend WH1 Norsca DLC to factions */
-function amend(factions) {
-  const ammend_factions = require("./factions.json");
-
-  Object.values(ammend_factions).forEach(faction => {
-    const key = faction.key;
-    factions[key] = faction;
-  });
-
-  return factions;
-}
-
 const factionsXmlPath = path.resolve(__dirname, "./factions.xml");
 
 const promise = readFile(factionsXmlPath)
   .then(xmlToJson)
-  .then(map)
-  .then(amend);
+  .then(map);
 
 module.exports = promise;
