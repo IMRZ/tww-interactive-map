@@ -107,8 +107,43 @@
   {
     "factionKey": "wh2_main_hef_nagarythe",
     "flag": {
-      "x": 2080,
-      "y": 715
+      "x": 1662,
+      "y": 629
+    }
+  },
+  {
+    "factionKey": "wh2_main_emp_pirates_of_sartosa",
+    "flag": {
+      "x": 3264,
+      "y": 1708
+    }
+  },
+  {
+    "factionKey": "wh2_main_vmp_vampire_coast",
+    "flag": {
+      "x": 1322,
+      "y": 2364
+    }
+  },
+  {
+    "factionKey": "wh2_dlc11_cst_noctilus",
+    "flag": {
+      "x": 1541,
+      "y": 1746
+    }
+  },
+  {
+    "factionKey": "wh2_dlc11_cst_the_drowned",
+    "flag": {
+      "x": 810,
+      "y": 1536
+    }
+  },
+  {
+    "factionKey": "wh2_dlc11_def_the_blessed_dread",
+    "flag": {
+      "x": 1467,
+      "y": 3309
     }
   }
 ]
