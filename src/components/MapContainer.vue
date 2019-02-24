@@ -28,19 +28,24 @@
           :height="map.settings.height"
           :style="{ opacity: settings.mapOpacity }"
         />
-        <g v-if="mapOverlay === `regions`">
-          <MapRegion
-            v-for="region in map.regions" :key="region.key"
-            :region="region"
-            :provinces="map.provinces"
-            :climates="common.climates"
-            :mode="mapOverlayMode"
-          />
-        </g>
-        <MapOverlayChokepoint v-else-if="mapOverlay === `choke_points`"
+        <MapSvgLayerRegion
+          v-if="mapOverlay === 'regions'"
+          :regions="map.regions"
+          :provinces="map.provinces"
+          :climates="common.climates"
+          :mode="mapOverlayMode"
+        />
+        <MapSvgLayerChokepoint
+          v-if="mapOverlay === 'choke_points'"
           :chokepoints="map.chokepoints"
           :mode="mapOverlayMode"
           :transform="map.settings.chokepoints_transform"
+        />
+        <MapSvgLayerPainter
+          v-if="mapOverlay === 'painter'"
+          :regions="map.regions"
+          :factions="common.factions"
+          :starting_regions="map.starting_regions"
         />
       </g>
     </svg>
@@ -53,17 +58,20 @@ import WindowUtil from "@/mixins/WindowUtil";
 import MapSettings from "@/mixins/MapSettings";
 import MapNodeOverlaySettlement from "@/components/MapNodeOverlaySettlement";
 import MapNodeOverlayStartposition from "@/components/MapNodeOverlayStartposition";
-import MapOverlayChokepoint from "@/components/MapOverlayChokepoint";
-import MapRegion from "@/components/MapRegion";
+
+import MapSvgLayerChokepoint from "@/components/MapSvgLayerChokepoint";
+import MapSvgLayerRegion from "@/components/MapSvgLayerRegion";
+import MapSvgLayerPainter from "@/components/MapSvgLayerPainter";
 
 export default {
-  name: "MapContainer",
   mixins: [SvgUtil, WindowUtil, MapSettings],
   components: {
     MapNodeOverlaySettlement,
     MapNodeOverlayStartposition,
-    MapOverlayChokepoint,
-    MapRegion
+
+    MapSvgLayerChokepoint,
+    MapSvgLayerRegion,
+    MapSvgLayerPainter
   },
   props: {
     common: Object,

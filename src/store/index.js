@@ -9,12 +9,19 @@ import vortex from "./data/vortex.json";
 
 const SET_SHOW_TOOLTIP = "SET_SHOW_TOOLTIP";
 const SET_MAP_OPACITY = "SET_MAP_OPACITY";
+const SET_PAINTER_FACTION = "SET_PAINTER_FACTION";
+const SET_PAINTER_FACTIONS = "SET_PAINTER_FACTIONS";
+const SET_PAINTER_FACTIONS_ITEM = "SET_PAINTER_FACTIONS_ITEM";
 
 export default new Vuex.Store({
   state: {
     settings: {
       showTooltip: true,
       mapOpacity: 1
+    },
+    painter: {
+      faction: null,
+      factions: null
     },
     data: {
       common,
@@ -51,6 +58,15 @@ export default new Vuex.Store({
     },
     [SET_MAP_OPACITY](state, value) {
       state.settings.mapOpacity = value;
+    },
+    [SET_PAINTER_FACTION](state, faction) {
+      state.painter.faction = faction;
+    },
+    [SET_PAINTER_FACTIONS](state, factions) {
+      state.painter.factions = factions;
+    },
+    [SET_PAINTER_FACTIONS_ITEM](state, { regionKey, factionKey }) {
+      Vue.set(state.painter.factions, regionKey, factionKey);
     }
   }
 });

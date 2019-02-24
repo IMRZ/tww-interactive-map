@@ -46,11 +46,13 @@ function combineProvinceData(regions, provinces) {
 const promise = Promise.all([
   require("../common"),
   require("./choke_points"),
-  require("./region_paths")
+  require("./region_paths"),
+  require("./starting_regions")()
 ]).then(([
   common,
   chokepoints,
-  regionPaths
+  regionPaths,
+  starting_regions
 ]) => {
   const { campaignMapSettlements, climates, factions, provinces, regions, regionToProvinceJunctions } = common;
   const combinedRegionData = combineRegionData(regions, provinces, regionToProvinceJunctions, campaignMapSettlements, regionPaths);
@@ -63,7 +65,8 @@ const promise = Promise.all([
     provinces: combinedProvinceData,
     chokepoints: chokepoints,
     startpositions: startpositions,
-    settlements: settlements
+    settlements: settlements,
+    starting_regions: starting_regions
   };
 });
 

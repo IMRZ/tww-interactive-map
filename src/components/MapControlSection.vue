@@ -7,8 +7,11 @@
     />
 
     <div class="map-overlay-mode-section">
-      <MapLegendClimate v-if="mapOverlayMode === 'climates'"
+      <MapLegendClimate v-if="mapOverlay === 'regions' && mapOverlayMode === 'climates'"
         :climates="data.common.climates"
+      />
+      <MapControlPainter v-if="mapOverlay === 'painter'"
+        :factions="data.common.factions"
       />
       <TwPanel v-if="mapOverlay === 'regions'">
         <TwPanelTitle>Regions</TwPanelTitle>
@@ -47,6 +50,9 @@
       <TwPanelField  label="Choke points" :icon="require('./ui/skins/default/icon_spectate_battle.png')">
         <TwRadio v-model="mapOverlay" value="choke_points" />
       </TwPanelField>
+      <TwPanelField  label="Painter" :icon="require('./ui/skins/default/icon_filter_faction.png')">
+        <TwRadio v-model="mapOverlay" value="painter" />
+      </TwPanelField>
       <TwPanelTitle>Node overlays</TwPanelTitle>
       <TwPanelField  label="None" :icon="require('./ui/skins/default/icon_cross_small.png')">
         <TwRadio v-model="nodeOverlay" value="" />
@@ -81,6 +87,7 @@ import TwPanelField from "@/components/ui/TwPanelField";
 import TwCheckbox from "@/components/ui/TwCheckbox";
 import TwRadio from "@/components/ui/TwRadio";
 import TwCornerButton from "@/components/ui/TwCornerButton";
+import MapControlPainter from "@/components/MapControlPainter";
 
 export default {
   name: "MapControlSection",
@@ -92,7 +99,8 @@ export default {
     TwPanelField,
     TwCheckbox,
     TwRadio,
-    TwCornerButton
+    TwCornerButton,
+    MapControlPainter
   },
   computed: {
     mapOpacity() {
@@ -120,6 +128,8 @@ export default {
   display: flex;
   flex-direction: column;
   color: white;
+
+  z-index: 100;
 
   .map-overlay-mode-section {
     display: flex;
