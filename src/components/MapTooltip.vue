@@ -4,6 +4,7 @@
       <div>Region: {{getRegionName(tooltipData.regionKey)}}</div>
       <div>Province: {{getProvinceName(tooltipData.regionKey)}}</div>
       <div>Climate: {{getClimate(tooltipData.regionKey)}}</div>
+      <div v-if="tooltipData.ownedBy">Owned by: {{getFactionName(tooltipData.ownedBy)}}</div>
     </div>
     <div class="content" v-else-if="tooltipData && tooltipData.type === 'settlement'">
       <div>Settlement: {{getRegionName(tooltipData.regionKey)}}</div>
@@ -14,7 +15,6 @@
     </div>
     <div class="content" v-else-if="tooltipData && tooltipData.type === 'chokepoint'">
       <div>Chokepoint: {{getBattleMapLabel(tooltipData.key)}}</div>
-      <!-- <img :src="getBattleMapPreview(tooltipData.key)"> -->
     </div>
     <pre v-else>{{tooltipData}}</pre>
   </div>
@@ -22,7 +22,6 @@
 
 <script>
 export default {
-  name: "MapTooltip",
   props: {
     event: MouseEvent,
     common: Object,
@@ -43,7 +42,8 @@ export default {
       return `${this.baseUrl}ui/chokepoints/${preview}.png`;
     },
     getFactionName(key) {
-      return this.common.factions[key].name;
+      const faction = this.common.factions[key];
+      return faction ? faction.name : "Abandoned";
     },
     getProvinceName(key) {
       const provinceKey = this.map.regions[key].provinceKey;
@@ -78,10 +78,11 @@ export default {
         const [type, ...data] = dataMapTooltip.split(":");
         switch (type) {
           case "region": {
-            const [regionKey] = data;
+            const [regionKey, ownedBy] = data;
             return {
               type,
-              regionKey
+              regionKey,
+              ownedBy
             };
           }
           case "settlement": {
