@@ -4,6 +4,6 @@ module.exports = {
   pwa: {
     name: 'tww-interactive-map',
     short_name: "tww-interactive-map",
-    themeColor: '#D0021B'
+    themeColor: '#000000'
   }
 };
