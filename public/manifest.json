@@ -1,6 +1,6 @@
 {
-  "name": "tww-interactive-map",
-  "short_name": "tww-interactive-map",
+  "name": "Total War: Warhammer - Interactive Map",
+  "short_name": "ttwim",
   "icons": [
     {
       "src": "./img/icons/android-chrome-192x192.png",
