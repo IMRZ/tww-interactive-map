@@ -6131,5 +6131,2919 @@
     "wh_main_mountains_of_naglfari_varg_camp": "wh_main_nor_varg",
     "wh2_main_southlands_worlds_edge_mountains_lost_plateau": null,
     "wh2_main_doom_glades_temple_of_addaioth": null
+  },
+  "resources": {
+    "wh_main_nordland_dietershafen": [
+      {
+        "key": "wh_main_human_minor_primary_coast"
+      },
+      {
+        "key": "wh_main_human_minor_secondary_furs",
+        "resource": "res_rom_furs"
+      },
+      {
+        "key": "wh_main_port"
+      }
+    ],
+    "wh_main_nordland_salzenmund": [
+      {
+        "key": "wh2_main_special_salzenmund_primary",
+        "resource": "res_location_xef_emp_brt"
+      },
+      {
+        "key": "wh2_main_special_salzenmund_secondary",
+        "resource": "res_rom_timber"
+      }
+    ],
+    "wh_main_ostland_norden": [
+      {
+        "key": "wh_main_human_minor_primary_coast"
+      },
+      {
+        "key": "wh_main_human_minor_secondary"
+      },
+      {
+        "key": "wh_main_port"
+      }
+    ],
+    "wh_main_ostland_wolfenburg": [
+      {
+        "key": "wh_main_human_major_primary"
+      },
+      {
+        "key": "wh_main_human_major_secondary_gold",
+        "resource": "res_gold"
+      }
+    ],
+    "wh_main_ostland_castle_von_rauken": [
+      {
+        "key": "wh_main_human_minor_primary"
+      },
+      {
+        "key": "wh_main_human_minor_secondary"
+      }
+    ],
+    "wh_main_hochland_brass_keep": [
+      {
+        "key": "wh_main_human_minor_primary"
+      },
+      {
+        "key": "wh_main_human_minor_secondary_dyes",
+        "resource": "res_dyes"
+      }
+    ],
+    "wh_main_hochland_hergig": [
+      {
+        "key": "wh_main_human_major_primary"
+      },
+      {
+        "key": "wh_main_human_major_secondary_timber",
+        "resource": "res_rom_timber"
+      }
+    ],
+    "wh_main_middenland_carroburg": [
+      {
+        "key": "wh_main_special_carroburg_primary",
+        "resource": "res_location_emp"
+      },
+      {
+        "key": "wh_main_special_carroburg_secondary",
+        "resource": "res_rom_oil"
+      }
+    ],
+    "wh_main_middenland_weismund": [
+      {
+        "key": "wh_main_human_minor_primary"
+      },
+      {
+        "key": "wh_main_human_minor_secondary_timber",
+        "resource": "res_rom_timber"
+      }
+    ],
+    "wh_main_middenland_middenheim": [
+      {
+        "key": "wh_main_special_middenheim_primary",
+        "resource": "res_location_emp_brt"
+      },
+      {
+        "key": "wh_main_special_middenheim_secondary"
+      }
+    ],
+    "wh_main_talabecland_kemperbad": [
+      {
+        "key": "wh_main_human_minor_primary"
+      },
+      {
+        "key": "wh_main_human_minor_secondary"
+      }
+    ],
+    "wh_main_talabecland_talabheim": [
+      {
+        "key": "wh_main_special_talabheim_primary",
+        "resource": "res_location_emp_brt"
+      },
+      {
+        "key": "wh_main_special_talabheim_secondary",
+        "resource": "res_rom_furs"
+      }
+    ],
+    "wh_main_ostermark_bechafen": [
+      {
+        "key": "wh_main_human_major_primary"
+      },
+      {
+        "key": "wh_main_human_major_secondary_pottery",
+        "resource": "res_rom_textiles"
+      }
+    ],
+    "wh_main_ostermark_essen": [
+      {
+        "key": "wh_main_human_minor_primary"
+      },
+      {
+        "key": "wh_main_human_minor_secondary_pastures",
+        "resource": "res_rom_oil"
+      }
+    ],
+    "wh_main_reikland_eilhart": [
+      {
+        "key": "wh_main_human_minor_primary"
+      },
+      {
+        "key": "wh_main_human_minor_secondary"
+      }
+    ],
+    "wh_main_reikland_altdorf": [
+      {
+        "key": "wh_main_special_altdorf_primary",
+        "resource": "res_location_emp_vmp"
+      },
+      {
+        "key": "wh_main_special_altdorf_secondary",
+        "resource": "res_rom_textiles"
+      },
+      {
+        "key": "wh_main_port"
+      }
+    ],
+    "wh_main_reikland_helmgart": [
+      {
+        "key": "wh_main_human_minor_primary"
+      },
+      {
+        "key": "wh_main_human_minor_secondary"
+      }
+    ],
+    "wh_main_reikland_grunburg": [
+      {
+        "key": "wh_main_human_minor_primary"
+      },
+      {
+        "key": "wh_main_human_minor_secondary_pastures",
+        "resource": "res_rom_oil"
+      }
+    ],
+    "wh_main_stirland_wurtbad": [
+      {
+        "key": "wh_main_human_major_primary"
+      },
+      {
+        "key": "wh_main_human_major_secondary_wine",
+        "resource": "res_rom_wine"
+      }
+    ],
+    "wh_main_stirland_the_moot": [
+      {
+        "key": "wh_main_human_minor_primary"
+      },
+      {
+        "key": "wh_main_human_minor_secondary"
+      }
+    ],
+    "wh_main_averland_averheim": [
+      {
+        "key": "wh_main_human_major_primary"
+      },
+      {
+        "key": "wh_main_human_major_secondary"
+      }
+    ],
+    "wh_main_averland_grenzstadt": [
+      {
+        "key": "wh_main_human_minor_primary"
+      },
+      {
+        "key": "wh_main_human_minor_secondary_pottery",
+        "resource": "res_rom_textiles"
+      }
+    ],
+    "wh_main_wissenland_nuln": [
+      {
+        "key": "wh_main_special_nuln_primary",
+        "resource": "res_location_emp_vmp"
+      },
+      {
+        "key": "wh_main_special_nuln_secondary"
+      }
+    ],
+    "wh_main_wissenland_wissenburg": [
+      {
+        "key": "wh_main_human_minor_primary"
+      },
+      {
+        "key": "wh_main_human_minor_secondary_marble",
+        "resource": "res_rom_marble"
+      }
+    ],
+    "wh_main_wissenland_pfeildorf": [
+      {
+        "key": "wh_main_human_minor_primary"
+      },
+      {
+        "key": "wh_main_human_minor_secondary_iron",
+        "resource": "res_rom_iron"
+      }
+    ],
+    "wh_main_western_sylvania_fort_oberstyre": [
+      {
+        "key": "wh_main_human_minor_secondary"
+      },
+      {
+        "key": "wh_main_human_minor_primary"
+      }
+    ],
+    "wh_main_western_sylvania_castle_templehof": [
+      {
+        "key": "wh_main_human_major_primary"
+      },
+      {
+        "key": "wh_main_human_major_secondary_timber",
+        "resource": "res_rom_timber"
+      }
+    ],
+    "wh_main_western_sylvania_schwartzhafen": [
+      {
+        "key": "wh_main_human_minor_secondary_pastures",
+        "resource": "res_rom_oil"
+      },
+      {
+        "key": "wh_main_human_minor_primary"
+      }
+    ],
+    "wh_main_eastern_sylvania_eschen": [
+      {
+        "key": "wh_main_human_minor_secondary_wine",
+        "resource": "res_rom_wine"
+      },
+      {
+        "key": "wh_main_human_minor_primary"
+      }
+    ],
+    "wh_main_eastern_sylvania_waldenhof": [
+      {
+        "key": "wh_main_human_minor_secondary"
+      },
+      {
+        "key": "wh_main_human_minor_primary"
+      }
+    ],
+    "wh_main_eastern_sylvania_castle_drakenhof": [
+      {
+        "key": "wh_main_special_castle_drakenhof_primary",
+        "resource": "res_location_vmp"
+      },
+      {
+        "key": "wh_main_special_castle_drakenhof_secondary",
+        "resource": "res_gold"
+      }
+    ],
+    "wh_main_northern_grey_mountains_grung_zint": [
+      {
+        "key": "wh_main_human_minor_secondary_marble",
+        "resource": "res_rom_marble"
+      },
+      {
+        "key": "wh_main_human_minor_primary"
+      }
+    ],
+    "wh_main_northern_grey_mountains_karak_ziflin": [
+      {
+        "key": "wh_main_human_minor_primary"
+      },
+      {
+        "key": "wh_main_human_minor_secondary_dyes",
+        "resource": "res_dyes"
+      }
+    ],
+    "wh_main_southern_grey_mountains_karak_azgaraz": [
+      {
+        "key": "wh_main_human_minor_secondary"
+      },
+      {
+        "key": "wh_main_human_minor_primary"
+      }
+    ],
+    "wh_main_southern_grey_mountains_karak_norn": [
+      {
+        "key": "wh_main_human_major_primary"
+      },
+      {
+        "key": "wh_main_human_major_secondary_furs",
+        "resource": "res_rom_furs"
+      }
+    ],
+    "wh_main_southern_grey_mountains_grimhold": [
+      {
+        "key": "wh_main_human_minor_secondary"
+      },
+      {
+        "key": "wh_main_human_minor_primary"
+      }
+    ],
+    "wh_main_the_vaults_karak_bhufdar": [
+      {
+        "key": "wh_main_human_minor_secondary_timber",
+        "resource": "res_rom_timber"
+      },
+      {
+        "key": "wh_main_human_minor_primary"
+      }
+    ],
+    "wh_main_the_vaults_karak_izor": [
+      {
+        "key": "wh2_main_special_karak_izor_primary",
+        "resource": "res_location_dwf_skv"
+      },
+      {
+        "key": "wh2_main_special_karak_izor_secondary"
+      }
+    ],
+    "wh_main_the_vaults_zarakzil": [
+      {
+        "key": "wh_main_human_minor_secondary"
+      },
+      {
+        "key": "wh_main_human_minor_primary"
+      }
+    ],
+    "wh_main_black_mountains_karak_hirn": [
+      {
+        "key": "wh_main_human_major_primary"
+      },
+      {
+        "key": "wh_main_human_major_secondary_iron",
+        "resource": "res_rom_iron"
+      }
+    ],
+    "wh_main_black_mountains_karak_angazhar": [
+      {
+        "key": "wh_main_human_minor_secondary_pastures",
+        "resource": "res_rom_oil"
+      },
+      {
+        "key": "wh_main_human_minor_primary"
+      }
+    ],
+    "wh_main_black_mountains_mighdal_vongalbarak": [
+      {
+        "key": "wh_main_human_minor_secondary"
+      },
+      {
+        "key": "wh_main_human_minor_primary"
+      }
+    ],
+    "wh_main_zhufbar_karag_dromar": [
+      {
+        "key": "wh_main_special_karag_dromar_secondary"
+      },
+      {
+        "key": "wh_main_special_karag_dromar_primary",
+        "resource": "res_location_dwf"
+      }
+    ],
+    "wh_main_zhufbar_oakenhammer": [
+      {
+        "key": "wh_main_human_minor_secondary"
+      },
+      {
+        "key": "wh_main_human_minor_primary"
+      }
+    ],
+    "wh_main_zhufbar_zhufbar": [
+      {
+        "key": "wh_main_human_major_primary"
+      },
+      {
+        "key": "wh_main_human_major_secondary_iron",
+        "resource": "res_rom_iron"
+      }
+    ],
+    "wh_main_the_silver_road_the_pillars_of_grungni": [
+      {
+        "key": "wh_main_human_minor_secondary"
+      },
+      {
+        "key": "wh_main_human_minor_primary"
+      }
+    ],
+    "wh_main_northern_worlds_edge_mountains_karak_ungor": [
+      {
+        "key": "wh_main_human_major_primary"
+      },
+      {
+        "key": "wh_main_human_major_secondary_gold",
+        "resource": "res_gold"
+      }
+    ],
+    "wh_main_northern_worlds_edge_mountains_khazid_irkulaz": [
+      {
+        "key": "wh_main_human_minor_secondary"
+      },
+      {
+        "key": "wh_main_human_minor_primary"
+      }
+    ],
+    "wh_main_peak_pass_karak_kadrin": [
+      {
+        "key": "wh_main_special_karak_kadrin_primary",
+        "resource": "res_location_dwf"
+      },
+      {
+        "key": "wh_main_special_karak_kadrin_2_secondary"
+      }
+    ],
+    "wh_main_peak_pass_gnashraks_lair": [
+      {
+        "key": "wh_main_human_minor_secondary_dyes",
+        "resource": "res_dyes"
+      },
+      {
+        "key": "wh_main_human_minor_primary"
+      }
+    ],
+    "wh_main_rib_peaks_grom_peak": [
+      {
+        "key": "wh_main_human_minor_primary"
+      },
+      {
+        "key": "wh_main_human_minor_secondary"
+      }
+    ],
+    "wh_main_rib_peaks_mount_gunbad": [
+      {
+        "key": "wh_main_special_mount_gunbad_secondary",
+        "resource": "res_gold"
+      },
+      {
+        "key": "wh_main_special_mount_gunbad_primary",
+        "resource": "res_location_dwf_skv"
+      }
+    ],
+    "wh_main_blood_river_valley_barak_varr": [
+      {
+        "key": "wh_main_human_major_secondary_dyes",
+        "resource": "res_dyes"
+      },
+      {
+        "key": "wh_main_human_major_primary_coast"
+      },
+      {
+        "key": "wh_main_port"
+      }
+    ],
+    "wh_main_blood_river_valley_varenka_hills": [
+      {
+        "key": "wh_main_human_minor_secondary_furs",
+        "resource": "res_rom_furs"
+      },
+      {
+        "key": "wh_main_human_minor_primary"
+      }
+    ],
+    "wh_main_blood_river_valley_dok_karaz": [
+      {
+        "key": "wh_main_human_minor_secondary_salt",
+        "resource": "res_rom_lead"
+      },
+      {
+        "key": "wh_main_human_minor_primary"
+      }
+    ],
+    "wh_main_blood_river_valley_barag_dawazbag": [
+      {
+        "key": "wh_main_human_minor_primary"
+      },
+      {
+        "key": "wh_main_human_minor_secondary"
+      }
+    ],
+    "wh_main_the_silver_road_mount_squighorn": [
+      {
+        "key": "wh_main_human_minor_secondary"
+      },
+      {
+        "key": "wh_main_human_minor_primary"
+      }
+    ],
+    "wh_main_death_pass_karag_dron": [
+      {
+        "key": "wh_main_human_minor_secondary_timber",
+        "resource": "res_rom_timber"
+      },
+      {
+        "key": "wh_main_human_minor_primary"
+      }
+    ],
+    "wh_main_death_pass_iron_rock": [
+      {
+        "key": "wh2_main_special_iron_rock_secondary",
+        "resource": "res_rom_iron"
+      },
+      {
+        "key": "wh2_main_special_iron_rock_primary",
+        "resource": "res_location_dwf_skv"
+      }
+    ],
+    "wh_main_death_pass_karak_drazh": [
+      {
+        "key": "wh_main_special_black_crag_primary",
+        "resource": "res_location_grn"
+      },
+      {
+        "key": "wh_main_special_black_crag_secondary",
+        "resource": "res_gold"
+      }
+    ],
+    "wh_main_southern_badlands_gronti_mingol": [
+      {
+        "key": "wh_main_human_minor_secondary_salt",
+        "resource": "res_rom_lead"
+      },
+      {
+        "key": "wh_main_human_minor_primary_coast"
+      },
+      {
+        "key": "wh_main_port"
+      }
+    ],
+    "wh_main_western_badlands_ekrund": [
+      {
+        "key": "wh_main_dwarf_orc_major_secondary_savage",
+        "resource": "res_savage"
+      },
+      {
+        "key": "wh_main_human_major_primary"
+      }
+    ],
+    "wh_main_western_badlands_stonemine_tower": [
+      {
+        "key": "wh_main_human_minor_secondary"
+      },
+      {
+        "key": "wh_main_human_minor_primary"
+      },
+      {
+        "key": "wh_main_port"
+      }
+    ],
+    "wh_main_western_badlands_bitterstone_mine": [
+      {
+        "key": "wh_main_human_minor_secondary"
+      },
+      {
+        "key": "wh_main_human_minor_primary"
+      }
+    ],
+    "wh_main_western_badlands_dragonhorn_mines": [
+      {
+        "key": "wh_main_human_minor_secondary"
+      },
+      {
+        "key": "wh_main_human_minor_primary"
+      }
+    ],
+    "wh_main_eastern_badlands_valayas_sorrow": [
+      {
+        "key": "wh_main_human_minor_primary"
+      },
+      {
+        "key": "wh_main_human_minor_secondary"
+      }
+    ],
+    "wh_main_eastern_badlands_karak_eight_peaks": [
+      {
+        "key": "wh_main_special_eight_peaks_secondary",
+        "resource": "res_rom_oil"
+      },
+      {
+        "key": "wh_main_special_eight_peaks_primary",
+        "resource": "res_location_dwf_grn_skv"
+      }
+    ],
+    "wh_main_eastern_badlands_crooked_fang_fort": [
+      {
+        "key": "wh_main_human_minor_secondary"
+      },
+      {
+        "key": "wh_main_human_minor_primary"
+      }
+    ],
+    "wh_main_eastern_badlands_dringorackaz": [
+      {
+        "key": "wh_main_human_minor_secondary_timber",
+        "resource": "res_rom_timber"
+      },
+      {
+        "key": "wh_main_human_minor_primary"
+      }
+    ],
+    "wh_main_blightwater_karak_azgal": [
+      {
+        "key": "wh2_main_human_major_secondary_gems",
+        "resource": "res_gems"
+      },
+      {
+        "key": "wh_main_human_major_primary"
+      }
+    ],
+    "wh_main_blightwater_kradtommen": [
+      {
+        "key": "wh_main_human_minor_primary"
+      },
+      {
+        "key": "wh_main_human_minor_secondary"
+      }
+    ],
+    "wh_main_blightwater_misty_mountain": [
+      {
+        "key": "wh_main_human_minor_secondary_marble",
+        "resource": "res_rom_marble"
+      },
+      {
+        "key": "wh_main_human_minor_primary"
+      }
+    ],
+    "wh_main_couronne_et_languille_languille": [
+      {
+        "key": "wh_main_human_minor_secondary"
+      },
+      {
+        "key": "wh_main_human_minor_primary_coast"
+      },
+      {
+        "key": "wh_main_port"
+      }
+    ],
+    "wh_main_couronne_et_languille_couronne": [
+      {
+        "key": "wh_main_special_couronne_primary",
+        "resource": "res_location_emp_brt"
+      },
+      {
+        "key": "wh_main_special_couronne_secondary",
+        "resource": "res_rom_textiles"
+      }
+    ],
+    "wh_main_lyonesse_lyonesse": [
+      {
+        "key": "wh_main_human_major_primary_coast"
+      },
+      {
+        "key": "wh_main_human_major_secondary_pastures",
+        "resource": "res_rom_oil"
+      },
+      {
+        "key": "wh_main_port"
+      }
+    ],
+    "wh_main_lyonesse_mousillon": [
+      {
+        "key": "wh2_main_special_mousillon_secondary"
+      },
+      {
+        "key": "wh2_main_special_mousillon_primary",
+        "resource": "res_location_vmp"
+      },
+      {
+        "key": "wh_main_port"
+      }
+    ],
+    "wh_main_forest_of_arden_castle_artois": [
+      {
+        "key": "wh_main_human_major_primary"
+      },
+      {
+        "key": "wh_main_human_major_secondary_timber",
+        "resource": "res_rom_timber"
+      }
+    ],
+    "wh_main_forest_of_arden_gisoreux": [
+      {
+        "key": "wh_main_human_minor_secondary_furs",
+        "resource": "res_rom_furs"
+      },
+      {
+        "key": "wh_main_human_minor_primary"
+      }
+    ],
+    "wh_main_bordeleaux_et_aquitaine_bordeleaux": [
+      {
+        "key": "wh_main_special_bordeleux_primary",
+        "resource": "res_location_emp_vmp_brt"
+      },
+      {
+        "key": "wh_main_special_bordeleux_secondary",
+        "resource": "res_rom_wine"
+      },
+      {
+        "key": "wh_main_special_bordeleaux_port"
+      }
+    ],
+    "wh_main_bordeleaux_et_aquitaine_aquitaine": [
+      {
+        "key": "wh_main_human_minor_secondary"
+      },
+      {
+        "key": "wh_main_human_minor_primary"
+      }
+    ],
+    "wh_main_bastonne_et_montfort_castle_bastonne": [
+      {
+        "key": "wh_main_human_major_primary"
+      },
+      {
+        "key": "wh_main_human_major_secondary"
+      }
+    ],
+    "wh_main_bastonne_et_montfort_montfort": [
+      {
+        "key": "wh_main_human_minor_secondary_iron",
+        "resource": "res_rom_iron"
+      },
+      {
+        "key": "wh_main_human_minor_primary"
+      }
+    ],
+    "wh_main_carcassone_et_brionne_brionne": [
+      {
+        "key": "wh_main_human_minor_secondary_salt",
+        "resource": "res_rom_lead"
+      },
+      {
+        "key": "wh_main_human_minor_primary_coast"
+      },
+      {
+        "key": "wh_main_port"
+      }
+    ],
+    "wh_main_carcassone_et_brionne_castle_carcassonne": [
+      {
+        "key": "wh_main_special_carcassonne_primary",
+        "resource": "res_location_brt"
+      },
+      {
+        "key": "wh_main_special_carcassonne_secondary",
+        "resource": "res_dyes"
+      }
+    ],
+    "wh_main_parravon_et_quenelles_quenelles": [
+      {
+        "key": "wh_main_human_minor_secondary_pastures",
+        "resource": "res_rom_oil"
+      },
+      {
+        "key": "wh_main_human_minor_primary"
+      }
+    ],
+    "wh_main_parravon_et_quenelles_parravon": [
+      {
+        "key": "wh2_main_special_parravon_primary",
+        "resource": "res_location_brt_wef_hef"
+      },
+      {
+        "key": "wh2_main_special_parravon_secondary",
+        "resource": "res_rom_marble"
+      }
+    ],
+    "wh_main_estalia_bilbali": [
+      {
+        "key": "wh_main_human_minor_secondary_wine",
+        "resource": "res_rom_wine"
+      },
+      {
+        "key": "wh_main_human_minor_primary_coast"
+      },
+      {
+        "key": "wh_main_port"
+      }
+    ],
+    "wh_main_estalia_magritta": [
+      {
+        "key": "wh_main_special_magritta_primary",
+        "resource": "res_location_emp_brt"
+      },
+      {
+        "key": "wh_main_special_magritta_secondary",
+        "resource": "res_rom_iron"
+      },
+      {
+        "key": "wh_main_port"
+      }
+    ],
+    "wh_main_estalia_tobaro": [
+      {
+        "key": "wh_main_human_minor_secondary"
+      },
+      {
+        "key": "wh_main_human_minor_primary_coast"
+      },
+      {
+        "key": "wh_main_port"
+      }
+    ],
+    "wh_main_tilea_miragliano": [
+      {
+        "key": "wh_main_special_miragliano_primary",
+        "resource": "res_location_teb"
+      },
+      {
+        "key": "wh_main_special_miragliano_secondary",
+        "resource": "res_rom_oil"
+      },
+      {
+        "key": "wh_main_port"
+      }
+    ],
+    "wh_main_tilea_luccini": [
+      {
+        "key": "wh_main_human_minor_secondary"
+      },
+      {
+        "key": "wh_main_human_minor_primary_coast"
+      },
+      {
+        "key": "wh_main_port"
+      }
+    ],
+    "wh_main_western_border_princes_myrmidens": [
+      {
+        "key": "wh_main_human_major_primary_coast"
+      },
+      {
+        "key": "wh_main_human_major_secondary_pottery",
+        "resource": "res_rom_textiles"
+      },
+      {
+        "key": "wh_main_port"
+      }
+    ],
+    "wh_main_western_border_princes_zvorak": [
+      {
+        "key": "wh_main_human_minor_secondary_marble",
+        "resource": "res_rom_marble"
+      },
+      {
+        "key": "wh_main_human_minor_primary"
+      }
+    ],
+    "wh_main_eastern_border_princes_matorca": [
+      {
+        "key": "wh_main_human_minor_secondary_salt",
+        "resource": "res_rom_lead"
+      },
+      {
+        "key": "wh_main_human_minor_primary_coast"
+      },
+      {
+        "key": "wh_main_port"
+      }
+    ],
+    "wh_main_eastern_border_princes_akendorf": [
+      {
+        "key": "wh_main_human_major_secondary_pastures",
+        "resource": "res_rom_oil"
+      },
+      {
+        "key": "wh_main_human_major_primary"
+      }
+    ],
+    "wh_main_troll_country_zoishenk": [
+      {
+        "key": "wh2_main_special_zoishenk_secondary"
+      },
+      {
+        "key": "wh2_main_special_zoishenk_primary"
+      }
+    ],
+    "wh_main_troll_country_erengrad": [
+      {
+        "key": "wh_main_special_erengrad_primary",
+        "resource": "res_location_generic"
+      },
+      {
+        "key": "wh_main_special_erengrad_secondary",
+        "resource": "res_rom_textiles"
+      },
+      {
+        "key": "wh_main_special_erengrad_port"
+      }
+    ],
+    "wh_main_northern_oblast_fort_straghov": [
+      {
+        "key": "wh_main_human_minor_secondary"
+      },
+      {
+        "key": "wh_main_human_minor_primary"
+      }
+    ],
+    "wh_main_northern_oblast_fort_ostrosk": [
+      {
+        "key": "wh_main_human_major_primary"
+      },
+      {
+        "key": "wh_main_human_major_secondary"
+      }
+    ],
+    "wh_main_eastern_oblast_praag": [
+      {
+        "key": "wh_main_human_major_primary"
+      },
+      {
+        "key": "wh_main_human_major_secondary"
+      }
+    ],
+    "wh_main_eastern_oblast_volksgrad": [
+      {
+        "key": "wh_main_human_minor_secondary_timber",
+        "resource": "res_rom_timber"
+      },
+      {
+        "key": "wh_main_human_minor_primary"
+      }
+    ],
+    "wh_main_southern_oblast_zavastra": [
+      {
+        "key": "wh_main_human_minor_secondary"
+      },
+      {
+        "key": "wh_main_human_minor_primary"
+      }
+    ],
+    "wh_main_southern_oblast_kislev": [
+      {
+        "key": "wh_main_special_kislev_primary",
+        "resource": "res_location_emp_vmp_brt"
+      },
+      {
+        "key": "wh_main_special_kislev_secondary",
+        "resource": "res_rom_furs"
+      }
+    ],
+    "wh_main_southern_oblast_fort_jakova": [
+      {
+        "key": "wh_main_human_minor_secondary_iron",
+        "resource": "res_rom_iron"
+      },
+      {
+        "key": "wh_main_human_minor_primary"
+      }
+    ],
+    "wh_main_helspire_mountains_serpent_jetty": [
+      {
+        "key": "wh_main_norsca_minor_secondary"
+      },
+      {
+        "key": "wh_main_norsca_minor_primary_coast"
+      },
+      {
+        "key": "wh_main_norsca_port"
+      }
+    ],
+    "wh_main_helspire_mountains_the_monolith_of_katam": [
+      {
+        "key": "wh_main_norsca_minor_secondary_obsidian",
+        "resource": "res_obsidian"
+      },
+      {
+        "key": "wh_main_norsca_minor_primary_coast"
+      },
+      {
+        "key": "wh_main_norsca_port"
+      }
+    ],
+    "wh_main_helspire_mountains_graeling_moot": [
+      {
+        "key": "wh_main_norsca_major_primary"
+      },
+      {
+        "key": "wh_main_norsca_major_secondary"
+      }
+    ],
+    "wh_main_vanaheim_mountains_troll_fjord": [
+      {
+        "key": "wh_main_norsca_minor_secondary"
+      },
+      {
+        "key": "wh_main_norsca_minor_primary_coast"
+      },
+      {
+        "key": "wh_main_norsca_port"
+      }
+    ],
+    "wh_main_vanaheim_mountains_bjornlings_gathering": [
+      {
+        "key": "wh_main_norsca_major_primary"
+      },
+      {
+        "key": "wh_main_norsca_major_secondary"
+      }
+    ],
+    "wh_main_vanaheim_mountains_pack_ice_bay": [
+      {
+        "key": "wh_main_norsca_minor_secondary_iron",
+        "resource": "res_rom_iron"
+      },
+      {
+        "key": "wh_main_norsca_minor_primary_coast"
+      },
+      {
+        "key": "wh_main_norsca_port"
+      }
+    ],
+    "wh_main_mountains_of_naglfari_varg_camp": [
+      {
+        "key": "wh_main_norsca_major_primary_coast"
+      },
+      {
+        "key": "wh_main_norsca_major_secondary"
+      },
+      {
+        "key": "wh_main_norsca_port"
+      }
+    ],
+    "wh_main_mountains_of_naglfari_naglfari_plain": [
+      {
+        "key": "wh_main_norsca_minor_secondary_marble",
+        "resource": "res_rom_marble"
+      },
+      {
+        "key": "wh_main_norsca_minor_primary"
+      }
+    ],
+    "wh_main_ice_tooth_mountains_doomkeep": [
+      {
+        "key": "wh_main_norsca_minor_primary"
+      },
+      {
+        "key": "wh_main_norsca_minor_secondary"
+      }
+    ],
+    "wh_main_ice_tooth_mountains_icedrake_fjord": [
+      {
+        "key": "wh_main_norsca_major_secondary"
+      },
+      {
+        "key": "wh_main_norsca_major_primary_coast"
+      },
+      {
+        "key": "wh_main_norsca_port"
+      }
+    ],
+    "wh_main_ice_tooth_mountains_longship_graveyard": [
+      {
+        "key": "wh_main_norsca_minor_secondary"
+      },
+      {
+        "key": "wh_main_norsca_minor_primary_coast"
+      },
+      {
+        "key": "wh_main_norsca_port"
+      }
+    ],
+    "wh_main_mountains_of_hel_altar_of_spawns": [
+      {
+        "key": "wh_main_norsca_minor_secondary_obsidian",
+        "resource": "res_obsidian"
+      },
+      {
+        "key": "wh_main_norsca_minor_primary_coast"
+      },
+      {
+        "key": "wh_main_norsca_port"
+      }
+    ],
+    "wh_main_mountains_of_hel_aeslings_conclave": [
+      {
+        "key": "wh_main_norsca_major_primary"
+      },
+      {
+        "key": "wh_main_norsca_major_secondary"
+      }
+    ],
+    "wh_main_mountains_of_hel_winter_pyre": [
+      {
+        "key": "wh_main_norsca_minor_secondary"
+      },
+      {
+        "key": "wh_main_norsca_minor_primary_coast"
+      },
+      {
+        "key": "wh_main_norsca_port"
+      }
+    ],
+    "wh_main_trollheim_mountains_sarl_encampment": [
+      {
+        "key": "wh_main_norsca_major_primary"
+      },
+      {
+        "key": "wh_main_norsca_major_secondary"
+      }
+    ],
+    "wh_main_trollheim_mountains_bay_of_blades": [
+      {
+        "key": "wh_main_norsca_minor_secondary"
+      },
+      {
+        "key": "wh_main_norsca_minor_primary_coast"
+      },
+      {
+        "key": "wh_main_norsca_port"
+      }
+    ],
+    "wh_main_trollheim_mountains_the_tower_of_khrakk": [
+      {
+        "key": "wh_main_norsca_minor_secondary_marble",
+        "resource": "res_rom_marble"
+      },
+      {
+        "key": "wh_main_norsca_minor_primary"
+      }
+    ],
+    "wh_main_gianthome_mountains_kraka_drak": [
+      {
+        "key": "wh2_main_special_kraka_drak_primary",
+        "resource": "res_location_dwf"
+      },
+      {
+        "key": "wh2_main_special_kraka_drak_secondary",
+        "resource": "res_gems"
+      }
+    ],
+    "wh_main_gianthome_mountains_khazid_bordkarag": [
+      {
+        "key": "wh_main_human_minor_secondary"
+      },
+      {
+        "key": "wh_main_human_minor_primary"
+      }
+    ],
+    "wh_main_gianthome_mountains_sjoktraken": [
+      {
+        "key": "wh_main_human_minor_secondary"
+      },
+      {
+        "key": "wh_main_human_minor_primary_coast"
+      },
+      {
+        "key": "wh_main_port"
+      }
+    ],
+    "wh_main_goromandy_mountains_frozen_landing": [
+      {
+        "key": "wh_main_norsca_minor_secondary"
+      },
+      {
+        "key": "wh_main_norsca_minor_primary_coast"
+      },
+      {
+        "key": "wh_main_norsca_port"
+      }
+    ],
+    "wh_main_goromandy_mountains_baersonlings_camp": [
+      {
+        "key": "wh_main_norsca_major_primary_coast"
+      },
+      {
+        "key": "wh_main_norsca_major_secondary_iron",
+        "resource": "res_rom_iron"
+      },
+      {
+        "key": "wh_main_norsca_port"
+      }
+    ],
+    "wh_main_the_wasteland_marienburg": [
+      {
+        "key": "wh_main_special_marienburg_primary",
+        "resource": "res_location_generic"
+      },
+      {
+        "key": "wh_main_special_marienburg_secondary",
+        "resource": "res_dyes"
+      },
+      {
+        "key": "wh_main_special_marienburg_port"
+      }
+    ],
+    "wh_main_the_wasteland_gorssel": [
+      {
+        "key": "wh_main_human_minor_secondary_salt",
+        "resource": "res_rom_lead"
+      },
+      {
+        "key": "wh_main_human_minor_primary"
+      }
+    ],
+    "wh_main_the_silver_road_karaz_a_karak": [
+      {
+        "key": "wh_main_special_karaz_a_karak_primary",
+        "resource": "res_location_dwf"
+      },
+      {
+        "key": "wh_main_special_karaz_a_karak_secondary",
+        "resource": "res_gems"
+      }
+    ],
+    "wh_main_blightwater_deff_gorge": [
+      {
+        "key": "wh_main_human_minor_primary"
+      },
+      {
+        "key": "wh_main_human_minor_secondary"
+      }
+    ],
+    "wh_main_desolation_of_nagash_black_iron_mine": [
+      {
+        "key": "wh_main_human_minor_primary"
+      },
+      {
+        "key": "wh_main_human_minor_secondary_iron",
+        "resource": "res_rom_iron"
+      }
+    ],
+    "wh_main_desolation_of_nagash_karak_azul": [
+      {
+        "key": "wh_main_human_major_primary"
+      },
+      {
+        "key": "wh_main_human_major_secondary_salt",
+        "resource": "res_rom_lead"
+      }
+    ],
+    "wh_main_desolation_of_nagash_spitepeak": [
+      {
+        "key": "wh_main_human_minor_primary"
+      },
+      {
+        "key": "wh_main_human_minor_secondary"
+      }
+    ],
+    "wh_main_southern_badlands_galbaraz": [
+      {
+        "key": "wh2_main_special_galbaraz_primary",
+        "resource": "res_location_vmp_dwf_grn_skv_arkhan"
+      },
+      {
+        "key": "wh2_main_special_galbaraz_secondary",
+        "resource": "res_savage"
+      }
+    ],
+    "wh_main_southern_badlands_gor_gazan": [
+      {
+        "key": "wh_main_human_minor_primary"
+      },
+      {
+        "key": "wh_main_dwarf_orc_minor_secondary_savage",
+        "resource": "res_savage"
+      }
+    ],
+    "wh_main_southern_badlands_agrul_migdhal": [
+      {
+        "key": "wh_main_human_minor_primary"
+      },
+      {
+        "key": "wh_main_dwarf_orc_minor_secondary_savage",
+        "resource": "res_savage"
+      }
+    ],
+    "wh2_main_ironfrost_glacier_ironfrost": [
+      {
+        "key": "wh_main_norsca_major_primary"
+      },
+      {
+        "key": "wh_main_norsca_major_secondary"
+      }
+    ],
+    "wh2_main_ironfrost_glacier_dagraks_end": [
+      {
+        "key": "wh_main_norsca_minor_primary"
+      },
+      {
+        "key": "wh_main_norsca_minor_secondary"
+      }
+    ],
+    "wh2_main_aghol_wastelands_fortress_of_the_damned": [
+      {
+        "key": "wh_main_norsca_port"
+      },
+      {
+        "key": "wh_main_norsca_major_primary_coast"
+      },
+      {
+        "key": "wh_main_norsca_major_secondary"
+      }
+    ],
+    "wh2_main_deadwood_shagrath": [
+      {
+        "key": "wh_main_port"
+      },
+      {
+        "key": "wh_main_human_minor_primary_coast"
+      },
+      {
+        "key": "wh_main_human_minor_secondary"
+      }
+    ],
+    "wh2_main_deadwood_nagrar": [
+      {
+        "key": "wh_main_port"
+      },
+      {
+        "key": "wh_main_human_minor_primary_coast"
+      },
+      {
+        "key": "wh_main_human_minor_secondary_timber",
+        "resource": "res_rom_timber"
+      }
+    ],
+    "wh2_main_aghol_wastelands_the_palace_of_ruin": [
+      {
+        "key": "wh_main_norsca_minor_primary"
+      },
+      {
+        "key": "wh_main_norsca_minor_secondary"
+      }
+    ],
+    "wh2_main_iron_mountains_naggarond": [
+      {
+        "key": "wh_main_port"
+      },
+      {
+        "key": "wh2_main_special_naggarond_primary",
+        "resource": "res_location_hef_def"
+      },
+      {
+        "key": "wh2_main_special_naggarond_secondary",
+        "resource": "res_rom_marble"
+      }
+    ],
+    "wh2_main_the_black_flood_hag_graef": [
+      {
+        "key": "wh_main_port"
+      },
+      {
+        "key": "wh2_main_special_hag_graef_primary",
+        "resource": "res_location_generic"
+      },
+      {
+        "key": "wh2_main_special_hag_graef_secondary"
+      }
+    ],
+    "wh2_main_obsidian_peaks_circle_of_destruction": [
+      {
+        "key": "wh_main_port"
+      },
+      {
+        "key": "wh_main_human_minor_primary_coast"
+      },
+      {
+        "key": "wh_main_human_minor_secondary"
+      }
+    ],
+    "wh2_main_aghol_wastelands_palace_of_princes": [
+      {
+        "key": "wh_main_norsca_minor_primary"
+      },
+      {
+        "key": "wh_main_norsca_minor_secondary"
+      }
+    ],
+    "wh2_main_the_broken_land_blacklight_tower": [
+      {
+        "key": "wh_main_port"
+      },
+      {
+        "key": "wh_main_human_minor_primary_coast"
+      },
+      {
+        "key": "wh_main_human_minor_secondary"
+      }
+    ],
+    "wh2_main_the_broken_land_karond_kar": [
+      {
+        "key": "wh_main_port"
+      },
+      {
+        "key": "wh2_main_special_karond_kar_primary",
+        "resource": "res_location_def"
+      },
+      {
+        "key": "wh2_main_special_karond_kar_secondary"
+      }
+    ],
+    "wh2_main_the_broken_land_slavers_point": [
+      {
+        "key": "wh_main_port"
+      },
+      {
+        "key": "wh_main_human_minor_primary_coast"
+      },
+      {
+        "key": "wh_main_human_minor_secondary"
+      }
+    ],
+    "wh2_main_deadwood_the_frozen_city": [
+      {
+        "key": "wh_main_human_major_primary"
+      },
+      {
+        "key": "wh_main_human_major_secondary"
+      }
+    ],
+    "wh2_main_the_clawed_coast_the_twisted_glade": [
+      {
+        "key": "wh_main_port"
+      },
+      {
+        "key": "wh_main_human_minor_primary_coast"
+      },
+      {
+        "key": "wh_main_human_minor_secondary"
+      }
+    ],
+    "wh2_main_the_black_coast_arnheim": [
+      {
+        "key": "wh_main_port"
+      },
+      {
+        "key": "wh2_main_special_elven_colony_major_primary",
+        "resource": "res_location_colony"
+      },
+      {
+        "key": "wh_main_human_major_secondary"
+      }
+    ],
+    "wh2_main_titan_peaks_the_moon_shard": [
+      {
+        "key": "wh_main_port"
+      },
+      {
+        "key": "wh_main_human_minor_primary_coast"
+      },
+      {
+        "key": "wh_main_human_minor_secondary_timber",
+        "resource": "res_rom_timber"
+      }
+    ],
+    "wh2_main_isthmus_of_lustria_ziggurat_of_dawn": [
+      {
+        "key": "wh_main_port"
+      },
+      {
+        "key": "wh2_main_special_ziggurat_of_dawn_primary",
+        "resource": "res_location_generic"
+      },
+      {
+        "key": "wh2_main_special_ziggurat_of_dawn_secondary"
+      }
+    ],
+    "wh2_main_northern_jungle_of_pahualaxa_port_reaver": [
+      {
+        "key": "wh_main_port"
+      },
+      {
+        "key": "wh_main_human_minor_primary_coast"
+      },
+      {
+        "key": "wh_main_human_minor_secondary"
+      }
+    ],
+    "wh2_main_northern_jungle_of_pahualaxa_swamp_town": [
+      {
+        "key": "wh_main_port"
+      },
+      {
+        "key": "wh_main_human_minor_primary_coast"
+      },
+      {
+        "key": "wh_main_human_minor_secondary_pottery",
+        "resource": "res_rom_textiles"
+      }
+    ],
+    "wh2_main_southern_jungle_of_pahualaxa_monument_of_the_moon": [
+      {
+        "key": "wh_main_port"
+      },
+      {
+        "key": "wh_main_human_minor_primary_coast"
+      },
+      {
+        "key": "wh_main_human_minor_secondary"
+      }
+    ],
+    "wh2_main_southern_jungle_of_pahualaxa_the_high_sentinel": [
+      {
+        "key": "wh_main_port"
+      },
+      {
+        "key": "wh_main_human_minor_primary_coast"
+      },
+      {
+        "key": "wh_main_human_minor_secondary_iron",
+        "resource": "res_rom_iron"
+      }
+    ],
+    "wh2_main_the_creeping_jungle_temple_of_kara": [
+      {
+        "key": "wh_main_port"
+      },
+      {
+        "key": "wh_main_human_minor_primary_coast"
+      },
+      {
+        "key": "wh_main_human_minor_secondary"
+      }
+    ],
+    "wh2_main_northern_great_jungle_temple_of_tlencan": [
+      {
+        "key": "wh_main_port"
+      },
+      {
+        "key": "wh_main_human_minor_primary_coast"
+      },
+      {
+        "key": "wh_main_human_minor_secondary"
+      }
+    ],
+    "wh2_main_deadwood_dargoth": [
+      {
+        "key": "wh_main_human_minor_primary"
+      },
+      {
+        "key": "wh2_main_human_minor_secondary_obsidian",
+        "resource": "res_obsidian"
+      }
+    ],
+    "wh2_main_vampire_coast_pox_marsh": [
+      {
+        "key": "wh_main_port"
+      },
+      {
+        "key": "wh_main_human_minor_primary_coast"
+      },
+      {
+        "key": "wh_main_human_minor_secondary_pottery",
+        "resource": "res_rom_textiles"
+      }
+    ],
+    "wh2_main_vampire_coast_the_awakening": [
+      {
+        "key": "wh_main_port"
+      },
+      {
+        "key": "wh2_main_special_the_awakening_primary",
+        "resource": "res_location_generic"
+      },
+      {
+        "key": "wh2_main_special_the_awakening_secondary"
+      }
+    ],
+    "wh2_main_the_road_of_skulls_kauark": [
+      {
+        "key": "wh_main_human_minor_primary"
+      },
+      {
+        "key": "wh_main_human_minor_secondary"
+      }
+    ],
+    "wh2_main_the_road_of_skulls_the_black_pillar": [
+      {
+        "key": "wh_main_human_minor_primary"
+      },
+      {
+        "key": "wh_main_human_minor_secondary"
+      }
+    ],
+    "wh2_main_vampire_coast_the_blood_swamps": [
+      {
+        "key": "wh_main_port"
+      },
+      {
+        "key": "wh_main_human_minor_primary_coast"
+      },
+      {
+        "key": "wh_main_human_minor_secondary_dyes",
+        "resource": "res_dyes"
+      }
+    ],
+    "wh2_main_volcanic_islands_the_star_tower": [
+      {
+        "key": "wh_main_port"
+      },
+      {
+        "key": "wh2_main_special_elven_colony_major_primary",
+        "resource": "res_location_colony"
+      },
+      {
+        "key": "wh2_main_human_major_secondary_obsidian",
+        "resource": "res_obsidian"
+      }
+    ],
+    "wh2_main_the_road_of_skulls_spite_reach": [
+      {
+        "key": "wh_main_human_minor_primary"
+      },
+      {
+        "key": "wh_main_human_minor_secondary_wine",
+        "resource": "res_rom_wine"
+      }
+    ],
+    "wh2_main_headhunters_jungle_mangrove_coast": [
+      {
+        "key": "wh_main_port"
+      },
+      {
+        "key": "wh_main_human_minor_primary_coast"
+      },
+      {
+        "key": "wh2_main_human_minor_secondary_medicine",
+        "resource": "res_medicine"
+      }
+    ],
+    "wh2_main_avelorn_evershale": [
+      {
+        "key": "wh_main_port"
+      },
+      {
+        "key": "wh_main_human_minor_primary_coast"
+      },
+      {
+        "key": "wh_main_human_minor_secondary"
+      }
+    ],
+    "wh_main_yn_edri_eternos_the_oak_of_ages": [
+      {
+        "key": "wh_dlc05_elf_major_primary_oak_of_ages",
+        "resource": "res_location_generic"
+      },
+      {
+        "key": "wh_dlc05_elf_major_secondary_oak_of_ages"
+      }
+    ],
+    "wh_main_athel_loren_vauls_anvil": [
+      {
+        "key": "wh_main_special_vauls_anvil_primary"
+      },
+      {
+        "key": "wh_main_special_vauls_anvil_secondary",
+        "resource": "res_rom_timber"
+      }
+    ],
+    "wh2_main_the_road_of_skulls_har_ganeth": [
+      {
+        "key": "wh2_main_special_har_ganeth_primary",
+        "resource": "res_location_hef_def"
+      },
+      {
+        "key": "wh2_main_special_har_ganeth_secondary"
+      }
+    ],
+    "wh_main_athel_loren_waterfall_palace": [
+      {
+        "key": "wh_main_special_waterfall_palace_primary"
+      },
+      {
+        "key": "wh_main_special_waterfall_palace_secondary"
+      }
+    ],
+    "wh_main_athel_loren_yn_edryl_korian": [
+      {
+        "key": "wh_main_special_yn_edryl_korian_primary"
+      },
+      {
+        "key": "wh_main_special_yn_edryl_korian_secondary"
+      }
+    ],
+    "wh2_main_the_chill_road_ashrak": [
+      {
+        "key": "wh_main_human_minor_primary"
+      },
+      {
+        "key": "wh2_main_human_minor_secondary_obsidian",
+        "resource": "res_obsidian"
+      }
+    ],
+    "wh2_main_the_chill_road_the_great_arena": [
+      {
+        "key": "wh_main_human_minor_primary"
+      },
+      {
+        "key": "wh_main_human_minor_secondary"
+      }
+    ],
+    "wh2_main_the_chill_road_ghrond": [
+      {
+        "key": "wh2_main_special_ghrond_primary",
+        "resource": "res_location_generic"
+      },
+      {
+        "key": "wh2_main_special_ghrond_secondary",
+        "resource": "res_gold"
+      }
+    ],
+    "wh2_main_iron_mountains_har_kaldra": [
+      {
+        "key": "wh_main_human_minor_primary"
+      },
+      {
+        "key": "wh_main_human_minor_secondary"
+      }
+    ],
+    "wh_main_athel_loren_crag_halls": [
+      {
+        "key": "wh_main_special_crag_halls_primary"
+      },
+      {
+        "key": "wh_main_special_crag_halls_secondary",
+        "resource": "res_rom_furs"
+      }
+    ],
+    "wh2_main_chrace_elisia": [
+      {
+        "key": "wh_main_port"
+      },
+      {
+        "key": "wh_main_human_minor_primary_coast"
+      },
+      {
+        "key": "wh_main_human_minor_secondary_timber",
+        "resource": "res_rom_timber"
+      }
+    ],
+    "wh2_main_land_of_the_dead_zandri": [
+      {
+        "key": "wh_main_port"
+      },
+      {
+        "key": "wh2_dlc09_special_zandri_primary",
+        "resource": "res_location_tmb"
+      },
+      {
+        "key": "wh2_dlc09_special_zandri_secondary",
+        "resource": "res_rom_textiles"
+      }
+    ],
+    "wh2_main_coast_of_araby_al_haikk": [
+      {
+        "key": "wh_main_port"
+      },
+      {
+        "key": "wh_main_human_major_primary_coast"
+      },
+      {
+        "key": "wh_main_human_major_secondary_salt",
+        "resource": "res_rom_lead"
+      }
+    ],
+    "wh2_main_coast_of_araby_copher": [
+      {
+        "key": "wh_main_port"
+      },
+      {
+        "key": "wh_main_human_minor_primary_coast"
+      },
+      {
+        "key": "wh2_main_human_minor_secondary_spices",
+        "resource": "res_spices"
+      }
+    ],
+    "wh2_main_iron_mountains_altar_of_ultimate_darkness": [
+      {
+        "key": "wh2_main_special_altar_of_ultimate_darkness_primary",
+        "resource": "res_location_def"
+      },
+      {
+        "key": "wh2_main_special_altar_of_ultimate_darkness_secondary"
+      }
+    ],
+    "wh2_main_iron_mountains_rackdo_gorge": [
+      {
+        "key": "wh_main_human_minor_primary"
+      },
+      {
+        "key": "wh_main_human_minor_secondary"
+      }
+    ],
+    "wh2_main_land_of_assassins_lashiek": [
+      {
+        "key": "wh_main_port"
+      },
+      {
+        "key": "wh_main_human_minor_primary_coast"
+      },
+      {
+        "key": "wh_main_human_minor_secondary_pottery",
+        "resource": "res_rom_textiles"
+      }
+    ],
+    "wh2_main_land_of_assassins_sorcerers_islands": [
+      {
+        "key": "wh_main_port"
+      },
+      {
+        "key": "wh_main_human_minor_primary_coast"
+      },
+      {
+        "key": "wh_main_human_minor_secondary"
+      }
+    ],
+    "wh2_main_the_black_flood_temple_of_khaine": [
+      {
+        "key": "wh_main_human_minor_primary"
+      },
+      {
+        "key": "wh_main_human_minor_secondary"
+      }
+    ],
+    "wh2_main_the_black_flood_shroktak_mount": [
+      {
+        "key": "wh_main_human_minor_primary"
+      },
+      {
+        "key": "wh_main_human_minor_secondary"
+      }
+    ],
+    "wh2_main_the_black_flood_cragroth_deep": [
+      {
+        "key": "wh_main_human_minor_primary"
+      },
+      {
+        "key": "wh2_main_human_minor_secondary_animals",
+        "resource": "res_animals"
+      }
+    ],
+    "wh2_main_blackspine_mountains_red_desert": [
+      {
+        "key": "wh_main_human_major_primary"
+      },
+      {
+        "key": "wh_main_human_major_secondary_salt",
+        "resource": "res_rom_lead"
+      }
+    ],
+    "wh2_main_blackspine_mountains_plain_of_spiders": [
+      {
+        "key": "wh_main_human_minor_primary"
+      },
+      {
+        "key": "wh2_main_human_minor_secondary_obsidian",
+        "resource": "res_obsidian"
+      }
+    ],
+    "wh2_main_blackspine_mountains_plain_of_dogs": [
+      {
+        "key": "wh_main_human_minor_primary"
+      },
+      {
+        "key": "wh_main_human_minor_secondary"
+      }
+    ],
+    "wh2_main_titan_peaks_ironspike": [
+      {
+        "key": "wh_main_human_minor_primary"
+      },
+      {
+        "key": "wh_main_human_minor_secondary_iron",
+        "resource": "res_rom_iron"
+      }
+    ],
+    "wh2_main_obsidian_peaks_storag_kor": [
+      {
+        "key": "wh_main_human_minor_primary"
+      },
+      {
+        "key": "wh_main_human_minor_secondary"
+      }
+    ],
+    "wh2_main_obsidian_peaks_clar_karond": [
+      {
+        "key": "wh2_main_special_clar_karond_primary",
+        "resource": "res_location_generic"
+      },
+      {
+        "key": "wh2_main_special_clar_karond_secondary",
+        "resource": "res_rom_timber"
+      }
+    ],
+    "wh2_main_obsidian_peaks_venom_glade": [
+      {
+        "key": "wh_main_human_minor_primary"
+      },
+      {
+        "key": "wh_main_human_minor_secondary_furs",
+        "resource": "res_rom_furs"
+      }
+    ],
+    "wh2_main_the_clawed_coast_hoteks_column": [
+      {
+        "key": "wh_main_human_major_primary"
+      },
+      {
+        "key": "wh_main_human_major_secondary_iron",
+        "resource": "res_rom_iron"
+      }
+    ],
+    "wh2_main_the_clawed_coast_the_monoliths": [
+      {
+        "key": "wh_main_human_minor_primary"
+      },
+      {
+        "key": "wh_main_human_minor_secondary_marble",
+        "resource": "res_rom_marble"
+      }
+    ],
+    "wh2_main_doom_glades_vauls_anvil": [
+      {
+        "key": "wh2_main_special_def_vauls_anvil_primary",
+        "resource": "res_location_hef_def"
+      },
+      {
+        "key": "wh2_main_special_def_vauls_anvil_secondary"
+      }
+    ],
+    "wh2_main_doom_glades_temple_of_addaioth": [
+      {
+        "key": "wh_main_human_minor_primary"
+      },
+      {
+        "key": "wh_main_human_minor_secondary"
+      }
+    ],
+    "wh2_main_doom_glades_hag_hall": [
+      {
+        "key": "wh_main_human_major_primary"
+      },
+      {
+        "key": "wh_main_human_major_secondary_pastures",
+        "resource": "res_rom_oil"
+      }
+    ],
+    "wh2_main_doom_glades_ice_rock_gorge": [
+      {
+        "key": "wh_main_human_minor_primary"
+      },
+      {
+        "key": "wh_main_human_minor_secondary"
+      }
+    ],
+    "wh2_main_the_black_coast_bleak_hold_fortress": [
+      {
+        "key": "wh_main_human_minor_primary"
+      },
+      {
+        "key": "wh_main_human_minor_secondary"
+      }
+    ],
+    "wh2_main_titan_peaks_ancient_city_of_quintex": [
+      {
+        "key": "wh2_main_special_quintex_primary",
+        "resource": "res_location_generic"
+      },
+      {
+        "key": "wh2_main_special_quintex_secondary",
+        "resource": "res_obsidian"
+      }
+    ],
+    "wh2_main_titan_peaks_ssildra_tor": [
+      {
+        "key": "wh_main_human_minor_primary"
+      },
+      {
+        "key": "wh_main_human_minor_secondary_wine",
+        "resource": "res_rom_wine"
+      }
+    ],
+    "wh2_main_isthmus_of_lustria_fallen_gates": [
+      {
+        "key": "wh2_main_special_fallen_gates_primary",
+        "resource": "res_location_lzd"
+      },
+      {
+        "key": "wh2_main_special_fallen_gates_secondary",
+        "resource": "res_spices"
+      }
+    ],
+    "wh2_main_isthmus_of_lustria_skeggi": [
+      {
+        "key": "wh2_main_special_skeggi_primary_minor",
+        "resource": "res_location_nor"
+      },
+      {
+        "key": "wh2_main_special_skeggi_secondary_minor"
+      },
+      {
+        "key": "wh_main_port"
+      }
+    ],
+    "wh2_main_isthmus_of_lustria_hexoatl": [
+      {
+        "key": "wh2_main_special_hexoatl_primary",
+        "resource": "res_location_generic"
+      },
+      {
+        "key": "wh2_main_special_hexoatl_secondary",
+        "resource": "res_gold"
+      }
+    ],
+    "wh2_main_northern_jungle_of_pahualaxa_macu_peaks": [
+      {
+        "key": "wh_main_human_major_primary"
+      },
+      {
+        "key": "wh_main_human_major_secondary_marble",
+        "resource": "res_rom_marble"
+      }
+    ],
+    "wh2_main_northern_jungle_of_pahualaxa_shrine_of_sotek": [
+      {
+        "key": "wh_main_human_minor_primary"
+      },
+      {
+        "key": "wh_main_human_minor_secondary_dyes",
+        "resource": "res_dyes"
+      }
+    ],
+    "wh2_main_southern_jungle_of_pahualaxa_pahuax": [
+      {
+        "key": "wh_main_human_major_primary"
+      },
+      {
+        "key": "wh2_main_human_major_secondary_medicine",
+        "resource": "res_medicine"
+      }
+    ],
+    "wh2_main_southern_jungle_of_pahualaxa_floating_pyramid": [
+      {
+        "key": "wh_main_human_minor_primary"
+      },
+      {
+        "key": "wh_main_dwarf_orc_minor_secondary_savage",
+        "resource": "res_savage"
+      }
+    ],
+    "wh2_main_the_creeping_jungle_tlanxla": [
+      {
+        "key": "wh_main_human_minor_primary"
+      },
+      {
+        "key": "wh_main_human_minor_secondary_timber",
+        "resource": "res_rom_timber"
+      }
+    ],
+    "wh2_main_jungles_of_green_mists_wellsprings_of_eternity": [
+      {
+        "key": "wh_main_human_minor_primary"
+      },
+      {
+        "key": "wh_main_human_minor_secondary_pastures",
+        "resource": "res_rom_oil"
+      }
+    ],
+    "wh2_main_jungles_of_green_mists_spektazuma": [
+      {
+        "key": "wh_main_human_major_primary"
+      },
+      {
+        "key": "wh2_main_human_major_secondary_gems",
+        "resource": "res_gems"
+      }
+    ],
+    "wh2_main_huahuan_desert_sentinels_of_xeti": [
+      {
+        "key": "wh_main_human_major_primary"
+      },
+      {
+        "key": "wh_main_human_major_secondary"
+      }
+    ],
+    "wh2_main_huahuan_desert_the_golden_colossus": [
+      {
+        "key": "wh_main_human_minor_primary"
+      },
+      {
+        "key": "wh_main_human_minor_secondary"
+      }
+    ],
+    "wh2_main_huahuan_desert_chamber_of_visions": [
+      {
+        "key": "wh2_main_special_chamber_of_visions_primary",
+        "resource": "res_location_generic"
+      },
+      {
+        "key": "wh2_main_special_chamber_of_visions_secondary",
+        "resource": "res_medicine"
+      }
+    ],
+    "wh2_main_spine_of_sotek_mine_of_the_bearded_skulls": [
+      {
+        "key": "wh_main_human_minor_primary"
+      },
+      {
+        "key": "wh_main_human_minor_secondary_iron",
+        "resource": "res_rom_iron"
+      }
+    ],
+    "wh2_main_spine_of_sotek_hualotal": [
+      {
+        "key": "wh_main_human_major_primary"
+      },
+      {
+        "key": "wh_main_human_major_secondary"
+      }
+    ],
+    "wh2_main_spine_of_sotek_monument_of_izzatal": [
+      {
+        "key": "wh_main_human_minor_primary"
+      },
+      {
+        "key": "wh_main_human_minor_secondary"
+      }
+    ],
+    "wh2_main_southern_great_jungle_axlotl": [
+      {
+        "key": "wh2_main_special_axlotl_minor_primary",
+        "resource": "res_location_lzd"
+      },
+      {
+        "key": "wh2_main_special_axlotl_minor_secondary",
+        "resource": "res_rom_timber"
+      }
+    ],
+    "wh2_main_southern_great_jungle_subatuun": [
+      {
+        "key": "wh_main_human_minor_primary"
+      },
+      {
+        "key": "wh_main_human_minor_secondary_pastures",
+        "resource": "res_rom_oil"
+      }
+    ],
+    "wh2_main_southern_great_jungle_itza": [
+      {
+        "key": "wh2_main_special_itza_primary",
+        "resource": "res_location_generic"
+      },
+      {
+        "key": "wh2_main_special_itza_secondary",
+        "resource": "res_gold"
+      }
+    ],
+    "wh2_main_headhunters_jungle_marks_of_the_old_ones": [
+      {
+        "key": "wh_main_human_minor_primary"
+      },
+      {
+        "key": "wh_main_human_minor_secondary"
+      }
+    ],
+    "wh2_main_headhunters_jungle_oyxl": [
+      {
+        "key": "wh2_main_special_oyxl_primary",
+        "resource": "res_location_skv_lzd"
+      },
+      {
+        "key": "wh2_main_special_oyxl_secondary",
+        "resource": "res_animals"
+      }
+    ],
+    "wh2_main_northern_great_jungle_xlanhuapec": [
+      {
+        "key": "wh2_main_special_xlanhuapec_primary",
+        "resource": "res_location_lzd"
+      },
+      {
+        "key": "wh2_main_special_xlanhuapec_secondary",
+        "resource": "res_rom_iron"
+      }
+    ],
+    "wh2_main_northern_great_jungle_chaqua": [
+      {
+        "key": "wh_main_human_minor_primary"
+      },
+      {
+        "key": "wh_main_human_minor_secondary_timber",
+        "resource": "res_rom_timber"
+      }
+    ],
+    "wh2_main_the_creeping_jungle_tlaxtlan": [
+      {
+        "key": "wh2_main_special_tlaxtlan_primary",
+        "resource": "res_location_lzd"
+      },
+      {
+        "key": "wh2_main_special_tlaxtlan_secondary"
+      }
+    ],
+    "wh2_main_northern_great_jungle_xahutec": [
+      {
+        "key": "wh_main_human_minor_primary"
+      },
+      {
+        "key": "wh2_main_human_minor_secondary_medicine",
+        "resource": "res_medicine"
+      }
+    ],
+    "wh2_main_yvresse_elessaeli": [
+      {
+        "key": "wh_main_human_minor_primary_coast"
+      },
+      {
+        "key": "wh_main_human_minor_secondary_dyes",
+        "resource": "res_dyes"
+      },
+      {
+        "key": "wh_main_port"
+      }
+    ],
+    "wh2_main_yvresse_tor_yvresse": [
+      {
+        "key": "wh2_main_special_tor_yvresse_primary",
+        "resource": "res_location_hef_def"
+      },
+      {
+        "key": "wh2_main_special_tor_yvresse_secondary",
+        "resource": "res_rom_oil"
+      }
+    ],
+    "wh2_main_eataine_shrine_of_asuryan": [
+      {
+        "key": "wh2_main_special_shrine_of_asuryan_primary",
+        "resource": "res_location_hef_def"
+      },
+      {
+        "key": "wh2_main_special_shrine_of_asuryan_secondary"
+      }
+    ],
+    "wh2_main_eataine_tower_of_lysean": [
+      {
+        "key": "wh_main_human_minor_primary"
+      },
+      {
+        "key": "wh_main_human_minor_secondary"
+      }
+    ],
+    "wh2_main_eataine_lothern": [
+      {
+        "key": "wh2_main_special_lothern_primary",
+        "resource": "res_location_generic"
+      },
+      {
+        "key": "wh2_main_special_lothern_secondary"
+      },
+      {
+        "key": "wh2_main_special_lothern_port"
+      }
+    ],
+    "wh2_main_eataine_angerrial": [
+      {
+        "key": "wh_main_human_minor_primary_coast"
+      },
+      {
+        "key": "wh_main_human_minor_secondary_wine",
+        "resource": "res_rom_wine"
+      },
+      {
+        "key": "wh_main_port"
+      }
+    ],
+    "wh2_main_caledor_vauls_anvil": [
+      {
+        "key": "wh2_main_special_hef_vauls_anvil_primary",
+        "resource": "res_location_hef_def"
+      },
+      {
+        "key": "wh2_main_special_hef_vauls_anvil_secondary",
+        "resource": "res_rom_iron"
+      }
+    ],
+    "wh2_main_caledor_tor_sethai": [
+      {
+        "key": "wh_main_human_minor_primary"
+      },
+      {
+        "key": "wh2_main_human_minor_secondary_animals",
+        "resource": "res_animals"
+      }
+    ],
+    "wh2_main_tiranoc_tor_anroc": [
+      {
+        "key": "wh2_main_special_tor_anroc_primary",
+        "resource": "res_location_hef_def"
+      },
+      {
+        "key": "wh2_main_special_tor_anroc_secondary",
+        "resource": "res_gold"
+      },
+      {
+        "key": "wh_main_port"
+      }
+    ],
+    "wh2_main_eagle_gate": [
+      {
+        "key": "wh2_main_special_fortress_gate_eagle_primary",
+        "resource": "res_fortress"
+      },
+      {
+        "key": "wh2_main_special_fortress_gate_secondary",
+        "resource": "res_fortress"
+      }
+    ],
+    "wh2_main_tiranoc_whitepeak": [
+      {
+        "key": "wh_main_human_minor_primary"
+      },
+      {
+        "key": "wh_main_human_minor_secondary_marble",
+        "resource": "res_rom_marble"
+      }
+    ],
+    "wh2_main_griffon_gate": [
+      {
+        "key": "wh2_main_special_fortress_gate_griffon_primary",
+        "resource": "res_fortress"
+      },
+      {
+        "key": "wh2_main_special_fortress_gate_secondary",
+        "resource": "res_fortress"
+      }
+    ],
+    "wh2_main_ellyrion_whitefire_tor": [
+      {
+        "key": "wh_main_human_minor_primary_coast"
+      },
+      {
+        "key": "wh2_main_human_minor_secondary_gems",
+        "resource": "res_gems"
+      },
+      {
+        "key": "wh_main_port"
+      }
+    ],
+    "wh2_main_ellyrion_tor_elyr": [
+      {
+        "key": "wh2_main_special_tor_elyr_primary_nonport",
+        "resource": "res_location_hef"
+      },
+      {
+        "key": "wh2_main_special_tor_elyr_secondary",
+        "resource": "res_rom_wine"
+      }
+    ],
+    "wh2_main_nagarythe_tor_dranil": [
+      {
+        "key": "wh_main_human_minor_primary"
+      },
+      {
+        "key": "wh_main_human_minor_secondary"
+      }
+    ],
+    "wh2_main_nagarythe_shrine_of_khaine": [
+      {
+        "key": "wh2_main_special_shrine_of_khaine_primary",
+        "resource": "res_location_generic"
+      },
+      {
+        "key": "wh2_main_special_shrine_of_khaine_secondary"
+      }
+    ],
+    "wh2_main_nagarythe_tor_anlec": [
+      {
+        "key": "wh2_main_special_tor_anlec_primary",
+        "resource": "res_location_hef_def"
+      },
+      {
+        "key": "wh2_main_special_tor_anlec_secondary",
+        "resource": "res_rom_marble"
+      },
+      {
+        "key": "wh_main_port"
+      }
+    ],
+    "wh2_main_phoenix_gate": [
+      {
+        "key": "wh2_main_special_fortress_gate_phoenix_primary",
+        "resource": "res_fortress"
+      },
+      {
+        "key": "wh2_main_special_fortress_gate_secondary",
+        "resource": "res_fortress"
+      }
+    ],
+    "wh2_main_chrace_tor_achare": [
+      {
+        "key": "wh2_main_special_tor_achare_primary",
+        "resource": "res_location_hef"
+      },
+      {
+        "key": "wh2_main_special_tor_achare_secondary",
+        "resource": "res_rom_furs"
+      }
+    ],
+    "wh2_main_avelorn_gaean_vale": [
+      {
+        "key": "wh2_dlc10_special_gaean_vale_primary",
+        "resource": "res_location_generic"
+      },
+      {
+        "key": "wh2_dlc10_special_gaean_vale_secondary",
+        "resource": "res_animals"
+      }
+    ],
+    "wh2_main_avelorn_tor_saroir": [
+      {
+        "key": "wh_main_human_minor_primary"
+      },
+      {
+        "key": "wh_main_human_minor_secondary_timber",
+        "resource": "res_rom_timber"
+      }
+    ],
+    "wh2_main_cothique_tor_koruali": [
+      {
+        "key": "wh2_main_special_tor_koruali_primary",
+        "resource": "res_location_hef"
+      },
+      {
+        "key": "wh2_main_special_tor_koruali_secondary",
+        "resource": "res_rom_lead"
+      },
+      {
+        "key": "wh_main_port"
+      }
+    ],
+    "wh2_main_saphery_tor_finu": [
+      {
+        "key": "wh_main_human_minor_primary"
+      },
+      {
+        "key": "wh_main_human_minor_secondary_iron",
+        "resource": "res_rom_iron"
+      }
+    ],
+    "wh2_main_saphery_tower_of_hoeth": [
+      {
+        "key": "wh2_main_special_tower_of_hoeth_primary",
+        "resource": "res_location_generic"
+      },
+      {
+        "key": "wh2_main_special_tower_of_hoeth_secondary"
+      }
+    ],
+    "wh2_main_atalan_mountains_eye_of_the_panther": [
+      {
+        "key": "wh_main_human_minor_primary"
+      },
+      {
+        "key": "wh2_main_human_minor_secondary_gems",
+        "resource": "res_gems"
+      }
+    ],
+    "wh2_main_land_of_assassins_palace_of_the_wizard_caliph": [
+      {
+        "key": "wh_main_human_major_primary"
+      },
+      {
+        "key": "wh_main_human_major_secondary"
+      }
+    ],
+    "wh2_main_saphery_port_elistor": [
+      {
+        "key": "wh_main_human_minor_primary_coast"
+      },
+      {
+        "key": "wh_main_human_minor_secondary"
+      },
+      {
+        "key": "wh_main_port"
+      }
+    ],
+    "wh2_main_atalan_mountains_vulture_mountain": [
+      {
+        "key": "wh_main_human_major_primary"
+      },
+      {
+        "key": "wh_main_human_major_secondary"
+      }
+    ],
+    "wh2_main_atalan_mountains_martek": [
+      {
+        "key": "wh_main_human_minor_primary"
+      },
+      {
+        "key": "wh_main_human_minor_secondary_iron",
+        "resource": "res_rom_iron"
+      }
+    ],
+    "wh2_main_great_desert_of_araby_el-kalabad": [
+      {
+        "key": "wh_main_human_minor_primary"
+      },
+      {
+        "key": "wh_main_human_minor_secondary_dyes",
+        "resource": "res_dyes"
+      }
+    ],
+    "wh2_main_great_desert_of_araby_bel_aliad": [
+      {
+        "key": "wh_main_human_minor_primary"
+      },
+      {
+        "key": "wh_main_human_minor_secondary_gold",
+        "resource": "res_gold"
+      }
+    ],
+    "wh2_main_great_desert_of_araby_pools_of_despair": [
+      {
+        "key": "wh_main_human_minor_primary"
+      },
+      {
+        "key": "wh_main_human_minor_secondary"
+      }
+    ],
+    "wh2_main_shifting_sands_bhagar": [
+      {
+        "key": "wh2_dlc09_special_bhagar_primary",
+        "resource": "res_location_tmb"
+      },
+      {
+        "key": "wh2_dlc09_special_bhagar_secondary",
+        "resource": "res_gems"
+      }
+    ],
+    "wh2_main_shifting_sands_antoch": [
+      {
+        "key": "wh_main_human_minor_primary"
+      },
+      {
+        "key": "wh_main_human_minor_secondary"
+      }
+    ],
+    "wh2_main_shifting_sands_ka-sabar": [
+      {
+        "key": "wh2_dlc09_special_ka_sabar_primary",
+        "resource": "res_location_tmb"
+      },
+      {
+        "key": "wh2_dlc09_special_ka_sabar_secondary",
+        "resource": "res_rom_oil"
+      }
+    ],
+    "wh2_main_southlands_worlds_edge_mountains_karak_zorn": [
+      {
+        "key": "wh2_main_special_karak_zorn_primary",
+        "resource": "res_location_dwf"
+      },
+      {
+        "key": "wh2_main_special_karak_zorn_secondary",
+        "resource": "res_gold"
+      }
+    ],
+    "wh2_main_southlands_worlds_edge_mountains_lost_plateau": [
+      {
+        "key": "wh_main_human_minor_primary"
+      },
+      {
+        "key": "wh_main_human_minor_secondary"
+      }
+    ],
+    "wh2_main_southlands_worlds_edge_mountains_mount_arachnos": [
+      {
+        "key": "wh_main_human_minor_primary"
+      },
+      {
+        "key": "wh2_main_human_minor_secondary_animals",
+        "resource": "res_animals"
+      }
+    ],
+    "wh2_main_great_desert_of_araby_black_tower_of_arkhan": [
+      {
+        "key": "wh_main_human_major_primary"
+      },
+      {
+        "key": "wh2_dlc09_special_black_tower_of_arkhan_secondary",
+        "resource": "res_location_tmb"
+      }
+    ],
+    "wh2_main_ash_river_numas": [
+      {
+        "key": "wh2_dlc09_special_numas_primary",
+        "resource": "res_location_tmb"
+      },
+      {
+        "key": "wh2_dlc09_special_numas_secondary",
+        "resource": "res_location_tmb"
+      }
+    ],
+    "wh2_main_land_of_the_dead_khemri": [
+      {
+        "key": "wh2_main_special_khemri_primary",
+        "resource": "res_location_generic"
+      },
+      {
+        "key": "wh2_main_special_khemri_secondary",
+        "resource": "res_gold"
+      }
+    ],
+    "wh2_main_great_mortis_delta_black_pyramid_of_nagash": [
+      {
+        "key": "wh2_main_special_pyramid_of_nagash_primary",
+        "resource": "res_location_generic"
+      },
+      {
+        "key": "wh2_main_special_pyramid_of_nagash_secondary"
+      }
+    ],
+    "wh2_main_ash_river_springs_of_eternal_life": [
+      {
+        "key": "wh_main_human_minor_primary"
+      },
+      {
+        "key": "wh_main_human_minor_secondary_marble",
+        "resource": "res_rom_marble"
+      }
+    ],
+    "wh2_main_ash_river_quatar": [
+      {
+        "key": "wh2_dlc09_special_quatar_primary",
+        "resource": "res_location_tmb"
+      },
+      {
+        "key": "wh2_dlc09_special_quatar_secondary",
+        "resource": "res_location_tmb"
+      }
+    ],
+    "wh2_main_cothique_mistnar": [
+      {
+        "key": "wh_main_human_minor_primary_coast"
+      },
+      {
+        "key": "wh_main_human_minor_secondary"
+      },
+      {
+        "key": "wh_main_port"
+      }
+    ],
+    "wh2_main_skavenblight_skavenblight": [
+      {
+        "key": "wh2_main_special_skavenblight_primary",
+        "resource": "res_location_skv"
+      },
+      {
+        "key": "wh2_main_special_skavenblight_secondary"
+      }
+    ],
+    "wh2_main_hell_pit_hell_pit": [
+      {
+        "key": "wh2_main_special_hellpit_primary",
+        "resource": "res_location_skv"
+      },
+      {
+        "key": "wh2_main_special_hellpit_secondary",
+        "resource": "res_animals"
+      }
+    ],
+    "wh2_main_unicorn_gate": [
+      {
+        "key": "wh2_main_special_fortress_gate_unicorn_primary",
+        "resource": "res_fortress"
+      },
+      {
+        "key": "wh2_main_special_fortress_gate_secondary",
+        "resource": "res_fortress"
+      }
+    ],
+    "wh2_main_coast_of_araby_fyrus": [
+      {
+        "key": "wh_main_human_minor_primary"
+      },
+      {
+        "key": "wh_main_human_minor_secondary"
+      }
+    ],
+    "wh2_main_charnel_valley_karag_orrud": [
+      {
+        "key": "wh2_main_special_karag_orrud_primary",
+        "resource": "res_location_skv"
+      },
+      {
+        "key": "wh2_main_special_karag_orrud_secondary",
+        "resource": "res_obsidian"
+      }
+    ],
+    "wh2_main_charnel_valley_granite_massif": [
+      {
+        "key": "wh_main_human_minor_primary"
+      },
+      {
+        "key": "wh_main_human_minor_secondary"
+      }
+    ],
+    "wh2_main_devils_backbone_lahmia": [
+      {
+        "key": "wh2_main_special_lahmia_primary",
+        "resource": "res_location_generic"
+      },
+      {
+        "key": "wh2_main_special_lahmia_secondary",
+        "resource": "res_gems"
+      }
+    ],
+    "wh2_main_devils_backbone_mahrak": [
+      {
+        "key": "wh_main_human_minor_primary"
+      },
+      {
+        "key": "wh_main_human_minor_secondary_iron",
+        "resource": "res_rom_iron"
+      }
+    ],
+    "wh2_main_devils_backbone_lybaras": [
+      {
+        "key": "wh_main_human_minor_primary"
+      },
+      {
+        "key": "wh2_main_human_minor_secondary_spices",
+        "resource": "res_spices"
+      }
+    ],
+    "wh2_main_crater_of_the_walking_dead_doom_glade": [
+      {
+        "key": "wh_main_human_minor_primary"
+      },
+      {
+        "key": "wh_main_human_minor_secondary_timber",
+        "resource": "res_rom_timber"
+      }
+    ],
+    "wh2_main_crater_of_the_walking_dead_rasetra": [
+      {
+        "key": "wh_main_human_major_primary"
+      },
+      {
+        "key": "wh_main_human_major_secondary"
+      }
+    ],
+    "wh2_main_southlands_jungle_teotiqua": [
+      {
+        "key": "wh_main_human_major_primary"
+      },
+      {
+        "key": "wh_main_human_major_secondary"
+      }
+    ],
+    "wh2_main_southlands_jungle_golden_tower_of_the_gods": [
+      {
+        "key": "wh2_main_special_golden_tower_of_the_gods_primary",
+        "resource": "res_location_generic"
+      },
+      {
+        "key": "wh2_main_special_golden_tower_of_the_gods_secondary"
+      }
+    ],
+    "wh2_main_kingdom_of_beasts_temple_of_skulls": [
+      {
+        "key": "wh_main_human_major_primary"
+      },
+      {
+        "key": "wh_main_human_major_secondary_pastures",
+        "resource": "res_rom_oil"
+      }
+    ],
+    "wh2_main_kingdom_of_beasts_serpent_coast": [
+      {
+        "key": "wh_main_human_minor_primary"
+      },
+      {
+        "key": "wh_main_human_minor_secondary"
+      }
+    ],
+    "wh2_main_kingdom_of_beasts_the_cursed_jungle": [
+      {
+        "key": "wh_main_human_minor_primary"
+      },
+      {
+        "key": "wh2_main_human_minor_secondary_medicine",
+        "resource": "res_medicine"
+      }
+    ],
+    "wh2_main_volcanic_islands_fuming_serpent": [
+      {
+        "key": "wh_main_human_minor_primary_coast"
+      },
+      {
+        "key": "wh2_main_human_minor_secondary_animals",
+        "resource": "res_animals"
+      },
+      {
+        "key": "wh_main_port"
+      }
+    ],
+    "wh2_main_heart_of_the_jungle_oreons_camp": [
+      {
+        "key": "wh_main_special_waterfall_palace_primary"
+      },
+      {
+        "key": "wh_main_special_waterfall_palace_secondary"
+      }
+    ],
+    "wh2_main_albion_albion": [
+      {
+        "key": "wh_main_norsca_port"
+      },
+      {
+        "key": "wh_main_norsca_major_primary_coast"
+      },
+      {
+        "key": "wh_main_norsca_major_secondary"
+      }
+    ],
+    "wh2_main_land_of_the_dervishes_plain_of_tuskers": [
+      {
+        "key": "wh_main_human_minor_primary_coast"
+      },
+      {
+        "key": "wh_main_port"
+      },
+      {
+        "key": "wh_main_human_minor_secondary"
+      }
+    ],
+    "wh2_main_the_galleons_graveyard": [
+      {
+        "key": "wh2_main_special_galleons_graveyard_port"
+      },
+      {
+        "key": "wh2_main_special_galleons_graveyard_primary",
+        "resource": "res_location_generic"
+      },
+      {
+        "key": "wh2_main_special_galleons_graveyard_secondary"
+      }
+    ],
+    "wh2_main_headhunters_jungle_chupayotl": [
+      {
+        "key": "wh_main_port"
+      },
+      {
+        "key": "wh_main_human_minor_secondary_gold",
+        "resource": "res_gold"
+      },
+      {
+        "key": "wh_main_human_minor_primary_coast"
+      }
+    ],
+    "wh2_main_sartosa_sartosa": [
+      {
+        "key": "wh_main_port"
+      },
+      {
+        "key": "wh2_main_special_sartosa_coast_primary",
+        "resource": "res_location_generic"
+      },
+      {
+        "key": "wh2_main_special_sartosa_secondary",
+        "resource": "res_rom_wine"
+      }
+    ],
+    "wh2_main_land_of_the_dervishes_sudenburg": [
+      {
+        "key": "wh_main_human_major_primary_coast"
+      },
+      {
+        "key": "wh_main_human_major_secondary"
+      },
+      {
+        "key": "wh_main_port"
+      }
+    ],
+    "wh_main_northern_grey_mountains_blackstone_post": [
+      {
+        "key": "wh2_main_special_castle_drachenfels_primary",
+        "resource": "res_location_vmp"
+      },
+      {
+        "key": "wh2_main_special_castle_drachenfels_secondary",
+        "resource": "res_rom_iron"
+      }
+    ]
   }
 }

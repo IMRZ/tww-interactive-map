@@ -1,5 +1,3 @@
-const fs = require("fs");
-const path = require("path");
 
 const promise = Promise.all([
   require("./campaign_map_settlements"),
@@ -7,14 +5,16 @@ const promise = Promise.all([
   require("./factions"),
   require("./provinces"),
   require("./regions"),
-  require("./region_to_province_junctions")
+  require("./region_to_province_junctions"),
+  require("./resources")()
 ]).then(([
   campaignMapSettlements,
   climates,
   factions,
   provinces,
   regions,
-  regionToProvinceJunctions
+  regionToProvinceJunctions,
+  resources,
 ]) => {
   const battleMaps = require("./battle_maps.json");
 
@@ -25,7 +25,8 @@ const promise = Promise.all([
     provinces,
     regions,
     regionToProvinceJunctions,
-    battleMaps
+    battleMaps,
+    resources
   };
 });
 

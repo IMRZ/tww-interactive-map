@@ -1,5 +1,5 @@
 <template>
-  <MapNodeOverlay v-if="mapMatrix">
+  <MapCssLayer v-if="mapMatrix">
     <MapNode class="node"
       v-for="(startPos, index) in startPositions"
       :key="`startpos-${index}`"
@@ -12,18 +12,17 @@
         :data-map-tooltip="dataMapTooltip(startPos)"
       >
     </MapNode>
-  </MapNodeOverlay>
+  </MapCssLayer>
 </template>
 
 <script>
 import MapNode from "@/components/MapNode";
-import MapNodeOverlay from "@/components/MapNodeOverlay";
+import MapCssLayer from "@/components/MapCssLayer";
 
 export default {
-  name: "MapNodeOverlayStartposition",
   components: {
     MapNode,
-    MapNodeOverlay
+    MapCssLayer
   },
   props: {
     mapMatrix: SVGMatrix,

@@ -10,6 +10,12 @@ const promise = Promise.all([
   mortal_empires,
   vortex
 ]) => {
+  const resources = common.resources;
+
+  common.resources = resources.resources;
+  mortal_empires.resources = resources.mortal;
+  vortex.resources = resources.vortex;
+
   fs.writeFileSync(path.resolve(__dirname, "../../src/store/data/common.json"), JSON.stringify(common, null, 2));
   fs.writeFileSync(path.resolve(__dirname, "../../src/store/data/mortal_empires.json"), JSON.stringify(mortal_empires, null, 2));
   fs.writeFileSync(path.resolve(__dirname, "../../src/store/data/vortex.json"), JSON.stringify(vortex, null, 2));

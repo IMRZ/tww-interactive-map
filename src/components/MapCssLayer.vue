@@ -1,17 +1,17 @@
 <template>
-  <div class="MapNodeOverlay">
+  <div class="MapCssLayer">
     <slot></slot>
   </div>
 </template>
 
 <script>
 export default {
-  name: "MapNodeOverlay"
+  name: "MapCssLayer"
 };
 </script>
 
 <style lang="scss" scoped>
-.MapNodeOverlay {
+.MapCssLayer {
   pointer-events: none;
   position: fixed;
   left: 0;

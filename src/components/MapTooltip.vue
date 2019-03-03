@@ -16,6 +16,10 @@
     <div class="content" v-else-if="tooltipData && tooltipData.type === 'chokepoint'">
       <div>Chokepoint: {{getBattleMapLabel(tooltipData.key)}}</div>
     </div>
+    <div class="content" v-else-if="tooltipData && tooltipData.type === 'resource'">
+      <div>{{getResourceName(tooltipData.key)}}</div>
+      <div>{{getResourceDescription(tooltipData.key)}}</div>
+    </div>
     <pre v-else>{{tooltipData}}</pre>
   </div>
 </template>
@@ -55,6 +59,14 @@ export default {
     getClimate(key) {
       const climateKey = this.map.regions[key].climate
       return this.common.climates[climateKey].name;
+    },
+    getResourceName(key) {
+      const resource = this.common.resources[key];
+      return resource.name;
+    },
+    getResourceDescription(key) {
+      const resource = this.common.resources[key];
+      return resource.description;
     },
     getHorizontalPosition(x) {
       if (x > window.innerWidth * 0.8) {
@@ -108,6 +120,13 @@ export default {
               lord
             };
           }
+          case "resource": {
+            const [key] = data;
+            return {
+              type,
+              key
+            };
+          }
           default: {
             return { type };
           }
@@ -140,6 +159,8 @@ export default {
   border-image: url("../assets/ui/tooltip_frame.png") 14 14 14 14 fill repeat;
   filter: drop-shadow(0 0 15px #222222);
   transition: opacity 0.3s;
+  max-width: 600px;
+  z-index: 2000;
 
   .content {
     padding: 2px;

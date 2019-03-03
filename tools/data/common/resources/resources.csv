@@ -1,0 +1,49 @@
+ui\campaign ui\effect_bundles\resource_amber.png	res_amber	Amber	0	sacks	0	The hardened sap of the greenwood is sought after by Wood Elves, but all races know its value.	 	false	true
+ui\campaign ui\effect_bundles\resource_animals.png	res_animals	Exotic Animals	500	cages	50	The hides and furs of creatures from across the Great Ocean fetch a hefty price.	 	false	true
+ui\campaign ui\effect_bundles\resource_colony.png	res_location_colony	Elven Colony	0		0	This location is the site of an ancient High Elf colony. It increases income from ports.	 	false	true
+ui\campaign ui\effect_bundles\resource_dwarf_beer.png	res_rom_glass	Dwarf Beer	500	kegs	50	Beer is incredibly important to Dwarfs and men alike, although the watery brews of the umgi are rightly shunned by thirsty Dawi.	 	true	true
+ui\campaign ui\effect_bundles\resource_dyes.png	res_dyes	Dyes	500	ounce	50	The creation of dyes to feed the burgeoning fashions of the courts of the Old World is a vibrant industry indeed.	 	true	true
+ui\campaign ui\effect_bundles\resource_furs.png	res_rom_furs	Furs	500	bundle	50	Fauna and game are worth hunting for both food and furs. Of course, in the Old World's forests, a hunter must be wary of becoming the hunted.	 	true	true
+ui\campaign ui\effect_bundles\resource_gemstones.png	res_gems	Gemstones	500	sacks	50	Gems hold great value for they are precious and prized, with only the occasional Daemon imprisoned within.	 	true	true
+ui\campaign ui\effect_bundles\resource_gold.png	res_gold	Gold	0	chests	0	The presence of gold is a sign that a mine can be placed and the wealth it brings harvested.	 	true	true
+ui\campaign ui\effect_bundles\resource_gold_idols.png	res_gold_idols	Golden Idols	500	chests	50	The wiser races are capable of sculpting gold into magnificent idols.	 	true	true
+ui\campaign ui\effect_bundles\resource_grain.png	res_rom_oil	Pastures	0		0	Pastures are rare places of peace for animals to graze, where farmers can tend to their herds and flocks.	 	true	true
+ui\campaign ui\effect_bundles\resource_iron.png	res_rom_iron	Iron	500	ingot	50	Iron ore can be fashioned into many things, but in these lands it is mainly used for weapons. Of course, some races are better at metallurgy than others.	 	true	true
+ui\campaign ui\effect_bundles\resource_marble.png	res_rom_marble	Marble	500	slabs	50	Marble is a valuable and exotic material mainly used in grandstanding buildings, having great value within the nations of man.	 	true	true
+ui\campaign ui\effect_bundles\resource_medicine.png	res_medicine	Medicinal Plants	500	bundle	50	Herbs and flora with medicinal properties are always valued by apothecaries.	 	false	true
+ui\campaign ui\effect_bundles\resource_obsidian.png	res_obsidian	Carved Obsidian	500	chests	50	It takes an artisan to carve and fashion obsidian. Dark Elves are the true masters of this art, although others have produced fine pieces too.	 	false	true
+ui\campaign ui\effect_bundles\resource_pottery.png	res_rom_textiles	Pottery	500	kilnful	50	From clay comes ceramics that range from basic bowls to more delicate and extravagant items.	 	true	true
+ui\campaign ui\effect_bundles\resource_salt.png	res_rom_lead	Salt	500	barrels	50	Salt can be taken from the sea or the mines. It is a useful commodity and not just a way for Halfling cooks to season meat.	 	true	true
+ui\campaign ui\effect_bundles\resource_savage_orcs.png	res_savage	Savage Orcs	0		0	This area is sacred to the Savage Orcs; at some point the Greenskins' tribal migration will bring them to this area.	 	true	true
+ui\campaign ui\effect_bundles\resource_spices.png	res_spices	Spices	500	sacks	50	The spices and seasonings sourced in far Cathay and Ind hold great value due to their rarity.	 	false	true
+ui\campaign ui\effect_bundles\resource_timber.png	res_rom_timber	Timber	500	logs	50	Wood is a flexible resource, used in anything from buildings to hand weapons. Just be careful which trees you take it from, as some won't take kindly to being felled.	 	true	true
+ui\campaign ui\effect_bundles\resource_trinkets.png	res_trinkets	Elven Trinkets	500	chests	50	Elven baubles lack the practicality of Dwarf-made items, but the finesse within makes then undeniably exquisite.	 	false	true
+ui\campaign ui\effect_bundles\resource_vortex_site.png	res_ritual_currency	Vital Ritual Location	0		0	This location contains many components deemed essential for rituals.	 	false	false
+ui\campaign ui\effect_bundles\resource_wine.png	res_rom_wine	Wine	500	barrels	50	While a High Elf would turn his nose up at it, Bretonnian wine is said to be the best - although the southern wineries of the Empire are now challenging its prominence.	 	true	true
+ui\campaign ui\effect_bundles\siege_defence.png	res_fortress	Fortress Gate	0		0	This location has a large garrison, but cannot have economic buildings.	 	false	true
+ui\campaign ui\effect_bundles\strategic_location.png	res_location_brt	Strategic Location	0		0	This location is of special importance to the Bretonnian Dukedoms.	 	false	true
+ui\campaign ui\effect_bundles\strategic_location.png	res_location_brt_wef_hef	Strategic Location	0		0	This location is of special importance to the Bretonnian kingdoms, High Elves and Wood Elves.	 	false	true
+ui\campaign ui\effect_bundles\strategic_location.png	res_location_def	Strategic Location	0		0	This location is of special importance to the Dark Elves.	 	false	true
+ui\campaign ui\effect_bundles\strategic_location.png	res_location_dwf	Strategic Location	0		0	This location is of special importance to the Dwarf realms.	 	false	true
+ui\campaign ui\effect_bundles\strategic_location.png	res_location_dwf_grn	Strategic Location	0		0	This location is of special importance to the Dwarf realms and the Greenskin Tribes.	 	false	true
+ui\campaign ui\effect_bundles\strategic_location.png	res_location_dwf_grn_skv	Strategic Location	0		0	This location is of special importance to the Dwarf realms, the Greenskin Tribes and the Skaven.	 	false	true
+ui\campaign ui\effect_bundles\strategic_location.png	res_location_dwf_skv	Strategic Location	0		0	This location is of special importance to the Dwarfs realms and the Skaven.	 	false	true
+ui\campaign ui\effect_bundles\strategic_location.png	res_location_emp	Strategic Location	0		0	This location is of special importance to the Empire provinces.	 	false	true
+ui\campaign ui\effect_bundles\strategic_location.png	res_location_emp_brt	Strategic Location	0		0	This location is of special importance to the Empire provinces and Bretonnian kingdoms.	 	false	true
+ui\campaign ui\effect_bundles\strategic_location.png	res_location_emp_vmp	Strategic Location	0		0	This location is of special importance to the Empire and the Vampire Counts.	 	false	true
+ui\campaign ui\effect_bundles\strategic_location.png	res_location_emp_vmp_brt	Strategic Location	0		0	This location is of special importance to the Empire, Bretonnia, and the Vampire Counts.	 	false	true
+ui\campaign ui\effect_bundles\strategic_location.png	res_location_generic	Strategic Location	0		0	This location is of special importance.	 	false	true
+ui\campaign ui\effect_bundles\strategic_location.png	res_location_grn	Strategic Location	0		0	This location is of special importance to the Greenskin Tribes.	 	false	true
+ui\campaign ui\effect_bundles\strategic_location.png	res_location_hef	Strategic Location	0		0	This location is of special importance to the High Elves.	 	false	true
+ui\campaign ui\effect_bundles\strategic_location.png	res_location_hef_def	Strategic Location	0		0	This location is of special importance to the High Elves and Dark Elves.	 	false	true
+ui\campaign ui\effect_bundles\strategic_location.png	res_location_hef_wef	Strategic Location	0		0	This location is of special importance to the High Elves and the Wood Elves.	 	false	true
+ui\campaign ui\effect_bundles\strategic_location.png	res_location_lzd	Strategic Location	0		0	This location is of special importance to the Lizardmen.	 	false	true
+ui\campaign ui\effect_bundles\strategic_location.png	res_location_nor	Strategic Location	0		0	This location is of special importance to the Norscans.	 	false	true
+ui\campaign ui\effect_bundles\strategic_location.png	res_location_skv	Strategic Location	0		0	This location is of special importance to the Skaven.	 	false	true
+ui\campaign ui\effect_bundles\strategic_location.png	res_location_skv_lzd	Strategic Location	0		0	This location is of special importance to the Skaven and Lizardmen.	 	false	true
+ui\campaign ui\effect_bundles\strategic_location.png	res_location_teb	Strategic Location	0		0	This location is of special importance to the Southern Realms.	 	false	true
+ui\campaign ui\effect_bundles\strategic_location.png	res_location_tmb	Strategic Location	0		0	This location is of special importance to the Tomb Kings.	 	false	true
+ui\campaign ui\effect_bundles\strategic_location.png	res_location_vmp	Strategic Location	0		0	This location is of special importance to the Vampire Counts.	 	false	true
+ui\campaign ui\effect_bundles\strategic_location.png	res_location_vmp_arkhan	Strategic Location	0		0	This location is of special importance to the Vampire Counts and the Followers of Nagash.	 	false	true
+ui\campaign ui\effect_bundles\strategic_location.png	res_location_vmp_dwf_grn_skv_arkhan	Strategic Location	0		0	This location is of special importance to the Dwarf Realms, Greenskin Tribes, Skaven, Vampire Counts and the Followers of Nagash.	 	false	true
+ui\campaign ui\effect_bundles\strategic_location.png	res_location_xef_emp_brt	Strategic Location	0		0	This location is of special importance to the Elves, Empire provinces and Bretonnian kingdoms.	 	false	true

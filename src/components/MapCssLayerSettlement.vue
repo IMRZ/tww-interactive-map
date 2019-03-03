@@ -1,5 +1,5 @@
 <template>
-  <MapNodeOverlay v-if="mapMatrix">
+  <MapCssLayer v-if="mapMatrix">
     <MapNode class="node"
       v-for="(settlement, index) in settlements"
       :key="`settlement-${index}`"
@@ -7,11 +7,16 @@
       :coords="settlement"
       :offset="12"
     >
-      <img
+      <MapCssLayerSettlementNode
+        :settlement="settlement"
+        :resources="resources"
+        :regions_resources="regions_resources"
+      />
+      <!-- <img
         class="settlement-icon"
         :src="`${baseUrl}ui/wh_settlement_schematic.png`"
         :data-map-tooltip="dataMapTooltip(settlement)"
-      >
+      > -->
       <!-- <div class="info">
         <span class="scroll">
           <span>Settlement</span>
@@ -19,22 +24,25 @@
         <img class="climate-icon" src="/images/climate_icons/temperate.png" />
       </div> -->
     </MapNode>
-  </MapNodeOverlay>
+  </MapCssLayer>
 </template>
 
 <script>
 import MapNode from "@/components/MapNode";
-import MapNodeOverlay from "@/components/MapNodeOverlay";
+import MapCssLayer from "@/components/MapCssLayer";
+import MapCssLayerSettlementNode from "@/components/MapCssLayerSettlementNode";
 
 export default {
-  name: "MapNodeOverlaySettlement",
   components: {
     MapNode,
-    MapNodeOverlay
+    MapCssLayer,
+    MapCssLayerSettlementNode
   },
   props: {
     mapMatrix: SVGMatrix,
-    settlements: Array
+    settlements: Array,
+    resources: Object,
+    regions_resources: Object
   },
   data() {
     return {

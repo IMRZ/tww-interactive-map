@@ -6,13 +6,15 @@
     @mousemove.prevent="doPan"
     @wheel.prevent="doZoom"
   >
-    <MapNodeOverlaySettlement
+    <MapCssLayerSettlement
       v-if="nodeOverlay === 'settlements'"
       :style="overlayTransform"
       :mapMatrix="mapMatrix"
       :settlements="map.settlements"
+      :resources="common.resources"
+      :regions_resources="map.resources"
     />
-    <MapNodeOverlayStartposition
+    <MapCssLayerStartposition
       v-else-if="nodeOverlay === 'start_positions'"
       :style="overlayTransform"
       :mapMatrix="mapMatrix"
@@ -56,8 +58,8 @@
 import SvgUtil from "@/mixins/SvgUtil";
 import WindowUtil from "@/mixins/WindowUtil";
 import MapSettings from "@/mixins/MapSettings";
-import MapNodeOverlaySettlement from "@/components/MapNodeOverlaySettlement";
-import MapNodeOverlayStartposition from "@/components/MapNodeOverlayStartposition";
+import MapCssLayerSettlement from "@/components/MapCssLayerSettlement";
+import MapCssLayerStartposition from "@/components/MapCssLayerStartposition";
 
 import MapSvgLayerChokepoint from "@/components/MapSvgLayerChokepoint";
 import MapSvgLayerRegion from "@/components/MapSvgLayerRegion";
@@ -66,8 +68,8 @@ import MapSvgLayerPainter from "@/components/MapSvgLayerPainter";
 export default {
   mixins: [SvgUtil, WindowUtil, MapSettings],
   components: {
-    MapNodeOverlaySettlement,
-    MapNodeOverlayStartposition,
+    MapCssLayerSettlement,
+    MapCssLayerStartposition,
 
     MapSvgLayerChokepoint,
     MapSvgLayerRegion,

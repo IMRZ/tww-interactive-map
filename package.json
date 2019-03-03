@@ -24,6 +24,7 @@
     "@vue/cli-plugin-pwa": "^3.4.1",
     "@vue/cli-service": "^3.4.1",
     "@vue/eslint-config-prettier": "^3.0.5",
+    "csvtojson": "^2.0.8",
     "folktale": "^2.1.0",
     "node-sass": "^4.11.0",
     "push-dir": "^0.4.1",
