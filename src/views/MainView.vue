@@ -22,7 +22,7 @@
         </router-link>
       </div>
       <div class="footer">
-        <a href="https://github.com/IMRZ/tww-interactive-map" target="_blank">
+        <a href="https://github.com/IMRZ/tww-interactive-map" target="_blank" rel="noopener noreferrer">
           <img src="../assets/GitHub-Mark-Light-32px.png" width="32px">
         </a>
       </div>
