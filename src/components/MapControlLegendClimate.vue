@@ -1,5 +1,5 @@
 <template>
-  <div id="MapLegendClimate">
+  <div class="legend">
     <TwPanel type="info">
       <TwPanelTitle>Legend</TwPanelTitle>
       <div class="content">
@@ -17,7 +17,6 @@ import TwPanel from "@/components/ui/TwPanel";
 import TwPanelTitle from "@/components/ui/TwPanelTitle";
 
 export default {
-  name: "MapLegendClimate",
   components: {
     TwPanel,
     TwPanelTitle
@@ -29,7 +28,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-#MapLegendClimate {
+.legend {
   .content {
     display: flex;
     flex-direction: column;

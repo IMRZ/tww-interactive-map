@@ -1,6 +1,6 @@
 <template>
   <MapCssLayer v-if="mapMatrix">
-    <MapNode class="node"
+    <MapCssLayerNode class="node"
       v-for="(startPos, index) in startPositions"
       :key="`startpos-${index}`"
       :mapMatrix="mapMatrix"
@@ -11,17 +11,17 @@
         :src="flagPath(startPos)"
         :data-map-tooltip="dataMapTooltip(startPos)"
       >
-    </MapNode>
+    </MapCssLayerNode>
   </MapCssLayer>
 </template>
 
 <script>
-import MapNode from "@/components/MapNode";
+import MapCssLayerNode from "@/components/MapCssLayerNode";
 import MapCssLayer from "@/components/MapCssLayer";
 
 export default {
   components: {
-    MapNode,
+    MapCssLayerNode,
     MapCssLayer
   },
   props: {

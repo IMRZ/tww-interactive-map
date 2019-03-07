@@ -1,12 +1,11 @@
 <template>
-  <div class="MapNode" :style="style">
+  <div class="node" :style="style">
     <slot></slot>
   </div>
 </template>
 
 <script>
 export default {
-  name: "MapNode",
   props: {
     mapMatrix: SVGMatrix,
     coords: Object,
@@ -41,7 +40,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.MapNode {
+.node {
   pointer-events: auto;
   position: absolute;
   z-index: 5;

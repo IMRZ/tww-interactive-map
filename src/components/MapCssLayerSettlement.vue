@@ -1,6 +1,6 @@
 <template>
   <MapCssLayer v-if="mapMatrix">
-    <MapNode class="node"
+    <MapCssLayerNode class="node"
       v-for="(settlement, index) in settlements"
       :key="`settlement-${index}`"
       :mapMatrix="mapMatrix"
@@ -23,18 +23,18 @@
         </span>
         <img class="climate-icon" src="/images/climate_icons/temperate.png" />
       </div> -->
-    </MapNode>
+    </MapCssLayerNode>
   </MapCssLayer>
 </template>
 
 <script>
-import MapNode from "@/components/MapNode";
+import MapCssLayerNode from "@/components/MapCssLayerNode";
 import MapCssLayer from "@/components/MapCssLayer";
 import MapCssLayerSettlementNode from "@/components/MapCssLayerSettlementNode";
 
 export default {
   components: {
-    MapNode,
+    MapCssLayerNode,
     MapCssLayer,
     MapCssLayerSettlementNode
   },

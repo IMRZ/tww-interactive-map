@@ -7,7 +7,7 @@
     />
 
     <div class="map-overlay-mode-section">
-      <MapLegendClimate v-if="mapOverlay === 'regions' && mapOverlayMode === 'climates'"
+      <MapControlLegendClimate v-if="mapOverlay === 'regions' && mapOverlayMode === 'climates'"
         :climates="data.common.climates"
       />
       <MapControlPainter v-if="mapOverlay === 'painter'"
@@ -80,7 +80,7 @@
 
 <script>
 import MapSettings from "@/mixins/MapSettings";
-import MapLegendClimate from "@/components/MapLegendClimate";
+import MapControlLegendClimate from "@/components/MapControlLegendClimate";
 import TwPanel from "@/components/ui/TwPanel";
 import TwPanelTitle from "@/components/ui/TwPanelTitle";
 import TwPanelField from "@/components/ui/TwPanelField";
@@ -93,7 +93,7 @@ export default {
   name: "MapControlSection",
   mixins: [MapSettings],
   components: {
-     MapLegendClimate,
+    MapControlLegendClimate,
     TwPanel,
     TwPanelTitle,
     TwPanelField,
