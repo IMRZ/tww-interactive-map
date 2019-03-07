@@ -40,7 +40,7 @@
     </div>
 
     <TwPanel>
-      <TwPanelTitle>Map overlays</TwPanelTitle>
+      <TwPanelTitle>Overlays</TwPanelTitle>
       <TwPanelField  label="None" :icon="require('./ui/skins/default/icon_cross_small.png')">
         <TwRadio v-model="mapOverlay" value="" />
       </TwPanelField>
@@ -50,17 +50,17 @@
       <TwPanelField  label="Choke points" :icon="require('./ui/skins/default/icon_spectate_battle.png')">
         <TwRadio v-model="mapOverlay" value="choke_points" />
       </TwPanelField>
-      <TwPanelField  label="Painter" :icon="require('./ui/skins/default/icon_filter_faction.png')">
+      <TwPanelField  label="Planner/Painter" :icon="require('./ui/skins/default/icon_filter_faction.png')">
         <TwRadio v-model="mapOverlay" value="painter" />
       </TwPanelField>
-      <TwPanelTitle>Node overlays</TwPanelTitle>
+      <TwPanelTitle>Nodes</TwPanelTitle>
       <TwPanelField  label="None" :icon="require('./ui/skins/default/icon_cross_small.png')">
         <TwRadio v-model="nodeOverlay" value="" />
       </TwPanelField>
-      <TwPanelField  label="Settlements" :icon="require('./ui/skins/default/icon_province_view.png')">
+      <TwPanelField  label="Settlements/Resources" :icon="require('./ui/skins/default/icon_province_view.png')">
         <TwRadio v-model="nodeOverlay" value="settlements" />
       </TwPanelField>
-      <TwPanelField  label="Start positions" :icon="require('./ui/skins/default/icon_filter_faction.png')">
+      <TwPanelField  label="Starting positions" :icon="require('./ui/skins/default/icon_filter_faction.png')">
         <TwRadio v-model="nodeOverlay" value="start_positions" />
       </TwPanelField>
     </TwPanel>

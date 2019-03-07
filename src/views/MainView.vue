@@ -12,7 +12,7 @@
       <div class="container">
         <router-link class="map-select" tag="div" to="/map/vortex">
           <div class="image vortex">
-            <h2>The Great Vortex</h2>
+            <h2>The Eye of the Vortex</h2>
           </div>
         </router-link>
         <router-link class="map-select" tag="div" to="/map/mortal_empires">
