@@ -1,6 +1,6 @@
 <template>
-  <div id="MapContainer"
-    @mouseup.prevent="stopPan"
+  <div class="map-container"
+    @mouseup="stopPan"
     @mouseleave.prevent="stopPan"
     @mousedown.prevent="startPan"
     @mousemove.prevent="doPan"
@@ -25,6 +25,7 @@
     <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
       <g ref="map" :transform="mapTransform">
         <image
+          class="map-outline"
           :href="map.settings.path"
           :width="map.settings.width"
           :height="map.settings.height"
@@ -104,11 +105,18 @@ export default {
   methods: {
     stopPan(e) {
       this.isPanning = false;
+      if (e.which === 4 || e.which === 5) {
+        return true; // do trigger thumb mouse button navigation
+      } else {
+        e.preventDefault();
+      }
     },
     startPan(e) {
-      this.isPanning = true;
-      this.mpt = this.$refs.map.getCTM().inverse();
-      this.mpo = this.getEventPoint(e).matrixTransform(this.mpt);
+      if (e.which !== 4 && e.which !== 5) { // ignore mouse thumb buttons
+        this.isPanning = true;
+        this.mpt = this.$refs.map.getCTM().inverse();
+        this.mpo = this.getEventPoint(e).matrixTransform(this.mpt);
+      }
     },
     doPan(e) {
       if (this.isPanning) {
@@ -160,19 +168,23 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-#MapContainer {
+.map-container {
   height: 100%;
 }
 
 svg {
   display: block;
   width: 100%;
+  height: 100%;
   min-width: inherit;
   max-width: inherit;
-  height: 100%;
   min-height: inherit;
   max-height: inherit;
   padding: none;
   margin: none;
+}
+
+.map-outline {
+  outline: 4px solid #b29871;
 }
 </style>
