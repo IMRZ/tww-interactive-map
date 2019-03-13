@@ -7,7 +7,8 @@
       :d="region.d"
       :style="style(region)"
       @click="onClick(region)"
-      :data-map-tooltip="tooltipString(region)"
+      @mouseenter.prevent="showTooltip(region)"
+      @mouseleave.prevent="clearTooltip"
     />
   </MapSvgLayer>
 </template>
@@ -53,11 +54,22 @@ export default {
       const faction = this.factions[owner];
       return faction ? { fill: `#${faction.primaryColour}` } : null;
     },
-    tooltipString(region) {
+    showTooltip(region) {
       const owner = this.factionList[region.key];
       const faction = this.factions[owner];
       const ownedBy = faction ? faction.key : null;
-      return `region:${region.key}:${ownedBy}`;
+
+      this.setTooltip({
+        type: "region-owner",
+        key: region.key,
+        ownedBy: ownedBy
+      });
+    },
+    clearTooltip() {
+      this.setTooltip(null);
+    },
+    setTooltip(tooltip) {
+      this.$store.commit("SET_TOOLTIP", tooltip);
     }
   }
 };

@@ -13,6 +13,8 @@ const SET_PAINTER_FACTION = "SET_PAINTER_FACTION";
 const SET_PAINTER_FACTIONS = "SET_PAINTER_FACTIONS";
 const SET_PAINTER_FACTIONS_ITEM = "SET_PAINTER_FACTIONS_ITEM";
 
+const SET_TOOLTIP = "SET_TOOLTIP";
+
 export default new Vuex.Store({
   state: {
     settings: {
@@ -45,7 +47,8 @@ export default new Vuex.Store({
           }
         }
       }
-    }
+    },
+    tooltip: null
   },
   getters: {
     route: (state) => state.route,
@@ -67,6 +70,9 @@ export default new Vuex.Store({
     },
     [SET_PAINTER_FACTIONS_ITEM](state, { regionKey, factionKey }) {
       Vue.set(state.painter.factions, regionKey, factionKey);
+    },
+    [SET_TOOLTIP](state, tooltip) {
+      state.tooltip = tooltip;
     }
   }
 });

@@ -1,174 +1,103 @@
-<template>
-  <div id="MapTooltip" :style="style">
-    <div class="content" v-if="tooltipData && tooltipData.type === 'region'">
-      <div>Region: {{getRegionName(tooltipData.regionKey)}}</div>
-      <div>Province: {{getProvinceName(tooltipData.regionKey)}}</div>
-      <div>Climate: {{getClimate(tooltipData.regionKey)}}</div>
-      <div v-if="tooltipData.ownedBy">Owned by: {{getFactionName(tooltipData.ownedBy)}}</div>
-    </div>
-    <div class="content" v-else-if="tooltipData && tooltipData.type === 'settlement'">
-      <div>Settlement: {{getRegionName(tooltipData.regionKey)}}</div>
-    </div>
-    <div class="content" v-else-if="tooltipData && tooltipData.type === 'startpos'">
-      <div>Faction: {{getFactionName(tooltipData.factionKey)}}</div>
-      <div v-if="tooltipData.lord">Lord: {{tooltipData.lord}}</div>
-    </div>
-    <div class="content" v-else-if="tooltipData && tooltipData.type === 'chokepoint'">
-      <div>Chokepoint: {{getBattleMapLabel(tooltipData.key)}}</div>
-    </div>
-    <div class="content" v-else-if="tooltipData && tooltipData.type === 'resource'">
-      <div>{{getResourceName(tooltipData.key)}}</div>
-      <div>{{getResourceDescription(tooltipData.key)}}</div>
-    </div>
-    <pre v-else>{{tooltipData}}</pre>
-  </div>
-</template>
-
 <script>
+import MapTooltipChokepoint from "@/components/MapTooltipChokepoint";
+import MapTooltipDefault from "@/components/MapTooltipDefault";
+import MapTooltipInfo from "@/components/MapTooltipInfo";
+import MapTooltipRegion from "@/components/MapTooltipRegion";
+import MapTooltipResource from "@/components/MapTooltipResource";
+import MapTooltipSettlement from "@/components/MapTooltipSettlement";
+import MapTooltipStartposition from "@/components/MapTooltipStartposition";
+
+const OFFSET = 20;
+
 export default {
+  components: {
+    MapTooltipChokepoint,
+    MapTooltipDefault,
+    MapTooltipInfo,
+    MapTooltipRegion,
+    MapTooltipResource,
+    MapTooltipSettlement,
+    MapTooltipStartposition
+  },
   props: {
-    event: MouseEvent,
     common: Object,
-    map: Object
-  },
-  data() {
-    return {
-      offset: 20,
-      baseUrl: process.env.BASE_URL
-    };
-  },
-  methods: {
-    getBattleMapLabel(key) {
-      return this.common.battleMaps[key].label;
-    },
-    getBattleMapPreview(key) {
-      const preview = this.common.battleMaps[key].preview;
-      return `${this.baseUrl}ui/chokepoints/${preview}.png`;
-    },
-    getFactionName(key) {
-      const faction = this.common.factions[key];
-      return faction ? faction.name : "Abandoned";
-    },
-    getProvinceName(key) {
-      const provinceKey = this.map.regions[key].provinceKey;
-      return this.map.provinces[provinceKey].name;
-    },
-    getRegionName(key) {
-      return this.map.regions[key].name;
-    },
-    getClimate(key) {
-      const climateKey = this.map.regions[key].climate
-      return this.common.climates[climateKey].name;
-    },
-    getResourceName(key) {
-      const resource = this.common.resources[key];
-      return resource.name;
-    },
-    getResourceDescription(key) {
-      const resource = this.common.resources[key];
-      return resource.description;
-    },
-    getHorizontalPosition(x) {
-      if (x > window.innerWidth * 0.8) {
-        return { right: `${window.innerWidth - x + this.offset}px` };
-      } else {
-        return { left: `${x + this.offset}px` };
-      }
-    },
-    getVerticalPosition(y) {
-      if (y > window.innerHeight * 0.8) {
-        return { bottom: `${window.innerHeight - y + this.offset}px` };
-      } else {
-        return { top: `${y + this.offset}px` };
-      }
-    }
+    map: Object,
+    mouseEvent: MouseEvent
   },
   computed: {
-    tooltipData() {
-      const dataMapTooltip = this.event && this.event.target.getAttribute("data-map-tooltip");
-      if (dataMapTooltip) {
-        const [type, ...data] = dataMapTooltip.split(":");
-        switch (type) {
-          case "region": {
-            const [regionKey, ownedBy] = data;
-            return {
-              type,
-              regionKey,
-              ownedBy
-            };
-          }
-          case "settlement": {
-            const [regionKey] = data;
-            return {
-              type,
-              regionKey
-            };
-          }
-          case "chokepoint": {
-            const [key, fill] = data;
-            return {
-              type,
-              key,
-              fill
-            };
-          }
-          case "startpos": {
-            const [factionKey, lord] = data;
-            return {
-              type,
-              factionKey,
-              lord
-            };
-          }
-          case "resource": {
-            const [key] = data;
-            return {
-              type,
-              key
-            };
-          }
-          default: {
-            return { type };
-          }
-        }
-      }
-      return undefined;
-    },
     style() {
-      if (this.tooltipData) {
-        const { x, y } = this.event;
+      if (this.mouseEvent && this.tooltip) {
+        const { x, y } = this.mouseEvent;
         return {
           opacity: 1,
           ...this.getHorizontalPosition(x),
           ...this.getVerticalPosition(y)
         };
+        // TODO: https://www.paulirish.com/2012/why-moving-elements-with-translate-is-better-than-posabs-topleft/
+      } else {
+        return { opacity: 0 };
       }
-      return { opacity: 0 };
+    },
+    tooltip() {
+      return this.$store.state.tooltip;
     }
+  },
+  methods: {
+    getHorizontalPosition(x) {
+      if (x > window.innerWidth * 0.8) {
+        return { right: `${window.innerWidth - x + OFFSET}px` };
+      } else {
+        return { left: `${x + OFFSET}px` };
+      }
+    },
+    getVerticalPosition(y) {
+      if (y > window.innerHeight * 0.8) {
+        return { bottom: `${window.innerHeight - y + OFFSET}px` };
+      } else {
+        return { top: `${y + OFFSET}px` };
+      }
+    },
+    renderTooltip() {
+      if (!this.tooltip) return null;
+
+      const type = this.tooltip.type;
+
+      switch (type) {
+        case "chokepoint":
+          return <MapTooltipChokepoint tooltip={this.tooltip} common={this.common} />;
+        case "info":
+          return <MapTooltipInfo tooltip={this.tooltip} />;
+        case "region":
+          return <MapTooltipRegion tooltip={this.tooltip} common={this.common} map={this.map} />;
+        case "resource":
+          return <MapTooltipResource tooltip={this.tooltip} common={this.common} />;
+        case "settlement":
+          return <MapTooltipSettlement tooltip={this.tooltip} map={this.map} />;
+        case "startpos":
+          return <MapTooltipStartposition tooltip={this.tooltip} common={this.common} />;
+        default:
+          return <MapTooltipDefault tooltip={this.tooltip} />;
+      }
+    }
+  },
+  render() {
+    return (
+      <div id="map-tooltip" style={this.style}>
+        {this.renderTooltip()}
+      </div>
+    );
   }
 };
 </script>
 
 <style lang="scss" scoped>
-#MapTooltip {
+#map-tooltip {
   position: fixed;
   pointer-events: none;
-  color: #FFF8D7;
-  border: solid;
-  border-width: 14px 14px 14px 14px;
-  border-image: url("../assets/ui/tooltip_frame.png") 14 14 14 14 fill repeat;
   filter: drop-shadow(0 0 15px #222222);
   transition: opacity 0.3s;
-  max-width: 600px;
+  color: #FFF8D7;
+  max-width: 500px;
   z-index: 2000;
-
-  .content {
-    padding: 2px;
-  }
-
-  pre {
-    margin: 0;
-    padding: 0;
-  }
 }
 </style>

@@ -1,17 +1,28 @@
 <template>
-  <div class="MapCssLayer">
+  <div class="layer-css">
     <slot></slot>
   </div>
 </template>
 
 <script>
 export default {
-  name: "MapCssLayer"
+  // TODO:
+  // props: {
+  //   map: Object
+  // },
+  // computed: {
+  //   style() {
+  //     return {
+  //       width: this.map.width,
+  //       height: this.map.height,
+  //     };
+  //   }
+  // }
 };
 </script>
 
 <style lang="scss" scoped>
-.MapCssLayer {
+.layer-css {
   pointer-events: none;
   position: fixed;
   left: 0;

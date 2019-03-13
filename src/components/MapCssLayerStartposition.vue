@@ -9,7 +9,8 @@
     >
       <img
         :src="flagPath(startPos)"
-        :data-map-tooltip="dataMapTooltip(startPos)"
+        @mouseenter.prevent="showTooltip(startPos)"
+        @mouseleave.prevent="clearTooltip"
       >
     </MapCssLayerNode>
   </MapCssLayer>
@@ -35,17 +36,26 @@ export default {
     }
   },
   methods: {
+    setTooltip(tooltip) {
+      this.$store.commit("SET_TOOLTIP", tooltip);
+    },
     flagPath(startPos) {
       const factionKey = startPos.factionKey;
       return `${this.baseUrl}${this.factions[factionKey].flagsPath}/mon_64.png`;
     },
-    dataMapTooltip(startPos) {
+    showTooltip(startPos) {
       const { factionKey, lord } = startPos;
-      if (lord) {
-        return `startpos:${factionKey}:${lord}`;
-      } else {
-        return `startpos:${factionKey}`;
-      }
+      this.setTooltip({
+        type: "startpos",
+        key: factionKey,
+        lord: lord
+      });
+    },
+    clearTooltip() {
+      this.setTooltip(null);
+    },
+    setTooltip(tooltip) {
+      this.$store.commit("SET_TOOLTIP", tooltip);
     }
   }
 };

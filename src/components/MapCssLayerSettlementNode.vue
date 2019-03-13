@@ -1,16 +1,17 @@
 <template>
   <div class="settlement">
-    <img
-      class="settlement-icon"
+    <img class="settlement-icon"
       :src="`${baseUrl}ui/wh_settlement_schematic.png`"
-      :data-map-tooltip="`settlement:${settlement.key}`"
+      @mouseenter.prevent="showTooltip('settlement', settlement)"
+      @mouseleave.prevent="clearTooltip"
     >
     <div class="icons">
       <img class="icon"
         v-for="(item, index) in settlementResources"
         :key="index"
         :src="item.icon_path"
-        :data-map-tooltip="`resource:${item.key}`"
+        @mouseenter.prevent="showTooltip('resource', item)"
+        @mouseleave.prevent="clearTooltip"
       >
     </div>
   </div>
@@ -22,6 +23,11 @@ export default {
     settlement: Object,
     resources: Object,
     regions_resources: Object,
+  },
+  data() {
+    return {
+      baseUrl: process.env.BASE_URL
+    }
   },
   computed: {
     settlementResources() {
@@ -59,11 +65,20 @@ export default {
       return new Set(organizedResources);
     }
   },
-  data() {
-    return {
-      baseUrl: process.env.BASE_URL
+  methods: {
+    showTooltip(type, data) {
+      this.setTooltip({
+        type: type,
+        key: data.key
+      });
+    },
+    clearTooltip() {
+      this.setTooltip(null);
+    },
+    setTooltip(tooltip) {
+      this.$store.commit("SET_TOOLTIP", tooltip);
     }
-  },
+  }
 }
 </script>
 

@@ -6,7 +6,8 @@
       :key="chokepoint.key"
       :d="chokepoint.d"
       :style="style(chokepoint, mode)"
-      :data-map-tooltip="`chokepoint:${chokepoint.key}`"
+      @mouseenter.prevent="showTooltip(chokepoint)"
+      @mouseleave.prevent="clearTooltip"
     />
   </MapSvgLayer>
 </template>
@@ -30,6 +31,18 @@ export default {
         default:
           return { fill: "blue" };
       }
+    },
+    showTooltip(chokepoint) {
+      this.setTooltip({
+        type: "chokepoint",
+        key: chokepoint.key
+      });
+    },
+    clearTooltip() {
+      this.setTooltip(null);
+    },
+    setTooltip(tooltip) {
+      this.$store.commit("SET_TOOLTIP", tooltip);
     }
   }
 };

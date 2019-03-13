@@ -6,7 +6,8 @@
       :key="region.key"
       :d="region.d"
       :style="style(region, mode)"
-      :data-map-tooltip="`region:${region.key}`"
+      @mouseenter.prevent="showTooltip(region)"
+      @mouseleave.prevent="clearTooltip"
     />
   </MapSvgLayer>
 </template>
@@ -37,6 +38,18 @@ export default {
         default:
           return { fill: "transparent", stroke: "transparent" };
       }
+    },
+    showTooltip(region) {
+      this.setTooltip({
+        type: "region",
+        key: region.key
+      });
+    },
+    clearTooltip() {
+      this.setTooltip(null);
+    },
+    setTooltip(tooltip) {
+      this.$store.commit("SET_TOOLTIP", tooltip);
     }
   }
 };

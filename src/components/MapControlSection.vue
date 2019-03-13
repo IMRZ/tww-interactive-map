@@ -90,7 +90,6 @@ import TwCornerButton from "@/components/ui/TwCornerButton";
 import MapControlPainter from "@/components/MapControlPainter";
 
 export default {
-  name: "MapControlSection",
   mixins: [MapSettings],
   components: {
     MapControlLegendClimate,
