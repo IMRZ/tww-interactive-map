@@ -1,17 +1,13 @@
 <template>
   <div class="settlement">
-    <span class="settlement-icon"
-      @mouseenter.prevent="showTooltip('settlement', settlement)"
-      @mouseleave.prevent="clearTooltip"
-    >
+    <span class="settlement-icon" v-tooltip="tooltipSettlement">
       <WhIcon icon="common wh_settlement_schematic" />
     </span>
     <div class="icons">
       <span class="icon"
         v-for="item in settlementResources"
         :key="item.icon"
-        @mouseenter.prevent="showTooltip('resource', item)"
-        @mouseleave.prevent="clearTooltip"
+        v-tooltip="tooltipResource(item)"
       >
         <WhIcon :icon="`resource ${item.icon}`" />
       </span>
@@ -54,26 +50,26 @@ export default {
         port: []
       });
 
-      const organizedResources = icons.strategic_locations
+      const orderedResources = icons.strategic_locations
         .concat(icons.strategic_recources)
         .concat(icons.fortress_gate)
         .concat(icons.port);
 
-      return new Set(organizedResources);
+      return new Set(orderedResources);
+    },
+    tooltipSettlement() {
+      return {
+        type: "settlement",
+        key: this.settlement.key
+      };
     }
   },
   methods: {
-    showTooltip(type, data) {
-      this.setTooltip({
-        type: type,
-        key: data.key
-      });
-    },
-    clearTooltip() {
-      this.setTooltip(null);
-    },
-    setTooltip(tooltip) {
-      this.$store.commit("SET_TOOLTIP", tooltip);
+    tooltipResource(resource) {
+      return {
+        type: "resource",
+        key: resource.key
+      };
     }
   }
 }

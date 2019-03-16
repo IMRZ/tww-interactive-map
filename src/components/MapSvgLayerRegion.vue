@@ -6,8 +6,7 @@
       :key="region.key"
       :d="region.d"
       :style="style(region, mode)"
-      @mouseenter.prevent="showTooltip(region)"
-      @mouseleave.prevent="clearTooltip"
+      v-tooltip="tooltipRegion(region)"
     />
   </MapSvgLayer>
 </template>
@@ -39,17 +38,11 @@ export default {
           return { fill: "transparent", stroke: "transparent" };
       }
     },
-    showTooltip(region) {
-      this.setTooltip({
+    tooltipRegion(region) {
+      return {
         type: "region",
         key: region.key
-      });
-    },
-    clearTooltip() {
-      this.setTooltip(null);
-    },
-    setTooltip(tooltip) {
-      this.$store.commit("SET_TOOLTIP", tooltip);
+      };
     }
   }
 };

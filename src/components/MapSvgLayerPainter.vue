@@ -7,8 +7,7 @@
       :d="region.d"
       :style="style(region)"
       @click="onClick(region)"
-      @mouseenter.prevent="showTooltip(region)"
-      @mouseleave.prevent="clearTooltip"
+      v-tooltip="tooltipRegionOwner(region)"
     />
   </MapSvgLayer>
 </template>
@@ -54,22 +53,16 @@ export default {
       const faction = this.factions[owner];
       return faction ? { fill: `#${faction.primaryColour}` } : null;
     },
-    showTooltip(region) {
+    tooltipRegionOwner(region) {
       const owner = this.factionList[region.key];
       const faction = this.factions[owner];
       const ownedBy = faction ? faction.key : null;
 
-      this.setTooltip({
+      return {
         type: "region-owner",
         key: region.key,
         ownedBy: ownedBy
-      });
-    },
-    clearTooltip() {
-      this.setTooltip(null);
-    },
-    setTooltip(tooltip) {
-      this.$store.commit("SET_TOOLTIP", tooltip);
+      };
     }
   }
 };

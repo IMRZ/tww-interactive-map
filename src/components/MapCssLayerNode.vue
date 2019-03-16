@@ -1,5 +1,5 @@
 <template>
-  <div class="node" :style="style">
+  <div class="node-css" :style="style">
     <slot></slot>
   </div>
 </template>
@@ -40,13 +40,13 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.node {
+.node-css {
   pointer-events: auto;
   position: absolute;
   z-index: 5;
+}
 
-  &:hover {
-    z-index: 6;
-  }
+.node-css:hover {
+  z-index: 6;
 }
 </style>

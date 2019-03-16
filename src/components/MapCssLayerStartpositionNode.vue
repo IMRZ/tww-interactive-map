@@ -1,15 +1,23 @@
 <template>
-  <div class="node"
-    @mouseenter.prevent="showTooltip(startpos)"
-    @mouseleave.prevent="clearTooltip"
+  <MapCssLayerNode class="startpos"
+    :mapMatrix="mapMatrix"
+    :coords="startpos.flag"
+    :offset="32"
+    v-tooltip="tooltipStartpos"
   >
     <WhIcon :icon="icon" />
-  </div>
+  </MapCssLayerNode>
 </template>
 
 <script>
+import MapCssLayerNode from "@/components/MapCssLayerNode";
+
 export default {
+  components: {
+    MapCssLayerNode
+  },
   props: {
+    mapMatrix: SVGMatrix,
     factions: Object,
     startpos: Object
   },
@@ -17,40 +25,29 @@ export default {
     icon() {
       const flagKey = this.factions[this.startpos.factionKey].flagKey;
       return `flag ${flagKey}`;
-    }
-  },
-  methods: {
-    setTooltip(tooltip) {
-      this.$store.commit("SET_TOOLTIP", tooltip);
     },
-    showTooltip(startpos) {
-      const { factionKey, lord } = startpos;
-      this.setTooltip({
+    tooltipStartpos() {
+      const { factionKey, lord } = this.startpos;
+      return {
         type: "startpos",
         key: factionKey,
         lord: lord
-      });
-    },
-    clearTooltip() {
-      this.setTooltip(null);
-    },
-    setTooltip(tooltip) {
-      this.$store.commit("SET_TOOLTIP", tooltip);
+      };
     }
   }
 }
 </script>
 
-
 <style lang="scss" scoped>
-.node {
+.startpos {
   height: 64px;
   width: 64px;
   cursor: pointer;
   filter: brightness(90%) drop-shadow(0 0 15px #222222);
+  display: inline-block;
 }
 
-.node:hover {
+.startpos:hover {
   filter: brightness(100%) drop-shadow(0 0 15px #222222);
 }
 </style>
