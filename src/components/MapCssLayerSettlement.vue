@@ -17,14 +17,14 @@
 </template>
 
 <script>
-import MapCssLayerNode from "@/components/MapCssLayerNode";
 import MapCssLayer from "@/components/MapCssLayer";
+import MapCssLayerNode from "@/components/MapCssLayerNode";
 import MapCssLayerSettlementNode from "@/components/MapCssLayerSettlementNode";
 
 export default {
   components: {
-    MapCssLayerNode,
     MapCssLayer,
+    MapCssLayerNode,
     MapCssLayerSettlementNode
   },
   props: {

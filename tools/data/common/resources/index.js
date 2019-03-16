@@ -6,7 +6,14 @@ async function parseStartPosRegionSlotTemplates() {
   const config = {
     delimiter: "\t",
     noheader: true,
-    headers: ["id", "campaign", "region", "slot_type", "slot_template", "unique"]
+    headers: [
+      "id",
+      "campaign",
+      "region",
+      "slot_type",
+      "slot_template",
+      "unique"
+    ]
   };
 
   const result = await parseCsv(config).fromFile(filePath);
@@ -19,7 +26,10 @@ async function parseSlotTemplates() {
   const config = {
     delimiter: "\t",
     noheader: true,
-    headers: ["key", "resource"]
+    headers: [
+      "key",
+      "resource"
+    ]
   };
 
   const result = await parseCsv(config).fromFile(filePath);
@@ -27,23 +37,36 @@ async function parseSlotTemplates() {
   return result;
 }
 
+const ICON_PATH_PATTERN = /^ui\\campaign ui\\effect_bundles\\(.*)\.png$/;
+
 async function parseResources() {
   const filePath = path.resolve(__dirname, "./resources.csv");
   const config = {
     delimiter: "\t",
     noheader: true,
-    headers: ["icon_filepath", "key", "onscreen_text", "strategic_value", "unit", "trade_value", "description", "long_description", "in_encyclopedia", "show_on_city_infobar"]
+    headers: [
+      "icon_filepath",
+      "key",
+      "onscreen_text",
+      "strategic_value",
+      "unit",
+      "trade_value",
+      "description",
+      "long_description",
+      "in_encyclopedia",
+      "show_on_city_infobar"
+    ]
   };
 
   const parseResult = await parseCsv(config).fromFile(filePath);
 
   const result = parseResult.reduce((accumulator, value) => {
     const { key, icon_filepath, onscreen_text, description  } = value;
-    const icon_path = icon_filepath.replace(/\\/g, "/").replace(/ui\/campaign ui\/effect_bundles\//g, "ui/resources/");
+    const [fulMatch, icon] = icon_filepath.match(ICON_PATH_PATTERN);
 
     accumulator[key] = {
       key: key,
-      icon_path: icon_path,
+      icon: icon,
       name: onscreen_text,
       description: description,
     };
@@ -54,7 +77,7 @@ async function parseResources() {
   // just add port as a resource here, for tooltips etc.
   result["port"] = {
     key: "port",
-    icon_path: "ui/resources/icon_port.png",
+    icon: "icon_port",
     name: "Port",
     description: ""
   };
@@ -62,7 +85,7 @@ async function parseResources() {
   return result;
 }
 
-module.exports = async function () {
+module.exports = async () => {
   const [
     start_pos_region_slot_templates,
     slot_templates,

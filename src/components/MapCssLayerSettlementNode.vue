@@ -1,18 +1,20 @@
 <template>
   <div class="settlement">
-    <img class="settlement-icon"
-      :src="`${baseUrl}ui/wh_settlement_schematic.png`"
+    <span class="settlement-icon"
       @mouseenter.prevent="showTooltip('settlement', settlement)"
       @mouseleave.prevent="clearTooltip"
     >
+      <WhIcon icon="common wh_settlement_schematic" />
+    </span>
     <div class="icons">
-      <img class="icon"
-        v-for="(item, index) in settlementResources"
-        :key="index"
-        :src="item.icon_path"
+      <span class="icon"
+        v-for="item in settlementResources"
+        :key="item.icon"
         @mouseenter.prevent="showTooltip('resource', item)"
         @mouseleave.prevent="clearTooltip"
       >
+        <WhIcon :icon="`resource ${item.icon}`" />
+      </span>
     </div>
   </div>
 </template>
@@ -23,11 +25,6 @@ export default {
     settlement: Object,
     resources: Object,
     regions_resources: Object,
-  },
-  data() {
-    return {
-      baseUrl: process.env.BASE_URL
-    }
   },
   computed: {
     settlementResources() {
@@ -107,6 +104,8 @@ export default {
     height: 24px;
 
     .icon {
+      width: 24px;
+      height: 24px;
       filter: brightness(90%);
 
       &:hover {

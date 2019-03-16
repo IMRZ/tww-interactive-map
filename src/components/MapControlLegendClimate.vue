@@ -3,7 +3,7 @@
     <TwPanel type="info">
       <TwPanelTitle>Legend</TwPanelTitle>
       <div class="content">
-        <div class="climate" v-for="(climate, index) in climates" :key="`climate-${index}`">
+        <div class="climate" v-for="(climate, index) in climates" :key="index">
           <div class="colour" :style="{ 'background-color': climate.fill }"></div>
           <span class="label" :style="{ 'color': climate.fill }">{{climate.name}}</span>
         </div>
