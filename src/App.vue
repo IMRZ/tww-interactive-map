@@ -21,7 +21,7 @@ export default {
   mixins: [MapSettings],
   data() {
     return {
-      mouseEvent: undefined
+      mouseEvent: null
     };
   },
   computed: {
@@ -32,7 +32,7 @@ export default {
       if (this.tooltipEnabled) {
         return {
           mousemove: (mouseEvent) => this.mouseEvent = mouseEvent,
-          mouseleave: (mouseEvent) => this.mouseEvent = undefined
+          mouseleave: (mouseEvent) => this.mouseEvent = null
         };
       } else {
         return {};

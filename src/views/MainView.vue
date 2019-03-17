@@ -10,15 +10,11 @@
         <h2 class="sub-title">Unofficial Interactive Map</h2>
       </div>
       <div class="container">
-        <router-link class="map-select" tag="div" to="/map/vortex">
-          <div class="image vortex">
-            <h2>The Eye of the Vortex</h2>
-          </div>
+        <router-link class="image vortex" tag="div" to="/map/vortex">
+          <h2>The Eye of the Vortex</h2>
         </router-link>
-        <router-link class="map-select" tag="div" to="/map/mortal_empires">
-          <div class="image mortal">
-            <h2>Mortal Empires</h2>
-          </div>
+        <router-link  class="image mortal" tag="div" to="/map/mortal_empires">
+          <h2>Mortal Empires</h2>
         </router-link>
       </div>
       <div class="footer">
@@ -137,43 +133,39 @@ export default {
     padding: 40px;
   }
 
-  .map-select {
+  .image {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-end;
+    text-align: center;
+
     width: 315px;
-    height: 195px;
+    height: 183px;
     overflow: hidden;
     cursor: pointer;
     margin: 10px;
     filter: drop-shadow(0 0 15px black);
+
+    border: solid 1px #b29871;
 
     h2 {
       text-shadow: 2px 2px black;
       font-size: 2em;
     }
 
-    border: solid 1px #b29871;
-
     &:hover {
       filter: drop-shadow(0 0 15px #b29871);
     }
   }
 
-  .image {
-    margin: -5px;
-    height: 200px;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: flex-end;
-    text-align: center;
-  }
-
   .mortal {
-    background: url("../assets/ui/campaign_select_grand_campaign.png");
+    background: url("~@/assets/ui/campaign_select_grand_campaign.png");
     background-size: cover;
   }
 
   .vortex {
-    background: url("../assets/ui/campaign_select_great_vortex.png");
+    background: url("~@/assets/ui/campaign_select_great_vortex.png");
     background-size: cover;
   }
 }
