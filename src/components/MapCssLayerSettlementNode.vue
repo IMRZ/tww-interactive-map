@@ -15,7 +15,7 @@
         v-if="port"
         v-tooltip="tooltipPort()"
       >
-        <WhIcon icon="default icon_port" />
+        <WhIcon icon="md default icon_port" />
       </span>
       <span class="icon"
         v-for="entry in strategicResources"
