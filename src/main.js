@@ -7,10 +7,10 @@ import "./registerServiceWorker";
 
 import tooltipDirective from "@/directives/tooltip";
 
-import TwwUi from "tww-ui/dist/tww-ui.common";
-import "tww-ui/dist/tww-ui.css";
+import TwwUi from "tww-ui";
 
 Vue.config.productionTip = false;
+
 sync(store, router);
 
 Vue.use(TwwUi);

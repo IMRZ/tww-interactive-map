@@ -13,8 +13,8 @@
 
 <script>
 const ICON = {
-  CAPITAL: "default icon_marker_settlement1",
-  MINOR: "default icon_marker_settlement2"
+  CAPITAL: "xs default icon_marker_settlement",
+  MINOR: "xs warhammer2 icon_marker_settlement"
 };
 
 export default {
@@ -39,7 +39,6 @@ export default {
   }
 };
 </script>
-
 
 <style lang="scss" scoped>
 .tooltip-region {

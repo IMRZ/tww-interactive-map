@@ -17,13 +17,13 @@
     "vue-single-select": "^1.0.29",
     "vuex": "^3.1.0",
     "vuex-router-sync": "^5.0.0",
-    "tww-ui": "file:../tww-ui"
+    "tww-ui": "IMRZ/tww-ui#a2654cd"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.4.1",
     "@vue/cli-plugin-eslint": "^3.4.1",
     "@vue/cli-plugin-pwa": "^3.4.1",
-    "@vue/cli-service": "^3.4.1",
+    "@vue/cli-service": "^3.5.3",
     "@vue/eslint-config-prettier": "^3.0.5",
     "csvtojson": "^2.0.8",
     "folktale": "^2.1.0",

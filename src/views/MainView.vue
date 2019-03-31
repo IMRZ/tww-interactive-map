@@ -10,11 +10,15 @@
         <h2 class="sub-title">Unofficial Interactive Map</h2>
       </div>
       <div class="container">
-        <router-link class="image vortex" tag="div" to="/map/vortex">
-          <h2>The Eye of the Vortex</h2>
+        <router-link tag="div" to="/map/vortex">
+          <WhButtonFrame class="map-select vortex">
+            <h2>The Eye of the Vortex</h2>
+          </WhButtonFrame>
         </router-link>
-        <router-link  class="image mortal" tag="div" to="/map/mortal_empires">
-          <h2>Mortal Empires</h2>
+        <router-link tag="div" to="/map/mortal_empires">
+          <WhButtonFrame class="map-select mortal">
+            <h2>Mortal Empires</h2>
+          </WhButtonFrame>
         </router-link>
       </div>
       <div class="footer">
@@ -133,39 +137,38 @@ export default {
     padding: 40px;
   }
 
-  .image {
+  .map-select {
     display: flex;
     flex-direction: column;
     align-content: center;
     justify-content: flex-end;
     text-align: center;
 
-    width: 315px;
+    width: 308px;
     height: 183px;
-    overflow: hidden;
-    cursor: pointer;
     margin: 10px;
+    cursor: pointer;
+
     filter: drop-shadow(0 0 15px black);
-
-    border: solid 1px #b29871;
-
-    h2 {
-      text-shadow: 2px 2px black;
-      font-size: 2em;
-    }
 
     &:hover {
       filter: drop-shadow(0 0 15px #b29871);
     }
+
+    h2 {
+      color: white;
+      text-shadow: 2px 2px black;
+      font-size: 2em;
+    }
   }
 
   .mortal {
-    background: url("~@/assets/ui/campaign_select_grand_campaign.png");
+    background: url("~tww-ui/src/assets/skins/default/campaign_select_grand_campaign.png");
     background-size: cover;
   }
 
   .vortex {
-    background: url("~@/assets/ui/campaign_select_great_vortex.png");
+    background: url("~tww-ui/src/assets/skins/default/campaign_select_great_vortex.png");
     background-size: cover;
   }
 }

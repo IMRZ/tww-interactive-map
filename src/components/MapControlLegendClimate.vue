@@ -1,55 +1,57 @@
 <template>
-  <div class="legend">
-    <TwPanel type="info">
-      <TwPanelTitle>Legend</TwPanelTitle>
-      <div class="content">
-        <div class="climate" v-for="(climate, index) in climates" :key="index">
-          <div class="colour" :style="{ 'background-color': climate.fill }"></div>
-          <span class="label" :style="{ 'color': climate.fill }">{{climate.name}}</span>
-        </div>
-      </div>
-    </TwPanel>
-  </div>
+  <WhTooltip class="legend-climate">
+    <div class="title">Legend</div>
+    <div class="climate" v-for="(climate, key) in climates" :key="key">
+      <span class="icon" v-tooltip="tooltip(climate)">
+        <WhIcon class="icon" :icon="`climate ${climate.icon}`" />
+      </span>
+      <span class="label" :style="{ 'color': climate.fill }">{{climate.name}}</span>
+    </div>
+  </WhTooltip>
 </template>
 
 <script>
-import TwPanel from "@/components/ui/TwPanel";
-import TwPanelTitle from "@/components/ui/TwPanelTitle";
-
 export default {
-  components: {
-    TwPanel,
-    TwPanelTitle
-  },
   props: {
     climates: Object
+  },
+  methods: {
+    tooltip(climate) {
+      return {
+        type: "info",
+        text: climate.description
+      }
+    }
   }
 };
 </script>
 
 <style lang="scss" scoped>
-.legend {
-  .content {
-    display: flex;
-    flex-direction: column;
+.legend-climate {
+  padding: 15px;
+
+  .title {
+    margin: 5px;
+    text-align: center;
+    font-size: 1.3em;
   }
 
   .climate {
-    flex: 1;
     display: flex;
     flex-direction: row;
-  }
+    align-items: center;
 
-  .label {
-    flex: 1;
-    padding-left: 14px;
-  }
+    .icon {
+      flex: 0 1 auto;
+      max-height: 26px;
+      max-width: 26px;
+    }
 
-  .colour {
-    flex: 0 1 auto;
-    width: 18px;
-    height: 18px;
-    margin-left: 14px;
+    .label {
+      flex: 1;
+      margin-left: 14px;
+      text-shadow: 1px 1px black;
+    }
   }
 }
 </style>

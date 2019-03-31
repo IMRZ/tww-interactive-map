@@ -1,7 +1,7 @@
 <template>
   <div class="settlement">
     <span class="icon-settlement" v-tooltip="tooltipSettlement()">
-      <WhIcon icon="common wh_settlement_schematic" />
+      <WhIcon icon="xs default wh_settlement_schematic" />
     </span>
     <div class="icons">
       <span class="icon"
@@ -15,7 +15,7 @@
         v-if="port"
         v-tooltip="tooltipPort()"
       >
-        <WhIcon class="port" icon="resource icon_port" />
+        <WhIcon icon="default icon_port" />
       </span>
       <span class="icon"
         v-for="entry in strategicResources"

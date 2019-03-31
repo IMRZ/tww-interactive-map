@@ -34,7 +34,7 @@ export default new Vuex.Store({
             path: require("@/assets/maps/wh_main_map.png"),
             width: 4096,
             height: 3352,
-            chokepoints_transform: "scale(2.0157,2.3261)"
+            chokepoints_transform: `scale(${4096 / 2032},${3352 / 1441})`
           }
         },
         vortex: {
@@ -43,7 +43,7 @@ export default new Vuex.Store({
             path: require("@/assets/maps/wh2_main_great_vortex_map.png"),
             width: 3378,
             height: 3869,
-            chokepoints_transform: "scale(2.3264,2.6849)"
+            chokepoints_transform: `scale(${3378 / 1452},${3869 / 1441})`
           }
         }
       }
