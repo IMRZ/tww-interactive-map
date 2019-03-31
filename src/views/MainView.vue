@@ -10,15 +10,15 @@
         <h2 class="sub-title">Unofficial Interactive Map</h2>
       </div>
       <div class="container">
-        <router-link class="map-select" tag="div" to="/map/vortex">
-          <div class="image vortex">
+        <router-link tag="div" to="/map/vortex">
+          <WhButtonFrame class="map-select vortex">
             <h2>The Eye of the Vortex</h2>
-          </div>
+          </WhButtonFrame>
         </router-link>
-        <router-link class="map-select" tag="div" to="/map/mortal_empires">
-          <div class="image mortal">
+        <router-link tag="div" to="/map/mortal_empires">
+          <WhButtonFrame class="map-select mortal">
             <h2>Mortal Empires</h2>
-          </div>
+          </WhButtonFrame>
         </router-link>
       </div>
       <div class="footer">
@@ -138,42 +138,37 @@ export default {
   }
 
   .map-select {
-    width: 315px;
-    height: 195px;
-    overflow: hidden;
-    cursor: pointer;
-    margin: 10px;
-    filter: drop-shadow(0 0 15px black);
-
-    h2 {
-      text-shadow: 2px 2px black;
-      font-size: 2em;
-    }
-
-    border: solid 1px #b29871;
-
-    &:hover {
-      filter: drop-shadow(0 0 15px #b29871);
-    }
-  }
-
-  .image {
-    margin: -5px;
-    height: 200px;
     display: flex;
     flex-direction: column;
     align-content: center;
     justify-content: flex-end;
     text-align: center;
+
+    width: 308px;
+    height: 183px;
+    margin: 10px;
+    cursor: pointer;
+
+    filter: drop-shadow(0 0 15px black);
+
+    &:hover {
+      filter: drop-shadow(0 0 15px #b29871);
+    }
+
+    h2 {
+      color: white;
+      text-shadow: 2px 2px black;
+      font-size: 2em;
+    }
   }
 
   .mortal {
-    background: url("../assets/ui/campaign_select_grand_campaign.png");
+    background: url("~tww-ui/src/assets/skins/default/campaign_select_grand_campaign.png");
     background-size: cover;
   }
 
   .vortex {
-    background: url("../assets/ui/campaign_select_great_vortex.png");
+    background: url("~tww-ui/src/assets/skins/default/campaign_select_great_vortex.png");
     background-size: cover;
   }
 }

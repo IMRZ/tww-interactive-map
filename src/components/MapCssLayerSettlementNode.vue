@@ -1,17 +1,35 @@
 <template>
   <div class="settlement">
-    <img
-      class="settlement-icon"
-      :src="`${baseUrl}ui/wh_settlement_schematic.png`"
-      :data-map-tooltip="`settlement:${settlement.key}`"
-    >
+    <span class="icon-settlement" v-tooltip="tooltipSettlement()">
+      <WhIcon icon="xs default wh_settlement_schematic" />
+    </span>
     <div class="icons">
-      <img class="icon"
-        v-for="(item, index) in settlementResources"
-        :key="index"
-        :src="item.icon_path"
-        :data-map-tooltip="`resource:${item.key}`"
+      <span class="icon"
+        v-for="entry in strategicLocations"
+        :key="entry.icon"
+        v-tooltip="tooltipResource(entry)"
       >
+        <WhIcon :icon="`resource ${entry.icon}`" />
+      </span>
+      <span class="icon"
+        v-if="port"
+        v-tooltip="tooltipPort()"
+      >
+        <WhIcon icon="default icon_port" />
+      </span>
+      <span class="icon"
+        v-for="entry in strategicResources"
+        :key="entry.icon"
+        v-tooltip="tooltipResource(entry)"
+      >
+        <WhIcon :icon="`resource ${entry.icon}`" />
+      </span>
+      <span class="icon"
+        v-if="fortressGate"
+        v-tooltip="tooltipFortressGate()"
+      >
+        <WhIcon icon="resource siege_defence" />
+      </span>
     </div>
   </div>
 </template>
@@ -23,47 +41,61 @@ export default {
     resources: Object,
     regions_resources: Object,
   },
-  computed: {
-    settlementResources() {
-      const region = this.settlement.key;
-      const resources = this.regions_resources[region];
+  created() {
+    const region = this.settlement.key;
+    const resources = this.regions_resources[region];
 
-      const icons = resources.reduce((accumulator, item) => {
-        if (item.key.endsWith("port")) {
-          const portResource = this.resources["port"];
-          accumulator.port = [portResource];
-        } else if (item.resource) {
-          const resource = this.resources[item.resource];
-          if (resource.key.startsWith("strategic")) {
-            accumulator.strategic_locations.push(resource);
-          } else if (resource.key === "res_fortress") {
-            accumulator.fortress_gate = [resource];
-          } else {
-            accumulator.strategic_recources.push(resource);
-          }
+    resources.forEach((entry) => {
+      if (entry.key.endsWith("port")) {
+        this.port = true;
+      } else if (entry.resource) {
+        const resource = this.resources[entry.resource];
+        if (resource.key.startsWith("res_location")) {
+          this.strategicLocations.push(resource);
+        } else if (resource.key === "res_fortress") {
+          this.fortressGate = true;
+        } else {
+          this.strategicResources.push(resource);
         }
+      }
+    });
 
-        return accumulator;
-      }, {
-        strategic_locations: [],
-        strategic_recources: [],
-        fortress_gate: [],
-        port: []
-      });
-
-      const organizedResources = icons.strategic_locations
-        .concat(icons.strategic_recources)
-        .concat(icons.fortress_gate)
-        .concat(icons.port);
-
-      return new Set(organizedResources);
-    }
+    this.strategicLocations = Array.from(new Set(this.strategicLocations));
   },
   data() {
     return {
-      baseUrl: process.env.BASE_URL
-    }
+      strategicLocations: [],
+      strategicResources: [],
+      fortressGate: false,
+      port: false
+    };
   },
+  methods: {
+    tooltipResource(resource) {
+      return {
+        type: "resource",
+        key: resource.key
+      };
+    },
+    tooltipFortressGate() {
+      return {
+        type: "resource",
+        key: "res_fortress"
+      };
+    },
+    tooltipPort() {
+      return {
+        type: "resource",
+        key: "port"
+      };
+    },
+    tooltipSettlement() {
+      return {
+        type: "settlement",
+        key: this.settlement.key
+      };
+    }
+  }
 }
 </script>
 
@@ -75,7 +107,7 @@ export default {
 
   z-index: 11;
 
-  .settlement-icon {
+  .icon-settlement {
     position: absolute;
     filter: brightness(90%);
 
@@ -84,12 +116,14 @@ export default {
     }
   }
 
+  // TODO: fix this ugly shit
   .icons {
     position: absolute;
     left: 24px;
     display: flex;
     flex-direction: row;
-    height: 24px;
+    align-items: center;
+    justify-content: center;
 
     .icon {
       filter: brightness(90%);
@@ -97,6 +131,11 @@ export default {
       &:hover {
         filter: brightness(100%);
       }
+    }
+
+    .port {
+      width: 26px !important;
+      height: 26px !important;
     }
   }
 }

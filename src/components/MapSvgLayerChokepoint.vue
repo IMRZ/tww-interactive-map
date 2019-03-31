@@ -6,7 +6,7 @@
       :key="chokepoint.key"
       :d="chokepoint.d"
       :style="style(chokepoint, mode)"
-      :data-map-tooltip="`chokepoint:${chokepoint.key}`"
+      v-tooltip="tooltipChokepoint(chokepoint)"
     />
   </MapSvgLayer>
 </template>
@@ -30,6 +30,12 @@ export default {
         default:
           return { fill: "blue" };
       }
+    },
+    tooltipChokepoint(chokepoint) {
+      return {
+        type: "chokepoint",
+        key: chokepoint.key
+      };
     }
   }
 };

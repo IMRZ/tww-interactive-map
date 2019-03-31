@@ -7,7 +7,7 @@
       :d="region.d"
       :style="style(region)"
       @click="onClick(region)"
-      :data-map-tooltip="tooltipString(region)"
+      v-tooltip="tooltipRegionOwner(region)"
     />
   </MapSvgLayer>
 </template>
@@ -53,11 +53,16 @@ export default {
       const faction = this.factions[owner];
       return faction ? { fill: `#${faction.primaryColour}` } : null;
     },
-    tooltipString(region) {
+    tooltipRegionOwner(region) {
       const owner = this.factionList[region.key];
       const faction = this.factions[owner];
       const ownedBy = faction ? faction.key : null;
-      return `region:${region.key}:${ownedBy}`;
+
+      return {
+        type: "region-owner",
+        key: region.key,
+        ownedBy: ownedBy
+      };
     }
   }
 };

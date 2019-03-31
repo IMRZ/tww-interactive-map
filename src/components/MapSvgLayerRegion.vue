@@ -6,7 +6,7 @@
       :key="region.key"
       :d="region.d"
       :style="style(region, mode)"
-      :data-map-tooltip="`region:${region.key}`"
+      v-tooltip="tooltipRegion(region)"
     />
   </MapSvgLayer>
 </template>
@@ -37,6 +37,12 @@ export default {
         default:
           return { fill: "transparent", stroke: "transparent" };
       }
+    },
+    tooltipRegion(region) {
+      return {
+        type: "region",
+        key: region.key
+      };
     }
   }
 };

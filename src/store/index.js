@@ -13,6 +13,8 @@ const SET_PAINTER_FACTION = "SET_PAINTER_FACTION";
 const SET_PAINTER_FACTIONS = "SET_PAINTER_FACTIONS";
 const SET_PAINTER_FACTIONS_ITEM = "SET_PAINTER_FACTIONS_ITEM";
 
+const SET_TOOLTIP = "SET_TOOLTIP";
+
 export default new Vuex.Store({
   state: {
     settings: {
@@ -32,7 +34,7 @@ export default new Vuex.Store({
             path: require("@/assets/maps/wh_main_map.png"),
             width: 4096,
             height: 3352,
-            chokepoints_transform: "scale(2.0157,2.3261)"
+            chokepoints_transform: `scale(${4096 / 2032},${3352 / 1441})`
           }
         },
         vortex: {
@@ -41,11 +43,12 @@ export default new Vuex.Store({
             path: require("@/assets/maps/wh2_main_great_vortex_map.png"),
             width: 3378,
             height: 3869,
-            chokepoints_transform: "scale(2.3264,2.6849)"
+            chokepoints_transform: `scale(${3378 / 1452},${3869 / 1441})`
           }
         }
       }
-    }
+    },
+    tooltip: null
   },
   getters: {
     route: (state) => state.route,
@@ -67,6 +70,9 @@ export default new Vuex.Store({
     },
     [SET_PAINTER_FACTIONS_ITEM](state, { regionKey, factionKey }) {
       Vue.set(state.painter.factions, regionKey, factionKey);
+    },
+    [SET_TOOLTIP](state, tooltip) {
+      state.tooltip = tooltip;
     }
   }
 });

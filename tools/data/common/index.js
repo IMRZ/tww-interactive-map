@@ -2,7 +2,7 @@
 const promise = Promise.all([
   require("./campaign_map_settlements"),
   require("./climates"),
-  require("./factions"),
+  require("./factions")(),
   require("./provinces"),
   require("./regions"),
   require("./region_to_province_junctions"),
