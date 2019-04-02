@@ -3,6 +3,7 @@ import MapTooltipChokepoint from "@/components/MapTooltipChokepoint";
 import MapTooltipDefault from "@/components/MapTooltipDefault";
 import MapTooltipInfo from "@/components/MapTooltipInfo";
 import MapTooltipRegion from "@/components/MapTooltipRegion";
+import MapTooltipRegionOwner from "@/components/MapTooltipRegionOwner";
 import MapTooltipResource from "@/components/MapTooltipResource";
 import MapTooltipSettlement from "@/components/MapTooltipSettlement";
 import MapTooltipStartposition from "@/components/MapTooltipStartposition";
@@ -15,6 +16,7 @@ export default {
     MapTooltipDefault,
     MapTooltipInfo,
     MapTooltipRegion,
+    MapTooltipRegionOwner,
     MapTooltipResource,
     MapTooltipSettlement,
     MapTooltipStartposition
@@ -69,6 +71,8 @@ export default {
           return <MapTooltipInfo tooltip={this.tooltip} />;
         case "region":
           return <MapTooltipRegion tooltip={this.tooltip} common={this.common} map={this.map} />;
+        case "region-owner":
+          return <MapTooltipRegionOwner tooltip={this.tooltip} common={this.common} map={this.map} />;
         case "resource":
           return <MapTooltipResource tooltip={this.tooltip} common={this.common} />;
         case "settlement":
