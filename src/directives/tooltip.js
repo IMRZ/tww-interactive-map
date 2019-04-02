@@ -15,9 +15,14 @@ function clearTooltip() {
 
 export default {
   bind(el, binding) {
+    // tooltip value can be dynamic, see update hook
+    el.$showTooltip = () => {
+      showTooltip(binding.value);
+    };
+
     el.$mouseenter = (event) => {
       event.preventDefault();
-      showTooltip(binding.value);
+      el.$showTooltip();
     };
 
     el.$mouseleave = (event) => {
@@ -27,6 +32,14 @@ export default {
 
     el.addEventListener("mouseenter", el.$mouseenter);
     el.addEventListener("mouseleave", el.$mouseleave);
+  },
+  update(el, binding) {
+    if (binding.oldValue !== binding.value) {
+      // show new tooltip value if value is updated
+      el.$showTooltip = () => {
+        showTooltip(binding.value);
+      };
+    }
   },
   unbind(el) {
     el.removeEventListener("mouseenter", el.$mouseenter);

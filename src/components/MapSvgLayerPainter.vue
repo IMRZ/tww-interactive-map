@@ -56,12 +56,11 @@ export default {
     tooltipRegionOwner(region) {
       const owner = this.factionList[region.key];
       const faction = this.factions[owner];
-      const ownedBy = faction ? faction.key : null;
 
       return {
         type: "region-owner",
         key: region.key,
-        ownedBy: ownedBy
+        owner: faction ? faction.key : null
       };
     }
   }
