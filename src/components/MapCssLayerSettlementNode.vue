@@ -1,32 +1,35 @@
 <template>
-  <div class="settlement">
-    <span class="icon-settlement" v-tooltip="tooltipSettlement()">
+  <div class="node-settlement-resources">
+    <span class="settlement highlight"
+      v-tooltip="tooltip('settlement', settlement.key)"
+      v-if="settlementsFilter"
+    >
       <WhIcon icon="xs default wh_settlement_schematic" />
     </span>
-    <div class="icons">
-      <span class="icon"
+    <div class="icons" v-if="resourcesFilter">
+      <span class="highlight"
         v-for="entry in strategicLocations"
         :key="entry.icon"
-        v-tooltip="tooltipResource(entry)"
+        v-tooltip="tooltip('resource', entry.key)"
       >
         <WhIcon :icon="`resource ${entry.icon}`" />
       </span>
-      <span class="icon"
+      <span class="highlight"
         v-if="port"
-        v-tooltip="tooltipPort()"
+        v-tooltip="tooltip('resource', 'port')"
       >
         <WhIcon icon="md default icon_port" />
       </span>
-      <span class="icon"
+      <span class="highlight"
         v-for="entry in strategicResources"
         :key="entry.icon"
-        v-tooltip="tooltipResource(entry)"
+        v-tooltip="tooltip('resource', entry.key)"
       >
         <WhIcon :icon="`resource ${entry.icon}`" />
       </span>
-      <span class="icon"
+      <span class="highlight"
         v-if="fortressGate"
-        v-tooltip="tooltipFortressGate()"
+        v-tooltip="tooltip('resource', 'res_fortress')"
       >
         <WhIcon icon="resource siege_defence" />
       </span>
@@ -70,45 +73,31 @@ export default {
       port: false
     };
   },
+  computed: {
+    settlementsFilter() {
+      return this.$store.state.filters["settlements"];
+    },
+    resourcesFilter() {
+      return this.$store.state.filters["resources"];
+    }
+  },
   methods: {
-    tooltipResource(resource) {
-      return {
-        type: "resource",
-        key: resource.key
-      };
-    },
-    tooltipFortressGate() {
-      return {
-        type: "resource",
-        key: "res_fortress"
-      };
-    },
-    tooltipPort() {
-      return {
-        type: "resource",
-        key: "port"
-      };
-    },
-    tooltipSettlement() {
-      return {
-        type: "settlement",
-        key: this.settlement.key
-      };
+    tooltip(type, key) {
+      return { type, key };
     }
   }
 }
 </script>
 
 <style lang="scss" scoped>
-.settlement {
+.node-settlement-resources {
   height: 24px;
   display: flex;
   flex-direction: row;
-
+  align-items: center;
   z-index: 11;
 
-  .icon-settlement {
-    position: absolute;
+  .highlight {
     filter: brightness(90%);
 
     &:hover {
@@ -116,27 +105,21 @@ export default {
     }
   }
 
-  // TODO: fix this ugly shit
   .icons {
-    position: absolute;
-    left: 24px;
+    margin-left: 24px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
 
-    .icon {
-      filter: brightness(90%);
-
-      &:hover {
-        filter: brightness(100%);
-      }
-    }
-
     .port {
       width: 26px !important;
       height: 26px !important;
     }
+  }
+
+  .settlement + .icons {
+    margin-left: 0;
   }
 }
 </style>

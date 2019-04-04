@@ -5,6 +5,7 @@
       :map="selectedMapData"
     />
     <MapControlSection />
+    <MapControlTopbar />
   </div>
 </template>
 
@@ -12,11 +13,13 @@
 import MapSettings from "@/mixins/MapSettings";
 import MapContainer from "@/components/MapContainer";
 import MapControlSection from "@/components/MapControlSection";
+import MapControlTopbar from "@/components/MapControlTopbar";
 
 export default {
   components: {
     MapContainer,
     MapControlSection,
+    MapControlTopbar
   },
   mixins: [MapSettings]
 };
