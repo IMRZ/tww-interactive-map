@@ -14,6 +14,7 @@ const SET_PAINTER_FACTIONS = "SET_PAINTER_FACTIONS";
 const SET_PAINTER_FACTIONS_ITEM = "SET_PAINTER_FACTIONS_ITEM";
 
 const SET_TOOLTIP = "SET_TOOLTIP";
+const SET_FILTER = "SET_FILTER";
 
 export default new Vuex.Store({
   state: {
@@ -48,7 +49,11 @@ export default new Vuex.Store({
         }
       }
     },
-    tooltip: null
+    tooltip: null,
+    filters: {
+      settlements: true,
+      resources: true
+    }
   },
   getters: {
     route: (state) => state.route,
@@ -73,6 +78,9 @@ export default new Vuex.Store({
     },
     [SET_TOOLTIP](state, tooltip) {
       state.tooltip = tooltip;
+    },
+    [SET_FILTER](state, { filter, value }) {
+      state.filters[filter] = value;
     }
   }
 });
