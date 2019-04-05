@@ -47,7 +47,10 @@ async function parseFactionsCsv() {
 const FLAG_KEY_PATTERN = /^ui\\flags\\(.*)$/;
 
 module.exports = async () => {
-  const factions = await parseFactionsCsv();
+  const factions = await parseFactionsCsv().then((factions) => {
+    /* TODO: remove this when 'Prophet & The Warlock' is released. */
+    return factions.concat(require("./_temp_"));
+  });
 
   return factions.reduce((accumulator, faction) => {
     const {

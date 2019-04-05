@@ -4983,6 +4983,12 @@
       "name": "Bowmen of Oreon",
       "flagKey": "wh2_main_wef_oreon",
       "primaryColour": "EDE5DF"
+    },
+    "_temp_tehenhauin": {
+      "key": "_temp_tehenhauin",
+      "name": "Tehenhauin",
+      "flagKey": "_temp_tehenhauin",
+      "primaryColour": "F52C1A"
     }
   },
   "provinces": {

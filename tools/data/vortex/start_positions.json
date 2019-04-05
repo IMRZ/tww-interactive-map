@@ -145,5 +145,19 @@
       "x": 1467,
       "y": 3309
     }
+  },
+  {
+    "factionKey": "_temp_tehenhauin",
+    "flag": {
+      "x": 1201,
+      "y": 3605
+    }
+  },
+  {
+    "factionKey": "wh2_main_skv_clan_skyre",
+    "flag": {
+      "x": 1462,
+      "y": 2740
+    }
   }
 ]

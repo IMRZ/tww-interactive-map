@@ -3792,6 +3792,20 @@
         "x": 911,
         "y": 3172
       }
+    },
+    {
+      "factionKey": "_temp_tehenhauin",
+      "flag": {
+        "x": 445,
+        "y": 2859
+      }
+    },
+    {
+      "factionKey": "wh2_main_skv_clan_skyre",
+      "flag": {
+        "x": 1763,
+        "y": 2079
+      }
     }
   ],
   "settlements": [
