@@ -5,7 +5,10 @@
     :offset="32"
     v-tooltip="tooltipStartpos"
   >
-    <WhIcon :icon="icon" />
+    <WhIcon
+      :class="{ 'zoomed-out': isZoomedOut }"
+      :icon="icon"
+    />
   </MapCssLayerNode>
 </template>
 
@@ -33,6 +36,10 @@ export default {
         key: factionKey,
         lord: lord
       };
+    },
+    isZoomedOut() {
+      console.log(this.$store.state.settings.zoomScale);
+      return (this.$store.state.settings.zoomScale < 0.4);
     }
   }
 }
@@ -44,10 +51,17 @@ export default {
   width: 64px;
   cursor: pointer;
   filter: brightness(90%) drop-shadow(0 0 15px #222222);
-  display: inline-block;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .startpos:hover {
   filter: brightness(100%) drop-shadow(0 0 15px #222222);
+}
+
+.zoomed-out {
+  transform: scale(0.6);
 }
 </style>
