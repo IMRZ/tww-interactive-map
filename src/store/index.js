@@ -15,12 +15,14 @@ const SET_PAINTER_FACTIONS_ITEM = "SET_PAINTER_FACTIONS_ITEM";
 
 const SET_TOOLTIP = "SET_TOOLTIP";
 const SET_FILTER = "SET_FILTER";
+const SET_MAP_ZOOM_SCALE = "SET_MAP_ZOOM_SCALE";
 
 export default new Vuex.Store({
   state: {
     settings: {
       showTooltip: true,
-      mapOpacity: 1
+      mapOpacity: 1,
+      zoomScale: 0.25
     },
     painter: {
       faction: null,
@@ -81,6 +83,9 @@ export default new Vuex.Store({
     },
     [SET_FILTER](state, { filter, value }) {
       state.filters[filter] = value;
+    },
+    [SET_MAP_ZOOM_SCALE](state, zoomScale) {
+      state.settings.zoomScale = zoomScale;
     }
   }
 });

@@ -140,6 +140,8 @@ export default {
       matrix.d = scale;
       matrix = matrix.translate(-x, -y);
 
+      this.$store.commit("SET_MAP_ZOOM_SCALE", scale);
+
       this.setCTM(matrix);
       this.mpt = matrix.inverse();
     },
