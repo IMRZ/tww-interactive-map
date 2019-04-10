@@ -3806,6 +3806,13 @@
         "x": 1763,
         "y": 2079
       }
+    },
+    {
+      "factionKey": "wh2_main_lzd_tlaqua",
+      "flag": {
+        "x": 1908,
+        "y": 3275
+      }
     }
   ],
   "settlements": [

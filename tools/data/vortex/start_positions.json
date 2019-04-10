@@ -159,5 +159,12 @@
       "x": 1462,
       "y": 2740
     }
+  },
+  {
+    "factionKey": "wh2_main_lzd_tlaqua",
+    "flag": {
+      "x": 2445,
+      "y": 2858
+    }
   }
 ]
