@@ -284,6 +284,10 @@
       "key": "wh2_main_isthmus_of_lustria_ziggurat_of_dawn",
       "climate": "savannah"
     },
+    "wh2_main_jungles_of_green_mist_pillars_of_unseen_constellations": {
+      "key": "wh2_main_jungles_of_green_mist_pillars_of_unseen_constellations",
+      "climate": "jungle"
+    },
     "wh2_main_jungles_of_green_mists_spektazuma": {
       "key": "wh2_main_jungles_of_green_mists_spektazuma",
       "climate": "jungle"
@@ -744,6 +748,10 @@
       "key": "wh2_main_vor_coast_of_squalls_shrine_of_sotek",
       "climate": "savannah"
     },
+    "wh2_main_vor_coasts_of_the_lustrian_gulf_the_night_forest": {
+      "key": "wh2_main_vor_coasts_of_the_lustrian_gulf_the_night_forest",
+      "climate": "jungle"
+    },
     "wh2_main_vor_cobra_pass_eye_of_the_panther": {
       "key": "wh2_main_vor_cobra_pass_eye_of_the_panther",
       "climate": "mountain"
@@ -779,6 +787,10 @@
     "wh2_main_vor_culchan_plains_kaiax": {
       "key": "wh2_main_vor_culchan_plains_kaiax",
       "climate": "savannah"
+    },
+    "wh2_main_vor_culchan_plains_the_hissing_god": {
+      "key": "wh2_main_vor_culchan_plains_the_hissing_god",
+      "climate": "jungle"
     },
     "wh2_main_vor_culchan_plains_the_southern_sentinels": {
       "key": "wh2_main_vor_culchan_plains_the_southern_sentinels",
@@ -1348,6 +1360,10 @@
       "key": "wh2_main_vor_the_capes_fortress_of_dawn",
       "climate": "island"
     },
+    "wh2_main_vor_the_capes_tip_of_lustria": {
+      "key": "wh2_main_vor_the_capes_tip_of_lustria",
+      "climate": "savannah"
+    },
     "wh2_main_vor_the_chill_road_ashrak": {
       "key": "wh2_main_vor_the_chill_road_ashrak",
       "climate": "frozen"
@@ -1448,6 +1464,14 @@
       "key": "wh2_main_vor_the_red_rivers_nahuontl",
       "climate": "jungle"
     },
+    "wh2_main_vor_the_red_rivers_soteks_trail": {
+      "key": "wh2_main_vor_the_red_rivers_soteks_trail",
+      "climate": "jungle"
+    },
+    "wh2_main_vor_the_red_rivers_sun-tree_glades": {
+      "key": "wh2_main_vor_the_red_rivers_sun-tree_glades",
+      "climate": "jungle"
+    },
     "wh2_main_vor_the_red_rivers_zlatan": {
       "key": "wh2_main_vor_the_red_rivers_zlatan",
       "climate": "jungle"
@@ -1516,6 +1540,10 @@
       "key": "wh2_main_vor_unicorn_gate",
       "climate": "island"
     },
+    "wh2_main_vor_volcanic_islands_fuming_serpent": {
+      "key": "wh2_main_vor_volcanic_islands_fuming_serpent",
+      "climate": "jungle"
+    },
     "wh2_main_vor_western_jungles_deaths-head_monoliths": {
       "key": "wh2_main_vor_western_jungles_deaths-head_monoliths",
       "climate": "savannah"
@@ -1527,6 +1555,14 @@
     "wh2_main_vor_western_jungles_tlaqua": {
       "key": "wh2_main_vor_western_jungles_tlaqua",
       "climate": "jungle"
+    },
+    "wh2_main_western_jungles_cuexotl": {
+      "key": "wh2_main_western_jungles_cuexotl",
+      "climate": "desert"
+    },
+    "wh2_main_western_jungles_tlaqua": {
+      "key": "wh2_main_western_jungles_tlaqua",
+      "climate": "desert"
     },
     "wh2_main_yvresse_elessaeli": {
       "key": "wh2_main_yvresse_elessaeli",
@@ -2216,6 +2252,10 @@
       "key": "wh_main_lyonesse_mousillon",
       "climate": "temperate"
     },
+    "wh_main_massif_orcal_massif_orcal": {
+      "key": "wh_main_massif_orcal_massif_orcal",
+      "climate": "mountain"
+    },
     "wh_main_middenland_carroburg": {
       "key": "wh_main_middenland_carroburg",
       "climate": "temperate"
@@ -2290,6 +2330,14 @@
     },
     "wh_main_ostermark_essen": {
       "key": "wh_main_ostermark_essen",
+      "climate": "temperate"
+    },
+    "wh_main_ostermark_mordheim": {
+      "key": "wh_main_ostermark_mordheim",
+      "climate": "temperate"
+    },
+    "wh_main_ostermark_nagenhof": {
+      "key": "wh_main_ostermark_nagenhof",
       "climate": "temperate"
     },
     "wh_main_ostland_castle_von_rauken": {
@@ -2392,8 +2440,16 @@
       "key": "wh_main_stirland_wurtbad",
       "climate": "temperate"
     },
+    "wh_main_talabecland_kappelburg": {
+      "key": "wh_main_talabecland_kappelburg",
+      "climate": "temperate"
+    },
     "wh_main_talabecland_kemperbad": {
       "key": "wh_main_talabecland_kemperbad",
+      "climate": "temperate"
+    },
+    "wh_main_talabecland_krugenheim": {
+      "key": "wh_main_talabecland_krugenheim",
       "climate": "temperate"
     },
     "wh_main_talabecland_talabheim": {
@@ -3938,6 +3994,36 @@
       "flagKey": "wh2_dlc11_vmp_the_barrow_legion",
       "primaryColour": "43728C"
     },
+    "wh2_dlc12_grn_leaf_cutterz_tribe": {
+      "key": "wh2_dlc12_grn_leaf_cutterz_tribe",
+      "name": "Leaf-Cutterz Tribe",
+      "flagKey": "wh_dlc12_grn_leaf_cutterz",
+      "primaryColour": "5A6700"
+    },
+    "wh2_dlc12_grn_leaf_cutterz_tribe_waaagh": {
+      "key": "wh2_dlc12_grn_leaf_cutterz_tribe_waaagh",
+      "name": "Leaf-Cutterz Tribe Waaagh!",
+      "flagKey": "wh_dlc12_grn_leaf_cutterz",
+      "primaryColour": "5A6700"
+    },
+    "wh2_dlc12_lzd_cult_of_sotek": {
+      "key": "wh2_dlc12_lzd_cult_of_sotek",
+      "name": "Cult of Sotek",
+      "flagKey": "wh2_dlc12_lzd_cult_of_sotek",
+      "primaryColour": "1C1C1C"
+    },
+    "wh2_dlc12_skv_clan_fester": {
+      "key": "wh2_dlc12_skv_clan_fester",
+      "name": "Clan Fester",
+      "flagKey": "wh2_dlc12_skv_clan_fester",
+      "primaryColour": "796A3A"
+    },
+    "wh2_dlc12_skv_clan_mange": {
+      "key": "wh2_dlc12_skv_clan_mange",
+      "name": "Clan Mange",
+      "flagKey": "wh2_dlc12_skv_clan_mange",
+      "primaryColour": "506E33"
+    },
     "wh2_main_brt_knights_of_origo": {
       "key": "wh2_main_brt_knights_of_origo",
       "name": "Knights of Origo",
@@ -4778,6 +4864,12 @@
       "flagKey": "wh2_main_skv_clan_septik",
       "primaryColour": "50924E"
     },
+    "wh2_main_skv_clan_skryre_separatists": {
+      "key": "wh2_main_skv_clan_skryre_separatists",
+      "name": "Clan Skryre Separatists",
+      "flagKey": "wh2_main_skv_clan_skryre_separatists",
+      "primaryColour": "5B5B5B"
+    },
     "wh2_main_skv_clan_skyre": {
       "key": "wh2_main_skv_clan_skyre",
       "name": "Clan Skryre",
@@ -5174,6 +5266,10 @@
       "key": "wh2_main_vor_coast_of_squalls",
       "name": "Coast of Squalls"
     },
+    "wh2_main_vor_coasts_of_the_lustrian_gulf": {
+      "key": "wh2_main_vor_coasts_of_the_lustrian_gulf",
+      "name": "Coasts of the Lustrian Gulf"
+    },
     "wh2_main_vor_cobra_pass": {
       "key": "wh2_main_vor_cobra_pass",
       "name": "Cobra Pass"
@@ -5209,6 +5305,10 @@
     "wh2_main_vor_forest_of_the_viper": {
       "key": "wh2_main_vor_forest_of_the_viper",
       "name": "Forests of the Viper"
+    },
+    "wh2_main_vor_fortress_of_dawn": {
+      "key": "wh2_main_vor_fortress_of_dawn",
+      "name": "Fortress of Dawn"
     },
     "wh2_main_vor_galleons_graveyard": {
       "key": "wh2_main_vor_galleons_graveyard",
@@ -5290,6 +5390,10 @@
       "key": "wh2_main_vor_northern_great_jungle",
       "name": "Northern Great Jungle"
     },
+    "wh2_main_vor_northern_red_rivers": {
+      "key": "wh2_main_vor_northern_red_rivers",
+      "name": "Northern Red Rivers"
+    },
     "wh2_main_vor_northern_spine_of_sotek": {
       "key": "wh2_main_vor_northern_spine_of_sotek",
       "name": "Northern Spine of Sotek"
@@ -5361,6 +5465,10 @@
     "wh2_main_vor_southern_jungles": {
       "key": "wh2_main_vor_southern_jungles",
       "name": "Southern Jungles"
+    },
+    "wh2_main_vor_southern_red_rivers": {
+      "key": "wh2_main_vor_southern_red_rivers",
+      "name": "Southern Red Rivers"
     },
     "wh2_main_vor_southern_spine_of_sotek": {
       "key": "wh2_main_vor_southern_spine_of_sotek",
@@ -5450,8 +5558,16 @@
       "key": "wh2_main_vor_unicorn_gate",
       "name": "Unicorn Gate"
     },
+    "wh2_main_vor_volcanic_islands": {
+      "key": "wh2_main_vor_volcanic_islands",
+      "name": "Volcanic Islands"
+    },
     "wh2_main_vor_western_jungles": {
       "key": "wh2_main_vor_western_jungles",
+      "name": "Western Jungles"
+    },
+    "wh2_main_western_jungles": {
+      "key": "wh2_main_western_jungles",
       "name": "Western Jungles"
     },
     "wh2_main_yvresse": {
@@ -5549,6 +5665,10 @@
     "wh_main_lyonesse": {
       "key": "wh_main_lyonesse",
       "name": "Lyonesse"
+    },
+    "wh_main_massif_orcal": {
+      "key": "wh_main_massif_orcal",
+      "name": "Massif Orcal"
     },
     "wh_main_middenland": {
       "key": "wh_main_middenland",
@@ -6118,6 +6238,12 @@
       "key": "wh2_main_isthmus_of_lustria_ziggurat_of_dawn",
       "name": "Ziggurat of Dawn",
       "fill": "B6221E",
+      "isSea": false
+    },
+    "wh2_main_jungles_of_green_mist_pillars_of_unseen_constellations": {
+      "key": "wh2_main_jungles_of_green_mist_pillars_of_unseen_constellations",
+      "name": "Pillars of the Unseen Constellation",
+      "fill": "B256FE",
       "isSea": false
     },
     "wh2_main_jungles_of_green_mists_spektazuma": {
@@ -6966,6 +7092,12 @@
       "fill": "5612CC",
       "isSea": false
     },
+    "wh2_main_vor_coasts_of_the_lustrian_gulf_the_night_forest": {
+      "key": "wh2_main_vor_coasts_of_the_lustrian_gulf_the_night_forest",
+      "name": "The Night Forest",
+      "fill": "9400D3",
+      "isSea": false
+    },
     "wh2_main_vor_cobra_pass_eye_of_the_panther": {
       "key": "wh2_main_vor_cobra_pass_eye_of_the_panther",
       "name": "Eye of the Panther",
@@ -7018,6 +7150,12 @@
       "key": "wh2_main_vor_culchan_plains_kaiax",
       "name": "Kaiax",
       "fill": "4E5A97",
+      "isSea": false
+    },
+    "wh2_main_vor_culchan_plains_the_hissing_god": {
+      "key": "wh2_main_vor_culchan_plains_the_hissing_god",
+      "name": "The Hissing God",
+      "fill": "2FCD51",
       "isSea": false
     },
     "wh2_main_vor_culchan_plains_the_southern_sentinels": {
@@ -8118,6 +8256,12 @@
       "fill": "B2E914",
       "isSea": false
     },
+    "wh2_main_vor_the_capes_tip_of_lustria": {
+      "key": "wh2_main_vor_the_capes_tip_of_lustria",
+      "name": "Tip of Lustria",
+      "fill": "379B69",
+      "isSea": false
+    },
     "wh2_main_vor_the_chill_road_ashrak": {
       "key": "wh2_main_vor_the_chill_road_ashrak",
       "name": "Ashrak",
@@ -8274,6 +8418,18 @@
       "fill": "34DADD",
       "isSea": false
     },
+    "wh2_main_vor_the_red_rivers_soteks_trail": {
+      "key": "wh2_main_vor_the_red_rivers_soteks_trail",
+      "name": "Sotek's Trail",
+      "fill": "34DD76",
+      "isSea": false
+    },
+    "wh2_main_vor_the_red_rivers_sun-tree_glades": {
+      "key": "wh2_main_vor_the_red_rivers_sun-tree_glades",
+      "name": "Sun-Tree Glades",
+      "fill": "34BD75",
+      "isSea": false
+    },
     "wh2_main_vor_the_red_rivers_zlatan": {
       "key": "wh2_main_vor_the_red_rivers_zlatan",
       "name": "Zlatlan",
@@ -8376,6 +8532,12 @@
       "fill": "DDDB15",
       "isSea": false
     },
+    "wh2_main_vor_volcanic_islands_fuming_serpent": {
+      "key": "wh2_main_vor_volcanic_islands_fuming_serpent",
+      "name": "Fuming Serpent",
+      "fill": "10F62F",
+      "isSea": false
+    },
     "wh2_main_vor_western_jungles_deaths-head_monoliths": {
       "key": "wh2_main_vor_western_jungles_deaths-head_monoliths",
       "name": "Death's-Head Monoliths",
@@ -8390,6 +8552,18 @@
     },
     "wh2_main_vor_western_jungles_tlaqua": {
       "key": "wh2_main_vor_western_jungles_tlaqua",
+      "name": "Tlaqua",
+      "fill": "924ECC",
+      "isSea": false
+    },
+    "wh2_main_western_jungles_cuexotl": {
+      "key": "wh2_main_western_jungles_cuexotl",
+      "name": "Cuexotl",
+      "fill": "3475BD",
+      "isSea": false
+    },
+    "wh2_main_western_jungles_tlaqua": {
+      "key": "wh2_main_western_jungles_tlaqua",
       "name": "Tlaqua",
       "fill": "924ECC",
       "isSea": false
@@ -8784,6 +8958,12 @@
       "fill": "AEC538",
       "isSea": false
     },
+    "wh_main_massif_orcal_massif_orcal": {
+      "key": "wh_main_massif_orcal_massif_orcal",
+      "name": "Massif Orcal",
+      "fill": "C268D6",
+      "isSea": false
+    },
     "wh_main_middenland_carroburg": {
       "key": "wh_main_middenland_carroburg",
       "name": "Carroburg",
@@ -8896,6 +9076,18 @@
       "key": "wh_main_ostermark_essen",
       "name": "Essen",
       "fill": "ECE0EE",
+      "isSea": false
+    },
+    "wh_main_ostermark_mordheim": {
+      "key": "wh_main_ostermark_mordheim",
+      "name": "Mordheim",
+      "fill": "5267FF",
+      "isSea": false
+    },
+    "wh_main_ostermark_nagenhof": {
+      "key": "wh_main_ostermark_nagenhof",
+      "name": "Nagenhof",
+      "fill": "669BC8",
       "isSea": false
     },
     "wh_main_ostland_castle_von_rauken": {
@@ -9144,10 +9336,22 @@
       "fill": "20F89A",
       "isSea": false
     },
+    "wh_main_talabecland_kappelburg": {
+      "key": "wh_main_talabecland_kappelburg",
+      "name": "Kappelburg",
+      "fill": "7D6859",
+      "isSea": false
+    },
     "wh_main_talabecland_kemperbad": {
       "key": "wh_main_talabecland_kemperbad",
       "name": "Kemperbad",
       "fill": "792682",
+      "isSea": false
+    },
+    "wh_main_talabecland_krugenheim": {
+      "key": "wh_main_talabecland_krugenheim",
+      "name": "Krugenheim",
+      "fill": "CC597D",
       "isSea": false
     },
     "wh_main_talabecland_talabheim": {
@@ -9726,6 +9930,11 @@
     "wh2_main_isthmus_of_lustria_ziggurat_of_dawn": {
       "regionKey": "wh2_main_isthmus_of_lustria_ziggurat_of_dawn",
       "provinceKey": "wh2_main_isthmus_of_lustria",
+      "isCapital": false
+    },
+    "wh2_main_jungles_of_green_mist_pillars_of_unseen_constellations": {
+      "regionKey": "wh2_main_jungles_of_green_mist_pillars_of_unseen_constellations",
+      "provinceKey": "wh2_main_jungles_of_green_mists",
       "isCapital": false
     },
     "wh2_main_jungles_of_green_mists_spektazuma": {
@@ -10323,6 +10532,11 @@
       "provinceKey": "wh2_main_vor_coast_of_squalls",
       "isCapital": false
     },
+    "wh2_main_vor_coasts_of_the_lustrian_gulf_the_night_forest": {
+      "regionKey": "wh2_main_vor_coasts_of_the_lustrian_gulf_the_night_forest",
+      "provinceKey": "wh2_main_vor_coasts_of_the_lustrian_gulf",
+      "isCapital": false
+    },
     "wh2_main_vor_cobra_pass_eye_of_the_panther": {
       "regionKey": "wh2_main_vor_cobra_pass_eye_of_the_panther",
       "provinceKey": "wh2_main_vor_cobra_pass",
@@ -10365,6 +10579,11 @@
     },
     "wh2_main_vor_culchan_plains_kaiax": {
       "regionKey": "wh2_main_vor_culchan_plains_kaiax",
+      "provinceKey": "wh2_main_vor_coasts_of_the_lustrian_gulf",
+      "isCapital": true
+    },
+    "wh2_main_vor_culchan_plains_the_hissing_god": {
+      "regionKey": "wh2_main_vor_culchan_plains_the_hissing_god",
       "provinceKey": "wh2_main_vor_culchan_plains",
       "isCapital": false
     },
@@ -10375,7 +10594,7 @@
     },
     "wh2_main_vor_culchan_plains_xlansec": {
       "regionKey": "wh2_main_vor_culchan_plains_xlansec",
-      "provinceKey": "wh2_main_vor_culchan_plains",
+      "provinceKey": "wh2_main_vor_the_capes",
       "isCapital": false
     },
     "wh2_main_vor_deadwood_dargoth": {
@@ -11086,12 +11305,17 @@
     "wh2_main_vor_the_capes_citadel_of_dusk": {
       "regionKey": "wh2_main_vor_the_capes_citadel_of_dusk",
       "provinceKey": "wh2_main_vor_the_capes",
-      "isCapital": false
+      "isCapital": true
     },
     "wh2_main_vor_the_capes_fortress_of_dawn": {
       "regionKey": "wh2_main_vor_the_capes_fortress_of_dawn",
-      "provinceKey": "wh2_main_vor_the_capes",
+      "provinceKey": "wh2_main_vor_fortress_of_dawn",
       "isCapital": true
+    },
+    "wh2_main_vor_the_capes_tip_of_lustria": {
+      "regionKey": "wh2_main_vor_the_capes_tip_of_lustria",
+      "provinceKey": "wh2_main_vor_the_capes",
+      "isCapital": false
     },
     "wh2_main_vor_the_chill_road_ashrak": {
       "regionKey": "wh2_main_vor_the_chill_road_ashrak",
@@ -11205,22 +11429,32 @@
     },
     "wh2_main_vor_the_red_rivers_cuexotl": {
       "regionKey": "wh2_main_vor_the_red_rivers_cuexotl",
-      "provinceKey": "wh2_main_vor_the_red_rivers",
-      "isCapital": false
+      "provinceKey": "wh2_main_vor_northern_red_rivers",
+      "isCapital": true
     },
     "wh2_main_vor_the_red_rivers_golden_tower_of_the_gods": {
       "regionKey": "wh2_main_vor_the_red_rivers_golden_tower_of_the_gods",
-      "provinceKey": "wh2_main_vor_the_red_rivers",
+      "provinceKey": "wh2_main_vor_southern_red_rivers",
       "isCapital": false
     },
     "wh2_main_vor_the_red_rivers_nahuontl": {
       "regionKey": "wh2_main_vor_the_red_rivers_nahuontl",
-      "provinceKey": "wh2_main_vor_the_red_rivers",
+      "provinceKey": "wh2_main_vor_northern_red_rivers",
+      "isCapital": false
+    },
+    "wh2_main_vor_the_red_rivers_soteks_trail": {
+      "regionKey": "wh2_main_vor_the_red_rivers_soteks_trail",
+      "provinceKey": "wh2_main_vor_southern_red_rivers",
+      "isCapital": false
+    },
+    "wh2_main_vor_the_red_rivers_sun-tree_glades": {
+      "regionKey": "wh2_main_vor_the_red_rivers_sun-tree_glades",
+      "provinceKey": "wh2_main_vor_northern_red_rivers",
       "isCapital": false
     },
     "wh2_main_vor_the_red_rivers_zlatan": {
       "regionKey": "wh2_main_vor_the_red_rivers_zlatan",
-      "provinceKey": "wh2_main_vor_the_red_rivers",
+      "provinceKey": "wh2_main_vor_southern_red_rivers",
       "isCapital": true
     },
     "wh2_main_vor_the_road_of_skulls_har_ganeth": {
@@ -11275,8 +11509,8 @@
     },
     "wh2_main_vor_the_vampire_coast_the_star_tower": {
       "regionKey": "wh2_main_vor_the_vampire_coast_the_star_tower",
-      "provinceKey": "wh2_main_vor_the_vampire_coast",
-      "isCapital": false
+      "provinceKey": "wh2_main_vor_volcanic_islands",
+      "isCapital": true
     },
     "wh2_main_vor_tiranoc_salvation_isle": {
       "regionKey": "wh2_main_vor_tiranoc_salvation_isle",
@@ -11303,6 +11537,11 @@
       "provinceKey": "wh2_main_vor_unicorn_gate",
       "isCapital": true
     },
+    "wh2_main_vor_volcanic_islands_fuming_serpent": {
+      "regionKey": "wh2_main_vor_volcanic_islands_fuming_serpent",
+      "provinceKey": "wh2_main_vor_volcanic_islands",
+      "isCapital": false
+    },
     "wh2_main_vor_western_jungles_deaths-head_monoliths": {
       "regionKey": "wh2_main_vor_western_jungles_deaths-head_monoliths",
       "provinceKey": "wh2_main_vor_western_jungles",
@@ -11316,6 +11555,16 @@
     "wh2_main_vor_western_jungles_tlaqua": {
       "regionKey": "wh2_main_vor_western_jungles_tlaqua",
       "provinceKey": "wh2_main_vor_western_jungles",
+      "isCapital": true
+    },
+    "wh2_main_western_jungles_cuexotl": {
+      "regionKey": "wh2_main_western_jungles_cuexotl",
+      "provinceKey": "wh2_main_western_jungles",
+      "isCapital": false
+    },
+    "wh2_main_western_jungles_tlaqua": {
+      "regionKey": "wh2_main_western_jungles_tlaqua",
+      "provinceKey": "wh2_main_western_jungles",
       "isCapital": true
     },
     "wh2_main_yvresse_elessaeli": {
@@ -11638,6 +11887,11 @@
       "provinceKey": "wh_main_lyonesse",
       "isCapital": false
     },
+    "wh_main_massif_orcal_massif_orcal": {
+      "regionKey": "wh_main_massif_orcal_massif_orcal",
+      "provinceKey": "wh_main_massif_orcal",
+      "isCapital": true
+    },
     "wh_main_middenland_carroburg": {
       "regionKey": "wh_main_middenland_carroburg",
       "provinceKey": "wh_main_middenland",
@@ -11730,6 +11984,16 @@
     },
     "wh_main_ostermark_essen": {
       "regionKey": "wh_main_ostermark_essen",
+      "provinceKey": "wh_main_ostermark",
+      "isCapital": false
+    },
+    "wh_main_ostermark_mordheim": {
+      "regionKey": "wh_main_ostermark_mordheim",
+      "provinceKey": "wh_main_ostermark",
+      "isCapital": false
+    },
+    "wh_main_ostermark_nagenhof": {
+      "regionKey": "wh_main_ostermark_nagenhof",
       "provinceKey": "wh_main_ostermark",
       "isCapital": false
     },
@@ -11858,8 +12122,18 @@
       "provinceKey": "wh_main_stirland",
       "isCapital": true
     },
+    "wh_main_talabecland_kappelburg": {
+      "regionKey": "wh_main_talabecland_kappelburg",
+      "provinceKey": "wh_main_talabecland",
+      "isCapital": false
+    },
     "wh_main_talabecland_kemperbad": {
       "regionKey": "wh_main_talabecland_kemperbad",
+      "provinceKey": "wh_main_talabecland",
+      "isCapital": false
+    },
+    "wh_main_talabecland_krugenheim": {
+      "regionKey": "wh_main_talabecland_krugenheim",
       "provinceKey": "wh_main_talabecland",
       "isCapital": false
     },

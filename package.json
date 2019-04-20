@@ -7,24 +7,24 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "deploy": "npm run build && push-dir --dir=dist --branch=gh-pages --cleanup",
-    "tools-generate-data": "node tools/data/index.js"
+    "gen:data": "node tools/data/index.js"
   },
   "dependencies": {
     "register-service-worker": "^1.5.2",
-    "total-war-save-parser": "IMRZ/total-war-save-parser#d44fb23",
-    "tww-ui": "github:IMRZ/tww-ui#0.1.2",
+    "total-war-save-parser": "IMRZ/total-war-save-parser#0.1.1",
+    "tww-ui": "IMRZ/tww-ui#0.1.2",
     "vue": "^2.6.10",
-    "vue-router": "^3.0.2",
+    "vue-router": "^3.0.6",
     "vue-single-select": "^1.0.29",
     "vuex": "^3.1.0",
     "vuex-router-sync": "^5.0.0"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.5.3",
-    "@vue/cli-plugin-eslint": "^3.5.1",
-    "@vue/cli-plugin-pwa": "^3.5.1",
-    "@vue/cli-service": "^3.5.3",
-    "@vue/eslint-config-prettier": "^3.0.5",
+    "@vue/cli-plugin-babel": "^3.6.0",
+    "@vue/cli-plugin-eslint": "^3.6.0",
+    "@vue/cli-plugin-pwa": "^3.6.0",
+    "@vue/cli-service": "^3.6.0",
+    "@vue/eslint-config-prettier": "^4.0.1",
     "csvtojson": "^2.0.8",
     "folktale": "^2.3.2",
     "node-sass": "^4.11.0",

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="campaign_map_settlements.xsd" export_time="Tue Jul 17 10:16:07 2018" revision="111" export_branch="C:/Users/mark.sinclair/AppData/Roaming/TWDaemon/1054/dave" export_user="bob">
-<edit_uuid>8c1041b6-4210-448d-955c-30b71a78bb2d</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="campaign_map_settlements.xsd" export_time="Wed Apr 3 16:19:57 2019" revision="117" export_branch="C:/Users/sean.macdonald/AppData/Roaming/TWDaemon/1421/dave" export_user="bob">
+<edit_uuid>2490e487-acd9-47ff-9f33-706b87ccdf49</edit_uuid>
 <campaign_map_settlements record_uuid="{fbec60ef-db04-42c3-ae92-2313d7e2067c}" record_timestamp="1484839291333" record_key="settlement:wh2_main_aghol_wastelands_fortress_of_the_damned">
 <citybar_height_offset>0</citybar_height_offset>
 <climate_type>climate_chaotic</climate_type>
@@ -355,6 +355,11 @@
 <citybar_height_offset>0</citybar_height_offset>
 <climate_type>climate_savannah</climate_type>
 <settlement_id>settlement:wh2_main_isthmus_of_lustria_ziggurat_of_dawn</settlement_id>
+</campaign_map_settlements>
+<campaign_map_settlements record_uuid="{37edb45b-93e2-438f-bf37-bf8534ff9ad8}" record_timestamp="1544633447989" record_key="settlement:wh2_main_jungles_of_green_mist_pillars_of_unseen_constellations">
+<citybar_height_offset>0</citybar_height_offset>
+<climate_type>climate_jungle</climate_type>
+<settlement_id>settlement:wh2_main_jungles_of_green_mist_pillars_of_unseen_constellations</settlement_id>
 </campaign_map_settlements>
 <campaign_map_settlements record_uuid="{bc5ae8a8-4e52-4295-a243-70add16daf18}" record_timestamp="1479987992565" record_key="settlement:wh2_main_jungles_of_green_mists_spektazuma">
 <citybar_height_offset>0</citybar_height_offset>
@@ -936,6 +941,11 @@
 <climate_type>climate_savannah</climate_type>
 <settlement_id>settlement:wh2_main_vor_coast_of_squalls_shrine_of_sotek</settlement_id>
 </campaign_map_settlements>
+<campaign_map_settlements record_uuid="{c4ad36e2-1fca-4ccc-872c-9ccdd6a8274b}" record_timestamp="1545149378031" record_key="settlement:wh2_main_vor_coasts_of_the_lustrian_gulf_the_night_forest">
+<citybar_height_offset>0</citybar_height_offset>
+<climate_type>climate_jungle</climate_type>
+<settlement_id>settlement:wh2_main_vor_coasts_of_the_lustrian_gulf_the_night_forest</settlement_id>
+</campaign_map_settlements>
 <campaign_map_settlements record_uuid="{54bd295d-233a-4204-bd78-7705cfb95624}" record_timestamp="1479905001792" record_key="settlement:wh2_main_vor_cobra_pass_eye_of_the_panther">
 <citybar_height_offset>0</citybar_height_offset>
 <climate_type>climate_mountain</climate_type>
@@ -980,6 +990,11 @@
 <citybar_height_offset>0</citybar_height_offset>
 <climate_type>climate_savannah</climate_type>
 <settlement_id>settlement:wh2_main_vor_culchan_plains_kaiax</settlement_id>
+</campaign_map_settlements>
+<campaign_map_settlements record_uuid="{9507834a-6f51-462f-8928-22733ba88027}" record_timestamp="1545149375855" record_key="settlement:wh2_main_vor_culchan_plains_the_hissing_god">
+<citybar_height_offset>0</citybar_height_offset>
+<climate_type>climate_jungle</climate_type>
+<settlement_id>settlement:wh2_main_vor_culchan_plains_the_hissing_god</settlement_id>
 </campaign_map_settlements>
 <campaign_map_settlements record_uuid="{7aa87ef0-0ad6-42ac-bebf-a18bf4c2e5b6}" record_timestamp="1479905000702" record_key="settlement:wh2_main_vor_culchan_plains_the_southern_sentinels">
 <citybar_height_offset>0</citybar_height_offset>
@@ -1691,6 +1706,11 @@
 <climate_type>climate_island</climate_type>
 <settlement_id>settlement:wh2_main_vor_the_capes_fortress_of_dawn</settlement_id>
 </campaign_map_settlements>
+<campaign_map_settlements record_uuid="{c08bb098-fe95-4e6b-b7eb-fe76430bd3e8}" record_timestamp="1545149380352" record_key="settlement:wh2_main_vor_the_capes_tip_of_lustria">
+<citybar_height_offset>0</citybar_height_offset>
+<climate_type>climate_savannah</climate_type>
+<settlement_id>settlement:wh2_main_vor_the_capes_tip_of_lustria</settlement_id>
+</campaign_map_settlements>
 <campaign_map_settlements record_uuid="{d95c11b7-2bc2-4088-acac-527667527e3a}" record_timestamp="1479904986715" record_key="settlement:wh2_main_vor_the_chill_road_ashrak">
 <citybar_height_offset>0</citybar_height_offset>
 <climate_type>climate_frozen</climate_type>
@@ -1816,6 +1836,16 @@
 <climate_type>climate_jungle</climate_type>
 <settlement_id>settlement:wh2_main_vor_the_red_rivers_nahuontl</settlement_id>
 </campaign_map_settlements>
+<campaign_map_settlements record_uuid="{3d29bd60-aece-4e58-b546-209fd4762c24}" record_timestamp="1545149367560" record_key="settlement:wh2_main_vor_the_red_rivers_soteks_trail">
+<citybar_height_offset>0</citybar_height_offset>
+<climate_type>climate_jungle</climate_type>
+<settlement_id>settlement:wh2_main_vor_the_red_rivers_soteks_trail</settlement_id>
+</campaign_map_settlements>
+<campaign_map_settlements record_uuid="{13d2007e-7e08-4eb6-9611-1c9d4c8d6747}" record_timestamp="1545149367623" record_key="settlement:wh2_main_vor_the_red_rivers_sun-tree_glades">
+<citybar_height_offset>0</citybar_height_offset>
+<climate_type>climate_jungle</climate_type>
+<settlement_id>settlement:wh2_main_vor_the_red_rivers_sun-tree_glades</settlement_id>
+</campaign_map_settlements>
 <campaign_map_settlements record_uuid="{e0b74d92-bd2c-4207-b31f-6bbc817f7ed0}" record_timestamp="1479904984949" record_key="settlement:wh2_main_vor_the_red_rivers_zlatan">
 <citybar_height_offset>0</citybar_height_offset>
 <climate_type>climate_jungle</climate_type>
@@ -1901,6 +1931,11 @@
 <climate_type>climate_island</climate_type>
 <settlement_id>settlement:wh2_main_vor_unicorn_gate</settlement_id>
 </campaign_map_settlements>
+<campaign_map_settlements record_uuid="{ae788e3f-0ef5-4ab1-ba05-271ffc6eb6e2}" record_timestamp="1545149373207" record_key="settlement:wh2_main_vor_volcanic_islands_fuming_serpent">
+<citybar_height_offset>0</citybar_height_offset>
+<climate_type>climate_jungle</climate_type>
+<settlement_id>settlement:wh2_main_vor_volcanic_islands_fuming_serpent</settlement_id>
+</campaign_map_settlements>
 <campaign_map_settlements record_uuid="{6a73753a-090c-405d-a98a-10d49b6e46a2}" record_timestamp="1479904983564" record_key="settlement:wh2_main_vor_western_jungles_deaths-head_monoliths">
 <citybar_height_offset>0</citybar_height_offset>
 <climate_type>climate_savannah</climate_type>
@@ -1915,6 +1950,16 @@
 <citybar_height_offset>0</citybar_height_offset>
 <climate_type>climate_jungle</climate_type>
 <settlement_id>settlement:wh2_main_vor_western_jungles_tlaqua</settlement_id>
+</campaign_map_settlements>
+<campaign_map_settlements record_uuid="{4679b7da-83e9-437d-bcac-07e4e651cad0}" record_timestamp="1544608864403" record_key="settlement:wh2_main_western_jungles_cuexotl">
+<citybar_height_offset>0</citybar_height_offset>
+<climate_type>climate_desert</climate_type>
+<settlement_id>settlement:wh2_main_western_jungles_cuexotl</settlement_id>
+</campaign_map_settlements>
+<campaign_map_settlements record_uuid="{0d025f39-97fd-4336-839b-82727443290e}" record_timestamp="1544608864403" record_key="settlement:wh2_main_western_jungles_tlaqua">
+<citybar_height_offset>0</citybar_height_offset>
+<climate_type>climate_desert</climate_type>
+<settlement_id>settlement:wh2_main_western_jungles_tlaqua</settlement_id>
 </campaign_map_settlements>
 <campaign_map_settlements record_uuid="{51296e97-c7c0-478a-be67-e960554ff5c2}" record_timestamp="1479904983326" record_key="settlement:wh2_main_yvresse_elessaeli">
 <citybar_height_offset>0</citybar_height_offset>
@@ -2781,6 +2826,11 @@
 <climate_type>climate_temperate</climate_type>
 <settlement_id>settlement:wh_main_lyonesse_mousillon</settlement_id>
 </campaign_map_settlements>
+<campaign_map_settlements record_uuid="{b34e5463-57c0-484c-881e-4cae623d342e}" record_timestamp="1548856722362" record_key="settlement:wh_main_massif_orcal_massif_orcal">
+<citybar_height_offset>0</citybar_height_offset>
+<climate_type>climate_mountain</climate_type>
+<settlement_id>settlement:wh_main_massif_orcal_massif_orcal</settlement_id>
+</campaign_map_settlements>
 <campaign_map_settlements record_uuid="{1d11e45b-6fb6-41b5-900d-e9928e2d5aae}" record_timestamp="1479829410029" record_key="settlement:wh_main_middenland_carroburg">
 <citybar_height_offset>0</citybar_height_offset>
 <climate_type>climate_temperate</climate_type>
@@ -2875,6 +2925,16 @@
 <citybar_height_offset>0</citybar_height_offset>
 <climate_type>climate_temperate</climate_type>
 <settlement_id>settlement:wh_main_ostermark_essen</settlement_id>
+</campaign_map_settlements>
+<campaign_map_settlements record_uuid="{f887ad31-e1bc-4fc2-aed2-9ab46874c37d}" record_timestamp="1545300814221" record_key="settlement:wh_main_ostermark_mordheim">
+<citybar_height_offset>0</citybar_height_offset>
+<climate_type>climate_temperate</climate_type>
+<settlement_id>settlement:wh_main_ostermark_mordheim</settlement_id>
+</campaign_map_settlements>
+<campaign_map_settlements record_uuid="{87728b68-e79d-4b4c-8520-9032033e6814}" record_timestamp="1545300814210" record_key="settlement:wh_main_ostermark_nagenhof">
+<citybar_height_offset>0</citybar_height_offset>
+<climate_type>climate_temperate</climate_type>
+<settlement_id>settlement:wh_main_ostermark_nagenhof</settlement_id>
 </campaign_map_settlements>
 <campaign_map_settlements record_uuid="{f64354f7-5b8c-440e-a17d-53728408065b}" record_timestamp="1479829410012" record_key="settlement:wh_main_ostland_castle_von_rauken">
 <citybar_height_offset>0</citybar_height_offset>
@@ -3001,10 +3061,20 @@
 <climate_type>climate_temperate</climate_type>
 <settlement_id>settlement:wh_main_stirland_wurtbad</settlement_id>
 </campaign_map_settlements>
+<campaign_map_settlements record_uuid="{ad431f1f-45ac-4551-a426-d85d346358bf}" record_timestamp="1545300814200" record_key="settlement:wh_main_talabecland_kappelburg">
+<citybar_height_offset>0</citybar_height_offset>
+<climate_type>climate_temperate</climate_type>
+<settlement_id>settlement:wh_main_talabecland_kappelburg</settlement_id>
+</campaign_map_settlements>
 <campaign_map_settlements record_uuid="{34a2c0a1-0888-4b1d-a7ee-4748f102eb85}" record_timestamp="1479829410011" record_key="settlement:wh_main_talabecland_kemperbad">
 <citybar_height_offset>0</citybar_height_offset>
 <climate_type>climate_temperate</climate_type>
 <settlement_id>settlement:wh_main_talabecland_kemperbad</settlement_id>
+</campaign_map_settlements>
+<campaign_map_settlements record_uuid="{e8fdee97-e09a-43e1-9a4e-29b18826d5ed}" record_timestamp="1545300814190" record_key="settlement:wh_main_talabecland_krugenheim">
+<citybar_height_offset>0</citybar_height_offset>
+<climate_type>climate_temperate</climate_type>
+<settlement_id>settlement:wh_main_talabecland_krugenheim</settlement_id>
 </campaign_map_settlements>
 <campaign_map_settlements record_uuid="{a43e34ed-3992-4325-b91b-c471c0e67eb6}" record_timestamp="1479829410021" record_key="settlement:wh_main_talabecland_talabheim">
 <citybar_height_offset>0</citybar_height_offset>

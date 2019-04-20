@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="regions.xsd" export_time="Tue Nov 20 16:07:39 2018" revision="184" export_branch="C:/Users/mark.sinclair/AppData/Roaming/TWDaemon/1211/dave" export_user="bob">
-<edit_uuid>3d7d0909-2ecf-4579-a3b1-51e86bd1da03</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="regions.xsd" export_time="Tue Mar 12 17:27:23 2019" revision="192" export_branch="C:/Users/richard.aldridge/AppData/Roaming/TWDaemon/1385/dave" export_user="bob">
+<edit_uuid>e375dbe3-39ab-4b51-a1df-02d5d870324e</edit_uuid>
 <regions record_uuid="{308fda85-f6a5-44b1-8103-bad3b2757cb8}" record_timestamp="1488882011889" record_key="wh2_main_aghol_wastelands_fortress_of_the_damned">
 <b>125</b>
 <battle_name state="APPROVED" last_approved_text="Fortress of the Damned" last_edit_user="bob">Fortress of the Damned</battle_name>
@@ -864,6 +864,18 @@
 <onscreen state="APPROVED" last_approved_text="Ziggurat of Dawn" last_edit_user="bob">Ziggurat of Dawn</onscreen>
 <owner_bundle></owner_bundle>
 <r>182</r>
+</regions>
+<regions record_uuid="{28a89c26-a141-405f-897e-defcbfdd1a7e}" record_timestamp="1544633446242" record_key="wh2_main_jungles_of_green_mist_pillars_of_unseen_constellations">
+<b>254</b>
+<battle_name state="APPROVED" last_approved_text="Pillars of the Unseen Constellation" last_edit_user="bob">Pillars of the Unseen Constellation</battle_name>
+<faction_swapping_id>lzd</faction_swapping_id>
+<g>86</g>
+<in_encyclopedia>1</in_encyclopedia>
+<is_sea>0</is_sea>
+<key>wh2_main_jungles_of_green_mist_pillars_of_unseen_constellations</key>
+<onscreen state="APPROVED" last_approved_text="Pillars of the Unseen Constellation" last_edit_user="bob">Pillars of the Unseen Constellation</onscreen>
+<owner_bundle></owner_bundle>
+<r>178</r>
 </regions>
 <regions record_uuid="{948b0c70-bfe5-4773-83b7-cfd655c40eeb}" record_timestamp="1488900433142" record_key="wh2_main_jungles_of_green_mists_spektazuma">
 <b>137</b>
@@ -2557,6 +2569,18 @@
 <owner_bundle></owner_bundle>
 <r>86</r>
 </regions>
+<regions record_uuid="{c50c0cbd-b5f1-4572-8b71-2c86ffe05537}" record_timestamp="1545149376195" record_key="wh2_main_vor_coasts_of_the_lustrian_gulf_the_night_forest">
+<b>211</b>
+<battle_name state="APPROVED" last_approved_text="The Night Forest" last_edit_user="bob">The Night Forest</battle_name>
+<faction_swapping_id>lzd</faction_swapping_id>
+<g>0</g>
+<in_encyclopedia>1</in_encyclopedia>
+<is_sea>0</is_sea>
+<key>wh2_main_vor_coasts_of_the_lustrian_gulf_the_night_forest</key>
+<onscreen state="APPROVED" last_approved_text="The Night Forest" last_edit_user="bob">The Night Forest</onscreen>
+<owner_bundle></owner_bundle>
+<r>148</r>
+</regions>
 <regions record_uuid="{77bf880c-9399-48f9-b866-27fc335279c0}" record_timestamp="1488900437376" record_key="wh2_main_vor_cobra_pass_eye_of_the_panther">
 <b>165</b>
 <battle_name state="APPROVED" last_approved_text="Eye of the Panther" last_edit_user="bob">Eye of the Panther</battle_name>
@@ -2664,6 +2688,18 @@
 <onscreen state="APPROVED" last_approved_text="Kaiax" last_edit_user="bob">Kaiax</onscreen>
 <owner_bundle></owner_bundle>
 <r>78</r>
+</regions>
+<regions record_uuid="{6cc85c6c-ac73-4df2-ae75-99a6322cb446}" record_timestamp="1545149374831" record_key="wh2_main_vor_culchan_plains_the_hissing_god">
+<b>81</b>
+<battle_name state="APPROVED" last_approved_text="The Hissing God" last_edit_user="bob">The Hissing God</battle_name>
+<faction_swapping_id>lzd</faction_swapping_id>
+<g>205</g>
+<in_encyclopedia>1</in_encyclopedia>
+<is_sea>0</is_sea>
+<key>wh2_main_vor_culchan_plains_the_hissing_god</key>
+<onscreen state="APPROVED" last_approved_text="The Hissing God" last_edit_user="bob">The Hissing God</onscreen>
+<owner_bundle></owner_bundle>
+<r>47</r>
 </regions>
 <regions record_uuid="{bf902b5f-32ab-446f-940f-e63a5290390b}" record_timestamp="1488900437713" record_key="wh2_main_vor_culchan_plains_the_southern_sentinels">
 <b>90</b>
@@ -4861,6 +4897,18 @@
 <owner_bundle></owner_bundle>
 <r>178</r>
 </regions>
+<regions record_uuid="{e8497a10-4f6b-4cfd-9e38-5b8d2e412ba0}" record_timestamp="1545149378384" record_key="wh2_main_vor_the_capes_tip_of_lustria">
+<b>105</b>
+<battle_name state="APPROVED" last_approved_text="Tip of Lustria" last_edit_user="bob">Tip of Lustria</battle_name>
+<faction_swapping_id>hef</faction_swapping_id>
+<g>155</g>
+<in_encyclopedia>1</in_encyclopedia>
+<is_sea>0</is_sea>
+<key>wh2_main_vor_the_capes_tip_of_lustria</key>
+<onscreen state="APPROVED" last_approved_text="Tip of Lustria" last_edit_user="bob">Tip of Lustria</onscreen>
+<owner_bundle></owner_bundle>
+<r>55</r>
+</regions>
 <regions record_uuid="{9ead471c-6f88-4ca8-8428-57c268d45255}" record_timestamp="1488900442136" record_key="wh2_main_vor_the_chill_road_ashrak">
 <b>2</b>
 <battle_name state="APPROVED" last_approved_text="Ashrak" last_edit_user="bob">Ashrak</battle_name>
@@ -5173,6 +5221,30 @@
 <owner_bundle></owner_bundle>
 <r>52</r>
 </regions>
+<regions record_uuid="{a70a5c4b-973f-4cec-bb1d-9022e2d34042}" record_timestamp="1545149363865" record_key="wh2_main_vor_the_red_rivers_soteks_trail">
+<b>118</b>
+<battle_name state="APPROVED" last_approved_text="Sotek's Trail" last_edit_user="bob">Sotek's Trail</battle_name>
+<faction_swapping_id>lzd</faction_swapping_id>
+<g>221</g>
+<in_encyclopedia>1</in_encyclopedia>
+<is_sea>0</is_sea>
+<key>wh2_main_vor_the_red_rivers_soteks_trail</key>
+<onscreen state="APPROVED" last_approved_text="Sotek's Trail" last_edit_user="bob">Sotek's Trail</onscreen>
+<owner_bundle></owner_bundle>
+<r>52</r>
+</regions>
+<regions record_uuid="{0fecc019-49b3-4ba0-b9fa-980f2313c082}" record_timestamp="1545149363946" record_key="wh2_main_vor_the_red_rivers_sun-tree_glades">
+<b>117</b>
+<battle_name state="APPROVED" last_approved_text="Sun-Tree Glades" last_edit_user="bob">Sun-Tree Glades</battle_name>
+<faction_swapping_id>grn</faction_swapping_id>
+<g>189</g>
+<in_encyclopedia>1</in_encyclopedia>
+<is_sea>0</is_sea>
+<key>wh2_main_vor_the_red_rivers_sun-tree_glades</key>
+<onscreen state="APPROVED" last_approved_text="Sun-Tree Glades" last_edit_user="bob">Sun-Tree Glades</onscreen>
+<owner_bundle></owner_bundle>
+<r>52</r>
+</regions>
 <regions record_uuid="{12273dec-d6fe-4e35-9511-b5ca06585d7e}" record_timestamp="1490361804916" record_key="wh2_main_vor_the_red_rivers_zlatan">
 <b>121</b>
 <battle_name state="APPROVED" last_approved_text="Zlatlan" last_edit_user="bob">Zlatlan</battle_name>
@@ -5308,7 +5380,7 @@
 <regions record_uuid="{b6c43146-b7e1-44fd-b856-8d6295dce821}" record_timestamp="1537872109999" record_key="wh2_main_vor_the_vampire_coast_the_star_tower">
 <b>18</b>
 <battle_name state="APPROVED" last_approved_text="The Star Tower" last_edit_user="bob">The Star Tower</battle_name>
-<faction_swapping_id>cst</faction_swapping_id>
+<faction_swapping_id>skv</faction_swapping_id>
 <g>145</g>
 <in_encyclopedia>1</in_encyclopedia>
 <is_sea>0</is_sea>
@@ -5377,6 +5449,18 @@
 <owner_bundle></owner_bundle>
 <r>221</r>
 </regions>
+<regions record_uuid="{b80ddb93-fb28-42d6-ba16-a71fb6050cd9}" record_timestamp="1545149371189" record_key="wh2_main_vor_volcanic_islands_fuming_serpent">
+<b>47</b>
+<battle_name state="APPROVED" last_approved_text="Fuming Serpent" last_edit_user="bob">Fuming Serpent</battle_name>
+<faction_swapping_id>skv</faction_swapping_id>
+<g>246</g>
+<in_encyclopedia>1</in_encyclopedia>
+<is_sea>0</is_sea>
+<key>wh2_main_vor_volcanic_islands_fuming_serpent</key>
+<onscreen state="APPROVED" last_approved_text="Fuming Serpent" last_edit_user="bob">Fuming Serpent</onscreen>
+<owner_bundle></owner_bundle>
+<r>16</r>
+</regions>
 <regions record_uuid="{d0f7da3b-5db2-428c-9849-671e099356c1}" record_timestamp="1488900443390" record_key="wh2_main_vor_western_jungles_deaths-head_monoliths">
 <b>210</b>
 <battle_name state="APPROVED" last_approved_text="Death's-Head Monoliths" last_edit_user="bob">Death's-Head Monoliths</battle_name>
@@ -5409,6 +5493,30 @@
 <in_encyclopedia>1</in_encyclopedia>
 <is_sea>0</is_sea>
 <key>wh2_main_vor_western_jungles_tlaqua</key>
+<onscreen state="APPROVED" last_approved_text="Tlaqua" last_edit_user="bob">Tlaqua</onscreen>
+<owner_bundle></owner_bundle>
+<r>146</r>
+</regions>
+<regions record_uuid="{cbc3fa9a-9ab7-434d-ae0c-0858ec67eb3e}" record_timestamp="1544608862820" record_key="wh2_main_western_jungles_cuexotl">
+<b>189</b>
+<battle_name state="APPROVED" last_approved_text="Cuexotl" last_edit_user="bob">Cuexotl</battle_name>
+<faction_swapping_id>lzd</faction_swapping_id>
+<g>117</g>
+<in_encyclopedia>1</in_encyclopedia>
+<is_sea>0</is_sea>
+<key>wh2_main_western_jungles_cuexotl</key>
+<onscreen state="APPROVED" last_approved_text="Cuexotl" last_edit_user="bob">Cuexotl</onscreen>
+<owner_bundle></owner_bundle>
+<r>52</r>
+</regions>
+<regions record_uuid="{55959bcb-5a09-4667-81d6-a07a522e8d78}" record_timestamp="1544608862820" record_key="wh2_main_western_jungles_tlaqua">
+<b>204</b>
+<battle_name state="APPROVED" last_approved_text="Tlaqua" last_edit_user="bob">Tlaqua</battle_name>
+<faction_swapping_id>lzd</faction_swapping_id>
+<g>78</g>
+<in_encyclopedia>1</in_encyclopedia>
+<is_sea>0</is_sea>
+<key>wh2_main_western_jungles_tlaqua</key>
 <onscreen state="APPROVED" last_approved_text="Tlaqua" last_edit_user="bob">Tlaqua</onscreen>
 <owner_bundle></owner_bundle>
 <r>146</r>
@@ -6193,6 +6301,18 @@
 <owner_bundle></owner_bundle>
 <r>174</r>
 </regions>
+<regions record_uuid="{f5a1a1cf-9ce5-4179-88a9-ff74c6a04421}" record_timestamp="1548856721625" record_key="wh_main_massif_orcal_massif_orcal">
+<b>214</b>
+<battle_name state="APPROVED" last_approved_text="Massif Orcal" last_edit_user="bob">Massif Orcal</battle_name>
+<faction_swapping_id>grn</faction_swapping_id>
+<g>104</g>
+<in_encyclopedia>0</in_encyclopedia>
+<is_sea>0</is_sea>
+<key>wh_main_massif_orcal_massif_orcal</key>
+<onscreen state="APPROVED" last_approved_text="Massif Orcal" last_edit_user="bob">Massif Orcal</onscreen>
+<owner_bundle></owner_bundle>
+<r>194</r>
+</regions>
 <regions record_uuid="{74d9e7eb-fbba-476a-a685-0ece59b8a711}" record_timestamp="1488881998652" record_key="wh_main_middenland_carroburg">
 <b>91</b>
 <battle_name state="APPROVED" last_approved_text="Carroburg" last_edit_user="bob">Carroburg</battle_name>
@@ -6313,10 +6433,10 @@
 <owner_bundle></owner_bundle>
 <r>159</r>
 </regions>
-<regions record_uuid="{fe81b89e-ec7a-473a-887e-f4777d65c8b3}" record_timestamp="1488900429981" record_key="wh_main_northern_grey_mountains_blackstone_post">
+<regions record_uuid="{fe81b89e-ec7a-473a-887e-f4777d65c8b3}" record_timestamp="1552411642987" record_key="wh_main_northern_grey_mountains_blackstone_post">
 <b>240</b>
 <battle_name state="APPROVED" last_approved_text="Blackstone Post" last_edit_user="bob">Blackstone Post</battle_name>
-<faction_swapping_id>dwf</faction_swapping_id>
+<faction_swapping_id>vmp</faction_swapping_id>
 <g>170</g>
 <in_encyclopedia>1</in_encyclopedia>
 <is_sea>0</is_sea>
@@ -6420,6 +6540,30 @@
 <onscreen state="APPROVED" last_approved_text="Essen" last_edit_user="bob">Essen</onscreen>
 <owner_bundle></owner_bundle>
 <r>236</r>
+</regions>
+<regions record_uuid="{0f6d2913-256c-4278-bfc9-e4bf8e14c911}" record_timestamp="1545300812229" record_key="wh_main_ostermark_mordheim">
+<b>255</b>
+<battle_name state="APPROVED" last_approved_text="Mordheim" last_edit_user="bob">Mordheim</battle_name>
+<faction_swapping_id>emp</faction_swapping_id>
+<g>103</g>
+<in_encyclopedia>1</in_encyclopedia>
+<is_sea>0</is_sea>
+<key>wh_main_ostermark_mordheim</key>
+<onscreen state="APPROVED" last_approved_text="Mordheim" last_edit_user="bob">Mordheim</onscreen>
+<owner_bundle></owner_bundle>
+<r>82</r>
+</regions>
+<regions record_uuid="{61d46dfe-79ca-43f6-991c-f92acd1d6a5a}" record_timestamp="1545300812221" record_key="wh_main_ostermark_nagenhof">
+<b>200</b>
+<battle_name state="APPROVED" last_approved_text="Nagenhof" last_edit_user="bob">Nagenhof</battle_name>
+<faction_swapping_id>emp</faction_swapping_id>
+<g>155</g>
+<in_encyclopedia>1</in_encyclopedia>
+<is_sea>0</is_sea>
+<key>wh_main_ostermark_nagenhof</key>
+<onscreen state="APPROVED" last_approved_text="Nagenhof" last_edit_user="bob">Nagenhof</onscreen>
+<owner_bundle></owner_bundle>
+<r>102</r>
 </regions>
 <regions record_uuid="{a30251cb-10db-4141-a57e-40a6d053596a}" record_timestamp="1488882001258" record_key="wh_main_ostland_castle_von_rauken">
 <b>1</b>
@@ -6913,6 +7057,18 @@
 <owner_bundle></owner_bundle>
 <r>32</r>
 </regions>
+<regions record_uuid="{d0c1e4c2-b3f7-4a1f-bd6c-9dfc96d9a33a}" record_timestamp="1545300812133" record_key="wh_main_talabecland_kappelburg">
+<b>89</b>
+<battle_name state="APPROVED" last_approved_text="Kappelburg" last_edit_user="bob">Kappelburg</battle_name>
+<faction_swapping_id>emp</faction_swapping_id>
+<g>104</g>
+<in_encyclopedia>1</in_encyclopedia>
+<is_sea>0</is_sea>
+<key>wh_main_talabecland_kappelburg</key>
+<onscreen state="APPROVED" last_approved_text="Kappelburg" last_edit_user="bob">Kappelburg</onscreen>
+<owner_bundle></owner_bundle>
+<r>125</r>
+</regions>
 <regions record_uuid="{3f212800-b764-44a2-8ecc-ebe15056dbb7}" record_timestamp="1488882006859" record_key="wh_main_talabecland_kemperbad">
 <b>130</b>
 <battle_name state="APPROVED" last_approved_text="Kemperbad" last_edit_user="bob">Kemperbad</battle_name>
@@ -6924,6 +7080,18 @@
 <onscreen state="APPROVED" last_approved_text="Kemperbad" last_edit_user="bob">Kemperbad</onscreen>
 <owner_bundle></owner_bundle>
 <r>121</r>
+</regions>
+<regions record_uuid="{635edfa3-25f7-44f7-82fa-c2923fcdaa43}" record_timestamp="1545300812125" record_key="wh_main_talabecland_krugenheim">
+<b>125</b>
+<battle_name state="APPROVED" last_approved_text="Krugenheim" last_edit_user="bob">Krugenheim</battle_name>
+<faction_swapping_id>emp</faction_swapping_id>
+<g>89</g>
+<in_encyclopedia>1</in_encyclopedia>
+<is_sea>0</is_sea>
+<key>wh_main_talabecland_krugenheim</key>
+<onscreen state="APPROVED" last_approved_text="Krugenheim" last_edit_user="bob">Krugenheim</onscreen>
+<owner_bundle></owner_bundle>
+<r>204</r>
 </regions>
 <regions record_uuid="{97c2d6a8-6d8e-455c-b74d-45bbbd13cd19}" record_timestamp="1488882006996" record_key="wh_main_talabecland_talabheim">
 <b>167</b>
@@ -6949,7 +7117,7 @@
 <owner_bundle></owner_bundle>
 <r>253</r>
 </regions>
-<regions record_uuid="{3596f3c2-5fcc-4fa8-a3dc-656eb1be228b}" record_timestamp="1542730056141" record_key="wh_main_the_silver_road_mount_squighorn">
+<regions record_uuid="{3596f3c2-5fcc-4fa8-a3dc-656eb1be228b}" record_timestamp="1488900430587" record_key="wh_main_the_silver_road_mount_squighorn">
 <b>41</b>
 <battle_name state="APPROVED" last_approved_text="Mount Squighorn" last_edit_user="bob">Mount Squighorn</battle_name>
 <faction_swapping_id>dwf</faction_swapping_id>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="region_to_province_junctions.xsd" export_time="Tue Jul 17 10:16:33 2018" revision="95" export_branch="C:/Users/mark.sinclair/AppData/Roaming/TWDaemon/1054/dave" export_user="bob">
-<edit_uuid>f1cf7b17-4d78-41d0-84a1-bbcd47320aee</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="region_to_province_junctions.xsd" export_time="Wed Jan 30 13:58:47 2019" revision="100" export_branch="C:/Users/mitchell.heastie/AppData/Roaming/TWDaemon/1305/dave" export_user="bob">
+<edit_uuid>46163588-16a6-475e-8551-befaab860a64</edit_uuid>
 <region_to_province_junctions record_uuid="{bdbc74a9-3727-49ad-a1de-c4aca03f5cae}" record_timestamp="1484839265909" record_key="wh2_main_aghol_wastelands_fortress_of_the_damnedwh2_main_aghol_wastelands">
 <is_capital>1</is_capital>
 <province>wh2_main_aghol_wastelands</province>
@@ -360,6 +360,11 @@
 <is_capital>0</is_capital>
 <province>wh2_main_isthmus_of_lustria</province>
 <region>wh2_main_isthmus_of_lustria_ziggurat_of_dawn</region>
+</region_to_province_junctions>
+<region_to_province_junctions record_uuid="{050acc4b-27f5-481c-adf8-ee7a4309c820}" record_timestamp="1544633447965" record_key="wh2_main_jungles_of_green_mist_pillars_of_unseen_constellationswh2_main_jungles_of_green_mists">
+<is_capital>0</is_capital>
+<province>wh2_main_jungles_of_green_mists</province>
+<region>wh2_main_jungles_of_green_mist_pillars_of_unseen_constellations</region>
 </region_to_province_junctions>
 <region_to_province_junctions record_uuid="{77f8ae75-45d4-400e-86e6-7285146ae852}" record_timestamp="1467123704944" record_key="wh2_main_jungles_of_green_mists_spektazumawh2_main_jungles_of_green_mists">
 <is_capital>1</is_capital>
@@ -956,6 +961,11 @@
 <province>wh2_main_vor_coast_of_squalls</province>
 <region>wh2_main_vor_coast_of_squalls_shrine_of_sotek</region>
 </region_to_province_junctions>
+<region_to_province_junctions record_uuid="{c8c32565-f5b0-423d-909a-b01c2ef9e045}" record_timestamp="1545149377102" record_key="wh2_main_vor_coasts_of_the_lustrian_gulf_the_night_forestwh2_main_vor_coasts_of_the_lustrian_gulf">
+<is_capital>0</is_capital>
+<province>wh2_main_vor_coasts_of_the_lustrian_gulf</province>
+<region>wh2_main_vor_coasts_of_the_lustrian_gulf_the_night_forest</region>
+</region_to_province_junctions>
 <region_to_province_junctions record_uuid="{be5b227b-7877-434d-8ffa-0d4bd1168e26}" record_timestamp="1477040996116" record_key="wh2_main_vor_cobra_pass_eye_of_the_pantherwh2_main_vor_cobra_pass">
 <is_capital>0</is_capital>
 <province>wh2_main_vor_cobra_pass</province>
@@ -996,19 +1006,24 @@
 <province>wh2_main_vor_culchan_plains</province>
 <region>wh2_main_vor_culchan_plains_chupayotl</region>
 </region_to_province_junctions>
-<region_to_province_junctions record_uuid="{6d1c68c5-ef63-4339-8f1e-11461f8f669c}" record_timestamp="1467117670653" record_key="wh2_main_vor_culchan_plains_kaiaxwh2_main_vor_culchan_plains">
+<region_to_province_junctions record_uuid="{6d1c68c5-ef63-4339-8f1e-11461f8f669c}" record_timestamp="1467117670653" record_key="wh2_main_vor_culchan_plains_kaiaxwh2_main_vor_coasts_of_the_lustrian_gulf">
+<is_capital>1</is_capital>
+<province>wh2_main_vor_coasts_of_the_lustrian_gulf</province>
+<region>wh2_main_vor_culchan_plains_kaiax</region>
+</region_to_province_junctions>
+<region_to_province_junctions record_uuid="{f9f85c2b-32be-4bb2-8e0c-1f9a75cbe6a7}" record_timestamp="1545149375164" record_key="wh2_main_vor_culchan_plains_the_hissing_godwh2_main_vor_culchan_plains">
 <is_capital>0</is_capital>
 <province>wh2_main_vor_culchan_plains</province>
-<region>wh2_main_vor_culchan_plains_kaiax</region>
+<region>wh2_main_vor_culchan_plains_the_hissing_god</region>
 </region_to_province_junctions>
 <region_to_province_junctions record_uuid="{ef3e71a6-87c7-4d09-84d4-88e5a7cff3cd}" record_timestamp="1467117670653" record_key="wh2_main_vor_culchan_plains_the_southern_sentinelswh2_main_vor_culchan_plains">
 <is_capital>0</is_capital>
 <province>wh2_main_vor_culchan_plains</province>
 <region>wh2_main_vor_culchan_plains_the_southern_sentinels</region>
 </region_to_province_junctions>
-<region_to_province_junctions record_uuid="{49f70a02-bf71-43f8-97b2-d63992f2ed07}" record_timestamp="1467117670653" record_key="wh2_main_vor_culchan_plains_xlansecwh2_main_vor_culchan_plains">
+<region_to_province_junctions record_uuid="{49f70a02-bf71-43f8-97b2-d63992f2ed07}" record_timestamp="1467117670653" record_key="wh2_main_vor_culchan_plains_xlansecwh2_main_vor_the_capes">
 <is_capital>0</is_capital>
-<province>wh2_main_vor_culchan_plains</province>
+<province>wh2_main_vor_the_capes</province>
 <region>wh2_main_vor_culchan_plains_xlansec</region>
 </region_to_province_junctions>
 <region_to_province_junctions record_uuid="{11c9b9f0-d55a-4b38-91f9-4d8bf6354197}" record_timestamp="1467117670653" record_key="wh2_main_vor_deadwood_dargothwh2_main_vor_deadwood">
@@ -1717,14 +1732,19 @@
 <region>wh2_main_vor_the_broken_land_slavers_point</region>
 </region_to_province_junctions>
 <region_to_province_junctions record_uuid="{6ceefe0a-d549-448b-9653-3fd5c943010c}" record_timestamp="1467117670664" record_key="wh2_main_vor_the_capes_citadel_of_duskwh2_main_vor_the_capes">
-<is_capital>0</is_capital>
+<is_capital>1</is_capital>
 <province>wh2_main_vor_the_capes</province>
 <region>wh2_main_vor_the_capes_citadel_of_dusk</region>
 </region_to_province_junctions>
-<region_to_province_junctions record_uuid="{627ee59a-14e0-4c79-8f2d-e49e4c998e20}" record_timestamp="1467117670664" record_key="wh2_main_vor_the_capes_fortress_of_dawnwh2_main_vor_the_capes">
+<region_to_province_junctions record_uuid="{627ee59a-14e0-4c79-8f2d-e49e4c998e20}" record_timestamp="1467117670664" record_key="wh2_main_vor_the_capes_fortress_of_dawnwh2_main_vor_fortress_of_dawn">
 <is_capital>1</is_capital>
-<province>wh2_main_vor_the_capes</province>
+<province>wh2_main_vor_fortress_of_dawn</province>
 <region>wh2_main_vor_the_capes_fortress_of_dawn</region>
+</region_to_province_junctions>
+<region_to_province_junctions record_uuid="{36bf28cb-3f83-463a-b736-e4914214975e}" record_timestamp="1545149379405" record_key="wh2_main_vor_the_capes_tip_of_lustriawh2_main_vor_the_capes">
+<is_capital>0</is_capital>
+<province>wh2_main_vor_the_capes</province>
+<region>wh2_main_vor_the_capes_tip_of_lustria</region>
 </region_to_province_junctions>
 <region_to_province_junctions record_uuid="{dc5110f2-8311-47d9-9bab-680abfe84431}" record_timestamp="1467117670664" record_key="wh2_main_vor_the_chill_road_ashrakwh2_main_vor_the_chill_road">
 <is_capital>0</is_capital>
@@ -1836,24 +1856,34 @@
 <province>wh2_main_vor_the_lost_valleys</province>
 <region>wh2_main_vor_the_lost_valleys_the_sentinel_of_time</region>
 </region_to_province_junctions>
-<region_to_province_junctions record_uuid="{89515a3b-4df9-4739-91b7-f34c8294dbe4}" record_timestamp="1467117670666" record_key="wh2_main_vor_the_red_rivers_cuexotlwh2_main_vor_the_red_rivers">
-<is_capital>0</is_capital>
-<province>wh2_main_vor_the_red_rivers</province>
+<region_to_province_junctions record_uuid="{99ed65e3-7862-46ed-bef7-fe304d19c8ff}" record_timestamp="1545149365294" record_key="wh2_main_vor_the_red_rivers_cuexotlwh2_main_vor_northern_red_rivers">
+<is_capital>1</is_capital>
+<province>wh2_main_vor_northern_red_rivers</province>
 <region>wh2_main_vor_the_red_rivers_cuexotl</region>
 </region_to_province_junctions>
-<region_to_province_junctions record_uuid="{883f4597-9b8d-4299-8721-88cfae699728}" record_timestamp="1490691175688" record_key="wh2_main_vor_the_red_rivers_golden_tower_of_the_godswh2_main_vor_the_red_rivers">
+<region_to_province_junctions record_uuid="{ecdbd018-73b5-4f5a-a7cf-c9646ba89b62}" record_timestamp="1545149365121" record_key="wh2_main_vor_the_red_rivers_golden_tower_of_the_godswh2_main_vor_southern_red_rivers">
 <is_capital>0</is_capital>
-<province>wh2_main_vor_the_red_rivers</province>
+<province>wh2_main_vor_southern_red_rivers</province>
 <region>wh2_main_vor_the_red_rivers_golden_tower_of_the_gods</region>
 </region_to_province_junctions>
-<region_to_province_junctions record_uuid="{ef5cb9fa-4abb-4b99-9b46-3878e26c4575}" record_timestamp="1467117670666" record_key="wh2_main_vor_the_red_rivers_nahuontlwh2_main_vor_the_red_rivers">
+<region_to_province_junctions record_uuid="{e702af33-4b74-4217-b992-ad32a1b036f9}" record_timestamp="1545149365356" record_key="wh2_main_vor_the_red_rivers_nahuontlwh2_main_vor_northern_red_rivers">
 <is_capital>0</is_capital>
-<province>wh2_main_vor_the_red_rivers</province>
+<province>wh2_main_vor_northern_red_rivers</province>
 <region>wh2_main_vor_the_red_rivers_nahuontl</region>
 </region_to_province_junctions>
-<region_to_province_junctions record_uuid="{ea16c2f8-2299-4e34-803b-e587671a782a}" record_timestamp="1467117670666" record_key="wh2_main_vor_the_red_rivers_zlatanwh2_main_vor_the_red_rivers">
+<region_to_province_junctions record_uuid="{eeebedcd-6a57-4ecc-9760-7bd0e8c41fd9}" record_timestamp="1545149365231" record_key="wh2_main_vor_the_red_rivers_soteks_trailwh2_main_vor_southern_red_rivers">
+<is_capital>0</is_capital>
+<province>wh2_main_vor_southern_red_rivers</province>
+<region>wh2_main_vor_the_red_rivers_soteks_trail</region>
+</region_to_province_junctions>
+<region_to_province_junctions record_uuid="{14bdc841-3c15-4aeb-adef-b5d6686e3dee}" record_timestamp="1545149369734" record_key="wh2_main_vor_the_red_rivers_sun-tree_gladeswh2_main_vor_northern_red_rivers">
+<is_capital>0</is_capital>
+<province>wh2_main_vor_northern_red_rivers</province>
+<region>wh2_main_vor_the_red_rivers_sun-tree_glades</region>
+</region_to_province_junctions>
+<region_to_province_junctions record_uuid="{a3caeae6-5b76-41fc-9287-6594321cfdcc}" record_timestamp="1545149365176" record_key="wh2_main_vor_the_red_rivers_zlatanwh2_main_vor_southern_red_rivers">
 <is_capital>1</is_capital>
-<province>wh2_main_vor_the_red_rivers</province>
+<province>wh2_main_vor_southern_red_rivers</province>
 <region>wh2_main_vor_the_red_rivers_zlatan</region>
 </region_to_province_junctions>
 <region_to_province_junctions record_uuid="{d9d1dc59-e9b3-4c31-8fdc-e26516fc11b9}" record_timestamp="1467117670666" record_key="wh2_main_vor_the_road_of_skulls_har_ganethwh2_main_vor_the_road_of_skulls">
@@ -1906,9 +1936,9 @@
 <province>wh2_main_vor_the_vampire_coast</province>
 <region>wh2_main_vor_the_vampire_coast_the_blood_swamps</region>
 </region_to_province_junctions>
-<region_to_province_junctions record_uuid="{2b0e2f13-4ce8-4632-b990-1696b983a7fc}" record_timestamp="1467117670666" record_key="wh2_main_vor_the_vampire_coast_the_star_towerwh2_main_vor_the_vampire_coast">
-<is_capital>0</is_capital>
-<province>wh2_main_vor_the_vampire_coast</province>
+<region_to_province_junctions record_uuid="{2b0e2f13-4ce8-4632-b990-1696b983a7fc}" record_timestamp="1467117670666" record_key="wh2_main_vor_the_vampire_coast_the_star_towerwh2_main_vor_volcanic_islands">
+<is_capital>1</is_capital>
+<province>wh2_main_vor_volcanic_islands</province>
 <region>wh2_main_vor_the_vampire_coast_the_star_tower</region>
 </region_to_province_junctions>
 <region_to_province_junctions record_uuid="{68ff2c3a-aaef-4977-8d70-ad1de754ff1c}" record_timestamp="1467117670667" record_key="wh2_main_vor_tiranoc_salvation_islewh2_main_vor_tiranoc">
@@ -1936,6 +1966,11 @@
 <province>wh2_main_vor_unicorn_gate</province>
 <region>wh2_main_vor_unicorn_gate</region>
 </region_to_province_junctions>
+<region_to_province_junctions record_uuid="{00f749b2-a795-405c-88c7-befd9a3d2099}" record_timestamp="1545149371688" record_key="wh2_main_vor_volcanic_islands_fuming_serpentwh2_main_vor_volcanic_islands">
+<is_capital>0</is_capital>
+<province>wh2_main_vor_volcanic_islands</province>
+<region>wh2_main_vor_volcanic_islands_fuming_serpent</region>
+</region_to_province_junctions>
 <region_to_province_junctions record_uuid="{986e9293-6249-408f-a2e1-6905ecf1e932}" record_timestamp="1467117670667" record_key="wh2_main_vor_western_jungles_deaths-head_monolithswh2_main_vor_western_jungles">
 <is_capital>0</is_capital>
 <province>wh2_main_vor_western_jungles</province>
@@ -1950,6 +1985,16 @@
 <is_capital>1</is_capital>
 <province>wh2_main_vor_western_jungles</province>
 <region>wh2_main_vor_western_jungles_tlaqua</region>
+</region_to_province_junctions>
+<region_to_province_junctions record_uuid="{dc09534d-1b6a-4feb-9d5c-2dd95432e1c2}" record_timestamp="1544608862837" record_key="wh2_main_western_jungles_cuexotlwh2_main_western_jungles">
+<is_capital>0</is_capital>
+<province>wh2_main_western_jungles</province>
+<region>wh2_main_western_jungles_cuexotl</region>
+</region_to_province_junctions>
+<region_to_province_junctions record_uuid="{c9bace40-7931-4931-8093-6417c0e718f2}" record_timestamp="1544608862838" record_key="wh2_main_western_jungles_tlaquawh2_main_western_jungles">
+<is_capital>1</is_capital>
+<province>wh2_main_western_jungles</province>
+<region>wh2_main_western_jungles_tlaqua</region>
 </region_to_province_junctions>
 <region_to_province_junctions record_uuid="{bb423ddf-c644-46d0-bcb6-c85ee22b15f8}" record_timestamp="1467123711974" record_key="wh2_main_yvresse_elessaeliwh2_main_yvresse">
 <is_capital>0</is_capital>
@@ -2271,6 +2316,11 @@
 <province>wh_main_lyonesse</province>
 <region>wh_main_lyonesse_mousillon</region>
 </region_to_province_junctions>
+<region_to_province_junctions record_uuid="{3c6cc3b2-f1fd-4b74-83c5-e5fc8f839a5c}" record_timestamp="1548856721777" record_key="wh_main_massif_orcal_massif_orcalwh_main_massif_orcal">
+<is_capital>1</is_capital>
+<province>wh_main_massif_orcal</province>
+<region>wh_main_massif_orcal_massif_orcal</region>
+</region_to_province_junctions>
 <region_to_province_junctions record_uuid="{866407b4-dc26-4eda-8bf6-d0fdbddaa506}" record_timestamp="1418133666626" record_key="wh_main_middenland_carroburgwh_main_middenland">
 <is_capital>0</is_capital>
 <province>wh_main_middenland</province>
@@ -2365,6 +2415,16 @@
 <is_capital>0</is_capital>
 <province>wh_main_ostermark</province>
 <region>wh_main_ostermark_essen</region>
+</region_to_province_junctions>
+<region_to_province_junctions record_uuid="{82f34b58-2b59-4675-9fb3-e85ee32b5519}" record_timestamp="1545300812301" record_key="wh_main_ostermark_mordheimwh_main_ostermark">
+<is_capital>0</is_capital>
+<province>wh_main_ostermark</province>
+<region>wh_main_ostermark_mordheim</region>
+</region_to_province_junctions>
+<region_to_province_junctions record_uuid="{74cd3db8-dcf4-4c11-ad5f-c5554bd5f915}" record_timestamp="1545300812328" record_key="wh_main_ostermark_nagenhofwh_main_ostermark">
+<is_capital>0</is_capital>
+<province>wh_main_ostermark</province>
+<region>wh_main_ostermark_nagenhof</region>
 </region_to_province_junctions>
 <region_to_province_junctions record_uuid="{b872428a-453f-442d-8d97-0a7d4a1ae4b6}" record_timestamp="1418133689213" record_key="wh_main_ostland_castle_von_raukenwh_main_ostland">
 <is_capital>0</is_capital>
@@ -2491,10 +2551,20 @@
 <province>wh_main_stirland</province>
 <region>wh_main_stirland_wurtbad</region>
 </region_to_province_junctions>
+<region_to_province_junctions record_uuid="{a4000188-cc78-4e0e-8f25-fc7b3de75418}" record_timestamp="1545300812320" record_key="wh_main_talabecland_kappelburgwh_main_talabecland">
+<is_capital>0</is_capital>
+<province>wh_main_talabecland</province>
+<region>wh_main_talabecland_kappelburg</region>
+</region_to_province_junctions>
 <region_to_province_junctions record_uuid="{70252e40-b39f-42e4-96c5-bdd5c0dd8ffc}" record_timestamp="1418133715995" record_key="wh_main_talabecland_kemperbadwh_main_talabecland">
 <is_capital>0</is_capital>
 <province>wh_main_talabecland</province>
 <region>wh_main_talabecland_kemperbad</region>
+</region_to_province_junctions>
+<region_to_province_junctions record_uuid="{d425b8b8-fd04-4c79-af8f-0aea6cb0a1e7}" record_timestamp="1545300812310" record_key="wh_main_talabecland_krugenheimwh_main_talabecland">
+<is_capital>0</is_capital>
+<province>wh_main_talabecland</province>
+<region>wh_main_talabecland_krugenheim</region>
 </region_to_province_junctions>
 <region_to_province_junctions record_uuid="{aa27519d-3fd7-484a-a3a7-47c3644f1a2b}" record_timestamp="1423559164923" record_key="wh_main_talabecland_talabheimwh_main_talabecland">
 <is_capital>1</is_capital>
