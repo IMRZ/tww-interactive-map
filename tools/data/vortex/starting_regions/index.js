@@ -47,7 +47,7 @@ function getActiveFactions(rootNode) {
 }
 
 async function getStartingRegions() {
-  const fileName = path.resolve(__dirname, "./vortex_lothern_turn_0_v1_5_1.save");
+  const fileName = path.resolve(__dirname, "../src.save");
   const rootNode = await readFile(fileName).then(buffer => TwsParser.read(buffer));
 
   const active_factions = getActiveFactions(rootNode);

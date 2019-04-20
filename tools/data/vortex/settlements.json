@@ -1,1583 +1,1161 @@
 [
   {
-    "index": 1,
     "key": "wh2_main_vor_red_desert_rothkar_spire",
-    "originalFaction": "wh2_main_def_drackla_coven",
     "x": 186,
     "y": 494
   },
   {
-    "index": 2,
     "key": "wh2_main_vor_avelorn_gaean_vale",
-    "originalFaction": "wh2_main_hef_avelorn",
     "x": 2431,
     "y": 1037
   },
   {
-    "index": 3,
     "key": "wh2_main_vor_ellyrion_tor_elyr",
-    "originalFaction": "wh2_main_hef_ellyrion",
     "x": 2189,
     "y": 1074
   },
   {
-    "index": 4,
     "key": "wh2_main_vor_sartosa_sartosa",
-    "originalFaction": "wh2_dlc11_cst_pirates_of_sartosa",
     "x": 3264,
     "y": 1708
   },
   {
-    "index": 5,
     "key": "wh2_main_vor_settlers_coast_swamp_town",
-    "originalFaction": "wh2_main_emp_new_world_colonies",
     "x": 531,
     "y": 1998
   },
   {
-    "index": 6,
     "key": "wh2_main_vor_the_black_coast_arnheim",
-    "originalFaction": "wh2_main_hef_tiranoc",
     "x": 1192,
     "y": 1305
   },
   {
-    "index": 7,
     "key": "wh2_main_vor_obsidian_peaks_keshta_vault",
-    "originalFaction": "wh2_main_def_hag_graef",
     "x": 675,
     "y": 693
   },
   {
-    "index": 8,
     "key": "wh2_main_vor_deadwood_shagrath",
-    "originalFaction": "wh2_main_def_deadwood_sentinels",
     "x": 1746,
     "y": 183
   },
   {
-    "index": 9,
     "key": "wh2_main_vor_the_red_rivers_zlatan",
-    "originalFaction": "wh2_main_lzd_zlatan",
     "x": 2454,
     "y": 3239
   },
   {
-    "index": 10,
-    "key": "wh2_main_vor_ellyrion_the_arc_span",
-    "originalFaction": "wh2_main_hef_ellyrion",
-    "x": 2147,
-    "y": 1268
-  },
-  {
-    "index": 11,
-    "key": "wh2_main_vor_the_turtle_isles_mud_isle",
-    "originalFaction": "wh2_main_lzd_sentinels_of_xeti",
-    "x": 391,
-    "y": 3358
-  },
-  {
-    "index": 12,
-    "key": "wh2_main_vor_land_of_the_dervishes_el-kalabad",
-    "originalFaction": "wh2_main_emp_sudenburg",
-    "x": 2398,
-    "y": 2477
-  },
-  {
-    "index": 13,
-    "key": "wh2_main_vor_the_forbidden_jungle_chamber_of_visions",
-    "originalFaction": "wh2_main_lzd_sentinels_of_xeti",
-    "x": 456,
-    "y": 3046
-  },
-  {
-    "index": 14,
-    "key": "wh2_main_vor_ironfrost_glacier_bear_isle",
-    "originalFaction": "wh2_main_nor_mung",
-    "x": 112,
-    "y": 81
-  },
-  {
-    "index": 15,
-    "key": "wh2_main_vor_obsidian_peaks_temple_of_addaioth",
-    "originalFaction": "wh2_main_def_hag_graef",
-    "x": 726,
-    "y": 817
-  },
-  {
-    "index": 16,
-    "key": "wh2_main_vor_the_broken_land_slavers_point",
-    "originalFaction": "wh2_main_def_karond_kar",
-    "x": 1546,
-    "y": 666
-  },
-  {
-    "index": 17,
-    "key": "wh2_main_vor_southern_great_jungle_xhotl",
-    "originalFaction": "wh2_main_lzd_itza",
-    "x": 768,
-    "y": 3035
-  },
-  {
-    "index": 18,
-    "key": "wh2_main_vor_ashen_coast_titan_peak",
-    "originalFaction": "wh2_main_def_ssildra_tor",
-    "x": 331,
-    "y": 1300
-  },
-  {
-    "index": 19,
-    "key": "wh2_main_vor_tiranoc_the_high_vale",
-    "originalFaction": "wh2_main_hef_tiranoc",
-    "x": 1988,
-    "y": 935
-  },
-  {
-    "index": 20,
-    "key": "wh2_main_vor_mosquito_swamps_tlax",
-    "originalFaction": "wh2_main_lzd_xlanhuapec",
-    "x": 1094,
-    "y": 2176
-  },
-  {
-    "index": 21,
-    "key": "wh2_main_vor_shifting_sands_plain_of_tuskers",
-    "originalFaction": "wh2_dlc09_tmb_dune_kingdoms",
-    "x": 2594,
-    "y": 2745
-  },
-  {
-    "index": 22,
-    "key": "wh2_main_vor_albion_pack_ice_bay",
-    "originalFaction": "wh_main_nor_skaeling",
-    "x": 3292,
-    "y": 747
-  },
-  {
-    "index": 23,
-    "key": "wh2_main_vor_jungles_of_green_mist_wellsprings_of_eternity",
-    "originalFaction": "wh2_main_lzd_sentinels_of_xeti",
-    "x": 303,
-    "y": 2514
-  },
-  {
-    "index": 24,
-    "key": "wh2_main_vor_cobra_pass_vulture_mountain",
-    "originalFaction": "wh2_main_dwf_greybeards_prospectors",
-    "x": 2235,
-    "y": 2310
-  },
-  {
-    "index": 25,
-    "key": "wh2_main_vor_ironfrost_glacier_ironfrost",
-    "originalFaction": "wh2_main_nor_mung",
-    "x": 568,
-    "y": 70
-  },
-  {
-    "index": 26,
-    "key": "wh2_main_vor_the_black_coast_bleak_hold_fortress",
-    "originalFaction": "wh2_main_def_bleak_holds",
-    "x": 959,
-    "y": 1123
-  },
-  {
-    "index": 27,
-    "key": "wh2_main_vor_the_jungles_of_the_gods_tor_surpindar",
-    "originalFaction": "wh2_main_hef_fortress_of_dawn",
-    "x": 2598,
-    "y": 3642
-  },
-  {
-    "index": 28,
-    "key": "wh2_main_vor_the_chill_road_ghrond",
-    "originalFaction": "wh2_main_def_ghrond",
-    "x": 1136,
-    "y": 279
-  },
-  {
-    "index": 29,
-    "key": "wh2_main_vor_nagarythe_tor_anlec",
-    "originalFaction": "wh2_main_hef_nagarythe",
-    "x": 2254,
-    "y": 596
-  },
-  {
-    "index": 30,
-    "key": "wh2_main_vor_iron_mountains_shroktak_mount",
-    "originalFaction": "wh2_main_def_drackla_coven",
-    "x": 545,
-    "y": 252
-  },
-  {
-    "index": 31,
-    "key": "wh2_main_vor_ellyrion_reavers_mark",
-    "originalFaction": "wh2_main_hef_ellyrion",
-    "x": 2244,
-    "y": 903
-  },
-  {
-    "index": 32,
-    "key": "wh2_main_vor_ashen_coast_scarpels_lair",
-    "originalFaction": "wh2_dlc09_tmb_exiles_of_nehek",
-    "x": 98,
-    "y": 1085
-  },
-  {
-    "index": 33,
-    "key": "wh2_main_vor_griffon_gate",
-    "originalFaction": "wh2_main_hef_tiranoc",
-    "x": 2091,
-    "y": 956
-  },
-  {
-    "index": 34,
-    "key": "wh2_main_vor_shifting_sands_ka-sabar",
-    "originalFaction": "wh2_dlc09_tmb_dune_kingdoms",
-    "x": 3003,
-    "y": 2853
-  },
-  {
-    "index": 35,
-    "key": "wh2_main_vor_cobra_pass_eye_of_the_panther",
-    "originalFaction": "wh2_main_dwf_greybeards_prospectors",
-    "x": 2347,
-    "y": 2219
-  },
-  {
-    "index": 36,
-    "key": "wh2_main_vor_copper_desert_the_dust_gate",
-    "originalFaction": "wh2_main_lzd_sentinels_of_xeti",
-    "x": 894,
-    "y": 3530
-  },
-  {
-    "index": 37,
-    "key": "wh2_main_vor_coast_of_squalls_macu_peaks",
-    "originalFaction": "wh2_main_lzd_hexoatl",
-    "x": 275,
-    "y": 1848
-  },
-  {
-    "index": 38,
-    "key": "wh2_main_vor_the_chill_road_ashrak",
-    "originalFaction": "wh2_main_def_ghrond",
-    "x": 1043,
-    "y": 210
-  },
-  {
-    "index": 39,
-    "key": "wh2_main_vor_western_jungles_statues_of_the_gods",
-    "originalFaction": "wh2_main_lzd_tlaqua",
-    "x": 2375,
-    "y": 2944
-  },
-  {
-    "index": 40,
-    "key": "wh2_main_vor_saphery_tower_of_hoeth",
-    "originalFaction": "wh2_main_hef_saphery",
-    "x": 2785,
-    "y": 1166
-  },
-  {
-    "index": 41,
-    "key": "wh2_main_vor_the_road_of_skulls_kauark",
-    "originalFaction": "wh2_main_def_har_ganeth",
-    "x": 1411,
-    "y": 177
-  },
-  {
-    "index": 42,
-    "key": "wh2_main_vor_ash_river_numas",
-    "originalFaction": "wh2_dlc09_tmb_numas",
-    "x": 3292,
-    "y": 2337
-  },
-  {
-    "index": 43,
-    "key": "wh2_main_vor_the_vampire_coast_pox_marsh",
-    "originalFaction": "wh2_dlc11_cst_vampire_coast",
-    "x": 1299,
-    "y": 2176
-  },
-  {
-    "index": 44,
-    "key": "wh2_main_vor_southern_yvresse_shrine_of_loec",
-    "originalFaction": "wh2_main_hef_yvresse",
-    "x": 2910,
-    "y": 1596
-  },
-  {
-    "index": 45,
-    "key": "wh2_main_vor_shadow_wood_venom_glade",
-    "originalFaction": "wh2_main_def_clar_karond",
-    "x": 1080,
-    "y": 849
-  },
-  {
-    "index": 46,
-    "key": "wh2_main_vor_grey_guardians_sulpharets",
-    "originalFaction": "wh2_main_def_ssildra_tor",
-    "x": 196,
-    "y": 1456
-  },
-  {
-    "index": 47,
-    "key": "wh2_main_vor_obsidian_peaks_ice_rock_gorge",
-    "originalFaction": "wh2_main_def_hag_graef",
-    "x": 866,
-    "y": 865
-  },
-  {
-    "index": 48,
-    "key": "wh2_main_vor_jungle_of_pahualaxa_floating_pyramid",
-    "originalFaction": "wh2_main_lzd_hexoatl",
-    "x": 410,
-    "y": 2165
-  },
-  {
-    "index": 49,
-    "key": "wh2_main_vor_kingdom_of_beasts_the_cursed_jungle",
-    "originalFaction": "wh2_main_lzd_last_defenders",
-    "x": 3301,
-    "y": 2890
-  },
-  {
-    "index": 50,
-    "key": "wh2_main_vor_southern_jungles_scrag_hole",
-    "originalFaction": "wh2_main_lzd_last_defenders",
-    "x": 2477,
-    "y": 3680
-  },
-  {
-    "index": 51,
-    "key": "wh2_main_vor_shifting_mangrove_coastline_teotiqua",
-    "originalFaction": "wh2_main_lzd_last_defenders",
-    "x": 2952,
-    "y": 3374
-  },
-  {
-    "index": 52,
-    "key": "wh2_main_vor_kingdom_of_beasts_serpent_coast",
-    "originalFaction": "wh2_main_lzd_last_defenders",
-    "x": 3022,
-    "y": 3239
-  },
-  {
-    "index": 53,
-    "key": "wh2_main_vor_the_galleons_graveyard",
-    "originalFaction": "wh2_dlc11_cst_noctilus",
-    "x": 1541,
-    "y": 1746
-  },
-  {
-    "index": 54,
-    "key": "wh2_main_vor_northern_yvresse_tor_yvresse",
-    "originalFaction": "wh2_main_hef_yvresse",
-    "x": 2924,
-    "y": 1085
-  },
-  {
-    "index": 55,
-    "key": "wh2_main_vor_the_lost_valleys_the_sentinel_of_time",
-    "originalFaction": "wh2_main_lzd_southern_sentinels",
-    "x": 1159,
-    "y": 3406
-  },
-  {
-    "index": 56,
-    "key": "wh2_main_vor_culchan_plains_kaiax",
-    "originalFaction": "wh2_main_lzd_southern_sentinels",
-    "x": 1201,
-    "y": 3605
-  },
-  {
-    "index": 57,
-    "key": "wh2_main_vor_sea_of_dread_tower_of_the_sun",
-    "originalFaction": "wh2_main_hef_tor_elasor",
-    "x": 3185,
-    "y": 3766
-  },
-  {
-    "index": 58,
-    "key": "wh2_main_vor_unicorn_gate",
-    "originalFaction": "wh2_main_hef_nagarythe",
-    "x": 2165,
-    "y": 860
-  },
-  {
-    "index": 59,
-    "key": "wh2_main_vor_the_road_of_skulls_the_black_pillar",
-    "originalFaction": "wh2_main_def_har_ganeth",
-    "x": 1490,
-    "y": 312
-  },
-  {
-    "index": 60,
-    "key": "wh2_main_vor_the_black_coast_vauls_anvil",
-    "originalFaction": "wh2_main_def_bleak_holds",
-    "x": 1150,
-    "y": 972
-  },
-  {
-    "index": 61,
-    "key": "wh2_main_vor_culchan_plains_the_southern_sentinels",
-    "originalFaction": "wh2_main_lzd_southern_sentinels",
-    "x": 1276,
-    "y": 3460
-  },
-  {
-    "index": 62,
-    "key": "wh2_main_vor_grey_guardians_grey_rock_point",
-    "originalFaction": "wh2_dlc11_cst_the_drowned",
-    "x": 810,
-    "y": 1536
-  },
-  {
-    "index": 63,
-    "key": "wh2_main_vor_land_of_assassins_sorcerers_islands",
-    "originalFaction": "wh2_main_brt_knights_of_the_flame",
-    "x": 1858,
-    "y": 2181
-  },
-  {
-    "index": 64,
-    "key": "wh2_main_vor_naggarond_har_kaldra",
-    "originalFaction": "wh2_main_def_naggarond",
-    "x": 913,
-    "y": 274
-  },
-  {
-    "index": 65,
-    "key": "wh2_main_vor_phoenix_gate",
-    "originalFaction": "wh2_main_hef_avelorn",
-    "x": 2356,
-    "y": 725
-  },
-  {
-    "index": 66,
-    "key": "wh2_main_vor_the_red_rivers_golden_tower_of_the_gods",
-    "originalFaction": "wh2_main_lzd_last_defenders",
-    "x": 2924,
-    "y": 3186
-  },
-  {
-    "index": 67,
-    "key": "wh2_main_vor_the_creeping_jungle_tlaxtlan",
-    "originalFaction": "wh2_main_lzd_tlaxtlan",
-    "x": 824,
-    "y": 2375
-  },
-  {
-    "index": 68,
-    "key": "wh2_main_vor_copper_desert_the_golden_colossus",
-    "originalFaction": "wh2_main_lzd_sentinels_of_xeti",
-    "x": 601,
-    "y": 3358
-  },
-  {
-    "index": 69,
-    "key": "wh2_main_vor_heart_of_the_jungle_oreons_camp",
-    "originalFaction": "wh2_main_wef_bowmen_of_oreon",
-    "x": 2878,
-    "y": 3014
-  },
-  {
-    "index": 70,
-    "key": "wh2_main_vor_sea_of_dread_tor_elasor",
-    "originalFaction": "wh2_main_hef_tor_elasor",
-    "x": 3003,
-    "y": 3750
-  },
-  {
-    "index": 71,
-    "key": "wh2_main_vor_the_creeping_jungle_tlanxla",
-    "originalFaction": "wh2_main_lzd_tlaxtlan",
-    "x": 624,
-    "y": 2396
-  },
-  {
-    "index": 72,
-    "key": "wh2_main_vor_western_jungles_tlaqua",
-    "originalFaction": "wh2_main_lzd_tlaqua",
-    "x": 2445,
-    "y": 2858
-  },
-  {
-    "index": 73,
-    "key": "wh2_main_vor_the_forbidden_jungle_sentinels_of_xeti",
-    "originalFaction": "wh2_main_lzd_sentinels_of_xeti",
-    "x": 512,
-    "y": 3186
-  },
-  {
-    "index": 74,
-    "key": "wh2_main_vor_southern_badlands_gor_gazan",
-    "originalFaction": "wh_main_grn_top_knotz",
-    "x": 3288,
-    "y": 2208
-  },
-  {
-    "index": 75,
-    "key": "wh2_main_vor_the_chill_road_the_great_arena",
-    "originalFaction": "wh2_main_def_ghrond",
-    "x": 1122,
-    "y": 446
-  },
-  {
-    "index": 76,
-    "key": "wh2_main_vor_jungles_of_green_mist_pillars_of_unseen_constellations",
-    "originalFaction": "wh2_main_lzd_sentinels_of_xeti",
-    "x": 354,
-    "y": 2756
-  },
-  {
-    "index": 77,
-    "key": "wh2_main_vor_river_qurveza_mouth_of_qurveza",
-    "originalFaction": "wh2_main_lzd_itza",
-    "x": 1206,
-    "y": 2756
-  },
-  {
-    "index": 78,
-    "key": "wh2_main_vor_the_lost_valleys_oyxl",
-    "originalFaction": "wh2_main_lzd_itza",
-    "x": 1108,
-    "y": 3266
-  },
-  {
-    "index": 79,
-    "key": "wh2_main_vor_ashen_coast_tyrant_peak",
-    "originalFaction": "wh2_main_def_ssildra_tor",
-    "x": 414,
-    "y": 962
-  },
-  {
-    "index": 80,
-    "key": "wh2_main_vor_cothique_tor_koruali",
-    "originalFaction": "wh2_main_hef_cothique",
-    "x": 2980,
-    "y": 715
-  },
-  {
-    "index": 81,
-    "key": "wh2_main_vor_southern_great_jungle_gwakmol_crater",
-    "originalFaction": "wh2_main_lzd_itza",
-    "x": 843,
-    "y": 3137
-  },
-  {
-    "index": 82,
-    "key": "wh2_main_vor_the_clawed_coast_the_monoliths",
-    "originalFaction": "wh2_main_def_the_forgebound",
-    "x": 1434,
-    "y": 623
-  },
-  {
-    "index": 83,
-    "key": "wh2_main_vor_the_road_of_skulls_spite_reach",
-    "originalFaction": "wh2_main_def_har_ganeth",
-    "x": 1308,
-    "y": 274
-  },
-  {
-    "index": 84,
-    "key": "wh2_main_vor_plain_of_spiders_clarak_spire",
-    "originalFaction": "wh2_main_def_drackla_coven",
-    "x": 205,
-    "y": 752
-  },
-  {
-    "index": 85,
-    "key": "wh2_main_vor_culchan_plains_xlansec",
-    "originalFaction": "wh2_main_lzd_southern_sentinels",
-    "x": 1350,
-    "y": 3567
-  },
-  {
-    "index": 86,
-    "key": "wh2_main_vor_coast_of_squalls_monument_of_the_sun",
-    "originalFaction": "wh2_main_lzd_hexoatl",
-    "x": 130,
-    "y": 1891
-  },
-  {
-    "index": 87,
-    "key": "wh2_main_vor_nagarythe_tor_dranil",
-    "originalFaction": "wh2_main_hef_nagarythe",
-    "x": 2077,
-    "y": 725
-  },
-  {
-    "index": 88,
-    "key": "wh2_main_vor_the_red_rivers_cuexotl",
-    "originalFaction": "wh2_main_lzd_tlaqua",
-    "x": 2687,
-    "y": 3008
-  },
-  {
-    "index": 89,
-    "key": "wh2_main_vor_forest_of_the_viper_chotecs_causeway",
-    "originalFaction": "wh2_main_lzd_hexoatl",
-    "x": 386,
-    "y": 1741
-  },
-  {
-    "index": 90,
-    "key": "wh2_main_vor_river_qurveza_axlotl",
-    "originalFaction": "wh2_main_lzd_itza",
-    "x": 1104,
-    "y": 2847
-  },
-  {
-    "index": 91,
-    "key": "wh2_main_vor_southlands_world_edge_mountains_mount_arachnos",
-    "originalFaction": "wh2_main_grn_arachnos",
-    "x": 3292,
-    "y": 2697
-  },
-  {
-    "index": 92,
-    "key": "wh2_main_vor_the_clawed_coast_hoteks_column",
-    "originalFaction": "wh2_main_def_the_forgebound",
-    "x": 1253,
-    "y": 747
-  },
-  {
-    "index": 93,
-    "key": "wh2_main_vor_northern_great_jungle_quetza",
-    "originalFaction": "wh2_main_lzd_itza",
-    "x": 1001,
-    "y": 2740
-  },
-  {
-    "index": 94,
-    "key": "wh2_main_vor_southlands_world_edge_mountains_lost_plateau",
-    "originalFaction": "wh2_main_grn_arachnos",
-    "x": 3194,
-    "y": 2831
-  },
-  {
-    "index": 95,
-    "key": "wh2_main_vor_the_great_desert_black_tower_of_arkhan",
-    "originalFaction": "wh2_dlc09_tmb_rakaph_dynasty",
-    "x": 2780,
-    "y": 2407
-  },
-  {
-    "index": 96,
-    "key": "wh2_main_vor_iron_peaks_ironspike",
-    "originalFaction": "wh2_main_def_ssildra_tor",
-    "x": 447,
-    "y": 1139
-  },
-  {
-    "index": 97,
-    "key": "wh2_main_vor_coast_of_araby_fyrus",
-    "originalFaction": "wh2_main_brt_knights_of_origo",
-    "x": 2836,
-    "y": 2015
-  },
-  {
-    "index": 98,
-    "key": "wh2_main_vor_northern_great_jungle_chaqua",
-    "originalFaction": "wh2_main_lzd_itza",
-    "x": 852,
-    "y": 2606
-  },
-  {
-    "index": 99,
-    "key": "wh2_main_vor_southern_jungles_dawns_light",
-    "originalFaction": "wh2_main_hef_fortress_of_dawn",
-    "x": 2347,
-    "y": 3476
-  },
-  {
-    "index": 100,
-    "key": "wh2_main_vor_albion_troll_fjord",
-    "originalFaction": "wh_main_nor_skaeling",
-    "x": 3241,
-    "y": 516
-  },
-  {
-    "index": 101,
-    "key": "wh2_main_vor_western_jungles_deaths-head_monoliths",
-    "originalFaction": "wh2_main_lzd_tlaqua",
-    "x": 2244,
-    "y": 2761
-  },
-  {
-    "index": 102,
-    "key": "wh2_main_vor_naggarond_kaelra",
-    "originalFaction": "wh2_main_def_naggarond",
-    "x": 806,
-    "y": 236
-  },
-  {
-    "index": 103,
-    "key": "wh2_main_vor_scorpion_coast_temple_of_tlencan",
-    "originalFaction": "wh2_main_lzd_xlanhuapec",
-    "x": 801,
-    "y": 2117
-  },
-  {
-    "index": 104,
-    "key": "wh2_main_vor_the_jungles_of_the_gods_caverns_of_sotek",
-    "originalFaction": "wh2_main_lzd_last_defenders",
-    "x": 2761,
-    "y": 3556
-  },
-  {
-    "index": 105,
-    "key": "wh2_main_vor_the_black_flood_temple_of_khaine",
-    "originalFaction": "wh2_main_def_hag_graef",
-    "x": 717,
-    "y": 564
-  },
-  {
-    "index": 106,
-    "key": "wh2_main_vor_straits_of_lothern_tower_of_lysean",
-    "originalFaction": "wh2_main_hef_eataine",
-    "x": 2328,
-    "y": 1429
-  },
-  {
-    "index": 107,
-    "key": "wh2_main_vor_southlands_world_edge_mountains_karak_zorn",
-    "originalFaction": "wh2_main_dwf_karak_zorn",
-    "x": 3069,
-    "y": 2992
-  },
-  {
-    "index": 108,
-    "key": "wh2_main_vor_iron_peaks_ancient_city_of_quintex",
-    "originalFaction": "wh2_main_def_cult_of_pleasure",
-    "x": 680,
-    "y": 1015
-  },
-  {
-    "index": 109,
-    "key": "wh2_main_vor_caledor_tor_sethai",
-    "originalFaction": "wh2_main_hef_caledor",
-    "x": 2072,
-    "y": 1348
-  },
-  {
-    "index": 110,
-    "key": "wh2_main_vor_northern_spine_of_sotek_hualotal",
-    "originalFaction": "wh2_main_dwf_spine_of_sotek_dwarfs",
-    "x": 526,
-    "y": 2955
-  },
-  {
-    "index": 111,
-    "key": "wh2_main_vor_the_clawed_coast_the_twisted_glade",
-    "originalFaction": "wh2_main_def_the_forgebound",
-    "x": 1392,
-    "y": 876
-  },
-  {
-    "index": 112,
-    "key": "wh2_main_vor_northern_great_jungle_itza",
-    "originalFaction": "wh2_main_lzd_itza",
-    "x": 885,
-    "y": 2906
-  },
-  {
-    "index": 113,
-    "key": "wh2_main_vor_tiranoc_whitepeak",
-    "originalFaction": "wh2_main_hef_tiranoc",
-    "x": 1998,
-    "y": 1219
-  },
-  {
-    "index": 114,
-    "key": "wh2_main_vor_southern_great_jungle_mortuary_of_tzulaqua",
-    "originalFaction": "wh2_main_lzd_itza",
-    "x": 987,
-    "y": 3051
-  },
-  {
-    "index": 115,
-    "key": "wh2_main_vor_the_broken_land_karond_kar",
-    "originalFaction": "wh2_main_def_karond_kar",
-    "x": 1690,
-    "y": 526
-  },
-  {
-    "index": 116,
-    "key": "wh2_main_vor_the_vampire_coast_the_star_tower",
-    "originalFaction": "wh2_dlc11_cst_vampire_coast",
+    "key": "wh2_main_vor_volcanic_islands_fuming_serpent",
     "x": 1462,
     "y": 2740
   },
   {
-    "index": 117,
+    "key": "wh2_main_vor_ellyrion_the_arc_span",
+    "x": 2147,
+    "y": 1268
+  },
+  {
+    "key": "wh2_main_vor_the_turtle_isles_mud_isle",
+    "x": 391,
+    "y": 3358
+  },
+  {
+    "key": "wh2_main_vor_land_of_the_dervishes_el-kalabad",
+    "x": 2398,
+    "y": 2477
+  },
+  {
+    "key": "wh2_main_vor_the_forbidden_jungle_chamber_of_visions",
+    "x": 456,
+    "y": 3046
+  },
+  {
+    "key": "wh2_main_vor_ironfrost_glacier_bear_isle",
+    "x": 112,
+    "y": 81
+  },
+  {
+    "key": "wh2_main_vor_obsidian_peaks_temple_of_addaioth",
+    "x": 726,
+    "y": 817
+  },
+  {
+    "key": "wh2_main_vor_the_broken_land_slavers_point",
+    "x": 1546,
+    "y": 666
+  },
+  {
+    "key": "wh2_main_vor_southern_great_jungle_xhotl",
+    "x": 768,
+    "y": 3035
+  },
+  {
+    "key": "wh2_main_vor_ashen_coast_titan_peak",
+    "x": 331,
+    "y": 1300
+  },
+  {
+    "key": "wh2_main_vor_tiranoc_the_high_vale",
+    "x": 1988,
+    "y": 935
+  },
+  {
+    "key": "wh2_main_vor_mosquito_swamps_tlax",
+    "x": 1094,
+    "y": 2176
+  },
+  {
+    "key": "wh2_main_vor_shifting_sands_plain_of_tuskers",
+    "x": 2594,
+    "y": 2745
+  },
+  {
+    "key": "wh2_main_vor_the_capes_tip_of_lustria",
+    "x": 1686,
+    "y": 3497
+  },
+  {
+    "key": "wh2_main_vor_albion_pack_ice_bay",
+    "x": 3292,
+    "y": 747
+  },
+  {
+    "key": "wh2_main_vor_jungles_of_green_mist_wellsprings_of_eternity",
+    "x": 303,
+    "y": 2514
+  },
+  {
+    "key": "wh2_main_vor_cobra_pass_vulture_mountain",
+    "x": 2235,
+    "y": 2310
+  },
+  {
+    "key": "wh2_main_vor_ironfrost_glacier_ironfrost",
+    "x": 568,
+    "y": 70
+  },
+  {
+    "key": "wh2_main_vor_the_black_coast_bleak_hold_fortress",
+    "x": 959,
+    "y": 1123
+  },
+  {
+    "key": "wh2_main_vor_the_jungles_of_the_gods_tor_surpindar",
+    "x": 2598,
+    "y": 3642
+  },
+  {
+    "key": "wh2_main_vor_the_chill_road_ghrond",
+    "x": 1136,
+    "y": 279
+  },
+  {
+    "key": "wh2_main_vor_nagarythe_tor_anlec",
+    "x": 2254,
+    "y": 596
+  },
+  {
+    "key": "wh2_main_vor_iron_mountains_shroktak_mount",
+    "x": 545,
+    "y": 252
+  },
+  {
+    "key": "wh2_main_vor_ellyrion_reavers_mark",
+    "x": 2244,
+    "y": 903
+  },
+  {
+    "key": "wh2_main_vor_ashen_coast_scarpels_lair",
+    "x": 98,
+    "y": 1085
+  },
+  {
+    "key": "wh2_main_vor_griffon_gate",
+    "x": 2091,
+    "y": 956
+  },
+  {
+    "key": "wh2_main_vor_shifting_sands_ka-sabar",
+    "x": 3003,
+    "y": 2853
+  },
+  {
+    "key": "wh2_main_vor_cobra_pass_eye_of_the_panther",
+    "x": 2347,
+    "y": 2219
+  },
+  {
+    "key": "wh2_main_vor_copper_desert_the_dust_gate",
+    "x": 894,
+    "y": 3530
+  },
+  {
+    "key": "wh2_main_vor_coast_of_squalls_macu_peaks",
+    "x": 275,
+    "y": 1848
+  },
+  {
+    "key": "wh2_main_vor_the_chill_road_ashrak",
+    "x": 1043,
+    "y": 210
+  },
+  {
+    "key": "wh2_main_vor_western_jungles_statues_of_the_gods",
+    "x": 2375,
+    "y": 2944
+  },
+  {
+    "key": "wh2_main_vor_saphery_tower_of_hoeth",
+    "x": 2785,
+    "y": 1166
+  },
+  {
+    "key": "wh2_main_vor_the_road_of_skulls_kauark",
+    "x": 1411,
+    "y": 177
+  },
+  {
+    "key": "wh2_main_vor_ash_river_numas",
+    "x": 3292,
+    "y": 2337
+  },
+  {
+    "key": "wh2_main_vor_the_vampire_coast_pox_marsh",
+    "x": 1299,
+    "y": 2176
+  },
+  {
+    "key": "wh2_main_vor_southern_yvresse_shrine_of_loec",
+    "x": 2910,
+    "y": 1596
+  },
+  {
+    "key": "wh2_main_vor_shadow_wood_venom_glade",
+    "x": 1080,
+    "y": 849
+  },
+  {
+    "key": "wh2_main_vor_grey_guardians_sulpharets",
+    "x": 196,
+    "y": 1456
+  },
+  {
+    "key": "wh2_main_vor_obsidian_peaks_ice_rock_gorge",
+    "x": 866,
+    "y": 865
+  },
+  {
+    "key": "wh2_main_vor_jungle_of_pahualaxa_floating_pyramid",
+    "x": 410,
+    "y": 2165
+  },
+  {
+    "key": "wh2_main_vor_kingdom_of_beasts_the_cursed_jungle",
+    "x": 3301,
+    "y": 2890
+  },
+  {
+    "key": "wh2_main_vor_southern_jungles_scrag_hole",
+    "x": 2477,
+    "y": 3680
+  },
+  {
+    "key": "wh2_main_vor_shifting_mangrove_coastline_teotiqua",
+    "x": 2952,
+    "y": 3374
+  },
+  {
+    "key": "wh2_main_vor_kingdom_of_beasts_serpent_coast",
+    "x": 3022,
+    "y": 3239
+  },
+  {
+    "key": "wh2_main_vor_the_galleons_graveyard",
+    "x": 1541,
+    "y": 1746
+  },
+  {
+    "key": "wh2_main_vor_northern_yvresse_tor_yvresse",
+    "x": 2924,
+    "y": 1085
+  },
+  {
+    "key": "wh2_main_vor_the_lost_valleys_the_sentinel_of_time",
+    "x": 1159,
+    "y": 3406
+  },
+  {
+    "key": "wh2_main_vor_culchan_plains_kaiax",
+    "x": 1201,
+    "y": 3605
+  },
+  {
+    "key": "wh2_main_vor_sea_of_dread_tower_of_the_sun",
+    "x": 3185,
+    "y": 3766
+  },
+  {
+    "key": "wh2_main_vor_unicorn_gate",
+    "x": 2165,
+    "y": 860
+  },
+  {
+    "key": "wh2_main_vor_the_road_of_skulls_the_black_pillar",
+    "x": 1490,
+    "y": 312
+  },
+  {
+    "key": "wh2_main_vor_the_black_coast_vauls_anvil",
+    "x": 1150,
+    "y": 972
+  },
+  {
+    "key": "wh2_main_vor_culchan_plains_the_southern_sentinels",
+    "x": 1276,
+    "y": 3460
+  },
+  {
+    "key": "wh2_main_vor_grey_guardians_grey_rock_point",
+    "x": 810,
+    "y": 1536
+  },
+  {
+    "key": "wh2_main_vor_land_of_assassins_sorcerers_islands",
+    "x": 1858,
+    "y": 2181
+  },
+  {
+    "key": "wh2_main_vor_naggarond_har_kaldra",
+    "x": 913,
+    "y": 274
+  },
+  {
+    "key": "wh2_main_vor_phoenix_gate",
+    "x": 2356,
+    "y": 725
+  },
+  {
+    "key": "wh2_main_vor_the_red_rivers_golden_tower_of_the_gods",
+    "x": 2924,
+    "y": 3186
+  },
+  {
+    "key": "wh2_main_vor_the_creeping_jungle_tlaxtlan",
+    "x": 824,
+    "y": 2375
+  },
+  {
+    "key": "wh2_main_vor_copper_desert_the_golden_colossus",
+    "x": 601,
+    "y": 3358
+  },
+  {
+    "key": "wh2_main_vor_heart_of_the_jungle_oreons_camp",
+    "x": 2878,
+    "y": 3014
+  },
+  {
+    "key": "wh2_main_vor_sea_of_dread_tor_elasor",
+    "x": 3003,
+    "y": 3750
+  },
+  {
+    "key": "wh2_main_vor_the_creeping_jungle_tlanxla",
+    "x": 624,
+    "y": 2396
+  },
+  {
+    "key": "wh2_main_vor_western_jungles_tlaqua",
+    "x": 2445,
+    "y": 2858
+  },
+  {
+    "key": "wh2_main_vor_the_forbidden_jungle_sentinels_of_xeti",
+    "x": 512,
+    "y": 3186
+  },
+  {
+    "key": "wh2_main_vor_southern_badlands_gor_gazan",
+    "x": 3288,
+    "y": 2208
+  },
+  {
+    "key": "wh2_main_vor_the_chill_road_the_great_arena",
+    "x": 1122,
+    "y": 446
+  },
+  {
+    "key": "wh2_main_vor_jungles_of_green_mist_pillars_of_unseen_constellations",
+    "x": 354,
+    "y": 2756
+  },
+  {
+    "key": "wh2_main_vor_river_qurveza_mouth_of_qurveza",
+    "x": 1206,
+    "y": 2756
+  },
+  {
+    "key": "wh2_main_vor_the_lost_valleys_oyxl",
+    "x": 1108,
+    "y": 3266
+  },
+  {
+    "key": "wh2_main_vor_ashen_coast_tyrant_peak",
+    "x": 414,
+    "y": 962
+  },
+  {
+    "key": "wh2_main_vor_cothique_tor_koruali",
+    "x": 2980,
+    "y": 715
+  },
+  {
+    "key": "wh2_main_vor_culchan_plains_the_hissing_god",
+    "x": 1295,
+    "y": 3207
+  },
+  {
+    "key": "wh2_main_vor_southern_great_jungle_gwakmol_crater",
+    "x": 843,
+    "y": 3137
+  },
+  {
+    "key": "wh2_main_vor_the_clawed_coast_the_monoliths",
+    "x": 1434,
+    "y": 623
+  },
+  {
+    "key": "wh2_main_vor_the_road_of_skulls_spite_reach",
+    "x": 1308,
+    "y": 274
+  },
+  {
+    "key": "wh2_main_vor_plain_of_spiders_clarak_spire",
+    "x": 205,
+    "y": 752
+  },
+  {
+    "key": "wh2_main_vor_culchan_plains_xlansec",
+    "x": 1350,
+    "y": 3567
+  },
+  {
+    "key": "wh2_main_vor_coast_of_squalls_monument_of_the_sun",
+    "x": 130,
+    "y": 1891
+  },
+  {
+    "key": "wh2_main_vor_nagarythe_tor_dranil",
+    "x": 2077,
+    "y": 725
+  },
+  {
+    "key": "wh2_main_vor_the_red_rivers_cuexotl",
+    "x": 2687,
+    "y": 3008
+  },
+  {
+    "key": "wh2_main_vor_forest_of_the_viper_chotecs_causeway",
+    "x": 386,
+    "y": 1741
+  },
+  {
+    "key": "wh2_main_vor_river_qurveza_axlotl",
+    "x": 1104,
+    "y": 2847
+  },
+  {
+    "key": "wh2_main_vor_southlands_world_edge_mountains_mount_arachnos",
+    "x": 3292,
+    "y": 2697
+  },
+  {
+    "key": "wh2_main_vor_the_clawed_coast_hoteks_column",
+    "x": 1253,
+    "y": 747
+  },
+  {
+    "key": "wh2_main_vor_coasts_of_the_lustrian_gulf_the_night_forest",
+    "x": 1006,
+    "y": 3562
+  },
+  {
+    "key": "wh2_main_vor_northern_great_jungle_quetza",
+    "x": 1001,
+    "y": 2740
+  },
+  {
+    "key": "wh2_main_vor_southlands_world_edge_mountains_lost_plateau",
+    "x": 3194,
+    "y": 2831
+  },
+  {
+    "key": "wh2_main_vor_the_great_desert_black_tower_of_arkhan",
+    "x": 2780,
+    "y": 2407
+  },
+  {
+    "key": "wh2_main_vor_iron_peaks_ironspike",
+    "x": 447,
+    "y": 1139
+  },
+  {
+    "key": "wh2_main_vor_coast_of_araby_fyrus",
+    "x": 2836,
+    "y": 2015
+  },
+  {
+    "key": "wh2_main_vor_northern_great_jungle_chaqua",
+    "x": 852,
+    "y": 2606
+  },
+  {
+    "key": "wh2_main_vor_southern_jungles_dawns_light",
+    "x": 2347,
+    "y": 3476
+  },
+  {
+    "key": "wh2_main_vor_albion_troll_fjord",
+    "x": 3241,
+    "y": 516
+  },
+  {
+    "key": "wh2_main_vor_western_jungles_deaths-head_monoliths",
+    "x": 2244,
+    "y": 2761
+  },
+  {
+    "key": "wh2_main_vor_naggarond_kaelra",
+    "x": 806,
+    "y": 236
+  },
+  {
+    "key": "wh2_main_vor_scorpion_coast_temple_of_tlencan",
+    "x": 801,
+    "y": 2117
+  },
+  {
+    "key": "wh2_main_vor_the_jungles_of_the_gods_caverns_of_sotek",
+    "x": 2761,
+    "y": 3556
+  },
+  {
+    "key": "wh2_main_vor_the_black_flood_temple_of_khaine",
+    "x": 717,
+    "y": 564
+  },
+  {
+    "key": "wh2_main_vor_straits_of_lothern_tower_of_lysean",
+    "x": 2328,
+    "y": 1429
+  },
+  {
+    "key": "wh2_main_vor_southlands_world_edge_mountains_karak_zorn",
+    "x": 3069,
+    "y": 2992
+  },
+  {
+    "key": "wh2_main_vor_iron_peaks_ancient_city_of_quintex",
+    "x": 680,
+    "y": 1015
+  },
+  {
+    "key": "wh2_main_vor_caledor_tor_sethai",
+    "x": 2072,
+    "y": 1348
+  },
+  {
+    "key": "wh2_main_vor_northern_spine_of_sotek_hualotal",
+    "x": 526,
+    "y": 2955
+  },
+  {
+    "key": "wh2_main_vor_the_clawed_coast_the_twisted_glade",
+    "x": 1392,
+    "y": 876
+  },
+  {
+    "key": "wh2_main_vor_northern_great_jungle_itza",
+    "x": 885,
+    "y": 2906
+  },
+  {
+    "key": "wh2_main_vor_tiranoc_whitepeak",
+    "x": 1998,
+    "y": 1219
+  },
+  {
+    "key": "wh2_main_vor_southern_great_jungle_mortuary_of_tzulaqua",
+    "x": 987,
+    "y": 3051
+  },
+  {
+    "key": "wh2_main_vor_the_broken_land_karond_kar",
+    "x": 1690,
+    "y": 526
+  },
+  {
+    "key": "wh2_main_vor_the_vampire_coast_the_star_tower",
+    "x": 1425,
+    "y": 2863
+  },
+  {
     "key": "wh2_main_vor_forest_of_the_viper_mirror_pool_of_tepok",
-    "originalFaction": "wh2_main_lzd_hexoatl",
     "x": 545,
     "y": 1622
   },
   {
-    "index": 118,
     "key": "wh2_main_vor_coast_of_squalls_shrine_of_sotek",
-    "originalFaction": "wh2_main_lzd_hexoatl",
     "x": 135,
     "y": 2079
   },
   {
-    "index": 119,
     "key": "wh2_main_vor_isthmus_of_lustria_hexoatl",
-    "originalFaction": "wh2_main_lzd_hexoatl",
     "x": 461,
     "y": 1864
   },
   {
-    "index": 120,
     "key": "wh2_main_vor_settlers_coast_port_reaver",
-    "originalFaction": "wh2_main_emp_new_world_colonies",
     "x": 712,
     "y": 1961
   },
   {
-    "index": 121,
     "key": "wh2_main_vor_grey_guardians_ssildra_tor",
-    "originalFaction": "wh2_main_def_ssildra_tor",
     "x": 456,
     "y": 1467
   },
   {
-    "index": 122,
     "key": "wh2_main_vor_the_black_coast_hag_hall",
-    "originalFaction": "wh2_main_def_bleak_holds",
     "x": 969,
     "y": 988
   },
   {
-    "index": 123,
     "key": "wh2_main_vor_the_creeping_jungle_temple_of_kara",
-    "originalFaction": "wh2_main_lzd_tlaxtlan",
     "x": 685,
     "y": 2251
   },
   {
-    "index": 124,
     "key": "wh2_main_vor_southern_spine_of_sotek_mine_of_the_bearded_skulls",
-    "originalFaction": "wh2_main_dwf_spine_of_sotek_dwarfs",
     "x": 736,
     "y": 3277
   },
   {
-    "index": 125,
     "key": "wh2_main_vor_the_capes_fortress_of_dawn",
-    "originalFaction": "wh2_main_hef_fortress_of_dawn",
     "x": 2026,
     "y": 3793
   },
   {
-    "index": 126,
     "key": "wh2_main_vor_aghol_wastelands_the_palace_of_ruin",
-    "originalFaction": "wh2_main_nor_aghol",
     "x": 1928,
     "y": 81
   },
   {
-    "index": 127,
     "key": "wh2_main_vor_culchan_plains_chupayotl",
-    "originalFaction": "wh2_dlc11_def_the_blessed_dread",
     "x": 1467,
     "y": 3309
   },
   {
-    "index": 128,
     "key": "wh2_main_vor_deadwood_nagrar",
-    "originalFaction": "wh2_main_def_deadwood_sentinels",
     "x": 1681,
     "y": 322
   },
   {
-    "index": 129,
     "key": "wh2_main_vor_the_capes_citadel_of_dusk",
-    "originalFaction": "wh2_main_hef_citadel_of_dusk",
     "x": 1574,
     "y": 3589
   },
   {
-    "index": 130,
     "key": "wh2_main_vor_avelorn_tor_saroir",
-    "originalFaction": "wh2_main_hef_avelorn",
     "x": 2589,
     "y": 849
   },
   {
-    "index": 131,
     "key": "wh2_main_vor_aghol_wastelands_fortress_of_the_damned",
-    "originalFaction": "wh2_main_nor_aghol",
     "x": 2412,
     "y": 188
   },
   {
-    "index": 132,
     "key": "wh2_main_vor_saphery_shadow_peak",
-    "originalFaction": "wh2_main_hef_saphery",
     "x": 2785,
     "y": 881
   },
   {
-    "index": 133,
     "key": "wh2_main_vor_central_spine_of_sotek_chiquibol",
-    "originalFaction": "wh2_main_dwf_spine_of_sotek_dwarfs",
     "x": 615,
     "y": 3057
   },
   {
-    "index": 134,
     "key": "wh2_main_vor_saphery_tor_finu",
-    "originalFaction": "wh2_main_hef_saphery",
     "x": 2761,
     "y": 994
   },
   {
-    "index": 135,
     "key": "wh2_main_vor_forest_of_the_viper_fallen_gates",
-    "originalFaction": "wh2_main_lzd_hexoatl",
     "x": 321,
     "y": 1596
   },
   {
-    "index": 136,
     "key": "wh2_main_vor_southern_badlands_galbaraz",
-    "originalFaction": "wh_main_grn_top_knotz",
     "x": 3343,
     "y": 2101
   },
   {
-    "index": 137,
     "key": "wh2_main_vor_southern_yvresse_elessaeli",
-    "originalFaction": "wh2_main_hef_yvresse",
     "x": 2943,
     "y": 1365
   },
   {
-    "index": 138,
     "key": "wh2_main_vor_the_black_flood_storag_kor",
-    "originalFaction": "wh2_main_def_hag_graef",
     "x": 549,
     "y": 602
   },
   {
-    "index": 139,
     "key": "wh2_main_vor_the_lost_valleys_subatuun",
-    "originalFaction": "wh2_main_lzd_itza",
     "x": 922,
     "y": 3256
   },
   {
-    "index": 140,
     "key": "wh2_main_vor_the_turtle_isles_golden_ziggurat",
-    "originalFaction": "wh2_main_lzd_sentinels_of_xeti",
     "x": 270,
     "y": 3057
   },
   {
-    "index": 141,
     "key": "wh2_main_vor_northern_great_jungle_quittax",
-    "originalFaction": "wh2_main_lzd_itza",
     "x": 666,
     "y": 2729
   },
   {
-    "index": 142,
     "key": "wh2_main_vor_chrace_tor_gard",
-    "originalFaction": "wh2_main_hef_chrace",
     "x": 2505,
     "y": 709
   },
   {
-    "index": 143,
     "key": "wh2_main_vor_jungle_of_pahualaxa_monument_of_the_moon",
-    "originalFaction": "wh2_main_lzd_hexoatl",
     "x": 615,
     "y": 2090
   },
   {
-    "index": 144,
     "key": "wh2_main_vor_ash_river_quatar",
-    "originalFaction": "wh2_dlc09_tmb_numas",
     "x": 3241,
     "y": 2482
   },
   {
-    "index": 145,
     "key": "wh2_main_vor_great_mortis_delta_black_pyramid_of_nagash",
-    "originalFaction": "wh2_dlc09_tmb_the_sentinels",
     "x": 2924,
     "y": 2434
   },
   {
-    "index": 146,
     "key": "wh2_main_vor_coast_of_araby_martek",
-    "originalFaction": "wh2_main_brt_thegans_crusaders",
     "x": 2454,
     "y": 2111
   },
   {
-    "index": 147,
     "key": "wh2_main_vor_northern_yvresse_tralinia",
-    "originalFaction": "wh2_main_hef_yvresse",
     "x": 3129,
     "y": 1117
   },
   {
-    "index": 148,
     "key": "wh2_main_vor_tiranoc_tor_anroc",
-    "originalFaction": "wh2_main_hef_tiranoc",
     "x": 1811,
     "y": 1085
   },
   {
-    "index": 149,
     "key": "wh2_main_vor_headhunters_jungle_altar_of_the_horned_rat",
-    "originalFaction": "wh2_main_lzd_itza",
     "x": 1262,
     "y": 2955
   },
   {
-    "index": 150,
     "key": "wh2_main_vor_jungle_of_pahualaxa_the_high_sentinel",
-    "originalFaction": "wh2_main_lzd_hexoatl",
     "x": 536,
     "y": 2160
   },
   {
-    "index": 151,
     "key": "wh2_main_vor_ash_river_springs_of_eternal_life",
-    "originalFaction": "wh2_main_vmp_necrarch_brotherhood",
     "x": 3152,
     "y": 2643
   },
   {
-    "index": 152,
     "key": "wh2_main_vor_avelorn_evershale",
-    "originalFaction": "wh2_main_hef_avelorn",
     "x": 2384,
     "y": 929
   },
   {
-    "index": 153,
     "key": "wh2_main_vor_cothique_mistnar",
-    "originalFaction": "wh2_main_hef_cothique",
     "x": 3008,
     "y": 521
   },
   {
-    "index": 154,
     "key": "wh2_main_vor_kingdom_of_beasts_temple_of_skulls",
-    "originalFaction": "wh2_main_lzd_last_defenders",
     "x": 3143,
     "y": 3041
   },
   {
-    "index": 155,
     "key": "wh2_main_vor_chrace_tor_achare",
-    "originalFaction": "wh2_main_hef_chrace",
     "x": 2640,
     "y": 736
   },
   {
-    "index": 156,
     "key": "wh2_main_vor_the_broken_land_blacklight_tower",
-    "originalFaction": "wh2_main_def_the_forgebound",
     "x": 1485,
     "y": 451
   },
   {
-    "index": 157,
     "key": "wh2_main_vor_shifting_sands_bhagar",
-    "originalFaction": "wh2_main_vmp_necrarch_brotherhood",
     "x": 2906,
     "y": 2622
   },
   {
-    "index": 158,
     "key": "wh2_main_vor_deadwood_dargoth",
-    "originalFaction": "wh2_main_def_deadwood_sentinels",
     "x": 1574,
     "y": 220
   },
   {
-    "index": 159,
     "key": "wh2_main_vor_copper_desert_the_forgotten_isles",
-    "originalFaction": "wh2_dlc09_tmb_lybaras",
     "x": 712,
     "y": 3610
   },
   {
-    "index": 160,
     "key": "wh2_main_vor_straits_of_lothern_glittering_tower",
-    "originalFaction": "wh2_main_hef_eataine",
     "x": 2468,
     "y": 1606
   },
   {
-    "index": 161,
     "key": "wh2_main_vor_plain_of_spiders_pits_of_zardok",
-    "originalFaction": "wh2_main_def_drackla_coven",
     "x": 391,
     "y": 672
   },
   {
-    "index": 162,
     "key": "wh2_main_vor_headhunters_jungle_marks_of_the_old_ones",
-    "originalFaction": "wh2_main_lzd_itza",
     "x": 1187,
     "y": 3068
   },
   {
-    "index": 163,
     "key": "wh2_main_vor_ironfrost_glacier_mung_encampment",
-    "originalFaction": "wh2_main_nor_mung",
     "x": 1304,
     "y": 64
   },
   {
-    "index": 164,
     "key": "wh2_main_vor_eataine_angerrial",
-    "originalFaction": "wh2_main_hef_eataine",
     "x": 2542,
     "y": 1402
   },
   {
-    "index": 165,
     "key": "wh2_main_vor_aghol_wastelands_palace_of_princes",
-    "originalFaction": "wh2_main_nor_aghol",
     "x": 2836,
     "y": 210
   },
   {
-    "index": 166,
     "key": "wh2_main_vor_land_of_the_dervishes_sudenburg",
-    "originalFaction": "wh2_main_emp_sudenburg",
     "x": 2561,
     "y": 2584
   },
   {
-    "index": 167,
     "key": "wh2_main_vor_isthmus_of_lustria_monolith_of_fallen_gods",
-    "originalFaction": "wh2_main_lzd_hexoatl",
     "x": 643,
     "y": 1762
   },
   {
-    "index": 168,
     "key": "wh2_main_vor_the_red_rivers_nahuontl",
-    "originalFaction": "wh2_main_lzd_zlatan",
     "x": 2445,
     "y": 3062
   },
   {
-    "index": 169,
     "key": "wh2_main_vor_jungles_of_green_mist_spektazuma",
-    "originalFaction": "wh2_main_lzd_sentinels_of_xeti",
     "x": 475,
     "y": 2305
   },
   {
-    "index": 170,
     "key": "wh2_main_vor_coast_of_araby_copher",
-    "originalFaction": "wh2_main_brt_thegans_crusaders",
     "x": 2226,
     "y": 2047
   },
   {
-    "index": 171,
     "key": "wh2_main_vor_shadow_wood_daldrachs_lair",
-    "originalFaction": "wh2_main_def_clar_karond",
     "x": 1062,
     "y": 602
   },
   {
-    "index": 172,
     "key": "wh2_main_vor_southern_yvresse_cairn_thel",
-    "originalFaction": "wh2_main_hef_yvresse",
     "x": 2752,
     "y": 1456
   },
   {
-    "index": 173,
     "key": "wh2_main_vor_land_of_the_dead_zandri",
-    "originalFaction": "wh2_dlc09_tmb_rakaph_dynasty",
     "x": 2952,
     "y": 2192
   },
   {
-    "index": 174,
     "key": "wh2_main_vor_northern_yvresse_sardenath",
-    "originalFaction": "wh2_main_hef_yvresse",
     "x": 3180,
     "y": 908
   },
   {
-    "index": 175,
     "key": "wh2_main_vor_shifting_mangrove_coastline_temple_avenue_of_gold",
-    "originalFaction": "wh2_main_lzd_last_defenders",
     "x": 2901,
     "y": 3508
   },
   {
-    "index": 176,
     "key": "wh2_main_vor_chrace_elisia",
-    "originalFaction": "wh2_main_hef_chrace",
     "x": 2813,
     "y": 688
   },
   {
-    "index": 177,
     "key": "wh2_main_vor_southern_spine_of_sotek_thrice-cursed_peak",
-    "originalFaction": "wh2_main_dwf_spine_of_sotek_dwarfs",
     "x": 955,
     "y": 3427
   },
   {
-    "index": 178,
     "key": "wh2_main_vor_northern_spine_of_sotek_monument_of_izzatal",
-    "originalFaction": "wh2_main_dwf_spine_of_sotek_dwarfs",
     "x": 512,
     "y": 2584
   },
   {
-    "index": 179,
     "key": "wh2_main_vor_albion_albion",
-    "originalFaction": "wh_main_nor_skaeling",
     "x": 3017,
     "y": 349
   },
   {
-    "index": 180,
     "key": "wh2_main_vor_deadwood_the_frozen_city",
-    "originalFaction": "wh2_main_def_deadwood_sentinels",
     "x": 1569,
     "y": 124
   },
   {
-    "index": 181,
+    "key": "wh2_main_vor_the_red_rivers_soteks_trail",
+    "x": 2678,
+    "y": 3293
+  },
+  {
     "key": "wh2_main_vor_land_of_the_dead_khemri",
-    "originalFaction": "wh2_dlc09_tmb_khemri",
     "x": 3087,
     "y": 2401
   },
   {
-    "index": 182,
     "key": "wh2_main_vor_central_spine_of_sotek_caverns_of_the_great_bat",
-    "originalFaction": "wh2_main_dwf_spine_of_sotek_dwarfs",
     "x": 633,
     "y": 3186
   },
   {
-    "index": 183,
     "key": "wh2_main_vor_mosquito_swamps_xahutec",
-    "originalFaction": "wh2_main_lzd_xlanhuapec",
     "x": 1122,
     "y": 2321
   },
   {
-    "index": 184,
     "key": "wh2_main_vor_the_dragon_isles_isle_of_the_crimson_skull",
-    "originalFaction": "wh2_main_def_blood_hall_coven",
     "x": 79,
     "y": 2369
   },
   {
-    "index": 185,
     "key": "wh2_main_vor_the_turtle_isles_great_turtle_isle",
-    "originalFaction": "wh2_main_hef_order_of_loremasters",
     "x": 261,
     "y": 3229
   },
   {
-    "index": 186,
     "key": "wh2_main_vor_the_vampire_coast_the_blood_swamps",
-    "originalFaction": "wh2_dlc11_cst_vampire_coast",
     "x": 1313,
     "y": 2509
   },
   {
-    "index": 187,
     "key": "wh2_main_vor_iron_mountains_rackdo_gorge",
-    "originalFaction": "wh2_main_def_drackla_coven",
     "x": 335,
     "y": 236
   },
   {
-    "index": 188,
     "key": "wh2_main_vor_eataine_shrine_of_asuryan",
-    "originalFaction": "wh2_main_hef_eataine",
     "x": 2435,
     "y": 1322
   },
   {
-    "index": 189,
     "key": "wh2_main_vor_southern_jungles_yuatek",
-    "originalFaction": "wh2_main_lzd_zlatan",
     "x": 2529,
     "y": 3433
   },
   {
-    "index": 190,
     "key": "wh2_main_vor_land_of_the_dead_the_salt_plain",
-    "originalFaction": "wh2_dlc09_tmb_numas",
     "x": 3152,
     "y": 2278
   },
   {
-    "index": 191,
     "key": "wh2_main_vor_shifting_sands_antoch",
-    "originalFaction": "wh2_dlc09_tmb_dune_kingdoms",
     "x": 2808,
     "y": 2751
   },
   {
-    "index": 192,
     "key": "wh2_main_vor_coast_of_araby_al_haikk",
-    "originalFaction": "wh2_main_brt_thegans_crusaders",
     "x": 2594,
     "y": 2058
   },
   {
-    "index": 193,
     "key": "wh2_main_vor_the_dragon_isles_the_blood_hall",
-    "originalFaction": "wh2_main_def_blood_hall_coven",
     "x": 196,
     "y": 2869
   },
   {
-    "index": 194,
     "key": "wh2_main_vor_the_road_of_skulls_har_ganeth",
-    "originalFaction": "wh2_main_def_har_ganeth",
     "x": 1341,
     "y": 408
   },
   {
-    "index": 195,
     "key": "wh2_main_vor_northern_spine_of_sotek_cavern_of_the_mlexigaur",
-    "originalFaction": "wh2_main_dwf_spine_of_sotek_dwarfs",
     "x": 489,
     "y": 2810
   },
   {
-    "index": 196,
     "key": "wh2_main_vor_land_of_the_dervishes_elven_ruins",
-    "originalFaction": "wh2_main_emp_sudenburg",
     "x": 2263,
     "y": 2611
   },
   {
-    "index": 197,
     "key": "wh2_main_vor_straits_of_lothern_lothern",
-    "originalFaction": "wh2_main_hef_eataine",
     "x": 2435,
     "y": 1563
   },
   {
-    "index": 198,
     "key": "wh2_main_vor_mosquito_swamps_xlanhuapec",
-    "originalFaction": "wh2_main_lzd_xlanhuapec",
     "x": 1034,
     "y": 2471
   },
   {
-    "index": 199,
     "key": "wh2_main_vor_nagarythe_shrine_of_khaine",
-    "originalFaction": "wh2_main_hef_nagarythe",
     "x": 2496,
     "y": 467
   },
   {
-    "index": 200,
     "key": "wh2_main_vor_obsidian_peaks_ice_spire",
-    "originalFaction": "wh2_main_def_hag_graef",
     "x": 554,
     "y": 779
   },
   {
-    "index": 201,
     "key": "wh2_main_vor_shadow_wood_circle_of_destruction",
-    "originalFaction": "wh2_main_def_clar_karond",
     "x": 1187,
     "y": 677
   },
   {
-    "index": 202,
     "key": "wh2_main_vor_the_great_desert_pools_of_despair",
-    "originalFaction": "wh2_dlc09_tmb_rakaph_dynasty",
     "x": 2664,
     "y": 2235
   },
   {
-    "index": 203,
-    "key": "wh2_main_vor_saphery_port_elistor",
-    "originalFaction": "wh2_main_hef_saphery",
-    "x": 2659,
-    "y": 1279
-  },
-  {
-    "index": 204,
     "key": "wh2_main_vor_isthmus_of_lustria_ziggurat_of_dawn",
-    "originalFaction": "wh2_main_lzd_hexoatl",
     "x": 801,
     "y": 1682
   },
   {
-    "index": 205,
+    "key": "wh2_main_vor_saphery_port_elistor",
+    "x": 2659,
+    "y": 1279
+  },
+  {
     "key": "wh2_main_vor_shadow_wood_clar_karond",
-    "originalFaction": "wh2_main_def_clar_karond",
     "x": 1024,
     "y": 731
   },
   {
-    "index": 206,
     "key": "wh2_main_vor_the_great_desert_bel_aliad",
-    "originalFaction": "wh2_main_brt_thegans_crusaders",
     "x": 2445,
     "y": 2272
   },
   {
-    "index": 207,
     "key": "wh2_main_vor_eagle_gate",
-    "originalFaction": "wh2_main_hef_ellyrion",
     "x": 2044,
     "y": 1134
   },
   {
-    "index": 208,
     "key": "wh2_main_vor_tiranoc_salvation_isle",
-    "originalFaction": "wh2_main_hef_tiranoc",
     "x": 1928,
     "y": 779
   },
   {
-    "index": 209,
     "key": "wh2_main_vor_caledor_caledors_repose",
-    "originalFaction": "wh2_main_hef_caledor",
     "x": 2203,
     "y": 1526
   },
   {
-    "index": 210,
     "key": "wh2_main_vor_the_black_flood_hag_graef",
-    "originalFaction": "wh2_main_def_hag_graef",
     "x": 913,
     "y": 575
   },
   {
-    "index": 211,
     "key": "wh2_main_vor_the_vampire_coast_the_awakening",
-    "originalFaction": "wh2_dlc11_cst_vampire_coast",
     "x": 1322,
     "y": 2364
   },
   {
-    "index": 212,
     "key": "wh2_main_vor_iron_mountains_altar_of_ultimate_darkness",
-    "originalFaction": "wh2_main_def_naggarond",
     "x": 698,
     "y": 333
   },
   {
-    "index": 213,
     "key": "wh2_main_vor_red_desert_drackla_spire",
-    "originalFaction": "wh2_main_def_drackla_coven",
     "x": 75,
     "y": 403
   },
   {
-    "index": 214,
     "key": "wh2_main_vor_settlers_coast_skeggi",
-    "originalFaction": "wh2_main_nor_skeggi",
     "x": 852,
     "y": 1853
   },
   {
-    "index": 215,
     "key": "wh2_main_vor_jungle_of_pahualaxa_pahuax",
-    "originalFaction": "wh2_main_lzd_hexoatl",
     "x": 331,
     "y": 2047
   },
   {
-    "index": 216,
     "key": "wh2_main_vor_iron_peaks_the_moon_shard",
-    "originalFaction": "wh2_main_def_ssildra_tor",
     "x": 792,
     "y": 1241
   },
   {
-    "index": 217,
     "key": "wh2_main_vor_caledor_vauls_anvil",
-    "originalFaction": "wh2_main_hef_caledor",
     "x": 2105,
     "y": 1682
   },
   {
-    "index": 218,
     "key": "wh2_main_vor_ironfrost_glacier_dagraks_end",
-    "originalFaction": "wh2_main_nor_mung",
     "x": 736,
     "y": 91
   },
   {
-    "index": 219,
     "key": "wh2_main_vor_land_of_assassins_lashiek",
-    "originalFaction": "wh2_main_brt_knights_of_the_flame",
     "x": 2021,
     "y": 2149
   },
   {
-    "index": 220,
     "key": "wh2_main_vor_southlands_world_edge_mountains_karag_orrud",
-    "originalFaction": "wh2_main_grn_arachnos",
     "x": 3334,
     "y": 2552
   },
   {
-    "index": 221,
     "key": "wh2_main_vor_the_broken_land_black_creek_spire",
-    "originalFaction": "wh2_main_def_karond_kar",
     "x": 1662,
     "y": 629
   },
   {
-    "index": 222,
+    "key": "wh2_main_vor_the_red_rivers_sun-tree_glades",
+    "x": 2594,
+    "y": 2928
+  },
+  {
     "key": "wh2_main_vor_land_of_assassins_palace_of_the_wizard_caliph",
-    "originalFaction": "wh2_dlc09_tmb_followers_of_nagash",
     "x": 2086,
     "y": 2460
   },
   {
-    "index": 223,
     "key": "wh2_main_vor_scorpion_coast_chotec",
-    "originalFaction": "wh2_main_lzd_xlanhuapec",
     "x": 983,
     "y": 2106
   },
   {
-    "index": 224,
     "key": "wh2_main_vor_iron_mountains_cragroth_deep",
-    "originalFaction": "wh2_main_def_drackla_coven",
     "x": 484,
     "y": 414
   },
   {
-    "index": 225,
     "key": "wh2_main_vor_naggarond_naggarond",
-    "originalFaction": "wh2_main_def_naggarond",
     "x": 997,
     "y": 430
   },
   {
-    "index": 226,
     "key": "wh2_main_vor_sea_of_dread_tower_of_the_stars",
-    "originalFaction": "wh2_main_hef_tor_elasor",
     "x": 3199,
     "y": 3605
   }
