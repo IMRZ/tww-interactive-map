@@ -295,5 +295,26 @@
       "x": 911,
       "y": 3172
     }
+  },
+  {
+    "factionKey": "wh2_dlc12_lzd_cult_of_sotek",
+    "flag": {
+      "x": 445,
+      "y": 2859
+    }
+  },
+  {
+    "factionKey": "wh2_main_skv_clan_skyre",
+    "flag": {
+      "x": 1763,
+      "y": 2079
+    }
+  },
+  {
+    "factionKey": "wh2_main_lzd_tlaqua",
+    "flag": {
+      "x": 1908,
+      "y": 3275
+    }
   }
 ]

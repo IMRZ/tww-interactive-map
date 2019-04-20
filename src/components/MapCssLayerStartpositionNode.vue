@@ -38,7 +38,6 @@ export default {
       };
     },
     isZoomedOut() {
-      console.log(this.$store.state.settings.zoomScale);
       return (this.$store.state.settings.zoomScale < 0.4);
     }
   }
