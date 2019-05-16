@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="provinces.xsd" export_time="Mon Feb 4 11:25:38 2019" revision="91" export_branch="C:/Users/chris.gambold/AppData/Roaming/TWDaemon/1324/dave" export_user="bob">
-<edit_uuid>30c18c63-7acc-4c34-90e8-c5a4c32822ef</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="provinces.xsd" export_time="Wed May 8 12:34:31 2019" revision="93" export_branch="C:/Users/chris.gambold/AppData/Roaming/TWDaemon/1465/dave" export_user="bob">
+<edit_uuid>07ec556c-b5e5-4092-aa67-6e416dee4c46</edit_uuid>
 <provinces record_uuid="{6c907550-c78d-485a-8a39-519ed84b7cde}" record_timestamp="1484839242381" record_key="wh2_main_aghol_wastelands">
 <key>wh2_main_aghol_wastelands</key>
 <onscreen state="APPROVED" last_approved_text="Aghol Wastelands" last_edit_user="bob">Aghol Wastelands</onscreen>
@@ -583,7 +583,7 @@
 </provinces>
 <provinces record_uuid="{a46fe26d-ba94-4891-b52e-d0fc5a741861}" record_timestamp="1544608862823" record_key="wh2_main_western_jungles">
 <key>wh2_main_western_jungles</key>
-<onscreen state="APPROVED" last_approved_text="Western Jungles" last_edit_user="bob">Western Jungles</onscreen>
+<onscreen state="APPROVED" last_approved_text="Southern Desert of Araby" last_edit_user="bob">Southern Desert of Araby</onscreen>
 </provinces>
 <provinces record_uuid="{2192e09d-2026-48d5-83cd-edeb823e2506}" record_timestamp="1467123712104" record_key="wh2_main_yvresse">
 <key>wh2_main_yvresse</key>
