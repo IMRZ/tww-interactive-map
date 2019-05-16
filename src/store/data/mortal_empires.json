@@ -1434,7 +1434,7 @@
     "wh2_main_western_jungles_cuexotl": {
       "key": "wh2_main_western_jungles_cuexotl",
       "provinceKey": "wh2_main_western_jungles",
-      "name": "Cuexotl",
+      "name": "Wadi El Tebuk",
       "isCapital": false,
       "climate": "desert",
       "fill": "3475BD",
@@ -1443,7 +1443,7 @@
     "wh2_main_western_jungles_tlaqua": {
       "key": "wh2_main_western_jungles_tlaqua",
       "provinceKey": "wh2_main_western_jungles",
-      "name": "Tlaqua",
+      "name": "Jaluk Oasis",
       "isCapital": true,
       "climate": "desert",
       "fill": "924ECC",
