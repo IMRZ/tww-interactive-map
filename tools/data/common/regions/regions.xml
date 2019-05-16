@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="regions.xsd" export_time="Tue Mar 12 17:27:23 2019" revision="192" export_branch="C:/Users/richard.aldridge/AppData/Roaming/TWDaemon/1385/dave" export_user="bob">
-<edit_uuid>e375dbe3-39ab-4b51-a1df-02d5d870324e</edit_uuid>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="regions.xsd" export_time="Wed May 8 12:37:20 2019" revision="194" export_branch="C:/Users/chris.gambold/AppData/Roaming/TWDaemon/1465/dave" export_user="bob">
+<edit_uuid>452d6b8c-84d0-4ba5-b03f-370ab8b4dbf8</edit_uuid>
 <regions record_uuid="{308fda85-f6a5-44b1-8103-bad3b2757cb8}" record_timestamp="1488882011889" record_key="wh2_main_aghol_wastelands_fortress_of_the_damned">
 <b>125</b>
 <battle_name state="APPROVED" last_approved_text="Fortress of the Damned" last_edit_user="bob">Fortress of the Damned</battle_name>
@@ -5497,27 +5497,27 @@
 <owner_bundle></owner_bundle>
 <r>146</r>
 </regions>
-<regions record_uuid="{cbc3fa9a-9ab7-434d-ae0c-0858ec67eb3e}" record_timestamp="1544608862820" record_key="wh2_main_western_jungles_cuexotl">
+<regions record_uuid="{cbc3fa9a-9ab7-434d-ae0c-0858ec67eb3e}" record_timestamp="1556701179231" record_key="wh2_main_western_jungles_cuexotl">
 <b>189</b>
-<battle_name state="APPROVED" last_approved_text="Cuexotl" last_edit_user="bob">Cuexotl</battle_name>
+<battle_name state="APPROVED" last_approved_text="Wadi El Tebuk" last_edit_user="bob">Wadi El Tebuk</battle_name>
 <faction_swapping_id>lzd</faction_swapping_id>
 <g>117</g>
 <in_encyclopedia>1</in_encyclopedia>
 <is_sea>0</is_sea>
 <key>wh2_main_western_jungles_cuexotl</key>
-<onscreen state="APPROVED" last_approved_text="Cuexotl" last_edit_user="bob">Cuexotl</onscreen>
+<onscreen state="APPROVED" last_approved_text="Wadi El Tebuk" last_edit_user="bob">Wadi El Tebuk</onscreen>
 <owner_bundle></owner_bundle>
 <r>52</r>
 </regions>
-<regions record_uuid="{55959bcb-5a09-4667-81d6-a07a522e8d78}" record_timestamp="1544608862820" record_key="wh2_main_western_jungles_tlaqua">
+<regions record_uuid="{55959bcb-5a09-4667-81d6-a07a522e8d78}" record_timestamp="1556701179231" record_key="wh2_main_western_jungles_tlaqua">
 <b>204</b>
-<battle_name state="APPROVED" last_approved_text="Tlaqua" last_edit_user="bob">Tlaqua</battle_name>
+<battle_name state="APPROVED" last_approved_text="Jaluk Oasis" last_edit_user="bob">Jaluk Oasis</battle_name>
 <faction_swapping_id>lzd</faction_swapping_id>
 <g>78</g>
 <in_encyclopedia>1</in_encyclopedia>
 <is_sea>0</is_sea>
 <key>wh2_main_western_jungles_tlaqua</key>
-<onscreen state="APPROVED" last_approved_text="Tlaqua" last_edit_user="bob">Tlaqua</onscreen>
+<onscreen state="APPROVED" last_approved_text="Jaluk Oasis" last_edit_user="bob">Jaluk Oasis</onscreen>
 <owner_bundle></owner_bundle>
 <r>146</r>
 </regions>

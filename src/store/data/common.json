@@ -8558,13 +8558,13 @@
     },
     "wh2_main_western_jungles_cuexotl": {
       "key": "wh2_main_western_jungles_cuexotl",
-      "name": "Cuexotl",
+      "name": "Wadi El Tebuk",
       "fill": "3475BD",
       "isSea": false
     },
     "wh2_main_western_jungles_tlaqua": {
       "key": "wh2_main_western_jungles_tlaqua",
-      "name": "Tlaqua",
+      "name": "Jaluk Oasis",
       "fill": "924ECC",
       "isSea": false
     },
