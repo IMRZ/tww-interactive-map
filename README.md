@@ -47,5 +47,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Acknowledgments
 
 * [svgpan](https://github.com/aleofreddi/svgpan)
+* [svgpanzoom](https://github.com/ariutta/svg-pan-zoom)
 * [packfilemanager](https://sourceforge.net/projects/packfilemanager/)
 * [saveparser](https://sourceforge.net/projects/saveparser/)
