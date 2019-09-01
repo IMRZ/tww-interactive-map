@@ -18,6 +18,7 @@ const SET_FILTER = "SET_FILTER";
 const SET_MAP_ZOOM_SCALE = "SET_MAP_ZOOM_SCALE";
 
 export default new Vuex.Store({
+  strict: process.env.NODE_ENV !== 'production',
   state: {
     settings: {
       showTooltip: true,
