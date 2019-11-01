@@ -4,9 +4,6 @@
       <MapControlLegendClimate v-if="mapOverlay === 'regions' && mapOverlayMode === 'climates'"
         :climates="data.common.climates"
       />
-      <MapControlPainter v-if="mapOverlay === 'painter'"
-        :factions="data.common.factions"
-      />
       <WhPanel v-if="mapOverlay === 'regions'">
         <div class="panel-title">Regions</div>
         <WhPanelField label="None" icon="md default icon_cross_small" >
@@ -22,15 +19,6 @@
           <WhRadio v-model="mapOverlayMode" value="climates" />
         </WhPanelField>
       </WhPanel>
-      <WhPanel v-else-if="mapOverlay === 'choke_points'">
-        <div class="panel-title">Chokepoints</div>
-        <WhPanelField label="Single colour" icon="md warhammer2 icon_spectate_battle">
-          <WhRadio v-model="mapOverlayMode" value="" />
-        </WhPanelField>
-        <WhPanelField label="Coloured by type" icon="md default icon_spectate_battle">
-          <WhRadio v-model="mapOverlayMode" value="coloured" />
-        </WhPanelField>
-      </WhPanel>
     </div>
 
     <WhPanel>
@@ -44,9 +32,6 @@
       <WhPanelField  label="Choke points" icon="md default icon_spectate_battle">
         <WhRadio v-model="mapOverlay" value="choke_points" />
       </WhPanelField>
-      <WhPanelField  label="Planner/Painter" icon="md default icon_filter_faction">
-        <WhRadio v-model="mapOverlay" value="painter" />
-      </WhPanelField>
       <div class="panel-title">Nodes</div>
       <WhPanelField  label="None" icon="md default icon_cross_small">
         <WhRadio v-model="nodeOverlay" value="" />
@@ -54,9 +39,9 @@
       <WhPanelField  label="Settlements/Resources" icon="md default icon_province_view">
         <WhRadio v-model="nodeOverlay" value="settlements" />
       </WhPanelField>
-      <WhPanelField  label="Starting positions" icon="md default icon_filter_faction">
+      <!-- <WhPanelField  label="Starting positions" icon="md default icon_filter_faction">
         <WhRadio v-model="nodeOverlay" value="start_positions" />
-      </WhPanelField>
+      </WhPanelField> -->
     </WhPanel>
 
     <!-- <WhPanel>
@@ -75,13 +60,11 @@
 <script>
 import MapSettings from "@/mixins/MapSettings";
 import MapControlLegendClimate from "@/components/MapControlLegendClimate";
-import MapControlPainter from "@/components/MapControlPainter";
 
 export default {
   mixins: [MapSettings],
   components: {
-    MapControlLegendClimate,
-    MapControlPainter
+    MapControlLegendClimate
   },
   computed: {
     mapOpacity() {
