@@ -5,7 +5,7 @@
       <span class="region-name">{{region.name}}</span>
     </WhTooltipHeader>
     <WhTooltipBody>
-      <div>Province: {{province.name}}</div>
+      <div>Province: {{region.province.name}}</div>
       <div>Climate: {{climate.name}}</div>
     </WhTooltipBody>
   </WhTooltip>
@@ -26,9 +26,6 @@ export default {
   computed: {
     region() {
       return this.map.regions[this.tooltip.key];
-    },
-    province() {
-      return this.map.provinces[this.region.provinceKey];
     },
     climate() {
       return this.common.climates[this.region.climate];

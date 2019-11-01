@@ -1,7 +1,7 @@
 <template>
   <div class="node-settlement-resources">
     <span class="settlement highlight"
-      v-tooltip="tooltip('settlement', settlement.key)"
+      v-tooltip="tooltip('settlement', region.key)"
       v-if="settlementsFilter"
     >
       <WhIcon icon="xs default wh_settlement_schematic" />
@@ -15,7 +15,7 @@
         <WhIcon :icon="`resource ${entry.icon}`" />
       </span>
       <span class="highlight"
-        v-if="port"
+        v-if="region.settlement.port"
         v-tooltip="tooltip('resource', 'port')"
       >
         <WhIcon icon="md default icon_port" />
@@ -28,7 +28,7 @@
         <WhIcon :icon="`resource ${entry.icon}`" />
       </span>
       <span class="highlight"
-        v-if="fortressGate"
+        v-if="region.settlement.fortress"
         v-tooltip="tooltip('resource', 'res_fortress')"
       >
         <WhIcon icon="resource siege_defence" />
@@ -40,38 +40,8 @@
 <script>
 export default {
   props: {
-    settlement: Object,
-    resources: Object,
-    regions_resources: Object,
-  },
-  created() {
-    const region = this.settlement.key;
-    const resources = this.regions_resources[region];
-
-    resources.forEach((entry) => {
-      if (entry.key.endsWith("port")) {
-        this.port = true;
-      } else if (entry.resource) {
-        const resource = this.resources[entry.resource];
-        if (resource.key.startsWith("res_location")) {
-          this.strategicLocations.push(resource);
-        } else if (resource.key === "res_fortress") {
-          this.fortressGate = true;
-        } else {
-          this.strategicResources.push(resource);
-        }
-      }
-    });
-
-    this.strategicLocations = Array.from(new Set(this.strategicLocations));
-  },
-  data() {
-    return {
-      strategicLocations: [],
-      strategicResources: [],
-      fortressGate: false,
-      port: false
-    };
+    region: Object,
+    resources: Object
   },
   computed: {
     settlementsFilter() {
@@ -79,6 +49,12 @@ export default {
     },
     resourcesFilter() {
       return this.$store.state.filters["resources"];
+    },
+    strategicResources() {
+      return this.region.settlement.strategicResources.map(r => this.resources[r]);
+    },
+    strategicLocations() {
+      return this.region.settlement.strategicLocations.map(r => this.resources[r]);
     }
   },
   methods: {

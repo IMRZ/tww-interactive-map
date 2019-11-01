@@ -3,9 +3,9 @@ import Vuex from "vuex";
 
 Vue.use(Vuex);
 
-import common from "./data/common.json";
-import mortal_empires from "./data/mortal_empires.json";
-import vortex from "./data/vortex.json";
+import common from "./data/common";
+import mortal from "./data/mortal";
+import vortex from "./data/vortex";
 
 const SET_SHOW_TOOLTIP = "SET_SHOW_TOOLTIP";
 const SET_MAP_OPACITY = "SET_MAP_OPACITY";
@@ -33,7 +33,7 @@ export default new Vuex.Store({
       common,
       map: {
         mortal_empires: {
-          ...mortal_empires,
+          ...mortal,
           settings: {
             path: require("@/assets/maps/wh_main_map.png"),
             width: 4096,

@@ -5,7 +5,6 @@
       v-for="chokepoint in chokepoints"
       :key="chokepoint.key"
       :d="chokepoint.d"
-      :style="style(chokepoint, mode)"
       v-tooltip="tooltipChokepoint(chokepoint)"
     />
   </MapSvgLayer>
@@ -23,14 +22,6 @@ export default {
     chokepoints: Array
   },
   methods: {
-    style(chokepoint, mode) {
-      switch (mode) {
-        case "coloured":
-          return { fill: `#${chokepoint.fill}` };
-        default:
-          return { fill: "blue" };
-      }
-    },
     tooltipChokepoint(chokepoint) {
       return {
         type: "chokepoint",
@@ -43,7 +34,7 @@ export default {
 
 <style lang="scss" scoped>
 .chokepoint {
-  fill: transparent;
+  fill: blue;
   fill-opacity: 0.7;
 }
 </style>

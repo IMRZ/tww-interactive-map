@@ -19,21 +19,18 @@ export default {
   props: {
     mode: String,
     climates: Object,
-    provinces: Object,
     regions: Object,
   },
   methods: {
     style(region, mode) {
-      const climate = this.climates[region.climate];
-      const province = this.provinces[region.provinceKey];
-
       switch (mode) {
         case "regions":
-          return { fill: `#${region.fill}` };
+          return { fill: `${region.fill}` };
         case "climates":
+          const climate = this.climates[region.climate];
           return { fill: climate ? `${climate.fill}` : "transparent" };
         case "provinces":
-          return { fill: province ? `#${province.fill}` : "transparent" };
+          return { fill: `${region.province.fill}` };
         default:
           return { fill: "transparent", stroke: "transparent" };
       }

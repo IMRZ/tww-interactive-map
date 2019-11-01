@@ -1,16 +1,15 @@
 <template>
   <MapCssLayer v-if="mapMatrix">
     <MapCssLayerNode class="node"
-      v-for="(settlement, index) in settlements"
-      :key="index"
+      v-for="region in regions"
+      :key="region.key"
       :mapMatrix="mapMatrix"
-      :coords="settlement"
+      :coords="region.settlement"
       :offset="12"
     >
       <MapCssLayerSettlementNode
-        :settlement="settlement"
+        :region="region"
         :resources="resources"
-        :regions_resources="regions_resources"
       />
     </MapCssLayerNode>
   </MapCssLayer>
@@ -29,9 +28,8 @@ export default {
   },
   props: {
     mapMatrix: SVGMatrix,
-    settlements: Array,
+    regions: Object,
     resources: Object,
-    regions_resources: Object
   }
 };
 </script>
