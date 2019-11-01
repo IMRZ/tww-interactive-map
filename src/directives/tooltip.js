@@ -44,5 +44,6 @@ export default {
   unbind(el) {
     el.removeEventListener("mouseenter", el.$mouseenter);
     el.removeEventListener("mouseleave", el.$mouseleave);
+    setTooltip(null); // fix tooltip rendering after navigation.
   }
 };
