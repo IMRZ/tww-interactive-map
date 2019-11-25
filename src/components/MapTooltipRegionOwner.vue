@@ -1,7 +1,7 @@
 <template>
   <WhTooltip class="tooltip-region-owner">
     <WhTooltipBody>
-      <div>Province: {{province.name}}</div>
+      <div>Province: {{region.province.name}}</div>
       <div>Region: {{region.name}}</div>
       <div class="owner">
         <span>Owner: {{owner.name}}</span>
@@ -27,9 +27,6 @@ export default {
   computed: {
     region() {
       return this.map.regions[this.tooltip.key];
-    },
-    province() {
-      return this.map.provinces[this.region.provinceKey];
     },
     owner() {
       if (this.tooltip.owner) {

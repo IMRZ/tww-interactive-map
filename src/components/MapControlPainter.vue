@@ -1,6 +1,6 @@
 <template>
   <WhTooltip class="panel-planner">
-    <div class="title">Legend</div>
+    <div class="title">Painter</div>
     <div class="content">
       <div>
         <p>Select a faction and click on the regions to paint:</p>

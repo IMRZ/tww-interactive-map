@@ -36,6 +36,12 @@
           :mode="mapOverlayMode"
           :transform="map.settings.chokepoints_transform"
         />
+        <MapSvgLayerPainter
+          v-if="mapOverlay === 'painter'"
+          :regions="map.regions"
+          :factions="common.factions"
+          :starting_regions="map.startingRegions"
+        />
       </g>
     </svg>
 
@@ -49,6 +55,7 @@ import MapCssLayerSettlement from "@/components/MapCssLayerSettlement";
 import MapCssLayerStartposition from "@/components/MapCssLayerStartposition";
 import MapSvgLayerChokepoint from "@/components/MapSvgLayerChokepoint";
 import MapSvgLayerRegion from "@/components/MapSvgLayerRegion";
+import MapSvgLayerPainter from "@/components/MapSvgLayerPainter";
 
 export default {
   mixins: [MapSettings],
@@ -56,7 +63,8 @@ export default {
     MapCssLayerSettlement,
     MapCssLayerStartposition,
     MapSvgLayerChokepoint,
-    MapSvgLayerRegion
+    MapSvgLayerRegion,
+    MapSvgLayerPainter
   },
   props: {
     common: Object,
