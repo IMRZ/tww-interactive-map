@@ -1,4 +1,3 @@
-
 import * as TwsParser  from "total-war-save-parser";
 
 self.addEventListener('message', (event) => {

@@ -12,8 +12,8 @@
   "dependencies": {
     "register-service-worker": "^1.6.2",
     "svg-pan-zoom": "^3.6.0",
-    "total-war-save-parser": "IMRZ/total-war-save-parser#0.1.1",
-    "tww-ui": "IMRZ/tww-ui#0.1.3",
+    "total-war-save-parser": "IMRZ/total-war-save-parser#d964f60",
+    "tww-ui": "github:IMRZ/tww-ui#0b5246e",
     "vue": "^2.6.10",
     "vue-router": "^3.0.6",
     "vue-single-select": "^1.0.29",
@@ -32,8 +32,8 @@
     "push-dir": "^0.4.1",
     "sass-loader": "^7.1.0",
     "ts-node": "^8.4.1",
-    "tw-db": "github:IMRZ/tw-db#957b905",
-    "typescript": "^3.7.0-beta",
+    "tw-db": "IMRZ/tw-db#957b905",
+    "typescript": "3.7.2",
     "vue-template-compiler": "^2.6.10",
     "worker-loader": "^2.0.0",
     "xml2js": "^0.4.19"

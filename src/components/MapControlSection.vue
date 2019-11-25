@@ -4,6 +4,9 @@
       <MapControlLegendClimate v-if="mapOverlay === 'regions' && mapOverlayMode === 'climates'"
         :climates="data.common.climates"
       />
+      <MapControlPainter v-if="mapOverlay === 'painter'"
+        :factions="data.common.factions"
+      />
       <WhPanel v-if="mapOverlay === 'regions'">
         <div class="panel-title">Regions</div>
         <WhPanelField label="None" icon="md default icon_cross_small" >
@@ -31,6 +34,9 @@
       </WhPanelField>
       <WhPanelField  label="Choke points" icon="md default icon_spectate_battle">
         <WhRadio v-model="mapOverlay" value="choke_points" />
+      </WhPanelField>
+      <WhPanelField  label="Planner/Painter" icon="md default icon_filter_faction">
+        <WhRadio v-model="mapOverlay" value="painter" />
       </WhPanelField>
       <div class="panel-title">Nodes</div>
       <WhPanelField  label="None" icon="md default icon_cross_small">
@@ -60,11 +66,13 @@
 <script>
 import MapSettings from "@/mixins/MapSettings";
 import MapControlLegendClimate from "@/components/MapControlLegendClimate";
+import MapControlPainter from "@/components/MapControlPainter";
 
 export default {
   mixins: [MapSettings],
   components: {
-    MapControlLegendClimate
+    MapControlLegendClimate,
+    MapControlPainter
   },
   computed: {
     mapOpacity() {
