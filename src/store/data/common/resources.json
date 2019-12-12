@@ -51,13 +51,13 @@
     "key": "res_location_brt",
     "icon": "strategic_location",
     "name": "Strategic Location",
-    "description": "This location is of special importance to the Bretonnian Dukedoms."
+    "description": "This location is of special importance to Bretonnia."
   },
   "res_location_brt_wef_hef": {
     "key": "res_location_brt_wef_hef",
     "icon": "strategic_location",
     "name": "Strategic Location",
-    "description": "This location is of special importance to the Bretonnian kingdoms, High Elves and Wood Elves."
+    "description": "This location is of special importance to Bretonnia, High Elves and Wood Elves."
   },
   "res_location_colony": {
     "key": "res_location_colony",
@@ -75,37 +75,43 @@
     "key": "res_location_dwf",
     "icon": "strategic_location",
     "name": "Strategic Location",
-    "description": "This location is of special importance to the Dwarf realms."
+    "description": "This location is of special importance to Dwarfs."
   },
   "res_location_dwf_grn": {
     "key": "res_location_dwf_grn",
     "icon": "strategic_location",
     "name": "Strategic Location",
-    "description": "This location is of special importance to the Dwarf realms and the Greenskin Tribes."
+    "description": "This location is of special importance to Dwarfs and Greenskins."
   },
   "res_location_dwf_grn_skv": {
     "key": "res_location_dwf_grn_skv",
     "icon": "strategic_location",
     "name": "Strategic Location",
-    "description": "This location is of special importance to the Dwarf realms, the Greenskin Tribes and the Skaven."
+    "description": "This location is of special importance to Dwarfs, Greenskins and Skaven."
   },
   "res_location_dwf_skv": {
     "key": "res_location_dwf_skv",
     "icon": "strategic_location",
     "name": "Strategic Location",
-    "description": "This location is of special importance to the Dwarfs realms and the Skaven."
+    "description": "This location is of special importance to Dwarfs and Skaven."
   },
   "res_location_emp": {
     "key": "res_location_emp",
     "icon": "strategic_location",
     "name": "Strategic Location",
-    "description": "This location is of special importance to the Empire provinces."
+    "description": "This location is of special importance to the Empire."
   },
   "res_location_emp_brt": {
     "key": "res_location_emp_brt",
     "icon": "strategic_location",
     "name": "Strategic Location",
-    "description": "This location is of special importance to the Empire provinces and Bretonnian kingdoms."
+    "description": "This location is of special importance to the Empire and Bretonnia."
+  },
+  "res_location_emp_grn": {
+    "key": "res_location_emp_grn",
+    "icon": "strategic_location",
+    "name": "Strategic Location",
+    "description": "This location is of special importance to the Empire and Greenskins."
   },
   "res_location_emp_vmp": {
     "key": "res_location_emp_vmp",
@@ -155,6 +161,12 @@
     "name": "Strategic Location",
     "description": "This location is of special importance to the Lizardmen."
   },
+  "res_location_natural_landmark": {
+    "key": "res_location_natural_landmark",
+    "icon": "strategic_location",
+    "name": "Natural Landmark",
+    "description": "This Location contains a natural landmark that cannot be demolished."
+  },
   "res_location_nor": {
     "key": "res_location_nor",
     "icon": "strategic_location",
@@ -201,13 +213,13 @@
     "key": "res_location_vmp_dwf_grn_skv_arkhan",
     "icon": "strategic_location",
     "name": "Strategic Location",
-    "description": "This location is of special importance to the Dwarf Realms, Greenskin Tribes, Skaven, Vampire Counts and the Followers of Nagash."
+    "description": "This location is of special importance to Dwarfs, Greenskins, Skaven, Vampire Counts and the Followers of Nagash."
   },
   "res_location_xef_emp_brt": {
     "key": "res_location_xef_emp_brt",
     "icon": "strategic_location",
     "name": "Strategic Location",
-    "description": "This location is of special importance to the Elves, Empire provinces and Bretonnian kingdoms."
+    "description": "This location is of special importance to the Empire, Elves and Bretonnia."
   },
   "res_medicine": {
     "key": "res_medicine",

@@ -546,7 +546,9 @@
       "y": 2015,
       "port": false,
       "fortress": false,
-      "strategicLocations": [],
+      "strategicLocations": [
+        "res_location_brt"
+      ],
       "strategicResources": [
         "res_spices"
       ]
@@ -562,7 +564,7 @@
       "name": "Coast of Araby",
       "fill": "#842B86"
     },
-    "climate": "mountain",
+    "climate": "desert",
     "settlement": {
       "x": 2451,
       "y": 2111,
@@ -2026,7 +2028,9 @@
       "y": 2477,
       "port": false,
       "fortress": false,
-      "strategicLocations": [],
+      "strategicLocations": [
+        "res_location_skv"
+      ],
       "strategicResources": [
         "res_dyes"
       ]
@@ -2940,11 +2944,9 @@
       "y": 3766,
       "port": true,
       "fortress": false,
-      "strategicLocations": [
-        "res_location_colony"
-      ],
+      "strategicLocations": [],
       "strategicResources": [
-        "res_spices"
+        "res_ritual_currency"
       ]
     }
   },

@@ -277,7 +277,7 @@
   },
   "wh2_dlc11_cst_vampire_coast": {
     "key": "wh2_dlc11_cst_vampire_coast",
-    "name": "Vampire Coast",
+    "name": "The Awakened",
     "flagKey": "wh2_dlc11_cst_vampire_coast",
     "primaryColour": "3A6979"
   },
@@ -286,6 +286,12 @@
     "name": "Rogue Pirates",
     "flagKey": "wh2_dlc11_cst_vampire_coast_mutineers",
     "primaryColour": "153348"
+  },
+  "wh2_dlc11_cst_vampire_coast_mp_custom_battles_only": {
+    "key": "wh2_dlc11_cst_vampire_coast_mp_custom_battles_only",
+    "name": "Vampire Coast",
+    "flagKey": "wh2_dlc11_cst_vampire_coast",
+    "primaryColour": "3A6979"
   },
   "wh2_dlc11_cst_vampire_coast_qb1": {
     "key": "wh2_dlc11_cst_vampire_coast_qb1",
@@ -466,6 +472,36 @@
     "name": "Laurelorn Forest",
     "flagKey": "wh2_dlc13_wef_laurelorn_forest",
     "primaryColour": "78F050"
+  },
+  "wh2_dlc14_brt_chevaliers_de_lyonesse": {
+    "key": "wh2_dlc14_brt_chevaliers_de_lyonesse",
+    "name": "Chevaliers de Lyonesse",
+    "flagKey": "wh_dlc14_brt_chevaliers_de_lyonesse",
+    "primaryColour": "C5BF96"
+  },
+  "wh2_dlc14_grn_red_cloud": {
+    "key": "wh2_dlc14_grn_red_cloud",
+    "name": "Red Cloud",
+    "flagKey": "wh2_dlc14_grn_red_cloud",
+    "primaryColour": "EDE5DF"
+  },
+  "wh2_dlc14_grn_red_cloud_waaagh": {
+    "key": "wh2_dlc14_grn_red_cloud_waaagh",
+    "name": "Red Cloud Waaagh!",
+    "flagKey": "wh2_dlc14_grn_red_cloud",
+    "primaryColour": "EDE5DF"
+  },
+  "wh2_dlc14_lzd_itz_itza_tribe": {
+    "key": "wh2_dlc14_lzd_itz_itza_tribe",
+    "name": "Itz-Itza Tribe",
+    "flagKey": "wh2_dlc14_lzd_itz_itza_tribe",
+    "primaryColour": "EDE5DF"
+  },
+  "wh2_dlc14_skv_rictus_clan_nest": {
+    "key": "wh2_dlc14_skv_rictus_clan_nest",
+    "name": "Rictus Clan-Nest",
+    "flagKey": "wh2_dlc14_skv_rictus_clan_nest",
+    "primaryColour": "796A3A"
   },
   "wh2_main_brt_knights_of_origo": {
     "key": "wh2_main_brt_knights_of_origo",
@@ -682,6 +718,12 @@
     "name": "Hag Graef",
     "flagKey": "wh2_main_def_hag_graef",
     "primaryColour": "C40102"
+  },
+  "wh2_main_def_hag_graef_separatists": {
+    "key": "wh2_main_def_hag_graef_separatists",
+    "name": "Hag Graef Separatists",
+    "flagKey": "wh2_main_def_hag_graef_separatists",
+    "primaryColour": "686868"
   },
   "wh2_main_def_har_ganeth": {
     "key": "wh2_main_def_har_ganeth",
@@ -1259,6 +1301,12 @@
     "flagKey": "wh2_main_skv_clan_eshin",
     "primaryColour": "19201E"
   },
+  "wh2_main_skv_clan_eshin_separatists": {
+    "key": "wh2_main_skv_clan_eshin_separatists",
+    "name": "Clan Eshin Separatists",
+    "flagKey": "wh2_main_skv_clan_eshin_separatists",
+    "primaryColour": "5B5B5B"
+  },
   "wh2_main_skv_clan_gnaw": {
     "key": "wh2_main_skv_clan_gnaw",
     "name": "Clan Gnaw",
@@ -1417,7 +1465,7 @@
   },
   "wh2_main_vmp_vampire_coast": {
     "key": "wh2_main_vmp_vampire_coast",
-    "name": "Vampire Coast",
+    "name": "The Awakened",
     "flagKey": "wh2_main_vmp_vampire_coast",
     "primaryColour": "153348"
   },
@@ -1531,6 +1579,12 @@
   },
   "wh_dlc05_wef_wood_elves": {
     "key": "wh_dlc05_wef_wood_elves",
+    "name": "Talsyn",
+    "flagKey": "wh_dlc05_wef_wood_elves",
+    "primaryColour": "378250"
+  },
+  "wh_dlc05_wef_wood_elves_mp_custom_battles_only": {
+    "key": "wh_dlc05_wef_wood_elves_mp_custom_battles_only",
     "name": "Wood Elves",
     "flagKey": "wh_dlc05_wef_wood_elves",
     "primaryColour": "378250"
@@ -1633,6 +1687,12 @@
   },
   "wh_dlc08_nor_norsca": {
     "key": "wh_dlc08_nor_norsca",
+    "name": "World Walkers",
+    "flagKey": "wh_dlc08_nor_norsca",
+    "primaryColour": "CA9602"
+  },
+  "wh_dlc08_nor_norsca_mp_custom_battles_only": {
+    "key": "wh_dlc08_nor_norsca_mp_custom_battles_only",
     "name": "Norsca",
     "flagKey": "wh_dlc08_nor_norsca",
     "primaryColour": "CA9602"
@@ -1669,6 +1729,12 @@
   },
   "wh_main_brt_bretonnia": {
     "key": "wh_main_brt_bretonnia",
+    "name": "Couronne",
+    "flagKey": "wh_main_brt_bretonnia",
+    "primaryColour": "231FB2"
+  },
+  "wh_main_brt_bretonnia_mp_custom_battles_only": {
+    "key": "wh_main_brt_bretonnia_mp_custom_battles_only",
     "name": "Bretonnia",
     "flagKey": "wh_main_brt_bretonnia",
     "primaryColour": "231FB2"
@@ -1765,6 +1831,12 @@
   },
   "wh_main_dwf_dwarfs": {
     "key": "wh_main_dwf_dwarfs",
+    "name": "Karaz-a-Karak",
+    "flagKey": "wh_main_dwf_dwarfs",
+    "primaryColour": "2A9FEE"
+  },
+  "wh_main_dwf_dwarfs_mp_custom_battles_only": {
+    "key": "wh_main_dwf_dwarfs_mp_custom_battles_only",
     "name": "Dwarfs",
     "flagKey": "wh_main_dwf_dwarfs",
     "primaryColour": "2A9FEE"
@@ -1873,6 +1945,12 @@
   },
   "wh_main_emp_empire": {
     "key": "wh_main_emp_empire",
+    "name": "Reikland",
+    "flagKey": "wh_main_emp_empire",
+    "primaryColour": "E00606"
+  },
+  "wh_main_emp_empire_mp_custom_battles_only": {
+    "key": "wh_main_emp_empire_mp_custom_battles_only",
     "name": "The Empire",
     "flagKey": "wh_main_emp_empire",
     "primaryColour": "E00606"
@@ -2035,6 +2113,12 @@
   },
   "wh_main_grn_greenskins": {
     "key": "wh_main_grn_greenskins",
+    "name": "Black Crag",
+    "flagKey": "wh_main_grn_greenskins",
+    "primaryColour": "738E3F"
+  },
+  "wh_main_grn_greenskins_mp_custom_battles_only": {
+    "key": "wh_main_grn_greenskins_mp_custom_battles_only",
     "name": "Greenskins",
     "flagKey": "wh_main_grn_greenskins",
     "primaryColour": "738E3F"
@@ -2335,6 +2419,12 @@
   },
   "wh_main_vmp_vampire_counts": {
     "key": "wh_main_vmp_vampire_counts",
+    "name": "Sylvania",
+    "flagKey": "wh_main_vmp_vampire_counts",
+    "primaryColour": "0A0A0A"
+  },
+  "wh_main_vmp_vampire_counts_mp_custom_battles_only": {
+    "key": "wh_main_vmp_vampire_counts_mp_custom_battles_only",
     "name": "Vampire Counts",
     "flagKey": "wh_main_vmp_vampire_counts",
     "primaryColour": "0A0A0A"
