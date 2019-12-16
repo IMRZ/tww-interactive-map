@@ -1,43 +1,57 @@
 <template>
   <div id="app" v-on="eventListeners">
-    <router-view></router-view>
+    <router-view :class="{ fade: visible }"></router-view>
     <MapTooltip
-      v-if="tooltipEnabled"
       :mouseEvent="mouseEvent"
-      :common="data.common"
+      :common="common"
       :map="selectedMapData"
     />
+    <UpdateDialog />
   </div>
 </template>
 
 <script>
 import MapSettings from "@/mixins/MapSettings";
 import MapTooltip from "@/components/MapTooltip";
+import UpdateDialog from "@/components/ui/UpdateDialog";
+
+import { ref, computed } from "@vue/composition-api";
+import { useState } from "@/use/state";
 
 export default {
   components: {
-    MapTooltip
+    MapTooltip,
+    UpdateDialog
   },
-  mixins: [MapSettings],
-  data() {
-    return {
-      mouseEvent: null
-    };
-  },
-  computed: {
-    tooltipEnabled() {
-      return this.settings.showTooltip;
-    },
-    eventListeners() {
-      if (this.tooltipEnabled) {
-        return {
-          mousemove: (mouseEvent) => this.mouseEvent = mouseEvent,
-          mouseleave: (mouseEvent) => this.mouseEvent = null
-        };
+  setup(initProps, setupContext) {
+    const { visible } = useState();
+
+    // TODO: fix me later
+    const common = setupContext.root.$store.state.data.common;
+    const selectedMapData = computed(() => {
+      const route = setupContext.root.$store.state.route;
+      if (route.params && route.params.id) {
+        const mapId = route.params.id;
+        return setupContext.root.$store.state.data.map[mapId];
       } else {
-        return {};
+        return null;
       }
-    }
+    });
+
+    const mouseEvent = ref(null);
+    const eventListeners = {
+      mousemove: (e) => mouseEvent.value = e,
+      mouseleave: () => mouseEvent.value = null
+    };
+
+    return {
+      visible,
+      mouseEvent,
+      eventListeners,
+
+      common,
+      selectedMapData
+    };
   }
 };
 </script>
@@ -65,5 +79,9 @@ body {
 
 #app {
   height: 100%;
+}
+
+.fade {
+  filter: grayscale(75%);
 }
 </style>

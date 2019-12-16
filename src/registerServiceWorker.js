@@ -2,6 +2,8 @@
 
 import { register } from "register-service-worker";
 
+import { displayUpdateDialog } from "@/use/state";
+
 if (process.env.NODE_ENV === "production") {
   register(`${process.env.BASE_URL}service-worker.js`, {
     ready() {
@@ -21,11 +23,10 @@ if (process.env.NODE_ENV === "production") {
     },
     updated(registration) {
       console.log("New content is available; please refresh.");
-
-      if (window.confirm("A new version of tww-interactive-map is available, update now?")) {
-        const worker = registration.waiting;
-        worker.postMessage({ action: "skipWaiting" });
-      }
+      displayUpdateDialog(() => {
+        registration.waiting.postMessage({ action: "skipWaiting" })
+        location.reload();
+      });
     },
     offline() {
       console.log(

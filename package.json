@@ -10,6 +10,7 @@
     "gen:data": "ts-node tools/data/index.ts"
   },
   "dependencies": {
+    "@vue/composition-api": "^0.3.4",
     "register-service-worker": "^1.6.2",
     "svg-pan-zoom": "^3.6.0",
     "total-war-save-parser": "IMRZ/total-war-save-parser#d964f60",
