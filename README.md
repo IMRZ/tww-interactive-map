@@ -6,7 +6,7 @@ Total War: Warhammer Interactive Map.
 * Interactive Map for the *Mortal Empires* and *The Eye of the Vortex* campaigns.
 * Regions overlay. Colour coded regions, provinces or climates.
 * Choke points overlay. Displays the locations of chokepoint battle locations.
-* ~~Planner/Painter. The *essential* campaign planner or load your progress from a save file!.~~
+* Planner/Painter. The *essential* campaign planner or load your progress from a save file!.
 * Settlements and resources nodes. Displays settlement, resouces, etc.
 * ~~Faction starting positions.~~
 * This is a Progressive Web App. *Installable* to your desktop and available offline if your browser supports it.
