@@ -14,7 +14,7 @@
     "register-service-worker": "^1.6.2",
     "svg-pan-zoom": "^3.6.0",
     "total-war-save-parser": "IMRZ/total-war-save-parser#d964f60",
-    "tww-ui": "github:IMRZ/tww-ui#0b5246e",
+    "tww-ui": "github:IMRZ/tww-ui#6be59f6",
     "vue": "^2.6.10",
     "vue-router": "^3.0.6",
     "vue-single-select": "^1.0.29",

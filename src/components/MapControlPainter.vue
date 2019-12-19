@@ -6,7 +6,7 @@
         <p>Select a faction and click on the regions to paint:</p>
         <VueSingleSelect
           @input="setPainterFaction"
-          :value="$store.state.painter.faction"
+          :value="selectedFaction"
           option-label="name"
           :options="factionList"
           placeholder="Select a faction"
@@ -28,9 +28,14 @@
           </div>
         </div>
         <div v-if="loading">
-          <span id="loading"></span>
+          <TwSpinner />
           <span>Reading your save game, this might take a while!</span>
         </div>
+      </div>
+      <div>
+        <p>Share or bookmark your progress:</p>
+        <button @click="bookmark" v-tooltip="{ type: 'info', text: 'Copy shareable link to clipboard' }">Share link</button>
+        <button @click="reset" style="margin-left: 10px;">Reset</button>
       </div>
     </div>
   </WhTooltip>
@@ -38,68 +43,83 @@
 
 <script>
 import VueSingleSelect from "vue-single-select";
-
+import TwSpinner from "@/components/ui/TwSpinner";
 import ReadSfForPainterWorker from "worker-loader!@/workers/read-sf-for-painter.worker.js";
+
+import { ref } from '@vue/composition-api';
+import { usePlanner } from "@/use/planner";
 
 export default {
   components: {
-    VueSingleSelect
+    VueSingleSelect,
+    TwSpinner
   },
-  props: {
-    factions: Object
-  },
-  data() {
-    const factionsList =  Object.values(this.factions).reduce((accumulator, faction) => {
-      if (accumulator[faction.flagKey] === undefined) {
-        accumulator[faction.flagKey] = faction;
+  setup() {
+    const {
+      factions,
+      selectedFaction,
+      ownedRegions,
+
+      createBookmark,
+      reset
+    } = usePlanner();
+
+    const factionsList =  Object.values(factions).reduce((accumulator, faction) => {
+      if (accumulator[faction.name] === undefined) {
+        accumulator[faction.name] = faction;
       }
 
       return accumulator;
     }, {});
 
+    const loading = ref(false);
+    const parseResult = ref(null);
+
     return {
-      loading: false,
-      parseResult: null,
+      selectedFaction,
+
       factionList: Object.values(factionsList)
         .filter(f => f.primaryColour !== '000000' && !f.name.startsWith("{{"))
         .sort((a, b) => {
           if (a.name < b.name) return -1;
           if (a.name > b.name) return 1;
           return 0;
-        })
-    }
-  },
-  methods: {
-    getFactionIcon(faction) {
-      return `small flag ${faction.flagKey}`;
-    },
-    setPainterFaction(faction) {
-      this.$store.commit("SET_PAINTER_FACTION", faction)
-    },
-    loadSaveGame(e) {
-      e.preventDefault();
-      const file = e.target.files[0];
-      const reader = new FileReader();
+        }),
 
-      reader.onload = (event) => {
-        const buffer = event.target.result;
+      setPainterFaction: (faction) => selectedFaction.value = faction,
+      getFactionIcon: (faction) => `small flag ${faction.flagKey}`,
 
-        const worker = new ReadSfForPainterWorker();
+      loading,
+      parseResult,
 
-        worker.addEventListener("message", (event) => {
-          if (event.data.success) {
-            this.$store.commit("SET_PAINTER_FACTIONS", event.data.result);
-          }
-          this.parseResult = event.data.success;
-          this.loading = false;
-        });
+      loadSaveGame: (e) => {
+        e.preventDefault();
+        const file = e.target.files[0];
+        const reader = new FileReader();
 
-        worker.postMessage(buffer);
-        this.loading = true;
-      };
+        reader.onload = (event) => {
+          const buffer = event.target.result;
 
-      reader.readAsArrayBuffer(file);
-    }
+          const worker = new ReadSfForPainterWorker();
+
+          worker.addEventListener("message", (event) => {
+            if (event.data.success) {
+              ownedRegions.value = event.data.result;
+            }
+            parseResult.value = event.data.success;
+            loading.value = false;
+          });
+
+          worker.postMessage(buffer);
+          loading.value = true;
+        };
+
+        reader.readAsArrayBuffer(file);
+      },
+
+      bookmark: () => createBookmark(ownedRegions.value, factions),
+      reset
+    };
   }
 };
 </script>
@@ -121,25 +141,6 @@ export default {
 
   .content {
     padding: 0 16px;
-  }
-
-  // https://codepen.io/mandelid/pen/vwKoe
-  #loading {
-    display: inline-block;
-    width: 1em;
-    height: 1em;
-    border: 3px solid rgba(255,255,255,.3);
-    border-radius: 50%;
-    border-top-color: #fff;
-    animation: spin 1s ease-in-out infinite;
-    -webkit-animation: spin 1s ease-in-out infinite;
-  }
-
-  @keyframes spin {
-    to { -webkit-transform: rotate(360deg); }
-  }
-  @-webkit-keyframes spin {
-    to { -webkit-transform: rotate(360deg); }
   }
 }
 </style>

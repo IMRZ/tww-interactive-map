@@ -1,22 +1,19 @@
 import Vue from "vue";
 import VueCompositionApi from '@vue/composition-api';
 import { sync } from "vuex-router-sync";
-import router from "./router";
-import store from "./store";
-
 import tooltipDirective from "@/directives/tooltip";
-
 import TwwUi from "tww-ui";
-
-Vue.use(VueCompositionApi);
 
 Vue.config.productionTip = false;
 
-sync(store, router);
-
+Vue.use(VueCompositionApi);
 Vue.use(TwwUi);
-
 Vue.directive("tooltip", tooltipDirective);
+
+const router = require("./router").default;
+const store = require("./store").default;
+
+sync(store, router);
 
 const App = require("./App.vue").default;
 require("./registerServiceWorker");

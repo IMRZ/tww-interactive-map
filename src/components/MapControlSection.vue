@@ -4,9 +4,7 @@
       <MapControlLegendClimate v-if="mapOverlay === 'regions' && mapOverlayMode === 'climates'"
         :climates="data.common.climates"
       />
-      <MapControlPainter v-if="mapOverlay === 'painter'"
-        :factions="data.common.factions"
-      />
+      <MapControlPainter v-if="mapOverlay === 'painter'" />
       <WhPanel v-if="mapOverlay === 'regions'">
         <div class="panel-title">Regions</div>
         <WhPanelField label="None" icon="md default icon_cross_small" >
