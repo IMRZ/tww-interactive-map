@@ -14,7 +14,7 @@
 
 <script>
 import MapSvgLayer from "@/components/MapSvgLayer";
-import { watch } from '@vue/composition-api';
+import { watch, onBeforeUnmount } from '@vue/composition-api';
 import { usePlanner } from "@/use/planner";
 
 export default {
@@ -27,7 +27,8 @@ export default {
       regions,
       startingRegions,
 
-      getStateFromQueryParams
+      getStateFromQueryParams,
+      reset
     } = usePlanner();
 
     watch(() => startingRegions.value, () => {
@@ -37,6 +38,10 @@ export default {
       } else {
         ownedRegions.value = Object.assign({}, startingRegions.value);
       }
+    });
+
+    onBeforeUnmount(() => {
+      reset();
     });
 
     const style = (region) => {

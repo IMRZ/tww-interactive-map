@@ -65,7 +65,7 @@ function createBookmark(ownedRegions, factions) {
 }
 
 function reset() {
-  const { state, ...rest } = router.currentRoute.query;
+  const { state, version, ...rest } = router.currentRoute.query;
   router.replace({ query: { ...router.currentRoute.query, reset: true } });
   router.replace({ query: { ...rest } });
 }
