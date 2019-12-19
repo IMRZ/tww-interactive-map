@@ -8,7 +8,7 @@ All notable changes to this project will be documented in this file.
 - Missing faction flags
 - Missing factions in faction selector
 
-## 2019-12-17
+## 2019-12-16
 ### Added
 - Changelog
 - Improved update dialog
