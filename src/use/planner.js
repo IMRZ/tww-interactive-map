@@ -70,6 +70,12 @@ function reset() {
   router.replace({ query: { ...rest } });
 }
 
+function clear(ownedRegionsRef) {
+  const cleared = Object.assign({}, ownedRegionsRef.value); // copy
+  Object.keys(cleared).forEach(key => cleared[key] = null); // reset
+  ownedRegionsRef.value = cleared;
+}
+
 export function usePlanner() {
   const { common, maps } = useData();
   const { selectedMapId } = useState();
@@ -99,6 +105,7 @@ export function usePlanner() {
 
     getStateFromQueryParams,
     createBookmark,
-    reset
+    reset,
+    clear
   };
 }
