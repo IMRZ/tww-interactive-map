@@ -34,8 +34,11 @@
       </div>
       <div>
         <p>Share or bookmark your progress:</p>
-        <button @click="bookmark" v-tooltip="{ type: 'info', text: 'Copy shareable link to clipboard' }">Share link</button>
-        <button @click="reset" style="margin-left: 10px;">Reset</button>
+        <div style="display: flex; justify-content: space-between;">
+          <button @click="bookmark" v-tooltip="{ type: 'info', text: 'Copy shareable link to clipboard' }">Share link</button>
+          <button @click="reset" v-tooltip="{ type: 'info', text: 'Reset' }">Reset</button>
+          <button @click="clear" v-tooltip="{ type: 'info', text: 'Clear' }">Clear</button>
+        </div>
       </div>
     </div>
   </WhTooltip>
@@ -61,7 +64,8 @@ export default {
       ownedRegions,
 
       createBookmark,
-      reset
+      reset,
+      clear
     } = usePlanner();
 
     const factionsList =  Object.values(factions).reduce((accumulator, faction) => {
@@ -118,7 +122,8 @@ export default {
       },
 
       bookmark: () => createBookmark(ownedRegions.value, factions),
-      reset
+      reset,
+      clear: () => clear(ownedRegions)
     };
   }
 };
