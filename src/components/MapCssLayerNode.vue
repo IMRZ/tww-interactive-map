@@ -11,29 +11,18 @@ export default {
     coords: Object,
     offset: Number
   },
-  mounted() {
-    this.setCTM(this.mapMatrix);
-  },
-  data() {
-    return {
-      style: {
-        transform: "matrix(1,0,0,1,0,0)"
+  computed: {
+    style() {
+      if (this.mapMatrix) {
+        const { x, y } = this.coords;
+        const e = Math.round(x * this.mapMatrix.a - this.offset);
+        const f = Math.round(y * this.mapMatrix.d - this.offset);
+
+        return { transform: `translate3d(${e}px, ${f}px, 0px)` };
+      } else {
+        return { transform: "translate3d(0px, 0px, 0px)" };
       }
-    };
-  },
-  watch: {
-    mapMatrix(m) {
-      this.setCTM(m);
-    }
-  },
-  methods: {
-    setCTM(m) {
-      const { x, y } = this.coords;
-      const e = x * m.a - this.offset;
-      const f = y * m.d - this.offset;
-      this.style = {
-        transform: `matrix(1,0,0,1,${e},${f})`
-      };
+
     }
   }
 };

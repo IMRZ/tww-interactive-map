@@ -3,14 +3,14 @@
     <MapCssLayerSettlement
       v-if="nodeOverlay === 'settlements'"
       :style="overlayTransform"
-      :mapMatrix="mapMatrix"
+      :mapMatrix="zoomMatrix"
       :regions="map.regions"
       :resources="common.resources"
     />
     <MapCssLayerStartposition
       v-else-if="nodeOverlay === 'start_positions'"
       :style="overlayTransform"
-      :mapMatrix="mapMatrix"
+      :mapMatrix="zoomMatrix"
       :startPositions="map.startpositions"
       :factions="common.factions"
     />
@@ -72,9 +72,10 @@ export default {
   },
   data() {
     return {
-      mapMatrix: null,
+      zoomMatrix: null,
       overlayTransform: null,
       svgPanZoom: null,
+      zoom: null
     };
   },
   mounted() {
@@ -84,9 +85,15 @@ export default {
       minZoom: 0.8,
       fit: true,
       onUpdatedCTM: (m) => {
-        this.mapMatrix = m;
+        if (!this.zoomMatrix || this.zoomMatrix.a != m.a) {
+          this.zoomMatrix = m;
+        }
+
+        const e = Math.round(m.e);
+        const f = Math.round(m.f);
+
         this.overlayTransform = {
-          transform: `matrix(1,0,0,1,${m.e},${m.f})`
+          transform: `translate3d(${e}px, ${f}px, 0px)`
         };
       },
       beforePan(oldPan, newPan) {
