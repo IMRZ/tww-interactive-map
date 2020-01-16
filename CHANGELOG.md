@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2020-01-16
+### Changed
+- Improved map pan performance with settlements/resources
+
 ## 2019-12-22
 ### Added
 - Clear button for planner/painter (Sets all regions as abandoned)
