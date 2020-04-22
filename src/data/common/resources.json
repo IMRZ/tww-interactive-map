@@ -1,0 +1,314 @@
+{
+  "res_amber": {
+    "key": "res_amber",
+    "icon": "resource_amber",
+    "name": "Amber",
+    "description": "The hardened sap of the greenwood is sought after by Wood Elves, but all races know its value."
+  },
+  "res_animals": {
+    "key": "res_animals",
+    "icon": "resource_animals",
+    "name": "Exotic Animals",
+    "description": "The hides and furs of creatures from across the Great Ocean fetch a hefty price."
+  },
+  "res_dyes": {
+    "key": "res_dyes",
+    "icon": "resource_dyes",
+    "name": "Dyes",
+    "description": "The creation of dyes to feed the burgeoning fashions of the courts of the Old World is a vibrant industry indeed."
+  },
+  "res_empire_fort": {
+    "key": "res_empire_fort",
+    "icon": "siege_defence",
+    "name": "Empire Fort",
+    "description": "This location has a large garrison, but cannot have economic buildings."
+  },
+  "res_fortress": {
+    "key": "res_fortress",
+    "icon": "siege_defence",
+    "name": "Fortress Gate",
+    "description": "This location has a large garrison, but cannot have economic buildings."
+  },
+  "res_gems": {
+    "key": "res_gems",
+    "icon": "resource_gemstones",
+    "name": "Gemstones",
+    "description": "Gems hold great value for they are precious and prized, with only the occasional Daemon imprisoned within."
+  },
+  "res_gold": {
+    "key": "res_gold",
+    "icon": "resource_gold",
+    "name": "Gold",
+    "description": "The presence of gold is a sign that a mine can be placed and the wealth it brings harvested."
+  },
+  "res_gold_idols": {
+    "key": "res_gold_idols",
+    "icon": "resource_gold_idols",
+    "name": "Golden Idols",
+    "description": "The wiser races are capable of sculpting gold into magnificent idols."
+  },
+  "res_location_brt": {
+    "key": "res_location_brt",
+    "icon": "strategic_location",
+    "name": "Strategic Location",
+    "description": "This location is of special importance to Bretonnia."
+  },
+  "res_location_brt_wef_hef": {
+    "key": "res_location_brt_wef_hef",
+    "icon": "strategic_location",
+    "name": "Strategic Location",
+    "description": "This location is of special importance to Bretonnia, High Elves and Wood Elves."
+  },
+  "res_location_colony": {
+    "key": "res_location_colony",
+    "icon": "resource_colony",
+    "name": "Elven Colony",
+    "description": "This location is the site of an ancient High Elf colony. It increases income from ports."
+  },
+  "res_location_def": {
+    "key": "res_location_def",
+    "icon": "strategic_location",
+    "name": "Strategic Location",
+    "description": "This location is of special importance to the Dark Elves."
+  },
+  "res_location_dwf": {
+    "key": "res_location_dwf",
+    "icon": "strategic_location",
+    "name": "Strategic Location",
+    "description": "This location is of special importance to Dwarfs."
+  },
+  "res_location_dwf_grn": {
+    "key": "res_location_dwf_grn",
+    "icon": "strategic_location",
+    "name": "Strategic Location",
+    "description": "This location is of special importance to Dwarfs and Greenskins."
+  },
+  "res_location_dwf_grn_skv": {
+    "key": "res_location_dwf_grn_skv",
+    "icon": "strategic_location",
+    "name": "Strategic Location",
+    "description": "This location is of special importance to Dwarfs, Greenskins and Skaven."
+  },
+  "res_location_dwf_skv": {
+    "key": "res_location_dwf_skv",
+    "icon": "strategic_location",
+    "name": "Strategic Location",
+    "description": "This location is of special importance to Dwarfs and Skaven."
+  },
+  "res_location_emp": {
+    "key": "res_location_emp",
+    "icon": "strategic_location",
+    "name": "Strategic Location",
+    "description": "This location is of special importance to the Empire."
+  },
+  "res_location_emp_brt": {
+    "key": "res_location_emp_brt",
+    "icon": "strategic_location",
+    "name": "Strategic Location",
+    "description": "This location is of special importance to the Empire and Bretonnia."
+  },
+  "res_location_emp_grn": {
+    "key": "res_location_emp_grn",
+    "icon": "strategic_location",
+    "name": "Strategic Location",
+    "description": "This location is of special importance to the Empire and Greenskins."
+  },
+  "res_location_emp_vmp": {
+    "key": "res_location_emp_vmp",
+    "icon": "strategic_location",
+    "name": "Strategic Location",
+    "description": "This location is of special importance to the Empire and the Vampire Counts."
+  },
+  "res_location_emp_vmp_brt": {
+    "key": "res_location_emp_vmp_brt",
+    "icon": "strategic_location",
+    "name": "Strategic Location",
+    "description": "This location is of special importance to the Empire, Bretonnia, and the Vampire Counts."
+  },
+  "res_location_generic": {
+    "key": "res_location_generic",
+    "icon": "strategic_location",
+    "name": "Strategic Location",
+    "description": "This location is of special importance."
+  },
+  "res_location_grn": {
+    "key": "res_location_grn",
+    "icon": "strategic_location",
+    "name": "Strategic Location",
+    "description": "This location is of special importance to the Greenskin Tribes."
+  },
+  "res_location_hef": {
+    "key": "res_location_hef",
+    "icon": "strategic_location",
+    "name": "Strategic Location",
+    "description": "This location is of special importance to the High Elves."
+  },
+  "res_location_hef_def": {
+    "key": "res_location_hef_def",
+    "icon": "strategic_location",
+    "name": "Strategic Location",
+    "description": "This location is of special importance to the High Elves and Dark Elves."
+  },
+  "res_location_hef_wef": {
+    "key": "res_location_hef_wef",
+    "icon": "strategic_location",
+    "name": "Strategic Location",
+    "description": "This location is of special importance to the High Elves and the Wood Elves."
+  },
+  "res_location_lzd": {
+    "key": "res_location_lzd",
+    "icon": "strategic_location",
+    "name": "Strategic Location",
+    "description": "This location is of special importance to the Lizardmen."
+  },
+  "res_location_natural_landmark": {
+    "key": "res_location_natural_landmark",
+    "icon": "strategic_location",
+    "name": "Natural Landmark",
+    "description": "This Location contains a natural landmark that cannot be demolished."
+  },
+  "res_location_nor": {
+    "key": "res_location_nor",
+    "icon": "strategic_location",
+    "name": "Strategic Location",
+    "description": "This location is of special importance to the Norscans."
+  },
+  "res_location_skv": {
+    "key": "res_location_skv",
+    "icon": "strategic_location",
+    "name": "Strategic Location",
+    "description": "This location is of special importance to the Skaven."
+  },
+  "res_location_skv_lzd": {
+    "key": "res_location_skv_lzd",
+    "icon": "strategic_location",
+    "name": "Strategic Location",
+    "description": "This location is of special importance to the Skaven and Lizardmen."
+  },
+  "res_location_teb": {
+    "key": "res_location_teb",
+    "icon": "strategic_location",
+    "name": "Strategic Location",
+    "description": "This location is of special importance to the Southern Realms."
+  },
+  "res_location_tmb": {
+    "key": "res_location_tmb",
+    "icon": "strategic_location",
+    "name": "Strategic Location",
+    "description": "This location is of special importance to the Tomb Kings."
+  },
+  "res_location_vmp": {
+    "key": "res_location_vmp",
+    "icon": "strategic_location",
+    "name": "Strategic Location",
+    "description": "This location is of special importance to the Vampire Counts."
+  },
+  "res_location_vmp_arkhan": {
+    "key": "res_location_vmp_arkhan",
+    "icon": "strategic_location",
+    "name": "Strategic Location",
+    "description": "This location is of special importance to the Vampire Counts and the Followers of Nagash."
+  },
+  "res_location_vmp_dwf_grn_skv_arkhan": {
+    "key": "res_location_vmp_dwf_grn_skv_arkhan",
+    "icon": "strategic_location",
+    "name": "Strategic Location",
+    "description": "This location is of special importance to Dwarfs, Greenskins, Skaven, Vampire Counts and the Followers of Nagash."
+  },
+  "res_location_xef_emp_brt": {
+    "key": "res_location_xef_emp_brt",
+    "icon": "strategic_location",
+    "name": "Strategic Location",
+    "description": "This location is of special importance to the Empire, Elves and Bretonnia."
+  },
+  "res_medicine": {
+    "key": "res_medicine",
+    "icon": "resource_medicine",
+    "name": "Medicinal Plants",
+    "description": "Herbs and flora with medicinal properties are always valued by apothecaries."
+  },
+  "res_obsidian": {
+    "key": "res_obsidian",
+    "icon": "resource_obsidian",
+    "name": "Carved Obsidian",
+    "description": "It takes an artisan to carve and fashion obsidian. Dark Elves are the true masters of this art, although others have produced fine pieces too."
+  },
+  "res_ritual_currency": {
+    "key": "res_ritual_currency",
+    "icon": "resource_vortex_site",
+    "name": "Vital Ritual Location",
+    "description": "This location contains many components deemed essential for rituals."
+  },
+  "res_rom_furs": {
+    "key": "res_rom_furs",
+    "icon": "resource_furs",
+    "name": "Furs",
+    "description": "Fauna and game are worth hunting for both food and furs. Of course, in the Old World's forests, a hunter must be wary of becoming the hunted."
+  },
+  "res_rom_glass": {
+    "key": "res_rom_glass",
+    "icon": "resource_dwarf_beer",
+    "name": "Dwarf Beer",
+    "description": "Beer is incredibly important to Dwarfs and men alike, although the watery brews of the umgi are rightly shunned by thirsty Dawi."
+  },
+  "res_rom_iron": {
+    "key": "res_rom_iron",
+    "icon": "resource_iron",
+    "name": "Iron",
+    "description": "Iron ore can be fashioned into many things, but in these lands it is mainly used for weapons. Of course, some races are better at metallurgy than others."
+  },
+  "res_rom_lead": {
+    "key": "res_rom_lead",
+    "icon": "resource_salt",
+    "name": "Salt",
+    "description": "Salt can be taken from the sea or the mines. It is a useful commodity and not just a way for Halfling cooks to season meat."
+  },
+  "res_rom_marble": {
+    "key": "res_rom_marble",
+    "icon": "resource_marble",
+    "name": "Marble",
+    "description": "Marble is a valuable and exotic material mainly used in grandstanding buildings, having great value within the nations of man."
+  },
+  "res_rom_oil": {
+    "key": "res_rom_oil",
+    "icon": "resource_grain",
+    "name": "Pastures",
+    "description": "Pastures are rare places of peace for animals to graze, where farmers can tend to their herds and flocks."
+  },
+  "res_rom_textiles": {
+    "key": "res_rom_textiles",
+    "icon": "resource_pottery",
+    "name": "Pottery",
+    "description": "From clay comes ceramics that range from basic bowls to more delicate and extravagant items."
+  },
+  "res_rom_timber": {
+    "key": "res_rom_timber",
+    "icon": "resource_timber",
+    "name": "Timber",
+    "description": "Wood is a flexible resource, used in anything from buildings to hand weapons. Just be careful which trees you take it from, as some won't take kindly to being felled."
+  },
+  "res_rom_wine": {
+    "key": "res_rom_wine",
+    "icon": "resource_wine",
+    "name": "Wine",
+    "description": "While a High Elf would turn his nose up at it, Bretonnian wine is said to be the best - although the southern wineries of the Empire are now challenging its prominence."
+  },
+  "res_savage": {
+    "key": "res_savage",
+    "icon": "resource_savage_orcs",
+    "name": "Savage Orcs",
+    "description": "This area is sacred to the Savage Orcs; at some point the Greenskins' tribal migration will bring them to this area."
+  },
+  "res_spices": {
+    "key": "res_spices",
+    "icon": "resource_spices",
+    "name": "Spices",
+    "description": "The spices and seasonings sourced in far Cathay and Ind hold great value due to their rarity."
+  },
+  "res_trinkets": {
+    "key": "res_trinkets",
+    "icon": "resource_trinkets",
+    "name": "Elven Trinkets",
+    "description": "Elven baubles lack the practicality of Dwarf-made items, but the finesse within makes then undeniably exquisite."
+  }
+}

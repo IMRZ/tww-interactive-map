@@ -1,0 +1,422 @@
+[
+  {
+    "key": "chevaliers_de_lyonesse",
+    "faction": "wh2_dlc14_brt_chevaliers_de_lyonesse",
+    "lords": [
+      {
+        "name": "Repanse de Lyonesse",
+        "portrait": "brt_repanse_de_lyonesse_0"
+      }
+    ],
+    "position": {
+      "x": 2241,
+      "y": 1805
+    }
+  },
+  {
+    "key": "sartosa",
+    "faction": "wh2_dlc11_cst_pirates_of_sartosa",
+    "lords": [
+      {
+        "name": "Aranessa Saltspite",
+        "portrait": "cst_cha_aranessa_saltspite_0"
+      }
+    ],
+    "position": {
+      "x": 2878,
+      "y": 2235
+    }
+  },
+  {
+    "key": "the_dreadfleet",
+    "faction": "wh2_dlc11_cst_noctilus",
+    "lords": [
+      {
+        "name": "Count Noctilus",
+        "portrait": "cst_cha_count_noctilus_0"
+      }
+    ],
+    "position": {
+      "x": 1535,
+      "y": 2101
+    }
+  },
+  {
+    "key": "the_awakened",
+    "faction": "wh2_dlc11_cst_vampire_coast",
+    "lords": [
+      {
+        "name": "Luthor Harkon",
+        "portrait": "cst_cha_luthor_harkon_0"
+      }
+    ],
+    "position": {
+      "x": 1283,
+      "y": 1574
+    }
+  },
+  {
+    "key": "the_drowned",
+    "faction": "wh2_dlc11_cst_the_drowned",
+    "lords": [
+      {
+        "name": "Cylostra Direfin",
+        "portrait": "cst_cylostra_0"
+      }
+    ],
+    "position": {
+      "x": 791,
+      "y": 2310
+    }
+  },
+  {
+    "key": "the_blessed_dread",
+    "faction": "wh2_dlc11_def_the_blessed_dread",
+    "lords": [
+      {
+        "name": "Lokhir Fellheart",
+        "portrait": "def_cha_lokhir_0"
+      }
+    ],
+    "position": {
+      "x": 1344,
+      "y": 516
+    }
+  },
+  {
+    "key": "har_ganeth",
+    "faction": "wh2_main_def_har_ganeth",
+    "lords": [
+      {
+        "name": "Crone Hellebron",
+        "portrait": "def_crone_0"
+      }
+    ],
+    "position": {
+      "x": 1353,
+      "y": 3487
+    }
+  },
+  {
+    "key": "naggarond",
+    "faction": "wh2_main_def_naggarond",
+    "lords": [
+      {
+        "name": "Malekith",
+        "portrait": "def_malekith_0"
+      }
+    ],
+    "position": {
+      "x": 949,
+      "y": 3470
+    }
+  },
+  {
+    "key": "hag_graef",
+    "faction": "wh2_main_def_hag_graef",
+    "lords": [
+      {
+        "name": "Malus Darkblade",
+        "portrait": "def_malus_0"
+      }
+    ],
+    "position": {
+      "x": 3209,
+      "y": 129
+    }
+  },
+  {
+    "key": "cult_of_pleasure",
+    "faction": "wh2_main_def_cult_of_pleasure",
+    "lords": [
+      {
+        "name": "Morathi",
+        "portrait": "def_morathi_0"
+      }
+    ],
+    "position": {
+      "x": 665,
+      "y": 2794
+    }
+  },
+  {
+    "key": "the_huntmarshals_expedition",
+    "faction": "wh2_dlc13_emp_the_huntmarshals_expedition",
+    "lords": [
+      {
+        "name": "Markus Wulfhart",
+        "portrait": "emp_markus_0"
+      }
+    ],
+    "position": {
+      "x": 851,
+      "y": 1714
+    }
+  },
+  {
+    "key": "avelorn",
+    "faction": "wh2_main_hef_avelorn",
+    "lords": [
+      {
+        "name": "Alarielle the Radiant",
+        "portrait": "hef_alarielle_campaign_0"
+      }
+    ],
+    "position": {
+      "x": 2437,
+      "y": 2906
+    }
+  },
+  {
+    "key": "nagarythe",
+    "faction": "wh2_main_hef_nagarythe",
+    "lords": [
+      {
+        "name": "Alith Anar",
+        "portrait": "hef_alith_anar_0"
+      }
+    ],
+    "position": {
+      "x": 1637,
+      "y": 3256
+    }
+  },
+  {
+    "key": "order_of_loremasters",
+    "faction": "wh2_main_hef_order_of_loremasters",
+    "lords": [
+      {
+        "name": "Teclis",
+        "portrait": "hef_teclis_0"
+      }
+    ],
+    "position": {
+      "x": 279,
+      "y": 650
+    }
+  },
+  {
+    "key": "lothern",
+    "faction": "wh2_main_hef_eataine",
+    "lords": [
+      {
+        "name": "Tyrion",
+        "portrait": "hef_tyrion_0"
+      }
+    ],
+    "position": {
+      "x": 2399,
+      "y": 2310
+    }
+  },
+  {
+    "key": "itza",
+    "faction": "wh2_main_lzd_itza",
+    "lords": [
+      {
+        "name": "Gor-Rok",
+        "portrait": "lzd_lord_gor_rok_0"
+      }
+    ],
+    "position": {
+      "x": 888,
+      "y": 1031
+    }
+  },
+  {
+    "key": "last_defenders",
+    "faction": "wh2_main_lzd_last_defenders",
+    "lords": [
+      {
+        "name": "Kroq-Gar",
+        "portrait": "lzd_lord_kroq_gar_0"
+      }
+    ],
+    "position": {
+      "x": 3088,
+      "y": 763
+    }
+  },
+  {
+    "key": "hexoatl",
+    "faction": "wh2_main_lzd_hexoatl",
+    "lords": [
+      {
+        "name": "Lord Mazdamundi",
+        "portrait": "lzd_lord_mazdamundi_0"
+      }
+    ],
+    "position": {
+      "x": 572,
+      "y": 2031
+    }
+  },
+  {
+    "key": "spirit_of_the_jungle",
+    "faction": "wh2_dlc13_lzd_spirits_of_the_jungle",
+    "lords": [
+      {
+        "name": "Nakai the Wanderer",
+        "portrait": "lzd_nakai_0"
+      }
+    ],
+    "position": {
+      "x": 586,
+      "y": 1322
+    }
+  },
+  {
+    "key": "cult_of_sotek",
+    "faction": "wh2_dlc12_lzd_cult_of_sotek",
+    "lords": [
+      {
+        "name": "Tehenhauin",
+        "portrait": "lzd_tehenhauin_0"
+      }
+    ],
+    "position": {
+      "x": 1176,
+      "y": 279
+    }
+  },
+  {
+    "key": "tlaqua",
+    "faction": "wh2_main_lzd_tlaqua",
+    "lords": [
+      {
+        "name": "Tiktaq'to",
+        "portrait": "lzd_tiktaqto_0"
+      }
+    ],
+    "position": {
+      "x": 2399,
+      "y": 1048
+    }
+  },
+  {
+    "key": "clan_skyre",
+    "faction": "wh2_main_skv_clan_skyre",
+    "lords": [
+      {
+        "name": "Ikit Claw",
+        "portrait": "skv_ikit_claw_0"
+      }
+    ],
+    "position": {
+      "x": 1414,
+      "y": 1021
+    }
+  },
+  {
+    "key": "clan_pestilens",
+    "faction": "wh2_main_skv_clan_pestilens",
+    "lords": [
+      {
+        "name": "Lord Skrolk",
+        "portrait": "skv_lord_skrolk_0"
+      }
+    ],
+    "position": {
+      "x": 1079,
+      "y": 612
+    }
+  },
+  {
+    "key": "clan_mors",
+    "faction": "wh2_main_skv_clan_mors",
+    "lords": [
+      {
+        "name": "Queek Headtaker",
+        "portrait": "skv_queek_0"
+      }
+    ],
+    "position": {
+      "x": 2483,
+      "y": 430
+    }
+  },
+  {
+    "key": "clan_eshin",
+    "faction": "wh2_main_skv_clan_eshin",
+    "lords": [
+      {
+        "name": "Deathmaster Snikch",
+        "portrait": "skv_snikch_0"
+      }
+    ],
+    "position": {
+      "x": 2334,
+      "y": 1348
+    }
+  },
+  {
+    "key": "clan_rictus",
+    "faction": "wh2_dlc09_skv_clan_rictus",
+    "lords": [
+      {
+        "name": "Tretch Craventail",
+        "portrait": "skv_tretch_craventail_0"
+      }
+    ],
+    "position": {
+      "x": 1223,
+      "y": 3121
+    }
+  },
+  {
+    "key": "followers_of_nagash",
+    "faction": "wh2_dlc09_tmb_followers_of_nagash",
+    "lords": [
+      {
+        "name": "Arkhan the Black",
+        "portrait": "tmb_ch_arkhan_0"
+      }
+    ],
+    "position": {
+      "x": 2111,
+      "y": 1579
+    }
+  },
+  {
+    "key": "court_of_lybaras",
+    "faction": "wh2_dlc09_tmb_tombking_qb_lybaras",
+    "lords": [
+      {
+        "name": "High Queen Khalida",
+        "portrait": "tmb_ch_khalida_0"
+      }
+    ],
+    "position": {
+      "x": 753,
+      "y": 290
+    }
+  },
+  {
+    "key": "exiles_of_nehek",
+    "faction": "wh2_dlc09_tmb_tombking_qb_exiles_of_nehek",
+    "lords": [
+      {
+        "name": "Grand Hierophant Khatep",
+        "portrait": "tmb_ch_khatep_0"
+      }
+    ],
+    "position": {
+      "x": 93,
+      "y": 2761
+    }
+  },
+  {
+    "key": "khemri",
+    "faction": "wh2_dlc09_tmb_khemri",
+    "lords": [
+      {
+        "name": "Settra the Imperishable",
+        "portrait": "tmb_ch_settra_0"
+      }
+    ],
+    "position": {
+      "x": 3106,
+      "y": 1488
+    }
+  }
+]

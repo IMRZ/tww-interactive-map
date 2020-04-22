@@ -1,0 +1,758 @@
+[
+  {
+    "key": "bordeleaux",
+    "faction": "wh_main_brt_bordeleaux",
+    "lords": [
+      {
+        "name": "Alberic de Bordeleaux",
+        "portrait": "brt_alberic_bordeleaux_0"
+      }
+    ],
+    "position": {
+      "x": 1431,
+      "y": 1802
+    }
+  },
+  {
+    "key": "carcassonne",
+    "faction": "wh_main_brt_carcassonne",
+    "lords": [
+      {
+        "name": "The Fay Enchantress",
+        "portrait": "brt_ch_fay_enchantress_0"
+      }
+    ],
+    "position": {
+      "x": 1576,
+      "y": 1564
+    }
+  },
+  {
+    "key": "couronne",
+    "faction": "wh_main_brt_bretonnia",
+    "lords": [
+      {
+        "name": "Louen Leoncoeur",
+        "portrait": "brt_ch_king_louen_leoncoeur_0"
+      }
+    ],
+    "position": {
+      "x": 1536,
+      "y": 2258
+    }
+  },
+  {
+    "key": "chevaliers_de_lyonesse",
+    "faction": "wh2_dlc14_brt_chevaliers_de_lyonesse",
+    "lords": [
+      {
+        "name": "Repanse de Lyonesse",
+        "portrait": "brt_repanse_de_lyonesse_0"
+      }
+    ],
+    "position": {
+      "x": 1830,
+      "y": 670
+    }
+  },
+  {
+    "key": "beastmen_khazrak",
+    "faction": "wh_dlc03_bst_beastmen",
+    "lords": [
+      {
+        "name": "Khazrak the One-Eye",
+        "portrait": "bst_ch_khazrak_0"
+      }
+    ],
+    "position": {
+      "x": 1605,
+      "y": 1224
+    }
+  },
+  {
+    "key": "beastmen_morghur",
+    "faction": "wh_dlc03_bst_beastmen",
+    "lords": [
+      {
+        "name": "Morghur the Shadowgave",
+        "portrait": "bst_ch_morghur_0"
+      }
+    ],
+    "position": {
+      "x": 2048,
+      "y": 2561
+    }
+  },
+  {
+    "key": "beastmen_malagor",
+    "faction": "wh_dlc03_bst_beastmen",
+    "lords": [
+      {
+        "name": "Malagor the Dark Omen",
+        "portrait": "bst_ch_malagor_0"
+      }
+    ],
+    "position": {
+      "x": 2592,
+      "y": 889
+    }
+  },
+  {
+    "key": "chaos",
+    "faction": "wh_main_chs_chaos",
+    "lords": [
+      {
+        "name": "Archaon the Everchosen",
+        "portrait": "chs_ch_archaon_0"
+      },
+      {
+        "name": "Prince Sigvald the Magnificent",
+        "portrait": "chs_ch_sigvald_0"
+      },
+      {
+        "name": "Kholek Suneater",
+        "portrait": "chs_kholek_suneater_0"
+      }
+    ],
+    "position": {
+      "x": 3132,
+      "y": 2793
+    }
+  },
+  {
+    "key": "sartosa",
+    "faction": "wh2_dlc11_cst_pirates_of_sartosa",
+    "lords": [
+      {
+        "name": "Aranessa Saltspite",
+        "portrait": "cst_cha_aranessa_saltspite_0"
+      }
+    ],
+    "position": {
+      "x": 1867,
+      "y": 1113
+    }
+  },
+  {
+    "key": "the_dreadfleet",
+    "faction": "wh2_dlc11_cst_noctilus",
+    "lords": [
+      {
+        "name": "Count Noctilus",
+        "portrait": "cst_cha_count_noctilus_0"
+      }
+    ],
+    "position": {
+      "x": 1153,
+      "y": 959
+    }
+  },
+  {
+    "key": "the_awakened",
+    "faction": "wh2_dlc11_cst_vampire_coast",
+    "lords": [
+      {
+        "name": "Luthor Harkon",
+        "portrait": "cst_cha_luthor_harkon_0"
+      }
+    ],
+    "position": {
+      "x": 919,
+      "y": 689
+    }
+  },
+  {
+    "key": "the_drowned",
+    "faction": "wh2_dlc11_cst_the_drowned",
+    "lords": [
+      {
+        "name": "Cylostra Direfin",
+        "portrait": "cst_cylostra_0"
+      }
+    ],
+    "position": {
+      "x": 472,
+      "y": 1238
+    }
+  },
+  {
+    "key": "the_blessed_dread",
+    "faction": "wh2_dlc11_def_the_blessed_dread",
+    "lords": [
+      {
+        "name": "Lokhir Fellheart",
+        "portrait": "def_cha_lokhir_0"
+      }
+    ],
+    "position": {
+      "x": 822,
+      "y": 200
+    }
+  },
+  {
+    "key": "har_ganeth",
+    "faction": "wh2_main_def_har_ganeth",
+    "lords": [
+      {
+        "name": "Crone Hellebron",
+        "portrait": "def_crone_0"
+      }
+    ],
+    "position": {
+      "x": 617,
+      "y": 2928
+    }
+  },
+  {
+    "key": "naggarond",
+    "faction": "wh2_main_def_naggarond",
+    "lords": [
+      {
+        "name": "Malekith",
+        "portrait": "def_malekith_0"
+      }
+    ],
+    "position": {
+      "x": 339,
+      "y": 2900
+    }
+  },
+  {
+    "key": "hag_graef",
+    "faction": "wh2_main_def_hag_graef",
+    "lords": [
+      {
+        "name": "Malus Darkblade",
+        "portrait": "def_malus_0"
+      }
+    ],
+    "position": {
+      "x": 3814,
+      "y": 722
+    }
+  },
+  {
+    "key": "cult_of_pleasure",
+    "faction": "wh2_main_def_cult_of_pleasure",
+    "lords": [
+      {
+        "name": "Morathi",
+        "portrait": "def_morathi_0"
+      }
+    ],
+    "position": {
+      "x": 173,
+      "y": 1876
+    }
+  },
+  {
+    "key": "clan_angrund",
+    "faction": "wh_main_dwf_karak_izor",
+    "lords": [
+      {
+        "name": "Belegar Ironhammer",
+        "portrait": "dwf_ch_belegar_ironhammer_0"
+      }
+    ],
+    "position": {
+      "x": 2137,
+      "y": 1471
+    }
+  },
+  {
+    "key": "karaz_a_karak",
+    "faction": "wh_main_dwf_dwarfs",
+    "lords": [
+      {
+        "name": "Grombrindal - The White Dwarf",
+        "portrait": "dwf_ch_grombrindal_0"
+      },
+      {
+        "name": "Thorgrim Grudgebearer",
+        "portrait": "dwf_ch_thorgrim_0"
+      }
+    ],
+    "position": {
+      "x": 2850,
+      "y": 1671
+    }
+  },
+  {
+    "key": "karak_kadrin",
+    "faction": "wh_main_dwf_karak_kadrin",
+    "lords": [
+      {
+        "name": "Ungrim Ironfist",
+        "portrait": "dwf_ch_ungrim_0"
+      }
+    ],
+    "position": {
+      "x": 2899,
+      "y": 2114
+    }
+  },
+  {
+    "key": "the_golden_order",
+    "faction": "wh2_dlc13_emp_golden_order",
+    "lords": [
+      {
+        "name": "Balthasar Gelt",
+        "portrait": "emp_ch_balthasar_0"
+      }
+    ],
+    "position": {
+      "x": 2254,
+      "y": 1774
+    }
+  },
+  {
+    "key": "reikland",
+    "faction": "wh_main_emp_empire",
+    "lords": [
+      {
+        "name": "Emperor Karl Franz",
+        "portrait": "emp_ch_karl_0"
+      },
+      {
+        "name": "Volkmar the Grim",
+        "portrait": "emp_ch_volkmar_0"
+      }
+    ],
+    "position": {
+      "x": 1988,
+      "y": 2118
+    }
+  },
+  {
+    "key": "the_huntmarshals_expedition",
+    "faction": "wh2_dlc13_emp_the_huntmarshals_expedition",
+    "lords": [
+      {
+        "name": "Markus Wulfhart",
+        "portrait": "emp_markus_0"
+      }
+    ],
+    "position": {
+      "x": 476,
+      "y": 880
+    }
+  },
+  {
+    "key": "black_crag",
+    "faction": "wh_main_grn_greenskins",
+    "lords": [
+      {
+        "name": "Azhag the Slaughterer",
+        "portrait": "grn_ch_azhag_0"
+      },
+      {
+        "name": "Grimgor Ironhide",
+        "portrait": "grn_ch_grimgor_0"
+      }
+    ],
+    "position": {
+      "x": 2919,
+      "y": 1369
+    }
+  },
+  {
+    "key": "crooked_moon",
+    "faction": "wh_main_grn_crooked_moon",
+    "lords": [
+      {
+        "name": "Skarsnik",
+        "portrait": "grn_ch_skarsnik_0"
+      }
+    ],
+    "position": {
+      "x": 1919,
+      "y": 1876
+    }
+  },
+  {
+    "key": "the_bloody_handz",
+    "faction": "wh_main_grn_orcs_of_the_bloody_hand",
+    "lords": [
+      {
+        "name": "Wurrzag Da Great Green Prophet",
+        "portrait": "grn_ch_wurrzag_0"
+      }
+    ],
+    "position": {
+      "x": 2415,
+      "y": 1196
+    }
+  },
+  {
+    "key": "avelorn",
+    "faction": "wh2_main_hef_avelorn",
+    "lords": [
+      {
+        "name": "Alarielle the Radiant",
+        "portrait": "hef_alarielle_campaign_0"
+      }
+    ],
+    "position": {
+      "x": 891,
+      "y": 1629
+    }
+  },
+  {
+    "key": "nagarythe",
+    "faction": "wh2_main_hef_nagarythe",
+    "lords": [
+      {
+        "name": "Alith Anar",
+        "portrait": "hef_alith_anar_0"
+      }
+    ],
+    "position": {
+      "x": 387,
+      "y": 1825
+    }
+  },
+  {
+    "key": "order_of_loremasters",
+    "faction": "wh2_main_hef_order_of_loremasters",
+    "lords": [
+      {
+        "name": "Teclis",
+        "portrait": "hef_teclis_0"
+      }
+    ],
+    "position": {
+      "x": 972,
+      "y": 340
+    }
+  },
+  {
+    "key": "lothern",
+    "faction": "wh2_main_hef_eataine",
+    "lords": [
+      {
+        "name": "Tyrion",
+        "portrait": "hef_tyrion_0"
+      }
+    ],
+    "position": {
+      "x": 875,
+      "y": 1266
+    }
+  },
+  {
+    "key": "itza",
+    "faction": "wh2_main_lzd_itza",
+    "lords": [
+      {
+        "name": "Gor-Rok",
+        "portrait": "lzd_lord_gor_rok_0"
+      }
+    ],
+    "position": {
+      "x": 476,
+      "y": 247
+    }
+  },
+  {
+    "key": "last_defenders",
+    "faction": "wh2_main_lzd_last_defenders",
+    "lords": [
+      {
+        "name": "Kroq-Gar",
+        "portrait": "lzd_lord_kroq_gar_0"
+      }
+    ],
+    "position": {
+      "x": 3806,
+      "y": 70
+    }
+  },
+  {
+    "key": "hexoatl",
+    "faction": "wh2_main_lzd_hexoatl",
+    "lords": [
+      {
+        "name": "Lord Mazdamundi",
+        "portrait": "lzd_lord_mazdamundi_0"
+      }
+    ],
+    "position": {
+      "x": 161,
+      "y": 1397
+    }
+  },
+  {
+    "key": "spirit_of_the_jungle",
+    "faction": "wh2_dlc13_lzd_spirits_of_the_jungle",
+    "lords": [
+      {
+        "name": "Nakai the Wanderer",
+        "portrait": "lzd_nakai_0"
+      }
+    ],
+    "position": {
+      "x": 1314,
+      "y": 2682
+    }
+  },
+  {
+    "key": "cult_of_sotek",
+    "faction": "wh2_dlc12_lzd_cult_of_sotek",
+    "lords": [
+      {
+        "name": "Tehenhauin",
+        "portrait": "lzd_tehenhauin_0"
+      }
+    ],
+    "position": {
+      "x": 697,
+      "y": 475
+    }
+  },
+  {
+    "key": "tlaqua",
+    "faction": "wh2_main_lzd_tlaqua",
+    "lords": [
+      {
+        "name": "Tiktaq'to",
+        "portrait": "lzd_tiktaqto_0"
+      }
+    ],
+    "position": {
+      "x": 1850,
+      "y": 163
+    }
+  },
+  {
+    "key": "wintertooth",
+    "faction": "wh_dlc08_nor_wintertooth",
+    "lords": [
+      {
+        "name": "Throgg",
+        "portrait": "nor_cha_throgg_0"
+      }
+    ],
+    "position": {
+      "x": 2608,
+      "y": 3152
+    }
+  },
+  {
+    "key": "world_walkers",
+    "faction": "wh_dlc08_nor_norsca",
+    "lords": [
+      {
+        "name": "Wulfrik the Wanderer",
+        "portrait": "nor_cha_wulfrik_0"
+      }
+    ],
+    "position": {
+      "x": 1915,
+      "y": 2761
+    }
+  },
+  {
+    "key": "clan_skyre",
+    "faction": "wh2_main_skv_clan_skyre",
+    "lords": [
+      {
+        "name": "Ikit Claw",
+        "portrait": "skv_ikit_claw_0"
+      }
+    ],
+    "position": {
+      "x": 1758,
+      "y": 1266
+    }
+  },
+  {
+    "key": "clan_pestilens",
+    "faction": "wh2_main_skv_clan_pestilens",
+    "lords": [
+      {
+        "name": "Lord Skrolk",
+        "portrait": "skv_lord_skrolk_0"
+      }
+    ],
+    "position": {
+      "x": 778,
+      "y": 70
+    }
+  },
+  {
+    "key": "clan_mors",
+    "faction": "wh2_main_skv_clan_mors",
+    "lords": [
+      {
+        "name": "Queek Headtaker",
+        "portrait": "skv_queek_0"
+      }
+    ],
+    "position": {
+      "x": 2983,
+      "y": 605
+    }
+  },
+  {
+    "key": "clan_eshin",
+    "faction": "wh2_main_skv_clan_eshin",
+    "lords": [
+      {
+        "name": "Deathmaster Snikch",
+        "portrait": "skv_snikch_0"
+      }
+    ],
+    "position": {
+      "x": 3979,
+      "y": 1401
+    }
+  },
+  {
+    "key": "clan_rictus",
+    "faction": "wh2_dlc09_skv_clan_rictus",
+    "lords": [
+      {
+        "name": "Tretch Craventail",
+        "portrait": "skv_tretch_craventail_0"
+      }
+    ],
+    "position": {
+      "x": 581,
+      "y": 2463
+    }
+  },
+  {
+    "key": "followers_of_nagash",
+    "faction": "wh2_dlc09_tmb_followers_of_nagash",
+    "lords": [
+      {
+        "name": "Arkhan the Black",
+        "portrait": "tmb_ch_arkhan_0"
+      }
+    ],
+    "position": {
+      "x": 1467,
+      "y": 228
+    }
+  },
+  {
+    "key": "court_of_lybaras",
+    "faction": "wh2_dlc09_tmb_tombking_qb_lybaras",
+    "lords": [
+      {
+        "name": "High Queen Khalida",
+        "portrait": "tmb_ch_khalida_0"
+      }
+    ],
+    "position": {
+      "x": 3479,
+      "y": 587
+    }
+  },
+  {
+    "key": "exiles_of_nehek",
+    "faction": "wh2_dlc09_tmb_tombking_qb_exiles_of_nehek",
+    "lords": [
+      {
+        "name": "Grand Hierophant Khatep",
+        "portrait": "tmb_ch_khatep_0"
+      }
+    ],
+    "position": {
+      "x": 93,
+      "y": 2351
+    }
+  },
+  {
+    "key": "khemri",
+    "faction": "wh2_dlc09_tmb_khemri",
+    "lords": [
+      {
+        "name": "Settra the Imperishable",
+        "portrait": "tmb_ch_settra_0"
+      }
+    ],
+    "position": {
+      "x": 2278,
+      "y": 545
+    }
+  },
+  {
+    "key": "the_barrow_legion",
+    "faction": "wh2_dlc11_vmp_the_barrow_legion",
+    "lords": [
+      {
+        "name": "Heinrich Kemmler",
+        "portrait": "vmp_ch_heinrich_0"
+      }
+    ],
+    "position": {
+      "x": 1725,
+      "y": 2021
+    }
+  },
+  {
+    "key": "von_carstein",
+    "faction": "wh_main_vmp_schwartzhafen",
+    "lords": [
+      {
+        "name": "Isabella von Carstein",
+        "portrait": "vmp_ch_isabella_0"
+      },
+      {
+        "name": "Vlad von Carstein",
+        "portrait": "vmp_ch_vlad_0"
+      }
+    ],
+    "position": {
+      "x": 2600,
+      "y": 1876
+    }
+  },
+  {
+    "key": "sylvania",
+    "faction": "wh_main_vmp_vampire_counts",
+    "lords": [
+      {
+        "name": "Mannfred von Carstein",
+        "portrait": "vmp_ch_mannfred_0"
+      },
+      {
+        "name": "Helman Ghorst",
+        "portrait": "vmp_ch_master_necromancer_helman_0"
+      }
+    ],
+    "position": {
+      "x": 2770,
+      "y": 1965
+    }
+  },
+  {
+    "key": "argwylon",
+    "faction": "wh_dlc05_wef_argwylon",
+    "lords": [
+      {
+        "name": "Durthu",
+        "portrait": "wef_durthu_0"
+      }
+    ],
+    "position": {
+      "x": 1959,
+      "y": 1755
+    }
+  },
+  {
+    "key": "talsyn",
+    "faction": "wh_dlc05_wef_wood_elves",
+    "lords": [
+      {
+        "name": "Orion",
+        "portrait": "wef_orion_0"
+      }
+    ],
+    "position": {
+      "x": 1947,
+      "y": 1532
+    }
+  }
+]
