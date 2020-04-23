@@ -62,7 +62,7 @@ export default {
   flex-direction: row;
   align-items: flex-start;
   justify-content: center;
-  padding: 40px;
+  padding: 20px;
 }
 
 .footer {
