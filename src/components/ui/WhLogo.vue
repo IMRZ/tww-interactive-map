@@ -17,7 +17,6 @@
   background-image: url("~@/assets/skins/default/fe_plaque.png");
   margin-top: 150px;
   bottom: -80px;
-  z-index: -1;
   filter: drop-shadow(0 10px 15px rgba(0,0,0,0.5));
 }
 
@@ -38,6 +37,7 @@
   margin-top: -150px;
 
   .mask {
+    overflow: hidden;
     position: relative;
     width: 512px;
     height: 212px;

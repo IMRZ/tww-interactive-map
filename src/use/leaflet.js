@@ -16,11 +16,15 @@ export function useLeaflet(settings) {
     // image layer
     const imageLayer = settings.initImageLayer();
 
+    if (Leaflet.Browser.gecko) {
+      console.log('is firefox')
+    }
+
     // map
     map = Leaflet.map(settings.refs.container, {
       crs: Leaflet.CRS.Simple,
-      // zoomAnimation: false,
-      // markerZoomAnimation: false,
+      zoomAnimation: Leaflet.Browser.gecko ? false : true, // disable zoom animation for firefox
+      markerZoomAnimation: Leaflet.Browser.gecko ? false : true, // disable zoom animation for firefox
       minZoom: -2,
       maxZoom: 2,
       zoomControl: false,
