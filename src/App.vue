@@ -47,7 +47,7 @@ export default {
 html {
   box-sizing: border-box;
   height: 100%;
-  background-color: black;
+  background-color: rgba(0,0,0,0.6);
 }
 
 *,
@@ -80,9 +80,6 @@ body {
 #app {
   height: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-family: 'CaslonAntique', serif;
 }
 </style>
