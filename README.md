@@ -1,18 +1,8 @@
-# tww-interactive-map
+# Total War: WARHAMMER II - Interactive Map
 
-Total War: WARHAMMER II - Interactive Map
+[View the app here](https://imrz.github.io/tww-interactive-map/)
 
-### Features:
-* Interactive Map for the *Mortal Empires* and *The Eye of the Vortex* campaigns.
-* Regions overlay. Colour coded regions, provinces or climates.
-* Choke points overlay. Displays the locations of chokepoint battle locations.
-* Campaign planner/painter.
-* Settlements and resources nodes. Displays settlement, resouces, etc.
-* Faction starting positions.
-* This is a Progressive Web App. *Installable* to your device and available offline if your browser supports it.
-* Handy tooltips.
-
-**Open a ticket if you have suggestions, feature requests or problems!**
+**Create a new [issue](https://github.com/IMRZ/tww-interactive-map/issues/new) if you have suggestions, feature requests or problems!**
 
 ## Built With
 * [Vue.js](https://vuejs.org/)
@@ -36,4 +26,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 * [packfilemanager](https://sourceforge.net/projects/packfilemanager/)
-* [saveparser](https://sourceforge.net/projects/saveparser/)
+* [Creative Assembly](https://www.creative-assembly.com)

@@ -21,9 +21,8 @@ if (process.env.NODE_ENV === 'production') {
     },
     updated (registration) {
       console.log('New content is available; please refresh.')
-      if (confirm('New content is available; refresh now?')) {
-        registration.waiting.postMessage({ action: 'skipWaiting' });
-      }
+      alert('New content is available; please refresh.');
+      registration.waiting.postMessage({ action: 'skipWaiting' });
     },
     offline () {
       console.log('No internet connection found. App is running in offline mode.')

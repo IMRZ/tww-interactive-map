@@ -17,11 +17,8 @@
         />
       </router-link>
     </div>
-    <div class="maps"></div>
     <div class="footer">
-      <a href="https://github.com/IMRZ/tww-interactive-map" target="_blank" rel="noopener noreferrer">
-        <img src="~@/assets/GitHub-Mark-Light-32px.png" width="32px">
-      </a>
+      <a class="github" href="https://github.com/IMRZ/tww-interactive-map" target="_blank" rel="noopener noreferrer"></a>
     </div>
   </div>
 </template>
@@ -46,7 +43,7 @@ export default {
   flex-direction: column;
   overflow-y: auto;
   box-shadow: inset 0 0 200px 100px black;
-  background: #004890 url('data:image/svg+xml;,<svg xmlns="http://www.w3.org/2000/svg" fill="%23fff"><pattern id="a" width="20" height="20" patternUnits="userSpaceOnUse" patternTransform="rotate(65)"><path d="M10 0v9h9v1h-9v9h-1v-9h-9v-1h9v-9" opacity=".08"/><path d="M0 19h19v-19h1v20h-20" opacity=".15"/></pattern><rect width="100%" height="100%" fill="%23004890"/><rect width="100%" height="100%" fill="url(%23a)"/></svg>');
+  background: #004890 url('data:image/svg+xml;,<svg xmlns="http://www.w3.org/2000/svg" fill="%23fff"><pattern id="a" width="20" height="20" patternUnits="userSpaceOnUse" patternTransform="rotate(0)"><path d="M10 0v9h9v1h-9v9h-1v-9h-9v-1h9v-9" opacity=".08"/><path d="M0 19h19v-19h1v20h-20" opacity=".15"/></pattern><rect width="100%" height="100%" fill="%23004890"/><rect width="100%" height="100%" fill="url(%23a)"/></svg>');
 }
 
 .header {
@@ -71,11 +68,16 @@ export default {
 }
 
 .footer {
-  height: 40px;
+  height: 3em;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
-  padding: 10px;
+
+  .github {
+    background-image: url('~@/assets/GitHub-Mark-Light-32px.png');
+    width: 32px;
+    height: 32px;
+  }
 }
 </style>
