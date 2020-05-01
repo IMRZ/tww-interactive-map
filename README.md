@@ -27,3 +27,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Acknowledgments
 * [packfilemanager](https://sourceforge.net/projects/packfilemanager/)
 * [Creative Assembly](https://www.creative-assembly.com)
+* [johnsirett](https://gitlab.com/johnsirett/ca_vp8-reverse)

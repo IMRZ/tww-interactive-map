@@ -1,10 +1,25 @@
 <template>
   <div class="wh-background">
-    <!-- preload, prevent flicker -->
-    <img class="preload" src="@/assets/backgrounds/vortex.jpg" />
-    <img class="preload" src="@/assets/backgrounds/mortal.jpg" />
+    <video id="bgvid" :class="{ canplay }" autoplay muted loop @canplay="oncanplay">
+      <source src="~@/assets/backgrounds/main.webm" type="video/webm">
+    </video>
   </div>
 </template>
+
+<script>
+import { ref } from '@vue/composition-api';
+
+export default {
+  setup() {
+    const canplay = ref(false);
+
+    return {
+      canplay,
+      oncanplay: () => canplay.value = true
+    }
+  }
+};
+</script>
 
 <style lang="scss" scoped>
 .wh-background {
@@ -12,32 +27,22 @@
   width: 100%;
   height: 100%;
   z-index: -1;
-  background-repeat: no-repeat;
-  background-color: transparent;
-  background-size: cover;
-  animation: bg 20s infinite;
-  background-position: center;
+  background-color: black;
 }
 
-.preload {
-  display: none;
+#bgvid {
+  width: 100%;
+  opacity: 0;
+  transition: opacity 2s;
+
+  &.canplay {
+    opacity: 1;
+  }
 }
 
-@keyframes bg {
-  0% {
-    background-image: url("~@/assets/backgrounds/vortex.jpg");
-  }
-  25% {
-    background-image: url("~@/assets/backgrounds/vortex.jpg");
-  }
-  50% {
-    background-image: url("~@/assets/backgrounds/mortal.jpg");
-  }
-  75% {
-    background-image: url("~@/assets/backgrounds/mortal.jpg");
-  }
-  100% {
-    background-image: url("~@/assets/backgrounds/vortex.jpg");
+@media only screen and (max-width: 1080px) {
+  #bgvid {
+    display: none;
   }
 }
 </style>

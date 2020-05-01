@@ -1,5 +1,6 @@
 <template>
   <div id="home">
+    <WhBackground />
     <div class="header">
       <WhLogo />
     </div>
@@ -24,11 +25,13 @@
 </template>
 
 <script>
+import WhBackground from '@/components/ui/WhBackground.vue';
 import WhLogo from '@/components/ui/WhLogo.vue';
 import WhMapSelectButton from '@/components/ui/WhMapSelectButton.vue';
 
 export default {
   components: {
+    WhBackground,
     WhLogo,
     WhMapSelectButton
   }
@@ -42,8 +45,8 @@ export default {
   display: flex;
   flex-direction: column;
   overflow-y: auto;
-  box-shadow: inset 0 0 200px 100px black;
-  background: #004890 url('data:image/svg+xml;,<svg xmlns="http://www.w3.org/2000/svg" fill="%23fff"><pattern id="a" width="20" height="20" patternUnits="userSpaceOnUse" patternTransform="rotate(0)"><path d="M10 0v9h9v1h-9v9h-1v-9h-9v-1h9v-9" opacity=".08"/><path d="M0 19h19v-19h1v20h-20" opacity=".15"/></pattern><rect width="100%" height="100%" fill="%23004890"/><rect width="100%" height="100%" fill="url(%23a)"/></svg>');
+  /* box-shadow: inset 0 0 200px 100px black; */
+  /* background: #004890 url('data:image/svg+xml;,<svg xmlns="http://www.w3.org/2000/svg" fill="%23fff"><pattern id="a" width="20" height="20" patternUnits="userSpaceOnUse" patternTransform="rotate(0)"><path d="M10 0v9h9v1h-9v9h-1v-9h-9v-1h9v-9" opacity=".08"/><path d="M0 19h19v-19h1v20h-20" opacity=".15"/></pattern><rect width="100%" height="100%" fill="%23004890"/><rect width="100%" height="100%" fill="url(%23a)"/></svg>'); */
 }
 
 .header {
