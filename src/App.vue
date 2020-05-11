@@ -6,17 +6,22 @@
       :tooltip="tooltip"
       :mouseEvent="tooltipMouseEvent"
     />
+
+    <GlobalAlert />
   </div>
 </template>
 
 <script>
 import { ref, watch } from '@vue/composition-api';
 import { useTooltip } from '@/use/tooltip';
+
 import GlobalTooltip from '@/components/GlobalTooltip.vue';
+import GlobalAlert from '@/components/ui/GlobalAlert.vue';
 
 export default {
   components: {
-    GlobalTooltip
+    GlobalTooltip,
+    GlobalAlert,
   },
   setup(prop, context) {
     const { tooltip } = useTooltip();
