@@ -22,7 +22,7 @@ npm run serve
 * [MrSoul42](https://github.com/MrSoul42)
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details
 
 ## Acknowledgments
 * [packfilemanager](https://sourceforge.net/projects/packfilemanager/)

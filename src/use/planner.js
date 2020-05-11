@@ -1,6 +1,11 @@
 import { reactive, toRefs, ref } from '@vue/composition-api';
-import { data } from '@/data';
+import { gameDataVersion, data } from '@/data';
 import router from '../router';
+import { useAlert, ALERT_TYPE } from '@/use/alert';
+
+const ERROR = {
+  VERSION_DOES_NOT_MATCH: 'VERSION_DOES_NOT_MATCH'
+};
 
 function getStateFromQueryParams(startingRegions, factions) {
   const stateFromQuery = router.app._route?.query?.state;
@@ -8,8 +13,14 @@ function getStateFromQueryParams(startingRegions, factions) {
   if (stateFromQuery) {
     const factionsIndexed = Object.values(factions);
 
-    // TODO: check version
     const [version, ...factionsArray] = stateFromQuery.split(',');
+
+    if (version != gameDataVersion) {
+      const error = new Error(ERROR.VERSION_DOES_NOT_MATCH);
+      error.requestedVersion = version;
+      throw error;
+    }
+
     const arr = factionsArray.map((value) => {
       const index = Number(value) - 1;
       if (index >= 0) {
@@ -19,20 +30,22 @@ function getStateFromQueryParams(startingRegions, factions) {
       }
     });
 
-    console.log(version);
-
     const result = Object.keys(startingRegions).reduce((accumulator, key, index) => {
       accumulator[key] = arr[index];
       return accumulator;
     }, {});
 
-    const { state, ...otherQueryParams } = router.currentRoute.query; // eslint-disable-line no-unused-vars
-    router.replace({ query: otherQueryParams });
+    removeStateFromQuery();
 
     return result;
   } else {
     return null;
   }
+}
+
+function removeStateFromQuery() {
+  const { state, ...otherQueryParams } = router.currentRoute.query; // eslint-disable-line no-unused-vars
+  router.replace({ query: otherQueryParams });
 }
 
 function createBookmark(ownedRegionsRef, factions) {
@@ -49,9 +62,8 @@ function createBookmark(ownedRegionsRef, factions) {
     return accumulator;
   }, []);
 
-  const selectedVersion = "v1.8.x";
-  arr.unshift(selectedVersion);
-  const newState = arr.join(",");
+  arr.unshift(gameDataVersion);
+  const newState = arr.join(',');
 
   var el = document.createElement('textarea');
   el.value = `${window.location.href}&state=${newState}`;
@@ -72,7 +84,7 @@ const factionsList =  Object.values(data.common.factions).reduce((accumulator, f
 }, {});
 
 const plannerFactions = Object.values(factionsList)
-  .filter((f) => f.primaryColour !== '000000' && !f.name.startsWith("{{"))
+  .filter((f) => f.primaryColour !== '000000' && !f.name.startsWith('{{'))
   .sort((a, b) => {
     if (a.name < b.name) return -1;
     if (a.name > b.name) return 1;
@@ -89,18 +101,36 @@ function reset(ownedRegionsRef, startingRegions) {
   ownedRegionsRef.value = Object.assign({}, startingRegions);
 }
 
+// TODO: cleanup this shit
 export function usePlanner(mapData) {
+  const { showAlert } = useAlert();
+
   const state = reactive({
     selectedFaction: null
   });
 
   const ownedRegions = ref(null);
-  const fromQuery = getStateFromQueryParams(mapData.startingRegions, data.common.factions);
+  let fromQuery = null;
+
+  try {
+    fromQuery = getStateFromQueryParams(mapData.startingRegions, data.common.factions);
+  } catch (error) {
+    if (error.message === ERROR.VERSION_DOES_NOT_MATCH) {
+      const requestedVersion = /\d+\.\d+\.x/.test(error.requestedVersion) ? error.requestedVersion : 'latest'; // should match pattern #.#.x or redirect to latest
+      const hrefToOlderVersion = location.href.replace('/latest/', `/${requestedVersion}/`);
+      showAlert(ALERT_TYPE.REDIRECT_OLDER_VERSION, {
+        href: hrefToOlderVersion,
+        onDismiss: removeStateFromQuery
+      });
+    }
+  }
+
   if (fromQuery) {
     ownedRegions.value = fromQuery
   } else {
     ownedRegions.value = Object.assign({}, mapData.startingRegions);
   }
+
 
   return {
     ...toRefs(state),
