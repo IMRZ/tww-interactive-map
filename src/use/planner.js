@@ -116,7 +116,7 @@ export function usePlanner(mapData) {
     fromQuery = getStateFromQueryParams(mapData.startingRegions, data.common.factions);
   } catch (error) {
     if (error.message === ERROR.VERSION_DOES_NOT_MATCH) {
-      const requestedVersion = /v\d+\.\d+\.x/.test(error.requestedVersion) ? error.requestedVersion : 'latest'; // should match pattern v#.#.x or redirect to latest
+      const requestedVersion = /\d+\.\d+\.x/.test(error.requestedVersion) ? error.requestedVersion : 'latest'; // should match pattern #.#.x or redirect to latest
       const hrefToOlderVersion = location.href.replace('/latest/', `/${requestedVersion}/`);
       showAlert(ALERT_TYPE.REDIRECT_OLDER_VERSION, {
         href: hrefToOlderVersion,
