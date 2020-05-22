@@ -2472,7 +2472,7 @@
         "res_location_hef_def"
       ],
       "strategicResources": [
-        "res_rom_oil"
+        "res_rom_marble"
       ]
     }
   },
@@ -3203,7 +3203,7 @@
       "port": false,
       "fortress": null,
       "strategicLocations": [
-        "res_location_tmb"
+        "res_location_generic"
       ],
       "strategicResources": [
         "res_rom_oil"
@@ -3249,7 +3249,7 @@
       "port": false,
       "fortress": null,
       "strategicLocations": [
-        "res_location_vmp_dwf_grn_skv_arkhan"
+        "res_location_hef_vmp_dwf_grn_skv_arkhan"
       ],
       "strategicResources": [
         "res_savage"
@@ -3593,7 +3593,9 @@
       "y": 1171,
       "port": false,
       "fortress": null,
-      "strategicLocations": [],
+      "strategicLocations": [
+        "res_location_grn"
+      ],
       "strategicResources": [
         "res_animals"
       ]
@@ -4452,7 +4454,7 @@
       "name": "Northern Red Rivers",
       "fill": "#3475BD"
     },
-    "climate": "jungle",
+    "climate": "savannah",
     "settlement": {
       "x": 2683,
       "y": 860,
@@ -4538,7 +4540,7 @@
       "name": "Northern Red Rivers",
       "fill": "#3475BD"
     },
-    "climate": "jungle",
+    "climate": "savannah",
     "settlement": {
       "x": 2590,
       "y": 940,
@@ -4994,7 +4996,7 @@
       "name": "Western Jungles",
       "fill": "#924ECC"
     },
-    "climate": "jungle",
+    "climate": "savannah",
     "settlement": {
       "x": 2441,
       "y": 1010,

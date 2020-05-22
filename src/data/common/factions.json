@@ -503,6 +503,66 @@
     "flagKey": "wh2_dlc14_skv_rictus_clan_nest",
     "primaryColour": "#796A3A"
   },
+  "wh2_dlc15_dwf_clan_helhein": {
+    "key": "wh2_dlc15_dwf_clan_helhein",
+    "name": "Clan Helhein",
+    "flagKey": "wh2_dlc15_dwf_clan_helhein",
+    "primaryColour": "#F4BA02"
+  },
+  "wh2_dlc15_grn_bonerattlaz": {
+    "key": "wh2_dlc15_grn_bonerattlaz",
+    "name": "Bonerattlaz",
+    "flagKey": "wh2_dlc15_grn_bonerattlaz",
+    "primaryColour": "#377D91"
+  },
+  "wh2_dlc15_grn_broken_axe": {
+    "key": "wh2_dlc15_grn_broken_axe",
+    "name": "Broken Axe",
+    "flagKey": "wh2_dlc15_grn_broken_axe",
+    "primaryColour": "#3F349B"
+  },
+  "wh2_dlc15_grn_broken_axe_waaagh": {
+    "key": "wh2_dlc15_grn_broken_axe_waaagh",
+    "name": "Broken Axe Waaagh!",
+    "flagKey": "wh2_dlc15_grn_broken_axe",
+    "primaryColour": "#3F349B"
+  },
+  "wh2_dlc15_grn_skull_crag": {
+    "key": "wh2_dlc15_grn_skull_crag",
+    "name": "Skull Crag",
+    "flagKey": "wh2_dlc15_grn_skull_crag",
+    "primaryColour": "#4B7852"
+  },
+  "wh2_dlc15_hef_dragon_encounters": {
+    "key": "wh2_dlc15_hef_dragon_encounters",
+    "name": "Dragon Encounter",
+    "flagKey": "wh2_main_hef_lothern",
+    "primaryColour": "#F2F2F2"
+  },
+  "wh2_dlc15_hef_imrik": {
+    "key": "wh2_dlc15_hef_imrik",
+    "name": "Knights of Caledor",
+    "flagKey": "wh2_dlc15_hef_imrik",
+    "primaryColour": "#77788E"
+  },
+  "wh2_dlc15_skv_clan_ferrik": {
+    "key": "wh2_dlc15_skv_clan_ferrik",
+    "name": "Clan Ferrik",
+    "flagKey": "wh2_dlc15_skv_clan_ferrik",
+    "primaryColour": "#1A2539"
+  },
+  "wh2_dlc15_skv_clan_kreepus": {
+    "key": "wh2_dlc15_skv_clan_kreepus",
+    "name": "Clan Kreepus",
+    "flagKey": "wh2_dlc15_skv_clan_kreepus",
+    "primaryColour": "#506E33"
+  },
+  "wh2_dlc15_skv_clan_volkn": {
+    "key": "wh2_dlc15_skv_clan_volkn",
+    "name": "Clan Volkn",
+    "flagKey": "wh2_dlc15_skv_clan_volkn",
+    "primaryColour": "#506E33"
+  },
   "wh2_main_brt_knights_of_origo": {
     "key": "wh2_main_brt_knights_of_origo",
     "name": "Knights of Origo",
@@ -865,7 +925,7 @@
   },
   "wh2_main_hef_eataine": {
     "key": "wh2_main_hef_eataine",
-    "name": "Lothern",
+    "name": "Eataine",
     "flagKey": "wh2_main_hef_lothern",
     "primaryColour": "#F2F2F2"
   },
@@ -2113,7 +2173,7 @@
   },
   "wh_main_grn_greenskins": {
     "key": "wh_main_grn_greenskins",
-    "name": "Black Crag",
+    "name": "Grimgor's 'Ardboyz",
     "flagKey": "wh_main_grn_greenskins",
     "primaryColour": "#738E3F"
   },

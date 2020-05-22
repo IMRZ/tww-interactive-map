@@ -149,6 +149,12 @@
     "name": "Strategic Location",
     "description": "This location is of special importance to the High Elves and Dark Elves."
   },
+  "res_location_hef_vmp_dwf_grn_skv_arkhan": {
+    "key": "res_location_hef_vmp_dwf_grn_skv_arkhan",
+    "icon": "strategic_location",
+    "name": "Strategic Location",
+    "description": "This location is of special importance to High Elves, Dwarfs, Greenskins, Skaven, Vampire Counts and the Followers of Nagash."
+  },
   "res_location_hef_wef": {
     "key": "res_location_hef_wef",
     "icon": "strategic_location",
@@ -209,11 +215,11 @@
     "name": "Strategic Location",
     "description": "This location is of special importance to the Vampire Counts and the Followers of Nagash."
   },
-  "res_location_vmp_dwf_grn_skv_arkhan": {
-    "key": "res_location_vmp_dwf_grn_skv_arkhan",
+  "res_location_vmp_dwf_hef": {
+    "key": "res_location_vmp_dwf_hef",
     "icon": "strategic_location",
     "name": "Strategic Location",
-    "description": "This location is of special importance to Dwarfs, Greenskins, Skaven, Vampire Counts and the Followers of Nagash."
+    "description": "This location is of special importance to Dwarfs, Vampire Counts and High Elves."
   },
   "res_location_xef_emp_brt": {
     "key": "res_location_xef_emp_brt",

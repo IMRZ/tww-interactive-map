@@ -1,4 +1,4 @@
-export const gameDataVersion = '1.8.x';
+export const gameDataVersion = '1.9.x';
 
 export const maps = {
   mortal: {

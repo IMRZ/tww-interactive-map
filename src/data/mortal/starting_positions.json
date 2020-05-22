@@ -342,10 +342,6 @@
     "faction": "wh_main_grn_greenskins",
     "lords": [
       {
-        "name": "Azhag the Slaughterer",
-        "portrait": "grn_ch_azhag_0"
-      },
-      {
         "name": "Grimgor Ironhide",
         "portrait": "grn_ch_grimgor_0"
       }
@@ -353,6 +349,20 @@
     "position": {
       "x": 2919,
       "y": 1369
+    }
+  },
+  {
+    "key": "bonerattlaz",
+    "faction": "wh2_dlc15_grn_bonerattlaz",
+    "lords": [
+      {
+        "name": "Azhag the Slaughterer",
+        "portrait": "grn_ch_azhag_0"
+      }
+    ],
+    "position": {
+      "x": 2983,
+      "y": 2253
     }
   },
   {
@@ -381,6 +391,20 @@
     "position": {
       "x": 2415,
       "y": 1196
+    }
+  },
+  {
+    "key": "the_broken_axe",
+    "faction": "wh2_dlc15_grn_broken_axe",
+    "lords": [
+      {
+        "name": "Grom the Paunch",
+        "portrait": "grn_grom_the_paunch_0"
+      }
+    ],
+    "position": {
+      "x": 1713,
+      "y": 1695
     }
   },
   {
@@ -437,6 +461,34 @@
     "position": {
       "x": 875,
       "y": 1266
+    }
+  },
+  {
+    "key": "yvresse",
+    "faction": "wh2_main_hef_yvresse",
+    "lords": [
+      {
+        "name": "Eltharion",
+        "portrait": "hef_eltharion_0"
+      }
+    ],
+    "position": {
+      "x": 2270,
+      "y": 1020
+    }
+  },
+  {
+    "key": "knights_of_caledor",
+    "faction": "wh2_dlc15_hef_imrik",
+    "lords": [
+      {
+        "name": "Imrik",
+        "portrait": "hef_imrik_0"
+      }
+    ],
+    "position": {
+      "x": 3592,
+      "y": 1178
     }
   },
   {
