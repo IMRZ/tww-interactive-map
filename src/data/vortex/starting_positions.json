@@ -182,6 +182,20 @@
     }
   },
   {
+    "key": "the_broken_axe",
+    "faction": "wh2_dlc15_grn_broken_axe",
+    "lords": [
+      {
+        "name": "Grom the Paunch",
+        "portrait": "grn_grom_the_paunch_0"
+      }
+    ],
+    "position": {
+      "x": 3306,
+      "y": 1257
+    }
+  },
+  {
     "key": "order_of_loremasters",
     "faction": "wh2_main_hef_order_of_loremasters",
     "lords": [
@@ -207,6 +221,34 @@
     "position": {
       "x": 2399,
       "y": 2310
+    }
+  },
+  {
+    "key": "yvresse",
+    "faction": "wh2_main_hef_yvresse",
+    "lords": [
+      {
+        "name": "Eltharion",
+        "portrait": "hef_eltharion_0"
+      }
+    ],
+    "position": {
+      "x": 2944,
+      "y": 2826
+    }
+  },
+  {
+    "key": "knights_of_caledor",
+    "faction": "wh2_dlc15_hef_imrik",
+    "lords": [
+      {
+        "name": "Imrik",
+        "portrait": "hef_imrik_0"
+      }
+    ],
+    "position": {
+      "x": 2934,
+      "y": 1026
     }
   },
   {

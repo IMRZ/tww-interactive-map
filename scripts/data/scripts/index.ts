@@ -32,7 +32,7 @@ function rgbToHexString({ r, g, b }) {
 
 export async function getRegions(campaignKey: string, mapDataPath: string, regionPathData: string, dims) {
   const settlements = getSettlements(mapDataPath, dims);
-  const wh2Db = twdb.createInstanceWarhammer2("D:\\Program Files (x86)\\Steam\\steamapps\\common\\Total War WARHAMMER II\\assembly_kit\\raw_data\\db");
+  const wh2Db = twdb.createInstanceWarhammer2("/mnt/d/Program\ Files\ (x86)/Steam/steamapps/common/Total\ War\ WARHAMMER\ II/assembly_kit/raw_data/db");
 
   function getResources(regionKey: string) {
     const entries = wh2Db.startPosRegionSlotTemplates.filter(entry => entry._campaign === campaignKey && entry._region === regionKey);

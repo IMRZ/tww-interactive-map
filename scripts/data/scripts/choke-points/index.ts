@@ -35,7 +35,7 @@ export async function getChokePoints(chokepointDataPath: string) {
     return accumulator;
   }, result); // no need to merge with existing object
 
-  const wh2Db = twdb.createInstanceWarhammer2("D:\\Program Files (x86)\\Steam\\steamapps\\common\\Total War WARHAMMER II\\assembly_kit\\raw_data\\db");
+  const wh2Db = twdb.createInstanceWarhammer2("/mnt/d/Program\ Files\ (x86)/Steam/steamapps/common/Total\ War\ WARHAMMER\ II/assembly_kit/raw_data/db");
 
   const chokepointAreas = wh2Db.battleCatchmentOverrideAreas
     .filter(entry => entry.area.includes("_chokepoint_"))

@@ -1,7 +1,7 @@
 <template>
   <div class="wh-background">
     <video id="bgvid" :class="{ canplay }" autoplay muted loop @canplay="oncanplay">
-      <source src="~@/assets/backgrounds/main.webm" type="video/webm">
+      <source src="~@/assets/backgrounds/tw_wh2_dlc15_warden_theme.webm" type="video/webm">
     </video>
   </div>
 </template>

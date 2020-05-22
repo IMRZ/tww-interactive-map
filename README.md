@@ -28,3 +28,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) f
 * [packfilemanager](https://sourceforge.net/projects/packfilemanager/)
 * [Creative Assembly](https://www.creative-assembly.com)
 * [johnsirett](https://gitlab.com/johnsirett/ca_vp8-reverse)
+* [Rusted PackFile Manager](https://github.com/Frodo45127/rpfm)

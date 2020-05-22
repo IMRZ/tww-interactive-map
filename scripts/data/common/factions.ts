@@ -10,7 +10,7 @@ function rgbToHexString({ r, g, b }) {
 const FLAG_KEY_PATTERN = /^ui\\flags\\(.*)$/;
 
 export function getFactions() {
-  const wh2Db = twdb.createInstanceWarhammer2("D:\\Program Files (x86)\\Steam\\steamapps\\common\\Total War WARHAMMER II\\assembly_kit\\raw_data\\db");
+  const wh2Db = twdb.createInstanceWarhammer2("/mnt/d/Program\ Files\ (x86)/Steam/steamapps/common/Total\ War\ WARHAMMER\ II/assembly_kit/raw_data/db");
 
   const result = wh2Db.factions.reduce((accumulator, faction) => {
 
