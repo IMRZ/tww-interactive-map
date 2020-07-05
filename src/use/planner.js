@@ -144,7 +144,7 @@ export function usePlanner(mapData) {
       const a = document.createElement('a');
       const json = JSON.stringify(ownedRegions.value, null, 2);
       a.href = URL.createObjectURL(new Blob([json], { type: 'text/json' }));
-      a.download = `export_v${gameDataVersion}.json`;
+      a.download = 'map.json';
       a.click();
     }
   };
