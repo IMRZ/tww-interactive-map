@@ -140,5 +140,12 @@ export function usePlanner(mapData) {
     createBookmark: () => createBookmark(ownedRegions, data.common.factions),
     reset: () => reset(ownedRegions, mapData.startingRegions),
     clear: () => clear(ownedRegions),
+    exportJson: () => {
+      const a = document.createElement('a');
+      const json = JSON.stringify(ownedRegions.value, null, 2);
+      a.href = URL.createObjectURL(new Blob([json], { type: 'text/json' }));
+      a.download = `export_v${gameDataVersion}.json`;
+      a.click();
+    }
   };
 }

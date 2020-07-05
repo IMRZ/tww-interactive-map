@@ -17,6 +17,7 @@
         <button @click="plannerState.createBookmark">Copy link</button>
         <button @click="plannerState.reset">Reset</button>
         <button @click="plannerState.clear">Clear</button>
+        <button @click="plannerState.exportJson">Export</button>
       </div>
     </div>
   </div>
