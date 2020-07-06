@@ -16,7 +16,9 @@
 <script>
 import MapPlannerMarkerFaction from '@/components/MapPlannerMarkerFaction';
 
-import factions from '@/data/common/factions';
+import vanilla_factions from '@/data/common/factions';
+import custom_factions from '@/data/common/custom_factions';
+const factions = { ...vanilla_factions, ...custom_factions };
 
 export default {
   components: {

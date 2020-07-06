@@ -85,11 +85,7 @@ const factionsList =  Object.values(data.common.factions).reduce((accumulator, f
 
 const plannerFactions = Object.values(factionsList)
   .filter((f) => f.primaryColour !== '000000' && !f.name.startsWith('{{'))
-  .sort((a, b) => {
-    if (a.name < b.name) return -1;
-    if (a.name > b.name) return 1;
-    return 0;
-  });
+  .sort((a, b) => a.name.toLowerCase().localeCompare(b.name.toLowerCase()));
 
 function clear(ownedRegionsRef) {
   const cleared = Object.assign({}, ownedRegionsRef.value); // copy

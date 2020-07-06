@@ -18,7 +18,7 @@ export const maps = {
 export const data = {
   common: {
     climates: require('./common/climates.json'),
-    factions: require('./common/factions.json'),
+    factions: { ...require('./common/factions.json'), ...require('./common/custom_factions.json') },
     resources: require('./common/resources.json')
   },
   mortal: {
