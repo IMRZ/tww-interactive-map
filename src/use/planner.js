@@ -127,7 +127,6 @@ export function usePlanner(mapData) {
     ownedRegions.value = Object.assign({}, mapData.startingRegions);
   }
 
-
   return {
     ...toRefs(state),
     plannerFactions,
@@ -142,6 +141,24 @@ export function usePlanner(mapData) {
       a.href = URL.createObjectURL(new Blob([json], { type: 'text/json' }));
       a.download = 'map.json';
       a.click();
+    },
+    importJson: () => {
+      const fileInput = document.createElement('input');
+      fileInput.setAttribute('type', 'file');
+      fileInput.setAttribute('accept', '.json');
+
+      fileInput.onchange = (e) => {
+        const reader = new FileReader();
+        reader.onload = (event) => {
+          const mapJson = JSON.parse(event.target.result);
+          ownedRegions.value = mapJson;
+        };
+        reader.onerror = (err) => console.log(err);
+
+        reader.readAsText(e.target.files[0]);
+      };
+
+      fileInput.click();
     }
   };
 }

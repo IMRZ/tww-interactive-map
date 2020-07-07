@@ -17,7 +17,12 @@
         <button @click="plannerState.createBookmark">Copy link</button>
         <button @click="plannerState.reset">Reset</button>
         <button @click="plannerState.clear">Clear</button>
-        <button @click="plannerState.exportJson">Export</button>
+
+        <div v-on="ioTooltipEvents">
+          WIP: more info <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2154921490" target="_blank" rel="noopener noreferrer">here</a>.
+        </div>
+        <button @click="plannerState.exportJson">Export (map.json)</button>
+        <button @click="plannerState.importJson">Import (map.json)</button>
       </div>
     </div>
   </div>
@@ -25,6 +30,7 @@
 
 <script>
 import { reactive, watch, toRefs, computed } from '@vue/composition-api';
+import { useTooltip } from '@/use/tooltip';
 
 export default {
   props: {
@@ -67,6 +73,9 @@ export default {
       }
     }, { lazy: true });
 
+    const { createTooltip } = useTooltip();
+    const ioTooltipEvents = createTooltip('text', 'Work in progress, please leave feedback on steam or github!');
+
     return {
       ...toRefs(state),
       collapse,
@@ -80,7 +89,8 @@ export default {
       stopPropagationListeners: {
         click: (e) => e.stopPropagation(),
         touchstart: (e) => e.stopPropagation()
-      }
+      },
+      ioTooltipEvents
     }
   }
 };
