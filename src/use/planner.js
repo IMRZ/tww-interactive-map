@@ -151,7 +151,14 @@ export function usePlanner(mapData) {
         const reader = new FileReader();
         reader.onload = (event) => {
           const mapJson = JSON.parse(event.target.result);
-          ownedRegions.value = mapJson;
+
+          // has to be sorted alphabetically?
+          const ordered = Object.keys(mapJson).sort().reduce((accumulator, key) => {
+            accumulator[key] = mapJson[key];
+            return accumulator;
+          }, {});
+
+          ownedRegions.value = ordered;
         };
         reader.onerror = (err) => console.log(err);
 
