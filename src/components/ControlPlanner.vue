@@ -8,7 +8,9 @@
         <div>Selected faction:</div>
         <select v-model="plannerState.selectedFaction.value">
           <option :value="null">Abandoned</option>
-          <option :key="faction.key" v-for="faction in plannerState.plannerFactions" :value="faction">{{faction.name}}</option>
+          <optgroup :key="label" v-for="(factions, label) in plannerState.factionGroups" :label="label">
+            <option :key="faction.key" v-for="faction in factions" :value="faction">{{faction.name}}</option>
+          </optgroup>
         </select>
       </div>
 

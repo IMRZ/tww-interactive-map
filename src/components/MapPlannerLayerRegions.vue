@@ -15,9 +15,7 @@
 <script>
 import { computed } from '@vue/composition-api';
 import { useTooltip } from '@/use/tooltip';
-import vanilla_factions from '@/data/common/factions';
-import custom_factions from '@/data/common/custom_factions';
-const factions = { ...vanilla_factions, ...custom_factions };
+import factions from '@/data/common/factions';
 
 export default {
   props: {
