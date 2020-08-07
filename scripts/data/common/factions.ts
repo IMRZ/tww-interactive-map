@@ -19,7 +19,7 @@ export function getFactions() {
     accumulator[faction.key] = {
       key: faction.key,
       name: faction.screenName,
-      flagKey,
+      flagKey: `vanilla/${flagKey}`,
       primaryColour: `#${rgbToHexString({ r: faction.primaryColourR, g: faction.primaryColourG, b: faction.primaryColourB })}`
     };
 

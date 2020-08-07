@@ -2,2113 +2,2113 @@
   "wh2_dlc11_cst_vampire_coast_encounters": {
     "key": "wh2_dlc11_cst_vampire_coast_encounters",
     "name": "Rogue Pirates",
-    "flagKey": "wh2_dlc11_cst_vampire_coast_mutineers",
+    "flagKey": "vanilla/wh2_dlc11_cst_vampire_coast_mutineers",
     "primaryColour": "#153348"
   },
   "wh2_dlc11_emp_empire_dil": {
     "key": "wh2_dlc11_emp_empire_dil",
     "name": "Exotic Goods Hauler",
-    "flagKey": "wh_main_emp_empire_rebels",
+    "flagKey": "vanilla/wh_main_emp_empire_rebels",
     "primaryColour": "#E00606"
   },
   "wh2_dlc11_def_the_blessed_dread": {
     "key": "wh2_dlc11_def_the_blessed_dread",
     "name": "The Blessed Dread",
-    "flagKey": "wh2_dlc11_def_the_blessed_dread",
+    "flagKey": "vanilla/wh2_dlc11_def_the_blessed_dread",
     "primaryColour": "#1A6E83"
   },
   "wh2_dlc13_wef_laurelorn_forest": {
     "key": "wh2_dlc13_wef_laurelorn_forest",
     "name": "Laurelorn Forest",
-    "flagKey": "wh2_dlc13_wef_laurelorn_forest",
+    "flagKey": "vanilla/wh2_dlc13_wef_laurelorn_forest",
     "primaryColour": "#78F050"
   },
   "wh2_dlc13_lzd_avengers": {
     "key": "wh2_dlc13_lzd_avengers",
     "name": "Children of the Old Ones",
-    "flagKey": "wh2_dlc13_lzd_avengers",
+    "flagKey": "vanilla/wh2_dlc13_lzd_avengers",
     "primaryColour": "#000000"
   },
   "wh2_dlc11_cst_pirates_of_sartosa_separatists": {
     "key": "wh2_dlc11_cst_pirates_of_sartosa_separatists",
     "name": "Pirates of Sartosa Separatists",
-    "flagKey": "wh2_dlc11_cst_pirates_of_sartosa_separatists",
+    "flagKey": "vanilla/wh2_dlc11_cst_pirates_of_sartosa_separatists",
     "primaryColour": "#153347"
   },
   "wh2_dlc09_tmb_dune_kingdoms": {
     "key": "wh2_dlc09_tmb_dune_kingdoms",
     "name": "Dune Kingdoms",
-    "flagKey": "wh2_dlc09_tmb_dune_kingdoms",
+    "flagKey": "vanilla/wh2_dlc09_tmb_dune_kingdoms",
     "primaryColour": "#469790"
   },
   "wh2_main_hef_high_elves_qb3": {
     "key": "wh2_main_hef_high_elves_qb3",
     "name": "High Elves",
-    "flagKey": "wh2_main_hef_high_elves_rebels",
+    "flagKey": "vanilla/wh2_main_hef_high_elves_rebels",
     "primaryColour": "#DB2723"
   },
   "wh2_dlc09_tmb_tombking_qb3": {
     "key": "wh2_dlc09_tmb_tombking_qb3",
     "name": "Tomb Kings",
-    "flagKey": "wh2_dlc09_tmb_tomb_kings_rebels",
+    "flagKey": "vanilla/wh2_dlc09_tmb_tomb_kings_rebels",
     "primaryColour": "#393530"
   },
   "wh2_main_rogue_vmp_heirs_of_mourkain": {
     "key": "wh2_main_rogue_vmp_heirs_of_mourkain",
     "name": "Heirs of Mourkain",
-    "flagKey": "wh2_main_rogue_mourkain",
+    "flagKey": "vanilla/wh2_main_rogue_mourkain",
     "primaryColour": "#800000"
   },
   "wh2_main_skv_clan_mors_separatists": {
     "key": "wh2_main_skv_clan_mors_separatists",
     "name": "Clan Mors Separatists",
-    "flagKey": "wh2_main_skv_clan_mors_separatists",
+    "flagKey": "vanilla/wh2_main_skv_clan_mors_separatists",
     "primaryColour": "#5B5B5B"
   },
   "wh2_dlc11_cst_rogue_the_churning_gulf_raiders": {
     "key": "wh2_dlc11_cst_rogue_the_churning_gulf_raiders",
     "name": "The Churning Gulf Raiders",
-    "flagKey": "wh2_dlc11_cst_rogue_the_churning_gulf_raiders",
+    "flagKey": "vanilla/wh2_dlc11_cst_rogue_the_churning_gulf_raiders",
     "primaryColour": "#800000"
   },
   "wh2_dlc11_cst_rogue_boyz_of_the_forbidden_coast": {
     "key": "wh2_dlc11_cst_rogue_boyz_of_the_forbidden_coast",
     "name": "The Boyz of the Forbidden Coast",
-    "flagKey": "wh2_dlc11_cst_rogue_boyz_of_the_forbidden_coast",
+    "flagKey": "vanilla/wh2_dlc11_cst_rogue_boyz_of_the_forbidden_coast",
     "primaryColour": "#800000"
   },
   "wh2_main_skv_clan_mordkin": {
     "key": "wh2_main_skv_clan_mordkin",
     "name": "Clan Mordkin",
-    "flagKey": "wh2_main_skv_clan_mordkin",
+    "flagKey": "vanilla/wh2_main_skv_clan_mordkin",
     "primaryColour": "#983909"
   },
   "wh_dlc08_chs_chaos_challenger_slaanesh_qb": {
     "key": "wh_dlc08_chs_chaos_challenger_slaanesh_qb",
     "name": "Challenger of the Serpent",
-    "flagKey": "wh_dlc08_chs_challenger_of_the_serpent",
+    "flagKey": "vanilla/wh_dlc08_chs_challenger_of_the_serpent",
     "primaryColour": "#A196AA"
   },
   "wh_main_chs_chaos_qb1": {
     "key": "wh_main_chs_chaos_qb1",
     "name": "Chaos",
-    "flagKey": "wh_main_chs_chaos_rebels",
+    "flagKey": "vanilla/wh_main_chs_chaos_rebels",
     "primaryColour": "#6F5B5B"
   },
   "wh_dlc08_nor_wintertooth": {
     "key": "wh_dlc08_nor_wintertooth",
     "name": "Wintertooth",
-    "flagKey": "wh_dlc08_nor_wintertooth",
+    "flagKey": "vanilla/wh_dlc08_nor_wintertooth",
     "primaryColour": "#4E7494"
   },
   "wh2_main_rogue_doomseekers": {
     "key": "wh2_main_rogue_doomseekers",
     "name": "Doomseekers",
-    "flagKey": "wh2_main_rogue_doomseekers",
+    "flagKey": "vanilla/wh2_main_rogue_doomseekers",
     "primaryColour": "#800000"
   },
   "wh2_main_rogue_pirates_of_trantio": {
     "key": "wh2_main_rogue_pirates_of_trantio",
     "name": "Pirates of Trantio",
-    "flagKey": "wh2_main_rogue_pirates_trantio",
+    "flagKey": "vanilla/wh2_main_rogue_pirates_trantio",
     "primaryColour": "#800000"
   },
   "wh2_main_rogue_bernhoffs_brigands": {
     "key": "wh2_main_rogue_bernhoffs_brigands",
     "name": "Bernhoff's Brigands",
-    "flagKey": "wh2_main_rogue_bernhoff",
+    "flagKey": "vanilla/wh2_main_rogue_bernhoff",
     "primaryColour": "#800000"
   },
   "wh2_main_lzd_lizardmen_qb1": {
     "key": "wh2_main_lzd_lizardmen_qb1",
     "name": "Lizardmen",
-    "flagKey": "wh2_main_lzd_lizardmen_rebels",
+    "flagKey": "vanilla/wh2_main_lzd_lizardmen_rebels",
     "primaryColour": "#4CCCAA"
   },
   "wh_main_brt_bretonnia_qb2": {
     "key": "wh_main_brt_bretonnia_qb2",
     "name": "Bretonnia",
-    "flagKey": "wh_main_brt_bretonnia_rebels",
+    "flagKey": "vanilla/wh_main_brt_bretonnia_rebels",
     "primaryColour": "#F8F4E4"
   },
   "wh2_main_def_dark_elves_qb2": {
     "key": "wh2_main_def_dark_elves_qb2",
     "name": "Dark Elves",
-    "flagKey": "wh2_main_def_dark_elves_rebels",
+    "flagKey": "vanilla/wh2_main_def_dark_elves_rebels",
     "primaryColour": "#DACCDA"
   },
   "wh2_dlc13_emp_golden_order": {
     "key": "wh2_dlc13_emp_golden_order",
     "name": "The Golden Order",
-    "flagKey": "wh2_dlc13_emp_golden_order",
+    "flagKey": "vanilla/wh2_dlc13_emp_golden_order",
     "primaryColour": "#604055"
   },
   "wh2_dlc11_cst_noctilus_separatists": {
     "key": "wh2_dlc11_cst_noctilus_separatists",
     "name": "The Dreadfleet Separatists",
-    "flagKey": "wh2_dlc11_cst_noctilus_separatists",
+    "flagKey": "vanilla/wh2_dlc11_cst_noctilus_separatists",
     "primaryColour": "#153348"
   },
   "wh_main_grn_greenskins_qb3": {
     "key": "wh_main_grn_greenskins_qb3",
     "name": "Greenskins",
-    "flagKey": "wh_main_grn_greenskins_rebels",
+    "flagKey": "vanilla/wh_main_grn_greenskins_rebels",
     "primaryColour": "#BF5743"
   },
   "wh2_dlc10_def_blood_voyage": {
     "key": "wh2_dlc10_def_blood_voyage",
     "name": "Blood Voyage",
-    "flagKey": "wh2_dlc10_def_blood_voyage",
+    "flagKey": "vanilla/wh2_dlc10_def_blood_voyage",
     "primaryColour": "#800000"
   },
   "wh2_dlc12_grn_leaf_cutterz_tribe": {
     "key": "wh2_dlc12_grn_leaf_cutterz_tribe",
     "name": "Leaf-Cutterz Tribe",
-    "flagKey": "wh_dlc12_grn_leaf_cutterz",
+    "flagKey": "vanilla/wh_dlc12_grn_leaf_cutterz",
     "primaryColour": "#5A6700"
   },
   "wh2_main_def_har_ganeth_separatists": {
     "key": "wh2_main_def_har_ganeth_separatists",
     "name": "Har Ganeth Separatists",
-    "flagKey": "wh2_main_def_har_ganeth_separatists",
+    "flagKey": "vanilla/wh2_main_def_har_ganeth_separatists",
     "primaryColour": "#353434"
   },
   "wh2_dlc11_cst_vampire_coast_qb3": {
     "key": "wh2_dlc11_cst_vampire_coast_qb3",
     "name": "Vampire Coast",
-    "flagKey": "wh2_dlc11_cst_vampire_coast_rebels",
+    "flagKey": "vanilla/wh2_dlc11_cst_vampire_coast_rebels",
     "primaryColour": "#153348"
   },
   "wh2_dlc11_cst_vampire_coast_qb1": {
     "key": "wh2_dlc11_cst_vampire_coast_qb1",
     "name": "Vampire Coast",
-    "flagKey": "wh2_dlc11_cst_vampire_coast_rebels",
+    "flagKey": "vanilla/wh2_dlc11_cst_vampire_coast_rebels",
     "primaryColour": "#153348"
   },
   "wh2_main_skv_unknown_clan_hef": {
     "key": "wh2_main_skv_unknown_clan_hef",
     "name": "Unknown Skaven Clan",
-    "flagKey": "wh2_main_skv_unknown_clan_hef",
+    "flagKey": "vanilla/wh2_main_skv_unknown_clan_hef",
     "primaryColour": "#9A927B"
   },
   "wh2_main_rogue_black_spider_tribe": {
     "key": "wh2_main_rogue_black_spider_tribe",
     "name": "Black Spider Tribe",
-    "flagKey": "wh2_main_rogue_black_spider",
+    "flagKey": "vanilla/wh2_main_rogue_black_spider",
     "primaryColour": "#800000"
   },
   "wh2_main_skv_unknown_clan_lzd": {
     "key": "wh2_main_skv_unknown_clan_lzd",
     "name": "Unknown Skaven Clan",
-    "flagKey": "wh2_main_skv_unknown_clan_lzd",
+    "flagKey": "vanilla/wh2_main_skv_unknown_clan_lzd",
     "primaryColour": "#9A927B"
   },
   "wh2_main_rogue_gerhardts_mercenaries": {
     "key": "wh2_main_rogue_gerhardts_mercenaries",
     "name": "Gerhardt's Mercenaries",
-    "flagKey": "wh2_main_rogue_gerhardt",
+    "flagKey": "vanilla/wh2_main_rogue_gerhardt",
     "primaryColour": "#800000"
   },
   "wh2_main_chs_chaos_incursion_hef": {
     "key": "wh2_main_chs_chaos_incursion_hef",
     "name": "Puppets of Chaos",
-    "flagKey": "wh2_main_chs_puppets_of_chaos",
+    "flagKey": "vanilla/wh2_main_chs_puppets_of_chaos",
     "primaryColour": "#29282E"
   },
   "wh2_main_skv_clan_skryre_separatists": {
     "key": "wh2_main_skv_clan_skryre_separatists",
     "name": "Clan Skryre Separatists",
-    "flagKey": "wh2_main_skv_clan_skryre_separatists",
+    "flagKey": "vanilla/wh2_main_skv_clan_skryre_separatists",
     "primaryColour": "#5B5B5B"
   },
   "wh2_dlc11_cst_vampire_coast_rebels": {
     "key": "wh2_dlc11_cst_vampire_coast_rebels",
     "name": "Vampire Coast Mutineers",
-    "flagKey": "wh2_dlc11_cst_vampire_coast_mutineers",
+    "flagKey": "vanilla/wh2_dlc11_cst_vampire_coast_mutineers",
     "primaryColour": "#3E3E3E"
   },
   "wh2_main_skv_grey_seer_clan": {
     "key": "wh2_main_skv_grey_seer_clan",
     "name": "Grey Seer Clan",
-    "flagKey": "wh2_main_skv_grey_seer_clan",
+    "flagKey": "vanilla/wh2_main_skv_grey_seer_clan",
     "primaryColour": "#ABA586"
   },
   "wh2_dlc11_cst_pirates_of_sartosa": {
     "key": "wh2_dlc11_cst_pirates_of_sartosa",
     "name": "Pirates of Sartosa",
-    "flagKey": "wh2_dlc11_cst_pirates_of_sartosa",
+    "flagKey": "vanilla/wh2_dlc11_cst_pirates_of_sartosa",
     "primaryColour": "#CBB121"
   },
   "wh2_dlc09_tmb_tombking_qb_followers_of_nagash": {
     "key": "wh2_dlc09_tmb_tombking_qb_followers_of_nagash",
     "name": "Followers of Nagash",
-    "flagKey": "wh2_dlc09_tmb_followers_of_nagash",
+    "flagKey": "vanilla/wh2_dlc09_tmb_followers_of_nagash",
     "primaryColour": "#DAC92F"
   },
   "wh2_dlc09_tmb_the_sentinels": {
     "key": "wh2_dlc09_tmb_the_sentinels",
     "name": "The Sentinels",
-    "flagKey": "wh2_dlc09_tmb_the_sentinels",
+    "flagKey": "vanilla/wh2_dlc09_tmb_the_sentinels",
     "primaryColour": "#2F3133"
   },
   "wh2_dlc15_grn_broken_axe": {
     "key": "wh2_dlc15_grn_broken_axe",
     "name": "Broken Axe",
-    "flagKey": "wh2_dlc15_grn_broken_axe",
+    "flagKey": "vanilla/wh2_dlc15_grn_broken_axe",
     "primaryColour": "#3F349B"
   },
   "wh2_dlc15_skv_clan_kreepus": {
     "key": "wh2_dlc15_skv_clan_kreepus",
     "name": "Clan Kreepus",
-    "flagKey": "wh2_dlc15_skv_clan_kreepus",
+    "flagKey": "vanilla/wh2_dlc15_skv_clan_kreepus",
     "primaryColour": "#506E33"
   },
   "wh2_dlc15_dwf_clan_helhein": {
     "key": "wh2_dlc15_dwf_clan_helhein",
     "name": "Clan Helhein",
-    "flagKey": "wh2_dlc15_dwf_clan_helhein",
+    "flagKey": "vanilla/wh2_dlc15_dwf_clan_helhein",
     "primaryColour": "#F4BA02"
   },
   "wh2_main_rogue_celestial_storm": {
     "key": "wh2_main_rogue_celestial_storm",
     "name": "Celestial Storm",
-    "flagKey": "wh2_main_rogue_celestial_storm",
+    "flagKey": "vanilla/wh2_main_rogue_celestial_storm",
     "primaryColour": "#800000"
   },
   "wh2_dlc15_hef_dragon_encounters": {
     "key": "wh2_dlc15_hef_dragon_encounters",
     "name": "Dragon Encounter",
-    "flagKey": "wh2_main_hef_lothern",
+    "flagKey": "vanilla/wh2_main_hef_lothern",
     "primaryColour": "#F2F2F2"
   },
   "wh2_dlc11_cst_rogue_freebooters_of_port_royale": {
     "key": "wh2_dlc11_cst_rogue_freebooters_of_port_royale",
     "name": "Freebooters of Port Royale",
-    "flagKey": "wh2_dlc11_cst_rogue_freebooters_of_port_royale",
+    "flagKey": "vanilla/wh2_dlc11_cst_rogue_freebooters_of_port_royale",
     "primaryColour": "#800000"
   },
   "wh2_dlc13_skv_skaven_invasion": {
     "key": "wh2_dlc13_skv_skaven_invasion",
     "name": "Skaven",
-    "flagKey": "wh2_main_skv_skaven_rebels",
+    "flagKey": "vanilla/wh2_main_skv_skaven_rebels",
     "primaryColour": "#9F700C"
   },
   "wh2_dlc11_def_dark_elves_dil": {
     "key": "wh2_dlc11_def_dark_elves_dil",
     "name": "Dark Elf Slavers",
-    "flagKey": "wh2_main_def_dark_elves_rebels",
+    "flagKey": "vanilla/wh2_main_def_dark_elves_rebels",
     "primaryColour": "#DACCDA"
   },
   "wh2_main_lzd_lizardmen_qb2": {
     "key": "wh2_main_lzd_lizardmen_qb2",
     "name": "Lizardmen",
-    "flagKey": "wh2_main_lzd_lizardmen_rebels",
+    "flagKey": "vanilla/wh2_main_lzd_lizardmen_rebels",
     "primaryColour": "#4CCCAA"
   },
   "wh_dlc08_chs_chaos_challenger_tzeentch_qb": {
     "key": "wh_dlc08_chs_chaos_challenger_tzeentch_qb",
     "name": "Challenger of the Eagle",
-    "flagKey": "wh_dlc08_chs_challenger_of_the_eagle",
+    "flagKey": "vanilla/wh_dlc08_chs_challenger_of_the_eagle",
     "primaryColour": "#91A4AD"
   },
   "wh2_main_rogue_doomseekers_qb1": {
     "key": "wh2_main_rogue_doomseekers_qb1",
     "name": "Doomseekers",
-    "flagKey": "wh2_main_rogue_doomseekers",
+    "flagKey": "vanilla/wh2_main_rogue_doomseekers",
     "primaryColour": "#800000"
   },
   "wh2_dlc11_def_the_blessed_dread_separatists": {
     "key": "wh2_dlc11_def_the_blessed_dread_separatists",
     "name": "The Blessed Dread Separatists",
-    "flagKey": "wh2_dlc11_def_the_blessed_dread_separatists",
+    "flagKey": "vanilla/wh2_dlc11_def_the_blessed_dread_separatists",
     "primaryColour": "#686868"
   },
   "wh_main_vmp_vampire_counts_qb1": {
     "key": "wh_main_vmp_vampire_counts_qb1",
     "name": "Vampire Counts",
-    "flagKey": "wh_main_vmp_vampire_rebels",
+    "flagKey": "vanilla/wh_main_vmp_vampire_rebels",
     "primaryColour": "#B43232"
   },
   "wh_main_dwf_dwarfs_seperatists_qb4": {
     "key": "wh_main_dwf_dwarfs_seperatists_qb4",
     "name": "Dwarfs",
-    "flagKey": "wh_main_dwf_dwarf_rebels",
+    "flagKey": "vanilla/wh_main_dwf_dwarf_rebels",
     "primaryColour": "#FBFBFB"
   },
   "wh2_dlc15_grn_bonerattlaz": {
     "key": "wh2_dlc15_grn_bonerattlaz",
     "name": "Bonerattlaz",
-    "flagKey": "wh2_dlc15_grn_bonerattlaz",
+    "flagKey": "vanilla/wh2_dlc15_grn_bonerattlaz",
     "primaryColour": "#377D91"
   },
   "wh2_main_rogue_abominations": {
     "key": "wh2_main_rogue_abominations",
     "name": "Abominations",
-    "flagKey": "wh2_main_rogue_abominations",
+    "flagKey": "vanilla/wh2_main_rogue_abominations",
     "primaryColour": "#800000"
   },
   "wh_dlc08_nor_goromadny_tribe": {
     "key": "wh_dlc08_nor_goromadny_tribe",
     "name": "Goromadny Tribe",
-    "flagKey": "wh_dlc08_nor_goromadny",
+    "flagKey": "vanilla/wh_dlc08_nor_goromadny",
     "primaryColour": "#D8C116"
   },
   "wh2_dlc11_cst_vampire_coast_separatists": {
     "key": "wh2_dlc11_cst_vampire_coast_separatists",
     "name": "Vampire Coast Separatists",
-    "flagKey": "wh2_dlc11_cst_vampire_coast_separatists",
+    "flagKey": "vanilla/wh2_dlc11_cst_vampire_coast_separatists",
     "primaryColour": "#153348"
   },
   "wh2_dlc13_lzd_defenders_of_the_great_plan": {
     "key": "wh2_dlc13_lzd_defenders_of_the_great_plan",
     "name": "Defenders of the Great Plan",
-    "flagKey": "wh2_dlc13_lzd_defenders_of_the_great_plan",
+    "flagKey": "vanilla/wh2_dlc13_lzd_defenders_of_the_great_plan",
     "primaryColour": "#4EE784"
   },
   "wh2_main_skv_unknown_clan_skv": {
     "key": "wh2_main_skv_unknown_clan_skv",
     "name": "Unknown Skaven Clan",
-    "flagKey": "wh2_main_skv_unknown_clan_skv",
+    "flagKey": "vanilla/wh2_main_skv_unknown_clan_skv",
     "primaryColour": "#9A927B"
   },
   "wh2_main_def_hag_graef_separatists": {
     "key": "wh2_main_def_hag_graef_separatists",
     "name": "Hag Graef Separatists",
-    "flagKey": "wh2_main_def_hag_graef_separatists",
+    "flagKey": "vanilla/wh2_main_def_hag_graef_separatists",
     "primaryColour": "#686868"
   },
   "wh_main_dwf_dwarfs_seperatists_qb1": {
     "key": "wh_main_dwf_dwarfs_seperatists_qb1",
     "name": "Dwarfs",
-    "flagKey": "wh_main_dwf_dwarf_rebels",
+    "flagKey": "vanilla/wh_main_dwf_dwarf_rebels",
     "primaryColour": "#FBFBFB"
   },
   "wh2_dlc09_tmb_tombking_qb_exiles_of_nehek": {
     "key": "wh2_dlc09_tmb_tombking_qb_exiles_of_nehek",
     "name": "Exiles of Nehek",
-    "flagKey": "wh2_dlc09_tmb_exiles_of_nehek",
+    "flagKey": "vanilla/wh2_dlc09_tmb_exiles_of_nehek",
     "primaryColour": "#B80101"
   },
   "wh_main_grn_greenskins_qb4": {
     "key": "wh_main_grn_greenskins_qb4",
     "name": "Greenskins",
-    "flagKey": "wh_main_grn_greenskins_rebels",
+    "flagKey": "vanilla/wh_main_grn_greenskins_rebels",
     "primaryColour": "#BF5743"
   },
   "wh2_main_rogue_wrath_of_nature": {
     "key": "wh2_main_rogue_wrath_of_nature",
     "name": "Wrath of Nature",
-    "flagKey": "wh2_main_rogue_wrath_of_nature",
+    "flagKey": "vanilla/wh2_main_rogue_wrath_of_nature",
     "primaryColour": "#800000"
   },
   "wh_dlc03_bst_beastmen_qb2": {
     "key": "wh_dlc03_bst_beastmen_qb2",
     "name": "Beastmen",
-    "flagKey": "wh_dlc03_bst_beastmen_rebels",
+    "flagKey": "vanilla/wh_dlc03_bst_beastmen_rebels",
     "primaryColour": "#060606"
   },
   "wh2_dlc11_cst_vampire_coast": {
     "key": "wh2_dlc11_cst_vampire_coast",
     "name": "The Awakened",
-    "flagKey": "wh2_dlc11_cst_vampire_coast",
+    "flagKey": "vanilla/wh2_dlc11_cst_vampire_coast",
     "primaryColour": "#3A6979"
   },
   "wh2_dlc09_tmb_exiles_of_nehek": {
     "key": "wh2_dlc09_tmb_exiles_of_nehek",
     "name": "Exiles of Nehek",
-    "flagKey": "wh2_dlc09_tmb_exiles_of_nehek",
+    "flagKey": "vanilla/wh2_dlc09_tmb_exiles_of_nehek",
     "primaryColour": "#B80101"
   },
   "wh2_dlc13_grn_greenskins_invasion": {
     "key": "wh2_dlc13_grn_greenskins_invasion",
     "name": "Greenskins",
-    "flagKey": "wh_main_grn_greenskins_rebels",
+    "flagKey": "vanilla/wh_main_grn_greenskins_rebels",
     "primaryColour": "#BF5743"
   },
   "wh2_dlc09_rogue_eyes_of_the_jungle": {
     "key": "wh2_dlc09_rogue_eyes_of_the_jungle",
     "name": "Eyes of the Jungle",
-    "flagKey": "wh2_dlc09_rogue_eyes_of_the_jungle",
+    "flagKey": "vanilla/wh2_dlc09_rogue_eyes_of_the_jungle",
     "primaryColour": "#800000"
   },
   "wh2_dlc09_skv_clan_rictus_separatists": {
     "key": "wh2_dlc09_skv_clan_rictus_separatists",
     "name": "Clan Rictus Separatists",
-    "flagKey": "wh2_dlc09_skv_clan_rictus_separatists",
+    "flagKey": "vanilla/wh2_dlc09_skv_clan_rictus_separatists",
     "primaryColour": "#5B5B5B"
   },
   "wh2_dlc15_skv_clan_volkn": {
     "key": "wh2_dlc15_skv_clan_volkn",
     "name": "Clan Volkn",
-    "flagKey": "wh2_dlc15_skv_clan_volkn",
+    "flagKey": "vanilla/wh2_dlc15_skv_clan_volkn",
     "primaryColour": "#506E33"
   },
   "wh2_dlc11_cst_vampire_coast_qb2": {
     "key": "wh2_dlc11_cst_vampire_coast_qb2",
     "name": "Vampire Coast",
-    "flagKey": "wh2_dlc11_cst_vampire_coast_rebels",
+    "flagKey": "vanilla/wh2_dlc11_cst_vampire_coast_rebels",
     "primaryColour": "#153348"
   },
   "wh2_main_rogue_mangy_houndz": {
     "key": "wh2_main_rogue_mangy_houndz",
     "name": "Mangy Houndz",
-    "flagKey": "wh2_main_rogue_black_spider",
+    "flagKey": "vanilla/wh2_main_rogue_black_spider",
     "primaryColour": "#800000"
   },
   "wh2_main_rogue_pirates_of_the_southern_ocean": {
     "key": "wh2_main_rogue_pirates_of_the_southern_ocean",
     "name": "Pirates of the Southern Ocean",
-    "flagKey": "wh2_main_rogue_pirates_trantio",
+    "flagKey": "vanilla/wh2_main_rogue_pirates_trantio",
     "primaryColour": "#800000"
   },
   "wh2_main_skv_skaven_qb2": {
     "key": "wh2_main_skv_skaven_qb2",
     "name": "Skaven",
-    "flagKey": "wh2_main_skv_skaven_rebels",
+    "flagKey": "vanilla/wh2_main_skv_skaven_rebels",
     "primaryColour": "#9F700C"
   },
   "wh2_main_rogue_jerrods_errantry": {
     "key": "wh2_main_rogue_jerrods_errantry",
     "name": "Jerrod's Errantry Army",
-    "flagKey": "wh2_main_rogue_jerrod",
+    "flagKey": "vanilla/wh2_main_rogue_jerrod",
     "primaryColour": "#800000"
   },
   "wh2_dlc09_tmb_tombking_qb_khemri": {
     "key": "wh2_dlc09_tmb_tombking_qb_khemri",
     "name": "Khemri",
-    "flagKey": "wh2_dlc09_tmb_khemri",
+    "flagKey": "vanilla/wh2_dlc09_tmb_khemri",
     "primaryColour": "#5CAECA"
   },
   "wh2_main_def_naggarond_separatists": {
     "key": "wh2_main_def_naggarond_separatists",
     "name": "Naggarond Separatists",
-    "flagKey": "wh2_main_def_naggarond_separatists",
+    "flagKey": "vanilla/wh2_main_def_naggarond_separatists",
     "primaryColour": "#686868"
   },
   "wh_main_dwf_dwarfs_qb1": {
     "key": "wh_main_dwf_dwarfs_qb1",
     "name": "Dwarfs",
-    "flagKey": "wh_main_dwf_dwarfs_rebels",
+    "flagKey": "vanilla/wh_main_dwf_dwarfs_rebels",
     "primaryColour": "#B12801"
   },
   "wh2_dlc11_cst_rogue_grey_point_scuttlers": {
     "key": "wh2_dlc11_cst_rogue_grey_point_scuttlers",
     "name": "Grey Point Scuttlers",
-    "flagKey": "wh2_dlc11_cst_rogue_grey_point_scuttlers",
+    "flagKey": "vanilla/wh2_dlc11_cst_rogue_grey_point_scuttlers",
     "primaryColour": "#800000"
   },
   "wh2_dlc15_hef_imrik": {
     "key": "wh2_dlc15_hef_imrik",
     "name": "Knights of Caledor",
-    "flagKey": "wh2_dlc15_hef_imrik",
+    "flagKey": "vanilla/wh2_dlc15_hef_imrik",
     "primaryColour": "#77788E"
   },
   "wh_main_chs_chaos_qb3": {
     "key": "wh_main_chs_chaos_qb3",
     "name": "Chaos",
-    "flagKey": "wh_main_chs_chaos_rebels",
+    "flagKey": "vanilla/wh_main_chs_chaos_rebels",
     "primaryColour": "#6F5B5B"
   },
   "wh2_dlc11_cst_shanty_shark_straight_seadogs": {
     "key": "wh2_dlc11_cst_shanty_shark_straight_seadogs",
     "name": "Shark Strait Seadogs",
-    "flagKey": "wh2_dlc11_cst_shanty_shark_straight_seadogs",
+    "flagKey": "vanilla/wh2_dlc11_cst_shanty_shark_straight_seadogs",
     "primaryColour": "#800000"
   },
   "wh2_dlc09_tmb_tombking_qb2": {
     "key": "wh2_dlc09_tmb_tombking_qb2",
     "name": "Tomb Kings",
-    "flagKey": "wh2_dlc09_tmb_tomb_kings_rebels",
+    "flagKey": "vanilla/wh2_dlc09_tmb_tomb_kings_rebels",
     "primaryColour": "#393530"
   },
   "wh2_main_hef_high_elves_intervention": {
     "key": "wh2_main_hef_high_elves_intervention",
     "name": "High Elf Intervention",
-    "flagKey": "wh2_main_hef_eataine",
+    "flagKey": "vanilla/wh2_main_hef_eataine",
     "primaryColour": "#F2F2F2"
   },
   "wh2_main_rogue_def_chs_vashnaar": {
     "key": "wh2_main_rogue_def_chs_vashnaar",
     "name": "Vashnaar's Conquest",
-    "flagKey": "wh2_main_rogue_vashnaar",
+    "flagKey": "vanilla/wh2_main_rogue_vashnaar",
     "primaryColour": "#800000"
   },
   "wh2_dlc11_cst_vampire_coast_qb4": {
     "key": "wh2_dlc11_cst_vampire_coast_qb4",
     "name": "Vampire Coast",
-    "flagKey": "wh2_dlc11_cst_vampire_coast_rebels",
+    "flagKey": "vanilla/wh2_dlc11_cst_vampire_coast_rebels",
     "primaryColour": "#153348"
   },
   "wh2_main_def_dark_elves_qb3": {
     "key": "wh2_main_def_dark_elves_qb3",
     "name": "Dark Elves",
-    "flagKey": "wh2_main_def_dark_elves_rebels",
+    "flagKey": "vanilla/wh2_main_def_dark_elves_rebels",
     "primaryColour": "#DACCDA"
   },
   "wh2_main_rogue_stuff_snatchers": {
     "key": "wh2_main_rogue_stuff_snatchers",
     "name": "Stuff-Snatchers",
-    "flagKey": "wh2_main_rogue_stuff_snatchers",
+    "flagKey": "vanilla/wh2_main_rogue_stuff_snatchers",
     "primaryColour": "#800000"
   },
   "wh2_main_skv_skaven_intervention": {
     "key": "wh2_main_skv_skaven_intervention",
     "name": "Skaven Intervention",
-    "flagKey": "wh2_main_skv_clan_mors_intervention",
+    "flagKey": "vanilla/wh2_main_skv_clan_mors_intervention",
     "primaryColour": "#C42810"
   },
   "wh2_dlc09_tmb_numas": {
     "key": "wh2_dlc09_tmb_numas",
     "name": "Numas",
-    "flagKey": "wh2_dlc09_tmb_numas",
+    "flagKey": "vanilla/wh2_dlc09_tmb_numas",
     "primaryColour": "#B32225"
   },
   "wh2_main_rogue_boneclubbers_tribe": {
     "key": "wh2_main_rogue_boneclubbers_tribe",
     "name": "Boneclubbers Tribe",
-    "flagKey": "wh2_main_rogue_bone_clubbers",
+    "flagKey": "vanilla/wh2_main_rogue_bone_clubbers",
     "primaryColour": "#800000"
   },
   "wh_main_grn_greenskins_qb1": {
     "key": "wh_main_grn_greenskins_qb1",
     "name": "Greenskins",
-    "flagKey": "wh_main_grn_greenskins_rebels",
+    "flagKey": "vanilla/wh_main_grn_greenskins_rebels",
     "primaryColour": "#BF5743"
   },
   "wh2_dlc11_nor_norsca_dil": {
     "key": "wh2_dlc11_nor_norsca_dil",
     "name": "Norscan Raiders",
-    "flagKey": "wh_main_nor_norsca_rebels",
+    "flagKey": "vanilla/wh_main_nor_norsca_rebels",
     "primaryColour": "#A55AB9"
   },
   "wh2_main_rogue_scourge_of_aquitaine": {
     "key": "wh2_main_rogue_scourge_of_aquitaine",
     "name": "The Scourge of Aquitaine",
-    "flagKey": "wh2_main_rogue_scourge_of_aq",
+    "flagKey": "vanilla/wh2_main_rogue_scourge_of_aq",
     "primaryColour": "#800000"
   },
   "wh2_dlc09_tmb_tombking_qb4": {
     "key": "wh2_dlc09_tmb_tombking_qb4",
     "name": "Tomb Kings",
-    "flagKey": "wh2_dlc09_tmb_tomb_kings_rebels",
+    "flagKey": "vanilla/wh2_dlc09_tmb_tomb_kings_rebels",
     "primaryColour": "#393530"
   },
   "wh2_dlc09_skv_clan_rictus": {
     "key": "wh2_dlc09_skv_clan_rictus",
     "name": "Clan Rictus",
-    "flagKey": "wh2_dlc09_skv_clan_rictus",
+    "flagKey": "vanilla/wh2_dlc09_skv_clan_rictus",
     "primaryColour": "#A7A18E"
   },
   "wh_main_dwf_dwarfs_seperatists_qb2": {
     "key": "wh_main_dwf_dwarfs_seperatists_qb2",
     "name": "Dwarfs",
-    "flagKey": "wh_main_dwf_dwarf_rebels",
+    "flagKey": "vanilla/wh_main_dwf_dwarf_rebels",
     "primaryColour": "#FBFBFB"
   },
   "wh2_dlc11_emp_empire_qb5": {
     "key": "wh2_dlc11_emp_empire_qb5",
     "name": "The Empire",
-    "flagKey": "wh_main_emp_empire",
+    "flagKey": "vanilla/wh_main_emp_empire",
     "primaryColour": "#E00606"
   },
   "wh2_dlc11_nor_norsca_qb4": {
     "key": "wh2_dlc11_nor_norsca_qb4",
     "name": "Skjold Raiders",
-    "flagKey": "wh_main_nor_norsca_rebels",
+    "flagKey": "vanilla/wh_main_nor_norsca_rebels",
     "primaryColour": "#A55AB9"
   },
   "wh2_main_rogue_gerhardts_mercenaries_qb1": {
     "key": "wh2_main_rogue_gerhardts_mercenaries_qb1",
     "name": "Gerhardt's Mercenaries",
-    "flagKey": "wh2_main_rogue_gerhardt",
+    "flagKey": "vanilla/wh2_main_rogue_gerhardt",
     "primaryColour": "#800000"
   },
   "wh_main_dwf_dwarfs_seperatists_qb3": {
     "key": "wh_main_dwf_dwarfs_seperatists_qb3",
     "name": "Dwarfs",
-    "flagKey": "wh_main_dwf_dwarf_rebels",
+    "flagKey": "vanilla/wh_main_dwf_dwarf_rebels",
     "primaryColour": "#FBFBFB"
   },
   "wh2_dlc11_cst_noctilus": {
     "key": "wh2_dlc11_cst_noctilus",
     "name": "The Dreadfleet",
-    "flagKey": "wh2_dlc11_cst_noctilus",
+    "flagKey": "vanilla/wh2_dlc11_cst_noctilus",
     "primaryColour": "#BF1480"
   },
   "wh_main_emp_empire_qb1": {
     "key": "wh_main_emp_empire_qb1",
     "name": "The Empire",
-    "flagKey": "wh_main_emp_empire_rebels",
+    "flagKey": "vanilla/wh_main_emp_empire_rebels",
     "primaryColour": "#E8E8E8"
   },
   "wh2_dlc15_grn_skull_crag": {
     "key": "wh2_dlc15_grn_skull_crag",
     "name": "Skull Crag",
-    "flagKey": "wh2_dlc15_grn_skull_crag",
+    "flagKey": "vanilla/wh2_dlc15_grn_skull_crag",
     "primaryColour": "#4B7852"
   },
   "wh_dlc08_chs_chaos_challenger_khorne": {
     "key": "wh_dlc08_chs_chaos_challenger_khorne",
     "name": "Challenger of the Hound",
-    "flagKey": "wh_dlc08_chs_challenger_of_the_hound",
+    "flagKey": "vanilla/wh_dlc08_chs_challenger_of_the_hound",
     "primaryColour": "#5C2322"
   },
   "wh2_main_emp_sudenburg": {
     "key": "wh2_main_emp_sudenburg",
     "name": "Sudenburg",
-    "flagKey": "wh2_main_emp_sudenburg",
+    "flagKey": "vanilla/wh2_main_emp_sudenburg",
     "primaryColour": "#BC0000"
   },
   "wh2_main_chs_chaos_incursion_lzd": {
     "key": "wh2_main_chs_chaos_incursion_lzd",
     "name": "Vessels of Chaos",
-    "flagKey": "wh2_main_chs_vessels_of_chaos",
+    "flagKey": "vanilla/wh2_main_chs_vessels_of_chaos",
     "primaryColour": "#29282E"
   },
   "wh2_dlc11_cst_the_drowned": {
     "key": "wh2_dlc11_cst_the_drowned",
     "name": "The Drowned",
-    "flagKey": "wh2_dlc11_cst_the_drowned",
+    "flagKey": "vanilla/wh2_dlc11_cst_the_drowned",
     "primaryColour": "#304785"
   },
   "wh2_dlc09_rogue_black_creek_raiders": {
     "key": "wh2_dlc09_rogue_black_creek_raiders",
     "name": "Black Creek Raiders",
-    "flagKey": "wh2_dlc09_rogue_black_creek_raiders",
+    "flagKey": "vanilla/wh2_dlc09_rogue_black_creek_raiders",
     "primaryColour": "#800000"
   },
   "wh2_main_lzd_lizardmen_qb3": {
     "key": "wh2_main_lzd_lizardmen_qb3",
     "name": "Lizardmen",
-    "flagKey": "wh2_main_lzd_lizardmen_rebels",
+    "flagKey": "vanilla/wh2_main_lzd_lizardmen_rebels",
     "primaryColour": "#4CCCAA"
   },
   "wh2_dlc09_tmb_tombking_qb_lybaras": {
     "key": "wh2_dlc09_tmb_tombking_qb_lybaras",
     "name": "Court of Lybaras",
-    "flagKey": "wh2_dlc09_tmb_lybaras",
+    "flagKey": "vanilla/wh2_dlc09_tmb_lybaras",
     "primaryColour": "#BAB6A3"
   },
   "wh2_dlc09_tmb_followers_of_nagash": {
     "key": "wh2_dlc09_tmb_followers_of_nagash",
     "name": "Followers of Nagash",
-    "flagKey": "wh2_dlc09_tmb_followers_of_nagash",
+    "flagKey": "vanilla/wh2_dlc09_tmb_followers_of_nagash",
     "primaryColour": "#DAC92F"
   },
   "wh2_main_rogue_wef_hunters_of_kurnous": {
     "key": "wh2_main_rogue_wef_hunters_of_kurnous",
     "name": "Hunters of Kurnous",
-    "flagKey": "wh2_main_rogue_kournos",
+    "flagKey": "vanilla/wh2_main_rogue_kournos",
     "primaryColour": "#800000"
   },
   "wh2_main_skv_skaven_qb4": {
     "key": "wh2_main_skv_skaven_qb4",
     "name": "Skaven",
-    "flagKey": "wh2_main_skv_skaven_rebels",
+    "flagKey": "vanilla/wh2_main_skv_skaven_rebels",
     "primaryColour": "#9F700C"
   },
   "wh2_main_nor_skeggi": {
     "key": "wh2_main_nor_skeggi",
     "name": "Skeggi",
-    "flagKey": "wh2_main_nor_skeggi",
+    "flagKey": "vanilla/wh2_main_nor_skeggi",
     "primaryColour": "#CCA500"
   },
   "wh_dlc08_chs_chaos_challenger_khorne_qb": {
     "key": "wh_dlc08_chs_chaos_challenger_khorne_qb",
     "name": "Challenger of the Hound",
-    "flagKey": "wh_dlc08_chs_challenger_of_the_hound",
+    "flagKey": "vanilla/wh_dlc08_chs_challenger_of_the_hound",
     "primaryColour": "#5C2322"
   },
   "wh2_main_rogue_hef_tor_elithis": {
     "key": "wh2_main_rogue_hef_tor_elithis",
     "name": "Tor Elithis Refugees",
-    "flagKey": "wh2_main_rogue_tor_elesor",
+    "flagKey": "vanilla/wh2_main_rogue_tor_elesor",
     "primaryColour": "#800000"
   },
   "wh_dlc05_wef_wood_elves_qb2": {
     "key": "wh_dlc05_wef_wood_elves_qb2",
     "name": "Wood Elves",
-    "flagKey": "wh_dlc05_wef_wood_elves_rebels",
+    "flagKey": "vanilla/wh_dlc05_wef_wood_elves_rebels",
     "primaryColour": "#378250"
   },
   "wh2_dlc12_skv_clan_fester": {
     "key": "wh2_dlc12_skv_clan_fester",
     "name": "Clan Fester",
-    "flagKey": "wh2_dlc12_skv_clan_fester",
+    "flagKey": "vanilla/wh2_dlc12_skv_clan_fester",
     "primaryColour": "#796A3A"
   },
   "wh2_main_skv_unknown_clan_def": {
     "key": "wh2_main_skv_unknown_clan_def",
     "name": "Unknown Skaven Clan",
-    "flagKey": "wh2_main_skv_unknown_clan_def",
+    "flagKey": "vanilla/wh2_main_skv_unknown_clan_def",
     "primaryColour": "#9A927B"
   },
   "wh2_main_lzd_tlaqua": {
     "key": "wh2_main_lzd_tlaqua",
     "name": "Tlaqua",
-    "flagKey": "wh2_main_lzd_tlaqua",
+    "flagKey": "vanilla/wh2_main_lzd_tlaqua",
     "primaryColour": "#E26B0A"
   },
   "wh_main_chs_chaos_qb2": {
     "key": "wh_main_chs_chaos_qb2",
     "name": "Chaos",
-    "flagKey": "wh_main_chs_chaos_rebels",
+    "flagKey": "vanilla/wh_main_chs_chaos_rebels",
     "primaryColour": "#6F5B5B"
   },
   "wh2_main_rogue_troll_skullz": {
     "key": "wh2_main_rogue_troll_skullz",
     "name": "Troll-Skullz",
-    "flagKey": "wh2_main_rogue_troll_skullz",
+    "flagKey": "vanilla/wh2_main_rogue_troll_skullz",
     "primaryColour": "#800000"
   },
   "wh2_dlc11_cst_rogue_tyrants_of_the_black_ocean": {
     "key": "wh2_dlc11_cst_rogue_tyrants_of_the_black_ocean",
     "name": "The Tyrants of the Black Ocean",
-    "flagKey": "wh2_dlc11_cst_rogue_tyrants_of_the_black_ocean",
+    "flagKey": "vanilla/wh2_dlc11_cst_rogue_tyrants_of_the_black_ocean",
     "primaryColour": "#800000"
   },
   "wh2_main_dwf_spine_of_sotek_dwarfs": {
     "key": "wh2_main_dwf_spine_of_sotek_dwarfs",
     "name": "Spine of Sotek Dwarfs",
-    "flagKey": "wh2_main_dwf_spine_of_sotek_dwarfs",
+    "flagKey": "vanilla/wh2_main_dwf_spine_of_sotek_dwarfs",
     "primaryColour": "#3C649C"
   },
   "wh_main_nor_norsca_qb1": {
     "key": "wh_main_nor_norsca_qb1",
     "name": "Norsca",
-    "flagKey": "wh_main_nor_norsca_rebels",
+    "flagKey": "vanilla/wh_main_nor_norsca_rebels",
     "primaryColour": "#A55AB9"
   },
   "wh2_dlc12_skv_clan_mange": {
     "key": "wh2_dlc12_skv_clan_mange",
     "name": "Clan Mange",
-    "flagKey": "wh2_dlc12_skv_clan_mange",
+    "flagKey": "vanilla/wh2_dlc12_skv_clan_mange",
     "primaryColour": "#506E33"
   },
   "wh2_dlc13_nor_norsca_invasion": {
     "key": "wh2_dlc13_nor_norsca_invasion",
     "name": "Norsca",
-    "flagKey": "wh_main_nor_norsca_rebels",
+    "flagKey": "vanilla/wh_main_nor_norsca_rebels",
     "primaryColour": "#A55AB9"
   },
   "wh2_main_lzd_lizardmen_intervention": {
     "key": "wh2_main_lzd_lizardmen_intervention",
     "name": "Lizardmen Intervention",
-    "flagKey": "wh2_main_lzd_hexoatl_intervention",
+    "flagKey": "vanilla/wh2_main_lzd_hexoatl_intervention",
     "primaryColour": "#C33509"
   },
   "wh2_dlc09_tmb_rakaph_dynasty": {
     "key": "wh2_dlc09_tmb_rakaph_dynasty",
     "name": "Rakaph Dynasty",
-    "flagKey": "wh2_dlc09_tmb_rakaph_dynasty",
+    "flagKey": "vanilla/wh2_dlc09_tmb_rakaph_dynasty",
     "primaryColour": "#D79F25"
   },
   "wh2_main_skv_clan_pestilens_separatists": {
     "key": "wh2_main_skv_clan_pestilens_separatists",
     "name": "Clan Pestilens Separatists",
-    "flagKey": "wh2_main_skv_clan_pestilens_separatists",
+    "flagKey": "vanilla/wh2_main_skv_clan_pestilens_separatists",
     "primaryColour": "#484848"
   },
   "wh2_main_rogue_college_of_pyrotechnics": {
     "key": "wh2_main_rogue_college_of_pyrotechnics",
     "name": "College of Pyrotechnics",
-    "flagKey": "wh2_main_rogue_pyrotechnics",
+    "flagKey": "vanilla/wh2_main_rogue_pyrotechnics",
     "primaryColour": "#800000"
   },
   "wh2_dlc11_cst_shanty_dragon_spine_privateers": {
     "key": "wh2_dlc11_cst_shanty_dragon_spine_privateers",
     "name": "Dragon Spine Privateers",
-    "flagKey": "wh2_dlc11_cst_shanty_dragon_spine_privateers",
+    "flagKey": "vanilla/wh2_dlc11_cst_shanty_dragon_spine_privateers",
     "primaryColour": "#800000"
   },
   "wh_dlc08_chs_chaos_challenger_slaanesh": {
     "key": "wh_dlc08_chs_chaos_challenger_slaanesh",
     "name": "Challenger of the Serpent",
-    "flagKey": "wh_dlc08_chs_challenger_of_the_serpent",
+    "flagKey": "vanilla/wh_dlc08_chs_challenger_of_the_serpent",
     "primaryColour": "#A196AA"
   },
   "wh_main_dwf_dwarfs": {
     "key": "wh_main_dwf_dwarfs",
     "name": "Karaz-a-Karak",
-    "flagKey": "wh_main_dwf_dwarfs",
+    "flagKey": "vanilla/wh_main_dwf_dwarfs",
     "primaryColour": "#2A9FEE"
   },
   "wh_main_emp_empire": {
     "key": "wh_main_emp_empire",
     "name": "Reikland",
-    "flagKey": "wh_main_emp_empire",
+    "flagKey": "vanilla/wh_main_emp_empire",
     "primaryColour": "#E00606"
   },
   "wh_main_grn_greenskins": {
     "key": "wh_main_grn_greenskins",
     "name": "Grimgor's 'Ardboyz",
-    "flagKey": "wh_main_grn_greenskins",
+    "flagKey": "vanilla/wh_main_grn_greenskins",
     "primaryColour": "#738E3F"
   },
   "wh_main_vmp_vampire_counts": {
     "key": "wh_main_vmp_vampire_counts",
     "name": "Sylvania",
-    "flagKey": "wh_main_vmp_vampire_counts",
+    "flagKey": "vanilla/wh_main_vmp_vampire_counts",
     "primaryColour": "#0A0A0A"
   },
   "wh_main_chs_chaos": {
     "key": "wh_main_chs_chaos",
     "name": "Warriors of Chaos",
-    "flagKey": "wh_main_chs_chaos",
+    "flagKey": "vanilla/wh_main_chs_chaos",
     "primaryColour": "#29282E"
   },
   "wh_main_emp_hochland": {
     "key": "wh_main_emp_hochland",
     "name": "Hochland",
-    "flagKey": "wh_main_emp_hochland",
+    "flagKey": "vanilla/wh_main_emp_hochland",
     "primaryColour": "#2C7E57"
   },
   "wh_main_emp_middenland": {
     "key": "wh_main_emp_middenland",
     "name": "Middenland",
-    "flagKey": "wh_main_emp_middenland",
+    "flagKey": "vanilla/wh_main_emp_middenland",
     "primaryColour": "#2C2776"
   },
   "wh_main_emp_nordland": {
     "key": "wh_main_emp_nordland",
     "name": "Nordland",
-    "flagKey": "wh_main_emp_nordland",
+    "flagKey": "vanilla/wh_main_emp_nordland",
     "primaryColour": "#2B4374"
   },
   "wh_main_emp_ostermark": {
     "key": "wh_main_emp_ostermark",
     "name": "Ostermark",
-    "flagKey": "wh_main_emp_ostermark",
+    "flagKey": "vanilla/wh_main_emp_ostermark",
     "primaryColour": "#7A2D4F"
   },
   "wh_main_emp_ostland": {
     "key": "wh_main_emp_ostland",
     "name": "Ostland",
-    "flagKey": "wh_main_emp_ostland",
+    "flagKey": "vanilla/wh_main_emp_ostland",
     "primaryColour": "#C7BD99"
   },
   "wh_main_emp_stirland": {
     "key": "wh_main_emp_stirland",
     "name": "Stirland",
-    "flagKey": "wh_main_emp_stirland",
+    "flagKey": "vanilla/wh_main_emp_stirland",
     "primaryColour": "#407533"
   },
   "wh_main_emp_talabecland": {
     "key": "wh_main_emp_talabecland",
     "name": "Talabecland",
-    "flagKey": "wh_main_emp_talabecland",
+    "flagKey": "vanilla/wh_main_emp_talabecland",
     "primaryColour": "#A70000"
   },
   "wh_main_emp_wissenland": {
     "key": "wh_main_emp_wissenland",
     "name": "Wissenland",
-    "flagKey": "wh_main_emp_wissenland",
+    "flagKey": "vanilla/wh_main_emp_wissenland",
     "primaryColour": "#860000"
   },
   "wh_main_brt_bretonnia": {
     "key": "wh_main_brt_bretonnia",
     "name": "Couronne",
-    "flagKey": "wh_main_brt_bretonnia",
+    "flagKey": "vanilla/wh_main_brt_bretonnia",
     "primaryColour": "#231FB2"
   },
   "wh_main_teb_tilea": {
     "key": "wh_main_teb_tilea",
     "name": "Tilea",
-    "flagKey": "wh_main_teb_tilea",
+    "flagKey": "vanilla/wh_main_teb_tilea",
     "primaryColour": "#F2EDDE"
   },
   "wh_main_teb_estalia": {
     "key": "wh_main_teb_estalia",
     "name": "Estalia",
-    "flagKey": "wh_main_teb_estalia",
+    "flagKey": "vanilla/wh_main_teb_estalia",
     "primaryColour": "#F2C456"
   },
   "wh_main_teb_border_princes": {
     "key": "wh_main_teb_border_princes",
     "name": "Border Princes",
-    "flagKey": "wh_main_teb_border_princes",
+    "flagKey": "vanilla/wh_main_teb_border_princes",
     "primaryColour": "#F8EA10"
   },
   "wh_main_ksl_kislev": {
     "key": "wh_main_ksl_kislev",
     "name": "Kislev",
-    "flagKey": "wh_main_ksl_kislev",
+    "flagKey": "vanilla/wh_main_ksl_kislev",
     "primaryColour": "#6E353D"
   },
   "wh_main_emp_marienburg": {
     "key": "wh_main_emp_marienburg",
     "name": "Marienburg",
-    "flagKey": "wh_main_emp_marienburg",
+    "flagKey": "vanilla/wh_main_emp_marienburg",
     "primaryColour": "#EBDA4B"
   },
   "wh_main_dwf_kraka_drak": {
     "key": "wh_main_dwf_kraka_drak",
     "name": "Kraka Drak",
-    "flagKey": "wh_main_dwf_kraka_drak",
+    "flagKey": "vanilla/wh_main_dwf_kraka_drak",
     "primaryColour": "#2DBAA5"
   },
   "wh_main_dwf_karak_ziflin": {
     "key": "wh_main_dwf_karak_ziflin",
     "name": "Karak Ziflin",
-    "flagKey": "wh_main_dwf_karak_ziflin",
+    "flagKey": "vanilla/wh_main_dwf_karak_ziflin",
     "primaryColour": "#9E5D42"
   },
   "wh_main_dwf_karak_norn": {
     "key": "wh_main_dwf_karak_norn",
     "name": "Karak Norn",
-    "flagKey": "wh_main_dwf_karak_norn",
+    "flagKey": "vanilla/wh_main_dwf_karak_norn",
     "primaryColour": "#BA3831"
   },
   "wh_main_dwf_karak_izor": {
     "key": "wh_main_dwf_karak_izor",
     "name": "Clan Angrund",
-    "flagKey": "wh_dlc06_dwf_clan_angrund",
+    "flagKey": "vanilla/wh_dlc06_dwf_clan_angrund",
     "primaryColour": "#2136B8"
   },
   "wh_main_dwf_karak_hirn": {
     "key": "wh_main_dwf_karak_hirn",
     "name": "Karak Hirn",
-    "flagKey": "wh_main_dwf_karak_hirn",
+    "flagKey": "vanilla/wh_main_dwf_karak_hirn",
     "primaryColour": "#9FA12A"
   },
   "wh_main_dwf_karak_kadrin": {
     "key": "wh_main_dwf_karak_kadrin",
     "name": "Karak Kadrin",
-    "flagKey": "wh_main_dwf_karak_kadrin",
+    "flagKey": "vanilla/wh_main_dwf_karak_kadrin",
     "primaryColour": "#9D2119"
   },
   "wh_main_dwf_karak_azul": {
     "key": "wh_main_dwf_karak_azul",
     "name": "Karak Azul",
-    "flagKey": "wh_main_dwf_karak_azul",
+    "flagKey": "vanilla/wh_main_dwf_karak_azul",
     "primaryColour": "#2A5A6B"
   },
   "wh_main_dwf_barak_varr": {
     "key": "wh_main_dwf_barak_varr",
     "name": "Barak Varr",
-    "flagKey": "wh_main_dwf_barak_varr",
+    "flagKey": "vanilla/wh_main_dwf_barak_varr",
     "primaryColour": "#613278"
   },
   "wh_main_dwf_zhufbar": {
     "key": "wh_main_dwf_zhufbar",
     "name": "Zhufbar",
-    "flagKey": "wh_main_dwf_zhufbar",
+    "flagKey": "vanilla/wh_main_dwf_zhufbar",
     "primaryColour": "#0F9EA7"
   },
   "wh_main_grn_skull-takerz": {
     "key": "wh_main_grn_skull-takerz",
     "name": "Skull-takerz",
-    "flagKey": "wh_main_grn_skull-takerz",
+    "flagKey": "vanilla/wh_main_grn_skull-takerz",
     "primaryColour": "#426D5C"
   },
   "wh_main_grn_skullsmasherz": {
     "key": "wh_main_grn_skullsmasherz",
     "name": "Skullsmasherz",
-    "flagKey": "wh_main_grn_skullsmasherz",
+    "flagKey": "vanilla/wh_main_grn_skullsmasherz",
     "primaryColour": "#FCFBFA"
   },
   "wh_main_grn_crooked_moon": {
     "key": "wh_main_grn_crooked_moon",
     "name": "Crooked Moon",
-    "flagKey": "wh_main_grn_crooked_moon",
+    "flagKey": "vanilla/wh_main_grn_crooked_moon",
     "primaryColour": "#5E5EFF"
   },
   "wh_main_grn_orcs_of_the_bloody_hand": {
     "key": "wh_main_grn_orcs_of_the_bloody_hand",
     "name": "The Bloody Handz",
-    "flagKey": "wh_main_grn_orcs_of_the_bloody_hand",
+    "flagKey": "vanilla/wh_main_grn_orcs_of_the_bloody_hand",
     "primaryColour": "#3B3B3B"
   },
   "wh_main_grn_top_knotz": {
     "key": "wh_main_grn_top_knotz",
     "name": "Top Knotz",
-    "flagKey": "wh_main_grn_top_knotz",
+    "flagKey": "vanilla/wh_main_grn_top_knotz",
     "primaryColour": "#EDE5DF"
   },
   "wh_main_grn_broken_nose": {
     "key": "wh_main_grn_broken_nose",
     "name": "Broken Nose",
-    "flagKey": "wh_main_grn_broken_nose",
+    "flagKey": "vanilla/wh_main_grn_broken_nose",
     "primaryColour": "#E9CF7A"
   },
   "wh_main_grn_black_venom": {
     "key": "wh_main_grn_black_venom",
     "name": "Black Venom",
-    "flagKey": "wh_main_grn_black_venom",
+    "flagKey": "vanilla/wh_main_grn_black_venom",
     "primaryColour": "#B9C46A"
   },
   "wh_main_grn_teef_snatchaz": {
     "key": "wh_main_grn_teef_snatchaz",
     "name": "Teef Snatchaz",
-    "flagKey": "wh_main_grn_teef_snatchaz",
+    "flagKey": "vanilla/wh_main_grn_teef_snatchaz",
     "primaryColour": "#236791"
   },
   "wh_main_grn_bloody_spearz": {
     "key": "wh_main_grn_bloody_spearz",
     "name": "Bloody Spearz",
-    "flagKey": "wh_main_grn_bloody_spearz",
+    "flagKey": "vanilla/wh_main_grn_bloody_spearz",
     "primaryColour": "#426D5C"
   },
   "wh_main_grn_scabby_eye": {
     "key": "wh_main_grn_scabby_eye",
     "name": "Scabby Eye",
-    "flagKey": "wh_main_grn_scabby_eye",
+    "flagKey": "vanilla/wh_main_grn_scabby_eye",
     "primaryColour": "#A22322"
   },
   "wh_main_grn_red_eye": {
     "key": "wh_main_grn_red_eye",
     "name": "Red Eye",
-    "flagKey": "wh_main_grn_red_eye",
+    "flagKey": "vanilla/wh_main_grn_red_eye",
     "primaryColour": "#FFEC78"
   },
   "wh_main_vmp_mousillon": {
     "key": "wh_main_vmp_mousillon",
     "name": "Mousillon",
-    "flagKey": "wh_main_vmp_mousillon",
+    "flagKey": "vanilla/wh_main_vmp_mousillon",
     "primaryColour": "#EDDC66"
   },
   "wh_main_vmp_rival_sylvanian_vamps": {
     "key": "wh_main_vmp_rival_sylvanian_vamps",
     "name": "Templehof",
-    "flagKey": "wh_main_vmp_rival_sylvanian_vamps",
+    "flagKey": "vanilla/wh_main_vmp_rival_sylvanian_vamps",
     "primaryColour": "#67324D"
   },
   "wh_main_brt_artois": {
     "key": "wh_main_brt_artois",
     "name": "Artois",
-    "flagKey": "wh_main_brt_artois",
+    "flagKey": "vanilla/wh_main_brt_artois",
     "primaryColour": "#A44532"
   },
   "wh_main_brt_bastonne": {
     "key": "wh_main_brt_bastonne",
     "name": "Bastonne",
-    "flagKey": "wh_main_brt_bastonne",
+    "flagKey": "vanilla/wh_main_brt_bastonne",
     "primaryColour": "#E5D52E"
   },
   "wh_main_brt_bordeleaux": {
     "key": "wh_main_brt_bordeleaux",
     "name": "Bordeleaux",
-    "flagKey": "wh_main_brt_bordeleaux",
+    "flagKey": "vanilla/wh_main_brt_bordeleaux",
     "primaryColour": "#49579A"
   },
   "wh_main_brt_carcassonne": {
     "key": "wh_main_brt_carcassonne",
     "name": "Carcassonne",
-    "flagKey": "wh_main_brt_carcassonne",
+    "flagKey": "vanilla/wh_main_brt_carcassonne",
     "primaryColour": "#A3341F"
   },
   "wh_main_brt_lyonesse": {
     "key": "wh_main_brt_lyonesse",
     "name": "Lyonesse",
-    "flagKey": "wh_main_brt_lyonesse",
+    "flagKey": "vanilla/wh_main_brt_lyonesse",
     "primaryColour": "#C5BF96"
   },
   "wh_main_brt_parravon": {
     "key": "wh_main_brt_parravon",
     "name": "Parravon",
-    "flagKey": "wh_main_brt_parravon",
+    "flagKey": "vanilla/wh_main_brt_parravon",
     "primaryColour": "#282828"
   },
   "wh_main_emp_averland": {
     "key": "wh_main_emp_averland",
     "name": "Averland",
-    "flagKey": "wh_main_emp_averland",
+    "flagKey": "vanilla/wh_main_emp_averland",
     "primaryColour": "#D1BB32"
   },
   "wh_main_grn_necksnappers": {
     "key": "wh_main_grn_necksnappers",
     "name": "Crooked Moon Mutinous Gits",
-    "flagKey": "wh_dlc06_grn_crooked_moon_rebels",
+    "flagKey": "vanilla/wh_dlc06_grn_crooked_moon_rebels",
     "primaryColour": "#426585"
   },
   "wh_main_grn_red_fangs": {
     "key": "wh_main_grn_red_fangs",
     "name": "Red Fangs",
-    "flagKey": "wh_main_grn_red_fangs",
+    "flagKey": "vanilla/wh_main_grn_red_fangs",
     "primaryColour": "#900303"
   },
   "wh_main_nor_skaeling": {
     "key": "wh_main_nor_skaeling",
     "name": "Skaeling",
-    "flagKey": "wh_main_nor_skaeling",
+    "flagKey": "vanilla/wh_main_nor_skaeling",
     "primaryColour": "#374763"
   },
   "wh_main_nor_varg": {
     "key": "wh_main_nor_varg",
     "name": "Varg",
-    "flagKey": "wh_main_nor_varg",
+    "flagKey": "vanilla/wh_main_nor_varg",
     "primaryColour": "#91A158"
   },
   "wh_main_chs_chaos_separatists": {
     "key": "wh_main_chs_chaos_separatists",
     "name": "Chaos Gathering",
-    "flagKey": "wh_main_chs_chaos_separatists",
+    "flagKey": "vanilla/wh_main_chs_chaos_separatists",
     "primaryColour": "#B6B6B6"
   },
   "wh_main_emp_empire_separatists": {
     "key": "wh_main_emp_empire_separatists",
     "name": "Empire Secessionists",
-    "flagKey": "wh_main_emp_empire_separatists",
+    "flagKey": "vanilla/wh_main_emp_empire_separatists",
     "primaryColour": "#136FBC"
   },
   "wh_main_brt_bretonnia_qb1": {
     "key": "wh_main_brt_bretonnia_qb1",
     "name": "Bretonnia",
-    "flagKey": "wh_main_brt_bretonnia_rebels",
+    "flagKey": "vanilla/wh_main_brt_bretonnia_rebels",
     "primaryColour": "#F8F4E4"
   },
   "wh_main_brt_bretonnia_qb3": {
     "key": "wh_main_brt_bretonnia_qb3",
     "name": "Bretonnia",
-    "flagKey": "wh_main_brt_bretonnia_rebels",
+    "flagKey": "vanilla/wh_main_brt_bretonnia_rebels",
     "primaryColour": "#F8F4E4"
   },
   "wh_main_dwf_dwarfs_qb2": {
     "key": "wh_main_dwf_dwarfs_qb2",
     "name": "Dwarfs",
-    "flagKey": "wh_main_dwf_dwarfs_rebels",
+    "flagKey": "vanilla/wh_main_dwf_dwarfs_rebels",
     "primaryColour": "#B12801"
   },
   "wh_main_emp_empire_qb2": {
     "key": "wh_main_emp_empire_qb2",
     "name": "The Empire",
-    "flagKey": "wh_main_emp_empire_rebels",
+    "flagKey": "vanilla/wh_main_emp_empire_rebels",
     "primaryColour": "#E8E8E8"
   },
   "wh_main_emp_empire_qb3": {
     "key": "wh_main_emp_empire_qb3",
     "name": "The Empire",
-    "flagKey": "wh_main_emp_empire_rebels",
+    "flagKey": "vanilla/wh_main_emp_empire_rebels",
     "primaryColour": "#E8E8E8"
   },
   "wh_main_grn_greenskins_qb2": {
     "key": "wh_main_grn_greenskins_qb2",
     "name": "Greenskins",
-    "flagKey": "wh_main_grn_greenskins_rebels",
+    "flagKey": "vanilla/wh_main_grn_greenskins_rebels",
     "primaryColour": "#BF5743"
   },
   "wh_main_vmp_vampire_counts_qb2": {
     "key": "wh_main_vmp_vampire_counts_qb2",
     "name": "Vampire Counts",
-    "flagKey": "wh_main_vmp_vampire_rebels",
+    "flagKey": "vanilla/wh_main_vmp_vampire_rebels",
     "primaryColour": "#B43232"
   },
   "wh_main_vmp_vampire_counts_qb3": {
     "key": "wh_main_vmp_vampire_counts_qb3",
     "name": "Vampire Counts",
-    "flagKey": "wh_main_vmp_vampire_rebels",
+    "flagKey": "vanilla/wh_main_vmp_vampire_rebels",
     "primaryColour": "#B43232"
   },
   "wh_main_nor_aesling": {
     "key": "wh_main_nor_aesling",
     "name": "Aesling",
-    "flagKey": "wh_main_nor_aesling",
+    "flagKey": "vanilla/wh_main_nor_aesling",
     "primaryColour": "#644141"
   },
   "wh_main_nor_baersonling": {
     "key": "wh_main_nor_baersonling",
     "name": "Baersonling",
-    "flagKey": "wh_main_nor_baersonling",
+    "flagKey": "vanilla/wh_main_nor_baersonling",
     "primaryColour": "#665B39"
   },
   "wh_main_nor_bjornling": {
     "key": "wh_main_nor_bjornling",
     "name": "Bjornling",
-    "flagKey": "wh_main_nor_bjornling",
+    "flagKey": "vanilla/wh_main_nor_bjornling",
     "primaryColour": "#684C56"
   },
   "wh_main_nor_graeling": {
     "key": "wh_main_nor_graeling",
     "name": "Graeling",
-    "flagKey": "wh_main_nor_graeling",
+    "flagKey": "vanilla/wh_main_nor_graeling",
     "primaryColour": "#437162"
   },
   "wh_main_nor_sarl": {
     "key": "wh_main_nor_sarl",
     "name": "Sarl",
-    "flagKey": "wh_main_nor_sarl",
+    "flagKey": "vanilla/wh_main_nor_sarl",
     "primaryColour": "#75868B"
   },
   "wh_main_vmp_schwartzhafen": {
     "key": "wh_main_vmp_schwartzhafen",
     "name": "Von Carstein",
-    "flagKey": "wh_dlc07_vmp_von_carstein",
+    "flagKey": "vanilla/wh_dlc07_vmp_von_carstein",
     "primaryColour": "#C31010"
   },
   "wh_main_nor_norsca_qb2": {
     "key": "wh_main_nor_norsca_qb2",
     "name": "Norsca",
-    "flagKey": "wh_main_nor_norsca_rebels",
+    "flagKey": "vanilla/wh_main_nor_norsca_rebels",
     "primaryColour": "#A55AB9"
   },
   "wh_main_nor_norsca_qb3": {
     "key": "wh_main_nor_norsca_qb3",
     "name": "Norsca",
-    "flagKey": "wh_main_nor_norsca_rebels",
+    "flagKey": "vanilla/wh_main_nor_norsca_rebels",
     "primaryColour": "#A55AB9"
   },
   "wh_dlc03_bst_beastmen": {
     "key": "wh_dlc03_bst_beastmen",
     "name": "Beastmen",
-    "flagKey": "wh_dlc03_bst_beastmen",
+    "flagKey": "vanilla/wh_dlc03_bst_beastmen",
     "primaryColour": "#060606"
   },
   "wh_main_emp_empire_qb4": {
     "key": "wh_main_emp_empire_qb4",
     "name": "The Empire",
-    "flagKey": "wh_main_emp_empire",
+    "flagKey": "vanilla/wh_main_emp_empire",
     "primaryColour": "#E00606"
   },
   "wh_dlc03_bst_beastmen_qb1": {
     "key": "wh_dlc03_bst_beastmen_qb1",
     "name": "Beastmen",
-    "flagKey": "wh_dlc03_bst_beastmen_rebels",
+    "flagKey": "vanilla/wh_dlc03_bst_beastmen_rebels",
     "primaryColour": "#060606"
   },
   "wh_dlc03_bst_beastmen_qb3": {
     "key": "wh_dlc03_bst_beastmen_qb3",
     "name": "Beastmen",
-    "flagKey": "wh_dlc03_bst_beastmen_rebels",
+    "flagKey": "vanilla/wh_dlc03_bst_beastmen_rebels",
     "primaryColour": "#060606"
   },
   "wh_dlc03_bst_beastmen_ally": {
     "key": "wh_dlc03_bst_beastmen_ally",
     "name": "Beastmen",
-    "flagKey": "wh_dlc03_bst_beastmen_rebels",
+    "flagKey": "vanilla/wh_dlc03_bst_beastmen_rebels",
     "primaryColour": "#060606"
   },
   "wh_dlc03_bst_redhorn": {
     "key": "wh_dlc03_bst_redhorn",
     "name": "Redhorn Tribe",
-    "flagKey": "wh_dlc03_bst_beastmen_redhorn",
+    "flagKey": "vanilla/wh_dlc03_bst_beastmen_redhorn",
     "primaryColour": "#060606"
   },
   "wh_dlc03_bst_redhorn_brayherd": {
     "key": "wh_dlc03_bst_redhorn_brayherd",
     "name": "Redhorn Tribe Brayherd",
-    "flagKey": "wh_dlc03_bst_beastmen_redhorn",
+    "flagKey": "vanilla/wh_dlc03_bst_beastmen_redhorn",
     "primaryColour": "#060606"
   },
   "wh_dlc03_bst_beastmen_chaos": {
     "key": "wh_dlc03_bst_beastmen_chaos",
     "name": "Warherd of Chaos",
-    "flagKey": "wh_dlc03_bst_beastmen_chaos",
+    "flagKey": "vanilla/wh_dlc03_bst_beastmen_chaos",
     "primaryColour": "#060606"
   },
   "wh_dlc03_bst_beastmen_chaos_brayherd": {
     "key": "wh_dlc03_bst_beastmen_chaos_brayherd",
     "name": "Brayherd of Chaos",
-    "flagKey": "wh_dlc03_bst_beastmen_chaos",
+    "flagKey": "vanilla/wh_dlc03_bst_beastmen_chaos",
     "primaryColour": "#060606"
   },
   "wh_dlc03_bst_beastmen_brayherd": {
     "key": "wh_dlc03_bst_beastmen_brayherd",
     "name": "Beastmen Brayherd",
-    "flagKey": "wh_dlc03_bst_beastmen",
+    "flagKey": "vanilla/wh_dlc03_bst_beastmen",
     "primaryColour": "#060606"
   },
   "wh_dlc03_bst_jagged_horn": {
     "key": "wh_dlc03_bst_jagged_horn",
     "name": "Jagged-Horn Tribe",
-    "flagKey": "wh_dlc03_bst_beastmen_jagged_horn",
+    "flagKey": "vanilla/wh_dlc03_bst_beastmen_jagged_horn",
     "primaryColour": "#000000"
   },
   "wh_dlc03_bst_jagged_horn_brayherd": {
     "key": "wh_dlc03_bst_jagged_horn_brayherd",
     "name": "Jagged-Horn Tribe Brayherd",
-    "flagKey": "wh_dlc03_bst_beastmen_jagged_horn",
+    "flagKey": "vanilla/wh_dlc03_bst_beastmen_jagged_horn",
     "primaryColour": "#000000"
   },
   "wh_dlc05_wef_wood_elves": {
     "key": "wh_dlc05_wef_wood_elves",
     "name": "Talsyn",
-    "flagKey": "wh_dlc05_wef_wood_elves",
+    "flagKey": "vanilla/wh_dlc05_wef_wood_elves",
     "primaryColour": "#378250"
   },
   "wh_dlc05_wef_argwylon": {
     "key": "wh_dlc05_wef_argwylon",
     "name": "Argwylon",
-    "flagKey": "wh_dlc05_wef_argwylon",
+    "flagKey": "vanilla/wh_dlc05_wef_argwylon",
     "primaryColour": "#82E63F"
   },
   "wh_dlc05_wef_torgovann": {
     "key": "wh_dlc05_wef_torgovann",
     "name": "Torgovann",
-    "flagKey": "wh_dlc05_wef_torgovann",
+    "flagKey": "vanilla/wh_dlc05_wef_torgovann",
     "primaryColour": "#721A13"
   },
   "wh_dlc05_wef_wydrioth": {
     "key": "wh_dlc05_wef_wydrioth",
     "name": "Wydrioth",
-    "flagKey": "wh_dlc05_wef_wydrioth",
+    "flagKey": "vanilla/wh_dlc05_wef_wydrioth",
     "primaryColour": "#A6D792"
   },
   "wh_dlc05_wef_wood_elves_qb1": {
     "key": "wh_dlc05_wef_wood_elves_qb1",
     "name": "Wood Elves",
-    "flagKey": "wh_dlc05_wef_wood_elves_rebels",
+    "flagKey": "vanilla/wh_dlc05_wef_wood_elves_rebels",
     "primaryColour": "#378250"
   },
   "wh_dlc05_wef_wood_elves_qb3": {
     "key": "wh_dlc05_wef_wood_elves_qb3",
     "name": "Torgovann",
-    "flagKey": "wh_dlc05_wef_torgovann",
+    "flagKey": "vanilla/wh_dlc05_wef_torgovann",
     "primaryColour": "#378250"
   },
   "wh2_main_hef_yvresse": {
     "key": "wh2_main_hef_yvresse",
     "name": "Yvresse",
-    "flagKey": "wh2_main_hef_yvresse",
+    "flagKey": "vanilla/wh2_main_hef_yvresse",
     "primaryColour": "#8FBCFA"
   },
   "wh2_main_hef_caledor": {
     "key": "wh2_main_hef_caledor",
     "name": "Caledor",
-    "flagKey": "wh2_main_hef_caledor",
+    "flagKey": "vanilla/wh2_main_hef_caledor",
     "primaryColour": "#77788E"
   },
   "wh2_main_hef_eataine": {
     "key": "wh2_main_hef_eataine",
     "name": "Eataine",
-    "flagKey": "wh2_main_hef_lothern",
+    "flagKey": "vanilla/wh2_main_hef_lothern",
     "primaryColour": "#F2F2F2"
   },
   "wh2_main_hef_tiranoc": {
     "key": "wh2_main_hef_tiranoc",
     "name": "Tiranoc",
-    "flagKey": "wh2_main_hef_tiranoc",
+    "flagKey": "vanilla/wh2_main_hef_tiranoc",
     "primaryColour": "#478AD9"
   },
   "wh2_main_hef_chrace": {
     "key": "wh2_main_hef_chrace",
     "name": "Chrace",
-    "flagKey": "wh2_main_hef_chrace",
+    "flagKey": "vanilla/wh2_main_hef_chrace",
     "primaryColour": "#FE271F"
   },
   "wh2_main_hef_nagarythe": {
     "key": "wh2_main_hef_nagarythe",
     "name": "Nagarythe",
-    "flagKey": "wh2_main_hef_nagarythe",
+    "flagKey": "vanilla/wh2_main_hef_nagarythe",
     "primaryColour": "#3D3503"
   },
   "wh2_main_hef_avelorn": {
     "key": "wh2_main_hef_avelorn",
     "name": "Avelorn",
-    "flagKey": "wh2_main_hef_avelorn",
+    "flagKey": "vanilla/wh2_main_hef_avelorn",
     "primaryColour": "#18DA3A"
   },
   "wh2_main_hef_cothique": {
     "key": "wh2_main_hef_cothique",
     "name": "Cothique",
-    "flagKey": "wh2_main_hef_cothique",
+    "flagKey": "vanilla/wh2_main_hef_cothique",
     "primaryColour": "#4B836C"
   },
   "wh2_main_hef_ellyrion": {
     "key": "wh2_main_hef_ellyrion",
     "name": "Ellyrion",
-    "flagKey": "wh2_main_hef_ellyrion",
+    "flagKey": "vanilla/wh2_main_hef_ellyrion",
     "primaryColour": "#2B4A72"
   },
   "wh2_main_hef_saphery": {
     "key": "wh2_main_hef_saphery",
     "name": "Saphery",
-    "flagKey": "wh2_main_hef_saphery",
+    "flagKey": "vanilla/wh2_main_hef_saphery",
     "primaryColour": "#244773"
   },
   "wh2_main_nor_aghol": {
     "key": "wh2_main_nor_aghol",
     "name": "Aghol",
-    "flagKey": "wh2_main_nor_aghol",
+    "flagKey": "vanilla/wh2_main_nor_aghol",
     "primaryColour": "#B05C08"
   },
   "wh2_main_nor_mung": {
     "key": "wh2_main_nor_mung",
     "name": "Mung",
-    "flagKey": "wh2_main_nor_mung",
+    "flagKey": "vanilla/wh2_main_nor_mung",
     "primaryColour": "#4F6228"
   },
   "wh2_main_lzd_hexoatl": {
     "key": "wh2_main_lzd_hexoatl",
     "name": "Hexoatl",
-    "flagKey": "wh2_main_lzd_hexoatl",
+    "flagKey": "vanilla/wh2_main_lzd_hexoatl",
     "primaryColour": "#C33509"
   },
   "wh2_main_lzd_tlaxtlan": {
     "key": "wh2_main_lzd_tlaxtlan",
     "name": "Tlaxtlan",
-    "flagKey": "wh2_main_lzd_tlaxtlan",
+    "flagKey": "vanilla/wh2_main_lzd_tlaxtlan",
     "primaryColour": "#16365C"
   },
   "wh2_main_lzd_xlanhuapec": {
     "key": "wh2_main_lzd_xlanhuapec",
     "name": "Xlanhuapec",
-    "flagKey": "wh2_main_lzd_xlanhuapec",
+    "flagKey": "vanilla/wh2_main_lzd_xlanhuapec",
     "primaryColour": "#92CDDC"
   },
   "wh2_main_lzd_last_defenders": {
     "key": "wh2_main_lzd_last_defenders",
     "name": "Last Defenders",
-    "flagKey": "wh2_main_lzd_last_defenders",
+    "flagKey": "vanilla/wh2_main_lzd_last_defenders",
     "primaryColour": "#0147AF"
   },
   "wh2_main_lzd_sentinels_of_xeti": {
     "key": "wh2_main_lzd_sentinels_of_xeti",
     "name": "Sentinels of Xeti",
-    "flagKey": "wh2_main_lzd_sentinels_of_xeti",
+    "flagKey": "vanilla/wh2_main_lzd_sentinels_of_xeti",
     "primaryColour": "#7A4CCC"
   },
   "wh2_main_emp_new_world_colonies": {
     "key": "wh2_main_emp_new_world_colonies",
     "name": "New World Colonies",
-    "flagKey": "wh2_main_emp_new_world_colonies",
+    "flagKey": "vanilla/wh2_main_emp_new_world_colonies",
     "primaryColour": "#D60000"
   },
   "wh2_main_def_har_ganeth": {
     "key": "wh2_main_def_har_ganeth",
     "name": "Har Ganeth",
-    "flagKey": "wh2_main_def_har_ganeth",
+    "flagKey": "vanilla/wh2_main_def_har_ganeth",
     "primaryColour": "#353434"
   },
   "wh2_main_def_ghrond": {
     "key": "wh2_main_def_ghrond",
     "name": "Ghrond",
-    "flagKey": "wh2_main_def_ghrond",
+    "flagKey": "vanilla/wh2_main_def_ghrond",
     "primaryColour": "#595EBC"
   },
   "wh2_main_def_cult_of_pleasure": {
     "key": "wh2_main_def_cult_of_pleasure",
     "name": "Cult of Pleasure",
-    "flagKey": "wh2_main_def_cult_of_pleasure",
+    "flagKey": "vanilla/wh2_main_def_cult_of_pleasure",
     "primaryColour": "#AB467C"
   },
   "wh2_main_def_hag_graef": {
     "key": "wh2_main_def_hag_graef",
     "name": "Hag Graef",
-    "flagKey": "wh2_main_def_hag_graef",
+    "flagKey": "vanilla/wh2_main_def_hag_graef",
     "primaryColour": "#C40102"
   },
   "wh2_main_def_clar_karond": {
     "key": "wh2_main_def_clar_karond",
     "name": "Clar Karond",
-    "flagKey": "wh2_main_def_clar_karond",
+    "flagKey": "vanilla/wh2_main_def_clar_karond",
     "primaryColour": "#B00000"
   },
   "wh2_main_def_karond_kar": {
     "key": "wh2_main_def_karond_kar",
     "name": "Karond Kar",
-    "flagKey": "wh2_main_def_karond_kar",
+    "flagKey": "vanilla/wh2_main_def_karond_kar",
     "primaryColour": "#5FC480"
   },
   "wh2_main_def_bleak_holds": {
     "key": "wh2_main_def_bleak_holds",
     "name": "Bleak Holds",
-    "flagKey": "wh2_main_def_bleak_holds",
+    "flagKey": "vanilla/wh2_main_def_bleak_holds",
     "primaryColour": "#95AE4D"
   },
   "wh2_main_def_ssildra_tor": {
     "key": "wh2_main_def_ssildra_tor",
     "name": "Ss'ildra Tor",
-    "flagKey": "wh2_main_def_ssildra_tor",
+    "flagKey": "vanilla/wh2_main_def_ssildra_tor",
     "primaryColour": "#E70000"
   },
   "wh2_main_def_drackla_coven": {
     "key": "wh2_main_def_drackla_coven",
     "name": "Drackla Coven",
-    "flagKey": "wh2_main_def_drackla_coven",
+    "flagKey": "vanilla/wh2_main_def_drackla_coven",
     "primaryColour": "#4375A4"
   },
   "wh2_main_def_blood_hall_coven": {
     "key": "wh2_main_def_blood_hall_coven",
     "name": "Blood Hall Coven",
-    "flagKey": "wh2_main_def_blood_hall_coven",
+    "flagKey": "vanilla/wh2_main_def_blood_hall_coven",
     "primaryColour": "#443534"
   },
   "wh2_main_vmp_necrarch_brotherhood": {
     "key": "wh2_main_vmp_necrarch_brotherhood",
     "name": "Necrarch Brotherhood",
-    "flagKey": "wh2_main_vmp_necrarch_brotherhood",
+    "flagKey": "vanilla/wh2_main_vmp_necrarch_brotherhood",
     "primaryColour": "#694B79"
   },
   "wh2_main_dwf_karak_zorn": {
     "key": "wh2_main_dwf_karak_zorn",
     "name": "Karak Zorn",
-    "flagKey": "wh2_main_dwf_karak_zorn",
+    "flagKey": "vanilla/wh2_main_dwf_karak_zorn",
     "primaryColour": "#AA0000"
   },
   "wh2_main_grn_arachnos": {
     "key": "wh2_main_grn_arachnos",
     "name": "Arachnos",
-    "flagKey": "wh2_main_grn_arachnos",
+    "flagKey": "vanilla/wh2_main_grn_arachnos",
     "primaryColour": "#4B7852"
   },
   "wh2_main_brt_knights_of_origo": {
     "key": "wh2_main_brt_knights_of_origo",
     "name": "Knights of Origo",
-    "flagKey": "wh2_main_brt_knights_of_origo",
+    "flagKey": "vanilla/wh2_main_brt_knights_of_origo",
     "primaryColour": "#D60000"
   },
   "wh2_main_hef_citadel_of_dusk": {
     "key": "wh2_main_hef_citadel_of_dusk",
     "name": "Citadel of Dusk",
-    "flagKey": "wh2_main_hef_citadel_of_dusk",
+    "flagKey": "vanilla/wh2_main_hef_citadel_of_dusk",
     "primaryColour": "#204674"
   },
   "wh2_main_hef_tor_elasor": {
     "key": "wh2_main_hef_tor_elasor",
     "name": "Tor Elasor",
-    "flagKey": "wh2_main_hef_tor_elasor",
+    "flagKey": "vanilla/wh2_main_hef_tor_elasor",
     "primaryColour": "#FFFFFF"
   },
   "wh2_main_lzd_southern_sentinels": {
     "key": "wh2_main_lzd_southern_sentinels",
     "name": "Southern Sentinels",
-    "flagKey": "wh2_main_lzd_southern_sentinels",
+    "flagKey": "vanilla/wh2_main_lzd_southern_sentinels",
     "primaryColour": "#3D8F58"
   },
   "wh2_main_lzd_zlatan": {
     "key": "wh2_main_lzd_zlatan",
     "name": "Zlatlan",
-    "flagKey": "wh2_main_lzd_zlatan",
+    "flagKey": "vanilla/wh2_main_lzd_zlatan",
     "primaryColour": "#FFC000"
   },
   "wh2_main_wef_bowmen_of_oreon": {
     "key": "wh2_main_wef_bowmen_of_oreon",
     "name": "Bowmen of Oreon",
-    "flagKey": "wh2_main_wef_oreon",
+    "flagKey": "vanilla/wh2_main_wef_oreon",
     "primaryColour": "#EDE5DF"
   },
   "wh2_main_hef_order_of_loremasters": {
     "key": "wh2_main_hef_order_of_loremasters",
     "name": "Order of Loremasters",
-    "flagKey": "wh2_main_hef_order_of_loremasters",
+    "flagKey": "vanilla/wh2_main_hef_order_of_loremasters",
     "primaryColour": "#BE1A0F"
   },
   "wh2_main_def_naggarond": {
     "key": "wh2_main_def_naggarond",
     "name": "Naggarond",
-    "flagKey": "wh2_main_def_naggarond",
+    "flagKey": "vanilla/wh2_main_def_naggarond",
     "primaryColour": "#923E8F"
   },
   "wh2_main_skv_clan_pestilens": {
     "key": "wh2_main_skv_clan_pestilens",
     "name": "Clan Pestilens",
-    "flagKey": "wh2_main_skv_clan_pestilens",
+    "flagKey": "vanilla/wh2_main_skv_clan_pestilens",
     "primaryColour": "#3F6632"
   },
   "wh2_main_skv_clan_moulder": {
     "key": "wh2_main_skv_clan_moulder",
     "name": "Clan Moulder",
-    "flagKey": "wh2_main_skv_clan_moulder",
+    "flagKey": "vanilla/wh2_main_skv_clan_moulder",
     "primaryColour": "#D2C804"
   },
   "wh2_main_skv_clan_eshin": {
     "key": "wh2_main_skv_clan_eshin",
     "name": "Clan Eshin",
-    "flagKey": "wh2_main_skv_clan_eshin",
+    "flagKey": "vanilla/wh2_main_skv_clan_eshin",
     "primaryColour": "#19201E"
   },
   "wh2_main_skv_clan_skyre": {
     "key": "wh2_main_skv_clan_skyre",
     "name": "Clan Skryre",
-    "flagKey": "wh2_main_skv_clan_skyre",
+    "flagKey": "vanilla/wh2_main_skv_clan_skyre",
     "primaryColour": "#B0A373"
   },
   "wh2_main_skv_clan_gnaw": {
     "key": "wh2_main_skv_clan_gnaw",
     "name": "Clan Gnaw",
-    "flagKey": "wh2_main_skv_clan_gnaw",
+    "flagKey": "vanilla/wh2_main_skv_clan_gnaw",
     "primaryColour": "#A04C0A"
   },
   "wh2_main_skv_clan_mors": {
     "key": "wh2_main_skv_clan_mors",
     "name": "Clan Mors",
-    "flagKey": "wh2_main_skv_clan_mors",
+    "flagKey": "vanilla/wh2_main_skv_clan_mors",
     "primaryColour": "#C42810"
   },
   "wh2_main_bst_blooded_axe": {
     "key": "wh2_main_bst_blooded_axe",
     "name": "Blooded-Axe Tribe",
-    "flagKey": "wh2_main_bst_blooded_axe",
+    "flagKey": "vanilla/wh2_main_bst_blooded_axe",
     "primaryColour": "#000000"
   },
   "wh2_main_bst_blooded_axe_brayherd": {
     "key": "wh2_main_bst_blooded_axe_brayherd",
     "name": "Blooded-Axe Tribe Brayherd",
-    "flagKey": "wh2_main_bst_blooded_axe",
+    "flagKey": "vanilla/wh2_main_bst_blooded_axe",
     "primaryColour": "#000000"
   },
   "wh2_main_bst_manblight": {
     "key": "wh2_main_bst_manblight",
     "name": "Manblight Tribe",
-    "flagKey": "wh2_main_bst_manblight",
+    "flagKey": "vanilla/wh2_main_bst_manblight",
     "primaryColour": "#000000"
   },
   "wh2_main_bst_manblight_brayherd": {
     "key": "wh2_main_bst_manblight_brayherd",
     "name": "Manblight Tribe Brayherd",
-    "flagKey": "wh2_main_bst_manblight",
+    "flagKey": "vanilla/wh2_main_bst_manblight",
     "primaryColour": "#000000"
   },
   "wh2_main_bst_ripper_horn": {
     "key": "wh2_main_bst_ripper_horn",
     "name": "Ripper-Horn Tribe",
-    "flagKey": "wh_dlc03_bst_beastmen_ripper_horn",
+    "flagKey": "vanilla/wh_dlc03_bst_beastmen_ripper_horn",
     "primaryColour": "#000000"
   },
   "wh2_main_bst_ripper_horn_brayherd": {
     "key": "wh2_main_bst_ripper_horn_brayherd",
     "name": "Ripper-Horn Tribe Brayherd",
-    "flagKey": "wh_dlc03_bst_beastmen_ripper_horn",
+    "flagKey": "vanilla/wh_dlc03_bst_beastmen_ripper_horn",
     "primaryColour": "#000000"
   },
   "wh2_main_bst_shadowgor": {
     "key": "wh2_main_bst_shadowgor",
     "name": "Shadowgor Warherd",
-    "flagKey": "wh_dlc03_bst_beastmen_shadowgor",
+    "flagKey": "vanilla/wh_dlc03_bst_beastmen_shadowgor",
     "primaryColour": "#000000"
   },
   "wh2_main_bst_shadowgor_brayherd": {
     "key": "wh2_main_bst_shadowgor_brayherd",
     "name": "Shadowgor Brayherd",
-    "flagKey": "wh_dlc03_bst_beastmen_shadowgor",
+    "flagKey": "vanilla/wh_dlc03_bst_beastmen_shadowgor",
     "primaryColour": "#000000"
   },
   "wh2_main_bst_skrinderkin": {
     "key": "wh2_main_bst_skrinderkin",
     "name": "Skrinderkin Warherd",
-    "flagKey": "wh_dlc03_bst_beastmen_skrinderkin",
+    "flagKey": "vanilla/wh_dlc03_bst_beastmen_skrinderkin",
     "primaryColour": "#000000"
   },
   "wh2_main_bst_skrinderkin_brayherd": {
     "key": "wh2_main_bst_skrinderkin_brayherd",
     "name": "Skrinderkin Brayherd",
-    "flagKey": "wh_dlc03_bst_beastmen_skrinderkin",
+    "flagKey": "vanilla/wh_dlc03_bst_beastmen_skrinderkin",
     "primaryColour": "#000000"
   },
   "wh2_main_bst_stone_horn": {
     "key": "wh2_main_bst_stone_horn",
     "name": "Stone-Horn Tribe",
-    "flagKey": "wh2_main_bst_stone_horn",
+    "flagKey": "vanilla/wh2_main_bst_stone_horn",
     "primaryColour": "#000000"
   },
   "wh2_main_bst_stone_horn_brayherd": {
     "key": "wh2_main_bst_stone_horn_brayherd",
     "name": "Stone-Horn Tribe Brayherd",
-    "flagKey": "wh2_main_bst_stone_horn",
+    "flagKey": "vanilla/wh2_main_bst_stone_horn",
     "primaryColour": "#000000"
   },
   "wh2_main_def_cult_of_excess": {
     "key": "wh2_main_def_cult_of_excess",
     "name": "Cult of Excess",
-    "flagKey": "wh2_main_def_cult_of_excess",
+    "flagKey": "vanilla/wh2_main_def_cult_of_excess",
     "primaryColour": "#C900EB"
   },
   "wh2_main_vmp_strygos_empire": {
     "key": "wh2_main_vmp_strygos_empire",
     "name": "Strygos Empire",
-    "flagKey": "wh2_main_vmp_strygos_empire",
+    "flagKey": "vanilla/wh2_main_vmp_strygos_empire",
     "primaryColour": "#24577A"
   },
   "wh2_main_def_scourge_of_khaine": {
     "key": "wh2_main_def_scourge_of_khaine",
     "name": "Scourge of Khaine",
-    "flagKey": "wh2_main_def_scourge_of_khaine",
+    "flagKey": "vanilla/wh2_main_def_scourge_of_khaine",
     "primaryColour": "#FF7900"
   },
   "wh2_main_dwf_greybeards_prospectors": {
     "key": "wh2_main_dwf_greybeards_prospectors",
     "name": "Greybeard's Prospectors",
-    "flagKey": "wh2_main_dwf_greybeards_prospectors",
+    "flagKey": "vanilla/wh2_main_dwf_greybeards_prospectors",
     "primaryColour": "#F4BA02"
   },
   "wh2_main_brt_thegans_crusaders": {
     "key": "wh2_main_brt_thegans_crusaders",
     "name": "Thegan's Errantry",
-    "flagKey": "wh2_main_brt_thegans_crusaders",
+    "flagKey": "vanilla/wh2_main_brt_thegans_crusaders",
     "primaryColour": "#4F81BD"
   },
   "wh2_main_brt_knights_of_the_flame": {
     "key": "wh2_main_brt_knights_of_the_flame",
     "name": "Knights of the Flame",
-    "flagKey": "wh2_main_brt_knights_of_the_flame",
+    "flagKey": "vanilla/wh2_main_brt_knights_of_the_flame",
     "primaryColour": "#FFFDE7"
   },
   "wh2_main_skv_clan_septik": {
     "key": "wh2_main_skv_clan_septik",
     "name": "Clan Septik",
-    "flagKey": "wh2_main_skv_clan_septik",
+    "flagKey": "vanilla/wh2_main_skv_clan_septik",
     "primaryColour": "#50924E"
   },
   "wh2_main_lzd_teotiqua": {
     "key": "wh2_main_lzd_teotiqua",
     "name": "Teotiqua",
-    "flagKey": "wh2_main_lzd_teotiqua",
+    "flagKey": "vanilla/wh2_main_lzd_teotiqua",
     "primaryColour": "#00B0F0"
   },
   "wh2_main_vmp_the_silver_host": {
     "key": "wh2_main_vmp_the_silver_host",
     "name": "The Silver Host",
-    "flagKey": "wh2_main_vmp_the_silver_host",
+    "flagKey": "vanilla/wh2_main_vmp_the_silver_host",
     "primaryColour": "#D9D9D9"
   },
   "wh2_main_def_deadwood_sentinels": {
     "key": "wh2_main_def_deadwood_sentinels",
     "name": "Deadwood Sentinels",
-    "flagKey": "wh2_main_def_deadwood_sentinels",
+    "flagKey": "vanilla/wh2_main_def_deadwood_sentinels",
     "primaryColour": "#C7D5CC"
   },
   "wh2_main_def_the_forgebound": {
     "key": "wh2_main_def_the_forgebound",
     "name": "The Forgebound",
-    "flagKey": "wh2_main_def_the_forgebound",
+    "flagKey": "vanilla/wh2_main_def_the_forgebound",
     "primaryColour": "#9859CB"
   },
   "wh2_main_skv_clan_spittel": {
     "key": "wh2_main_skv_clan_spittel",
     "name": "Clan Spittel",
-    "flagKey": "wh2_main_skv_clan_spittel",
+    "flagKey": "vanilla/wh2_main_skv_clan_spittel",
     "primaryColour": "#3A7F6E"
   },
   "wh2_main_nor_hung_incursion_hef": {
     "key": "wh2_main_nor_hung_incursion_hef",
     "name": "Warband of the Eagle",
-    "flagKey": "wh2_main_nor_warband_of_the_eagle",
+    "flagKey": "vanilla/wh2_main_nor_warband_of_the_eagle",
     "primaryColour": "#631CAE"
   },
   "wh2_main_hef_high_elves_qb1": {
     "key": "wh2_main_hef_high_elves_qb1",
     "name": "High Elves",
-    "flagKey": "wh2_main_hef_high_elves_rebels",
+    "flagKey": "vanilla/wh2_main_hef_high_elves_rebels",
     "primaryColour": "#DB2723"
   },
   "wh2_main_def_dark_elves_qb1": {
     "key": "wh2_main_def_dark_elves_qb1",
     "name": "Dark Elves",
-    "flagKey": "wh2_main_def_dark_elves_rebels",
+    "flagKey": "vanilla/wh2_main_def_dark_elves_rebels",
     "primaryColour": "#DACCDA"
   },
   "wh2_main_skv_skaven_qb1": {
     "key": "wh2_main_skv_skaven_qb1",
     "name": "Skaven",
-    "flagKey": "wh2_main_skv_skaven_rebels",
+    "flagKey": "vanilla/wh2_main_skv_skaven_rebels",
     "primaryColour": "#9F700C"
   },
   "wh2_main_chs_chaos_incursion_def": {
     "key": "wh2_main_chs_chaos_incursion_def",
     "name": "Servants to Chaos",
-    "flagKey": "wh2_main_chs_servants_to_chaos",
+    "flagKey": "vanilla/wh2_main_chs_servants_to_chaos",
     "primaryColour": "#29282E"
   },
   "wh2_main_nor_hung_incursion_def": {
     "key": "wh2_main_nor_hung_incursion_def",
     "name": "Warband of the Hound",
-    "flagKey": "wh2_main_nor_warband_of_the_hound",
+    "flagKey": "vanilla/wh2_main_nor_warband_of_the_hound",
     "primaryColour": "#631CAE"
   },
   "wh2_main_nor_hung_incursion_lzd": {
     "key": "wh2_main_nor_hung_incursion_lzd",
     "name": "Warband of the Serpent",
-    "flagKey": "wh2_main_nor_warband_of_the_serpent",
+    "flagKey": "vanilla/wh2_main_nor_warband_of_the_serpent",
     "primaryColour": "#631CAE"
   },
   "wh2_main_chs_chaos_incursion_skv": {
     "key": "wh2_main_chs_chaos_incursion_skv",
     "name": "Followers of Chaos",
-    "flagKey": "wh2_main_chs_followers_of_chaos",
+    "flagKey": "vanilla/wh2_main_chs_followers_of_chaos",
     "primaryColour": "#29282E"
   },
   "wh2_main_nor_hung_incursion_skv": {
     "key": "wh2_main_nor_hung_incursion_skv",
     "name": "Warband of the Crow",
-    "flagKey": "wh2_main_nor_warband_of_the_crow",
+    "flagKey": "vanilla/wh2_main_nor_warband_of_the_crow",
     "primaryColour": "#631CAE"
   },
   "wh2_main_grn_blue_vipers": {
     "key": "wh2_main_grn_blue_vipers",
     "name": "Blue Vipers",
-    "flagKey": "wh2_main_grn_blue_vipers",
+    "flagKey": "vanilla/wh2_main_grn_blue_vipers",
     "primaryColour": "#01B1FF"
   },
   "wh2_main_lzd_itza": {
     "key": "wh2_main_lzd_itza",
     "name": "Itza",
-    "flagKey": "wh2_main_lzd_itza",
+    "flagKey": "vanilla/wh2_main_lzd_itza",
     "primaryColour": "#F2F2F2"
   },
   "wh2_main_hef_fortress_of_dawn": {
     "key": "wh2_main_hef_fortress_of_dawn",
     "name": "Fortress of Dawn",
-    "flagKey": "wh2_main_hef_fortress_of_dawn",
+    "flagKey": "vanilla/wh2_main_hef_fortress_of_dawn",
     "primaryColour": "#FEFA72"
   },
   "wh_dlc08_nor_naglfarlings": {
     "key": "wh_dlc08_nor_naglfarlings",
     "name": "Naglfarlings",
-    "flagKey": "wh_dlc08_nor_naglfarlings",
+    "flagKey": "vanilla/wh_dlc08_nor_naglfarlings",
     "primaryColour": "#B3838E"
   },
   "wh2_main_rogue_worldroot_rangers": {
     "key": "wh2_main_rogue_worldroot_rangers",
     "name": "Worldroot Rangers",
-    "flagKey": "wh2_main_rogue_wrath_of_nature",
+    "flagKey": "vanilla/wh2_main_rogue_wrath_of_nature",
     "primaryColour": "#800000"
   },
   "wh2_dlc14_brt_chevaliers_de_lyonesse": {
     "key": "wh2_dlc14_brt_chevaliers_de_lyonesse",
     "name": "Chevaliers de Lyonesse",
-    "flagKey": "wh_dlc14_brt_chevaliers_de_lyonesse",
+    "flagKey": "vanilla/wh_dlc14_brt_chevaliers_de_lyonesse",
     "primaryColour": "#C5BF96"
   },
   "wh2_dlc11_cst_shanty_middle_sea_brigands": {
     "key": "wh2_dlc11_cst_shanty_middle_sea_brigands",
     "name": "Middle Sea Brigands",
-    "flagKey": "wh2_dlc11_cst_shanty_middle_sea_brigands",
+    "flagKey": "vanilla/wh2_dlc11_cst_shanty_middle_sea_brigands",
     "primaryColour": "#800000"
   },
   "wh2_main_skv_skaven_qb3": {
     "key": "wh2_main_skv_skaven_qb3",
     "name": "Skaven",
-    "flagKey": "wh2_main_skv_skaven_rebels",
+    "flagKey": "vanilla/wh2_main_skv_skaven_rebels",
     "primaryColour": "#9F700C"
   },
   "wh2_main_hef_high_elves_qb2": {
     "key": "wh2_main_hef_high_elves_qb2",
     "name": "High Elves",
-    "flagKey": "wh2_main_hef_high_elves_rebels",
+    "flagKey": "vanilla/wh2_main_hef_high_elves_rebels",
     "primaryColour": "#DB2723"
   },
   "wh2_dlc14_grn_red_cloud": {
     "key": "wh2_dlc14_grn_red_cloud",
     "name": "Red Cloud",
-    "flagKey": "wh2_dlc14_grn_red_cloud",
+    "flagKey": "vanilla/wh2_dlc14_grn_red_cloud",
     "primaryColour": "#EDE5DF"
   },
   "wh2_main_rogue_hung_warband": {
     "key": "wh2_main_rogue_hung_warband",
     "name": "Hung Warband",
-    "flagKey": "wh2_main_rogue_hung_warband",
+    "flagKey": "vanilla/wh2_main_rogue_hung_warband",
     "primaryColour": "#800000"
   },
   "wh2_main_rogue_def_mengils_manflayers": {
     "key": "wh2_main_rogue_def_mengils_manflayers",
     "name": "Mengil's Manflayers",
-    "flagKey": "wh2_main_rogue_mengil_manhide",
+    "flagKey": "vanilla/wh2_main_rogue_mengil_manhide",
     "primaryColour": "#800000"
   },
   "wh2_main_def_dark_elves_intervention": {
     "key": "wh2_main_def_dark_elves_intervention",
     "name": "Dark Elf Intervention",
-    "flagKey": "wh2_main_def_naggarond_intervention",
+    "flagKey": "vanilla/wh2_main_def_naggarond_intervention",
     "primaryColour": "#923E8F"
   },
   "wh2_main_rogue_beastcatchas": {
     "key": "wh2_main_rogue_beastcatchas",
     "name": "Beastcatchas",
-    "flagKey": "wh2_main_rogue_beastcatchas",
+    "flagKey": "vanilla/wh2_main_rogue_beastcatchas",
     "primaryColour": "#800000"
   },
   "wh2_dlc11_cst_rogue_terrors_of_the_dark_straights": {
     "key": "wh2_dlc11_cst_rogue_terrors_of_the_dark_straights",
     "name": "The Terrors of the Dark Straits",
-    "flagKey": "wh2_dlc11_cst_rogue_terrors_of_the_dark_straights",
+    "flagKey": "vanilla/wh2_dlc11_cst_rogue_terrors_of_the_dark_straights",
     "primaryColour": "#800000"
   },
   "wh2_dlc11_cst_rogue_bleak_coast_buccaneers": {
     "key": "wh2_dlc11_cst_rogue_bleak_coast_buccaneers",
     "name": "Bleak Coast Buccaneers",
-    "flagKey": "wh2_dlc11_cst_rogue_bleak_coast_buccaneers",
+    "flagKey": "vanilla/wh2_dlc11_cst_rogue_bleak_coast_buccaneers",
     "primaryColour": "#800000"
   },
   "wh2_dlc11_vmp_the_barrow_legion": {
     "key": "wh2_dlc11_vmp_the_barrow_legion",
     "name": "The Barrow Legion",
-    "flagKey": "wh2_dlc11_vmp_the_barrow_legion",
+    "flagKey": "vanilla/wh2_dlc11_vmp_the_barrow_legion",
     "primaryColour": "#43728C"
   },
   "wh2_dlc12_lzd_cult_of_sotek": {
     "key": "wh2_dlc12_lzd_cult_of_sotek",
     "name": "Cult of Sotek",
-    "flagKey": "wh2_dlc12_lzd_cult_of_sotek",
+    "flagKey": "vanilla/wh2_dlc12_lzd_cult_of_sotek",
     "primaryColour": "#1C1C1C"
   },
   "wh2_dlc09_rogue_dwellers_of_zardok": {
     "key": "wh2_dlc09_rogue_dwellers_of_zardok",
     "name": "Dwellers of Zardok",
-    "flagKey": "wh2_dlc09_rogue_dwellers_of_zardok",
+    "flagKey": "vanilla/wh2_dlc09_rogue_dwellers_of_zardok",
     "primaryColour": "#800000"
   },
   "wh2_dlc13_emp_the_huntmarshals_expedition": {
     "key": "wh2_dlc13_emp_the_huntmarshals_expedition",
     "name": "The Huntsmarshal's Expedition",
-    "flagKey": "wh2_dlc13_emp_the_huntmarshals_expedition",
+    "flagKey": "vanilla/wh2_dlc13_emp_the_huntmarshals_expedition",
     "primaryColour": "#FFC015"
   },
   "wh2_main_def_dark_elves_qb4": {
     "key": "wh2_main_def_dark_elves_qb4",
     "name": "Dark Elves",
-    "flagKey": "wh2_main_def_dark_elves_rebels",
+    "flagKey": "vanilla/wh2_main_def_dark_elves_rebels",
     "primaryColour": "#DACCDA"
   },
   "wh2_main_def_cult_of_pleasure_separatists": {
     "key": "wh2_main_def_cult_of_pleasure_separatists",
     "name": "Cult of Pleasure Separatists",
-    "flagKey": "wh2_main_def_cult_of_pleasure_separatists",
+    "flagKey": "vanilla/wh2_main_def_cult_of_pleasure_separatists",
     "primaryColour": "#7E7E7E"
   },
   "wh2_dlc13_lzd_spirits_of_the_jungle": {
     "key": "wh2_dlc13_lzd_spirits_of_the_jungle",
     "name": "Spirit of the Jungle",
-    "flagKey": "wh2_dlc13_lzd_spirits_of_the_jungle",
+    "flagKey": "vanilla/wh2_dlc13_lzd_spirits_of_the_jungle",
     "primaryColour": "#6F86A8"
   },
   "wh_dlc08_nor_norsca": {
     "key": "wh_dlc08_nor_norsca",
     "name": "World Walkers",
-    "flagKey": "wh_dlc08_nor_norsca",
+    "flagKey": "vanilla/wh_dlc08_nor_norsca",
     "primaryColour": "#CA9602"
   },
   "wh2_dlc11_brt_bretonnia_dil": {
     "key": "wh2_dlc11_brt_bretonnia_dil",
     "name": "Bretonnian Merchants",
-    "flagKey": "wh_main_brt_bretonnia_rebels",
+    "flagKey": "vanilla/wh_main_brt_bretonnia_rebels",
     "primaryColour": "#F8F4E4"
   },
   "wh2_main_rogue_teef_snatchaz": {
     "key": "wh2_main_rogue_teef_snatchaz",
     "name": "Teef Snatchaz",
-    "flagKey": "wh2_main_rogue_troll_skullz",
+    "flagKey": "vanilla/wh2_main_rogue_troll_skullz",
     "primaryColour": "#800000"
   },
   "wh2_dlc09_tmb_tombking_qb1": {
     "key": "wh2_dlc09_tmb_tombking_qb1",
     "name": "Tomb Kings",
-    "flagKey": "wh2_dlc09_tmb_tomb_kings_rebels",
+    "flagKey": "vanilla/wh2_dlc09_tmb_tomb_kings_rebels",
     "primaryColour": "#393530"
   },
   "wh_dlc08_chs_chaos_challenger_tzeentch": {
     "key": "wh_dlc08_chs_chaos_challenger_tzeentch",
     "name": "Challenger of the Eagle",
-    "flagKey": "wh_dlc08_chs_challenger_of_the_eagle",
+    "flagKey": "vanilla/wh_dlc08_chs_challenger_of_the_eagle",
     "primaryColour": "#91A4AD"
   },
   "wh2_dlc15_skv_clan_ferrik": {
     "key": "wh2_dlc15_skv_clan_ferrik",
     "name": "Clan Ferrik",
-    "flagKey": "wh2_dlc15_skv_clan_ferrik",
+    "flagKey": "vanilla/wh2_dlc15_skv_clan_ferrik",
     "primaryColour": "#1A2539"
   },
   "wh_dlc08_chs_chaos_challenger_nurgle": {
     "key": "wh_dlc08_chs_chaos_challenger_nurgle",
     "name": "Challenger of the Crow",
-    "flagKey": "wh_dlc08_chs_challenger_of_the_crow",
+    "flagKey": "vanilla/wh_dlc08_chs_challenger_of_the_crow",
     "primaryColour": "#7B784F"
   },
   "wh_main_dwf_dwarfs_qb3": {
     "key": "wh_main_dwf_dwarfs_qb3",
     "name": "Dwarfs",
-    "flagKey": "wh_main_dwf_dwarfs_rebels",
+    "flagKey": "vanilla/wh_main_dwf_dwarfs_rebels",
     "primaryColour": "#B12801"
   },
   "wh2_main_rogue_the_wandering_dead": {
     "key": "wh2_main_rogue_the_wandering_dead",
     "name": "The Wandering Dead",
-    "flagKey": "wh2_main_rogue_mourkain",
+    "flagKey": "vanilla/wh2_main_rogue_mourkain",
     "primaryColour": "#800000"
   },
   "wh2_dlc14_lzd_itz_itza_tribe": {
     "key": "wh2_dlc14_lzd_itz_itza_tribe",
     "name": "Itz-Itza Tribe",
-    "flagKey": "wh2_dlc14_lzd_itz_itza_tribe",
+    "flagKey": "vanilla/wh2_dlc14_lzd_itz_itza_tribe",
     "primaryColour": "#EDE5DF"
   },
   "wh2_main_rogue_pirates_of_the_far_sea": {
     "key": "wh2_main_rogue_pirates_of_the_far_sea",
     "name": "Pirates of the Far Sea",
-    "flagKey": "wh2_main_rogue_pirates_trantio",
+    "flagKey": "vanilla/wh2_main_rogue_pirates_trantio",
     "primaryColour": "#800000"
   },
   "wh2_main_skv_clan_eshin_separatists": {
     "key": "wh2_main_skv_clan_eshin_separatists",
     "name": "Clan Eshin Separatists",
-    "flagKey": "wh2_main_skv_clan_eshin_separatists",
+    "flagKey": "vanilla/wh2_main_skv_clan_eshin_separatists",
     "primaryColour": "#5B5B5B"
   },
   "wh2_dlc09_tmb_lybaras": {
     "key": "wh2_dlc09_tmb_lybaras",
     "name": "Court of Lybaras",
-    "flagKey": "wh2_dlc09_tmb_lybaras",
+    "flagKey": "vanilla/wh2_dlc09_tmb_lybaras",
     "primaryColour": "#BAB6A3"
   },
   "wh_dlc08_chs_chaos_challenger_nurgle_qb": {
     "key": "wh_dlc08_chs_chaos_challenger_nurgle_qb",
     "name": "Challenger of the Crow",
-    "flagKey": "wh_dlc08_chs_challenger_of_the_crow",
+    "flagKey": "vanilla/wh_dlc08_chs_challenger_of_the_crow",
     "primaryColour": "#7B784F"
   },
   "wh2_main_rogue_scions_of_tesseninck": {
     "key": "wh2_main_rogue_scions_of_tesseninck",
     "name": "Scions of Tesseninck",
-    "flagKey": "wh2_main_rogue_pirates_trantio",
+    "flagKey": "vanilla/wh2_main_rogue_pirates_trantio",
     "primaryColour": "#800000"
   },
   "wh2_dlc09_rogue_pilgrims_of_myrmidia": {
     "key": "wh2_dlc09_rogue_pilgrims_of_myrmidia",
     "name": "Pilgrims of Myrmidia",
-    "flagKey": "wh2_dlc09_rogue_pilgrims_of_myrmidia",
+    "flagKey": "vanilla/wh2_dlc09_rogue_pilgrims_of_myrmidia",
     "primaryColour": "#800000"
   },
   "wh_dlc08_nor_vanaheimlings": {
     "key": "wh_dlc08_nor_vanaheimlings",
     "name": "Vanaheimlings",
-    "flagKey": "wh_dlc08_nor_vanaheimlings",
+    "flagKey": "vanilla/wh_dlc08_nor_vanaheimlings",
     "primaryColour": "#C6B529"
   },
   "wh2_dlc09_tmb_khemri": {
     "key": "wh2_dlc09_tmb_khemri",
     "name": "Khemri",
-    "flagKey": "wh2_dlc09_tmb_khemri",
+    "flagKey": "vanilla/wh2_dlc09_tmb_khemri",
     "primaryColour": "#5CAECA"
   },
   "wh2_dlc11_cst_harpoon_the_sunken_land_corsairs": {
     "key": "wh2_dlc11_cst_harpoon_the_sunken_land_corsairs",
     "name": "The Sunken Land Corsairs",
-    "flagKey": "wh2_dlc11_cst_harpoon_the_sunken_land_corsairs",
+    "flagKey": "vanilla/wh2_dlc11_cst_harpoon_the_sunken_land_corsairs",
     "primaryColour": "#800000"
   },
   "wh2_main_rogue_vauls_expedition": {
     "key": "wh2_main_rogue_vauls_expedition",
     "name": "Vaul's Expedition",
-    "flagKey": "wh2_main_rogue_tor_elesor",
+    "flagKey": "vanilla/wh2_main_rogue_tor_elesor",
     "primaryColour": "#800000"
   },
   "wh2_dlc14_skv_rictus_clan_nest": {
     "key": "wh2_dlc14_skv_rictus_clan_nest",
     "name": "Rictus Clan-Nest",
-    "flagKey": "wh2_dlc14_skv_rictus_clan_nest",
+    "flagKey": "vanilla/wh2_dlc14_skv_rictus_clan_nest",
     "primaryColour": "#796A3A"
   },
   "wh2_dlc13_bst_beastmen_invasion": {
     "key": "wh2_dlc13_bst_beastmen_invasion",
     "name": "Beastmen",
-    "flagKey": "wh_dlc03_bst_beastmen_rebels",
+    "flagKey": "vanilla/wh_dlc03_bst_beastmen_rebels",
     "primaryColour": "#060606"
   },
   "wh2_dlc11_cst_the_drowned_separatists": {
     "key": "wh2_dlc11_cst_the_drowned_separatists",
     "name": "The Drowned Separatists",
-    "flagKey": "wh2_dlc11_cst_the_drowned_separatists",
+    "flagKey": "vanilla/wh2_dlc11_cst_the_drowned_separatists",
     "primaryColour": "#153347"
   },
   "wh2_main_rogue_morrsliebs_howlers": {
     "key": "wh2_main_rogue_morrsliebs_howlers",
     "name": "Morrslieb's Howlers",
-    "flagKey": "wh2_main_rogue_morrslieb",
+    "flagKey": "vanilla/wh2_main_rogue_morrslieb",
     "primaryColour": "#800000"
   },
   "wh_dlc08_nor_helspire_tribe": {
     "key": "wh_dlc08_nor_helspire_tribe",
     "name": "Helspire Tribe",
-    "flagKey": "wh_dlc08_nor_helspire",
+    "flagKey": "vanilla/wh_dlc08_nor_helspire",
     "primaryColour": "#B04726"
   }
 }
