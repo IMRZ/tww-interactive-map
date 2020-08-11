@@ -1,0 +1,62 @@
+{
+  "wh2_main_amz_amazons": {
+    "key": "wh2_main_amz_amazons",
+    "name": "Amazons of Kalith",
+    "flagKey": "ovn/wh2_main_amz_amazons",
+    "primaryColour": "#000001"
+  },
+  "wh2_main_arb_aswad_scythans": {
+    "key": "wh2_main_arb_aswad_scythans",
+    "name": "Aswad Scythans",
+    "flagKey": "ovn/wh2_main_arb_aswad_scythans",
+    "primaryColour": "#000001"
+  },
+  "wh2_main_arb_caliphate_of_araby": {
+    "key": "wh2_main_arb_caliphate_of_araby",
+    "name": "Caliphate of Araby",
+    "flagKey": "ovn/wh2_main_arb_caliphate_of_araby",
+    "primaryColour": "#000001"
+  },
+  "wh2_main_arb_flaming_scimitar": {
+    "key": "wh2_main_arb_flaming_scimitar",
+    "name": "Flaming Scimitar",
+    "flagKey": "ovn/wh2_main_arb_flaming_scimitar",
+    "primaryColour": "#000001"
+  },
+  "wh2_main_emp_grudgebringers": {
+    "key": "wh2_main_emp_grudgebringers",
+    "name": "Grudgebringers",
+    "flagKey": "ovn/wh2_main_emp_grudgebringers",
+    "primaryColour": "#000001"
+  },
+  "wh2_main_emp_the_moot": {
+    "key": "wh2_main_emp_the_moot",
+    "name": "Mootland",
+    "flagKey": "ovn/wh2_main_emp_the_moot",
+    "primaryColour": "#000001"
+  },
+  "wh2_main_nor_albion": {
+    "key": "wh2_main_nor_albion",
+    "name": "Truthsayers of Albion",
+    "flagKey": "ovn/wh2_main_nor_albion",
+    "primaryColour": "#000001"
+  },
+  "wh2_main_nor_trollz": {
+    "key": "wh2_main_nor_trollz",
+    "name": "Ugma Tribe",
+    "flagKey": "ovn/wh2_main_nor_trollz",
+    "primaryColour": "#000001"
+  },
+  "wh2_main_wef_treeblood": {
+    "key": "wh2_main_wef_treeblood",
+    "name": "Killing Eye of Ghost Fells",
+    "flagKey": "ovn/wh2_main_wef_treeblood",
+    "primaryColour": "#000001"
+  },
+  "wh2_main_ovn_chaos_dwarfs": {
+    "key": "wh2_main_ovn_chaos_dwarfs",
+    "name": "Slavers of Zharr-Naggrund",
+    "flagKey": "ovn/wh2_main_ovn_chaos_dwarfs",
+    "primaryColour": "#000001"
+  }
+}

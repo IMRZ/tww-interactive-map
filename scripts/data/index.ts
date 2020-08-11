@@ -44,5 +44,5 @@ Object.values(maps).forEach(async (map) => {
 });
 
 outputJson('../../src/data/common/climates.json', climates);
-outputJson('../../src/data/common/factions.json', getFactions());
+outputJson('../../src/data/common/factions/vanilla.json', getFactions());
 outputJson('../../src/data/common/resources.json', getResources());
