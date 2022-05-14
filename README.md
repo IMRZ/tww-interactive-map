@@ -1,8 +1,9 @@
 # Total War: WARHAMMER II - Interactive Map
 
-[View the app here](https://imrz.github.io/tww-interactive-map/)
+[Checkout the latest version here](https://www.nopeace.net/)
 
-**Create a new [issue](https://github.com/IMRZ/tww-interactive-map/issues/new) if you have suggestions, feature requests or problems!**
+## Original vuejs app
+[View the original app here](https://imrz.github.io/tww-interactive-map/)
 
 ## Built With
 * [Vue.js](https://vuejs.org/)
