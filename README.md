@@ -1,6 +1,8 @@
 # Total War: WARHAMMER II - Interactive Map
 
-[Checkout the latest version here](https://www.nopeace.net/)
+This map is no longed maintained, the latest versions of the [Warhammer II maps](https://www.nopeace.net/maps/warhammer2) are available here:
+* [Mortal empires map](https://www.nopeace.net/maps/warhammer2/mortal-empires)
+* [The Eye of the Vortex map](https://www.nopeace.net/maps/warhammer2/the-eye-of-the-vortex)
 
 ## Original vuejs app
 [View the original app here](https://imrz.github.io/tww-interactive-map/)
