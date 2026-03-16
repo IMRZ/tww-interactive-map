@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2020-07-05
+### Added
+- Export planner state as JSON
+
 ## 2020-04-24
 ### Changed
 - Major rewrite using Leaflet.js

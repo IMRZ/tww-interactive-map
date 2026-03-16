@@ -1,5 +1,6 @@
 import { reactive, toRefs, ref } from '@vue/composition-api';
 import { gameDataVersion, data } from '@/data';
+import { groups } from '@/data/common/factions';
 import router from '../router';
 import { useAlert, ALERT_TYPE } from '@/use/alert';
 
@@ -75,22 +76,6 @@ function createBookmark(ownedRegionsRef, factions) {
   document.body.removeChild(el);
 }
 
-
-const factionsList =  Object.values(data.common.factions).reduce((accumulator, faction) => {
-  if (accumulator[faction.name] === undefined) {
-    accumulator[faction.name] = faction;
-  }
-  return accumulator;
-}, {});
-
-const plannerFactions = Object.values(factionsList)
-  .filter((f) => f.primaryColour !== '000000' && !f.name.startsWith('{{'))
-  .sort((a, b) => {
-    if (a.name < b.name) return -1;
-    if (a.name > b.name) return 1;
-    return 0;
-  });
-
 function clear(ownedRegionsRef) {
   const cleared = Object.assign({}, ownedRegionsRef.value); // copy
   Object.keys(cleared).forEach(key => cleared[key] = null); // reset
@@ -131,14 +116,45 @@ export function usePlanner(mapData) {
     ownedRegions.value = Object.assign({}, mapData.startingRegions);
   }
 
-
   return {
     ...toRefs(state),
-    plannerFactions,
+    factionGroups: groups,
     ownedRegions,
 
     createBookmark: () => createBookmark(ownedRegions, data.common.factions),
     reset: () => reset(ownedRegions, mapData.startingRegions),
     clear: () => clear(ownedRegions),
+    exportJson: () => {
+      const a = document.createElement('a');
+      const json = JSON.stringify(ownedRegions.value, null, 2);
+      a.href = URL.createObjectURL(new Blob([json], { type: 'text/json' }));
+      a.download = 'map.json';
+      a.click();
+    },
+    importJson: () => {
+      const fileInput = document.createElement('input');
+      fileInput.setAttribute('type', 'file');
+      fileInput.setAttribute('accept', '.json');
+
+      fileInput.onchange = (e) => {
+        const reader = new FileReader();
+        reader.onload = (event) => {
+          const mapJson = JSON.parse(event.target.result);
+
+          // has to be sorted alphabetically?
+          const ordered = Object.keys(mapJson).sort().reduce((accumulator, key) => {
+            accumulator[key] = mapJson[key];
+            return accumulator;
+          }, {});
+
+          ownedRegions.value = ordered;
+        };
+        reader.onerror = (err) => console.log(err);
+
+        reader.readAsText(e.target.files[0]);
+      };
+
+      fileInput.click();
+    }
   };
 }
